@@ -4,15 +4,18 @@ import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
+  //timecode: 42:26
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <a href='/'>
+            <img src={logo} className="App-logo" alt="logo"/>
+          </a>
         </header>
         <Navbar/>
       </div>
-    </Router>
+  </Router>
   );
 }
 
