@@ -57,7 +57,7 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 540px;
+        height: 860px;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -73,7 +73,7 @@
         z-index: 1;
     }
 
-    .nav-link, .nav-dropdown{
+    .nav-link{
         text-align: center;
         padding: 1.8rem;
         width: 100%;
@@ -81,7 +81,7 @@
         margin: -5px;
     }
 
-    .nav-link:hover, .nav-dropdown:hover{
+    .nav-link:hover{
         background-color: #5b5b5b;
         border-radius: 0;
         cursor: pointer;

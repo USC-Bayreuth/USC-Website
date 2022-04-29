@@ -20,19 +20,7 @@ class Navbar extends Component{
         if(window.innerWidth>=960)
             this.setState({clicked: this.state.clicked, dropdownIndex: -1})
     }
-
-    handleMobileDropdownClick=(index)=>{
-        if(window.innerWidth<960){
-            if (this.state.dropdownIndex!==-1)
-                this.setState({clicked: this.state.clicked, dropdownIndex: -1})
-            else
-                this.setState({clicked: this.state.clicked, dropdownIndex: index})
-        }
-        else
-            this.setState({clicked: this.state.clicked, dropdownIndex: -1})
-    }
-
-    //Bei mobile menu in css: position: relative
+    
     render(){
         return(
             <nav className="NavbarItems">
@@ -40,35 +28,57 @@ class Navbar extends Component{
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {MenuItems.map((item, index) => {
-                        return (
-                            <li key={index} onMouseEnter={() => {
-                                this.onMouseEnter(index)
-                            }} onMouseLeave={() => {
-                                this.onMouseLeave()
-                            }} onClick={() => {
-                                this.handleMobileDropdownClick(index)
-                            }}>
-                                {item.cName==='nav-link' &&
-                                    <a className={item.cName} href={item.url}>
-                                        {item.title}
+                    {window.innerWidth>=960 &&
+                        MenuItems.map((item, index) => {
+                            return (
+                                <li key={index} onMouseEnter={() => {
+                                    this.onMouseEnter(index)
+                                }} onMouseLeave={() => {
+                                    this.onMouseLeave()
+                                }}>
+                                    {item.cName==='nav-link' &&
+                                        <a className={item.cName} href={item.url}>
+                                            {item.title}
+                                        </a>
+                                    }
+                                    {item.cName==='nav-dropdown' &&
+                                        <>
+                                            <span className={item.cName}>
+                                                {item.title} <i className='fas fa-caret-down'/>
+                                            </span>
+                                            <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>
+                                        </>
+                                    }
+                                </li>
+                            )
+                        })
+                    }
+                    {window.innerWidth<960 &&
+                        flattenMenuItems(MenuItems).map((item, index) => {
+                            return(
+                                <li key={index}>
+                                    <a className='nav-link' href={item.url}>
+                                        {item.mobileTitle}
                                     </a>
-                                }
-                                {item.cName==='nav-dropdown' &&
-                                    <>
-                                        <span className={item.cName}>
-                                            {item.title} <i className='fas fa-caret-down'/>
-                                        </span>
-                                        <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>
-                                    </>
-                                }
-                            </li>
-                        )
-                    })}
+                                </li>
+                            )
+                        })
+                    }
                 </ul>
             </nav>
         )
     }
+}
+
+function flattenMenuItems(menuItems, prefix){
+    let flatMenuItems=[]
+    menuItems.forEach(menuItem => {
+        if(menuItem.cName==='nav-link' || menuItem.cName==='drop-nav-link')
+            flatMenuItems.push(menuItem)
+        else if(menuItem.cName==='nav-dropdown' || menuItem.cName==='drop-dropdown')
+            flatMenuItems=flatMenuItems.concat(flattenMenuItems(menuItem.children))
+    })
+    return flatMenuItems
 }
 
 export default Navbar

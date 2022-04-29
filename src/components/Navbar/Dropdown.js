@@ -20,17 +20,6 @@ class Dropdown extends Component{
         this.setState({clicked: this.state.clicked, dropdownIndex: -1})
     }
 
-    handleMobileDropdownClick=(index)=>{
-        if(window.innerWidth<960){
-            if (this.state.dropdownIndex!==-1)
-                this.setState({clicked: this.state.clicked, dropdownIndex: -1})
-            else
-                this.setState({clicked: this.state.clicked, dropdownIndex: index})
-        }
-        else
-            this.setState({clicked: this.state.clicked, dropdownIndex: -1})
-    }
-
     render(){
         if (this.props.appear)
             return(
@@ -41,9 +30,6 @@ class Dropdown extends Component{
                                 this.onMouseEnter(index)
                             }} onMouseLeave={() => {
                                 this.onMouseLeave()
-                            }}
-                            onClick={() => {
-                                this.handleMobileDropdownClick(index)
                             }}>
                                 {item.cName==='drop-nav-link' &&
                                     <a className={item.cName} href={item.url} onClick={() => this.setState({clicked: false})}>

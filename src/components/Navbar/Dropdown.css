@@ -50,23 +50,3 @@
 .fa-caret-right{
     float:right;
 }
-
-@media screen and (max-width: 960px){
-    .dropdown-menu{
-        width: 220px;
-        position: relative;
-        list-style: none;
-        text-align: center;
-        padding-top: 9px;
-        transition: all 0.5s ease;
-    }
-    
-    .dropdropdown-menu{
-        width: 220px;
-        position: relative;
-        left: 220px;
-        list-style: none;
-        text-align: center;
-        transition: all 0.5s ease;
-    }
-}
