@@ -1,7 +1,9 @@
 import logo from './img/usc-logo.png';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Philosophie from './components/Pages/Philosophie';
+import Home from './components/Pages/Home';
 
 function App() {
   //timecode: 42:26
@@ -14,6 +16,10 @@ function App() {
           </a>
         </header>
         <Navbar/>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/Philosophie' element={<Philosophie/>}/>
+        </Routes>
       </div>
   </Router>
   );

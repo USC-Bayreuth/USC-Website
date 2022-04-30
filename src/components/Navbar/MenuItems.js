@@ -6,12 +6,6 @@ export const MenuItems=[
         cName: 'nav-link'
     },
     {
-        title: 'News',
-        mobileTitle: 'News',
-        url: '/News',
-        cName: 'nav-link'
-    },
-    {
         title: 'Abteilungen',
         url: '',
         cName: 'nav-dropdown',
@@ -57,7 +51,7 @@ export const MenuItems=[
         ]
     },
     {
-        title: 'Philosphie',
+        title: 'Philosophie',
         mobileTitle: 'Philosophie',
         url: '/Philosophie',
         cName: 'nav-link'

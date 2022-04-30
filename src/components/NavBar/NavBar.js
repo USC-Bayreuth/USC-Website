@@ -4,21 +4,45 @@ import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
 class Navbar extends Component{
-    state={clicked: false, dropdownIndex: -1}
+    state={clicked: false, dropdownIndex: -1, mobileMode: window.innerWidth<960}
+
+    componentDidMount() {
+        window.addEventListener('resize', this.updateDimensions);
+    }
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateDimensions);
+    }
+
+    updateDimensions=()=>{
+        let newState=Object.assign(this.state)
+        if(window.innerWidth>=960)
+            newState.mobileMode=false
+        else
+            newState.mobileMode=true
+        this.setState(newState)
+    }
 
     //mobile menu
     handleMenuClick=()=>{
-        this.setState({clicked: !this.state.clicked, dropdown: this.state.dropdownIndex})
+        let newState=Object.assign(this.state)
+        newState.clicked=!newState.clicked
+        this.setState(newState)
     }
 
     onMouseEnter=(index)=>{
-        if(window.innerWidth>=960)
-            this.setState({clicked: this.state.clicked, dropdownIndex: index})
+        if(!this.state.mobileMode){
+            let newState=Object.assign(this.state)
+            newState.dropdownIndex=index
+            this.setState(newState)
+        }
     }
 
     onMouseLeave=()=>{
-        if(window.innerWidth>=960)
-            this.setState({clicked: this.state.clicked, dropdownIndex: -1})
+        if(!this.state.mobileMode){
+            let newState=Object.assign(this.state)
+            newState.dropdownIndex=-1
+            this.setState(newState)
+        }
     }
     
     render(){
@@ -28,7 +52,7 @@ class Navbar extends Component{
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-                    {window.innerWidth>=960 &&
+                    {!this.state.mobileMode &&
                         MenuItems.map((item, index) => {
                             return (
                                 <li key={index} onMouseEnter={() => {
@@ -53,7 +77,7 @@ class Navbar extends Component{
                             )
                         })
                     }
-                    {window.innerWidth<960 &&
+                    {this.state.mobileMode &&
                         flattenMenuItems(MenuItems).map((item, index) => {
                             return(
                                 <li key={index}>

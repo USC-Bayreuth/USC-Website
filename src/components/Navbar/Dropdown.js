@@ -3,27 +3,23 @@ import './Dropdown.css';
 import DropDropdown from './DropDropdown';
 
 class Dropdown extends Component{
-    state={clicked: false, dropdownIndex: -1}
-
-    handleClick=()=>{
-        this.setState({clicked: !this.state.clicked})
-    }
+    state={dropdownIndex: -1}
 
     onMouseEnter=(index)=>{
         if(window.innerWidth<960)
-            this.setState({clicked: this.state.clicked, dropdownIndex: -1})
+            this.setState({dropdownIndex: -1})
         else
-            this.setState({clicked: this.state.clicked, dropdownIndex: index})
+            this.setState({dropdownIndex: index})
     }
 
     onMouseLeave=()=>{
-        this.setState({clicked: this.state.clicked, dropdownIndex: -1})
+        this.setState({dropdownIndex: -1})
     }
 
     render(){
         if (this.props.appear)
             return(
-                <ul onClick={this.handleClick} className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+                <ul className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
                     {this.props.children.map((item, index) => {
                         return(
                             <li key={index} onMouseEnter={() => {
