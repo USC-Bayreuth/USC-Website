@@ -4,9 +4,9 @@ import Navbar from './components/Navbar/Navbar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Philosophie from './components/Pages/Philosophie';
 import Home from './components/Pages/Home';
+import Roundnet from './components/Pages/Roundnet';
 
 function App() {
-  //timecode: 42:26
   return (
     <Router>
       <div className="App">
@@ -19,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Philosophie' element={<Philosophie/>}/>
+          <Route path='/Roundnet' element={<Roundnet/>}/>
         </Routes>
       </div>
   </Router>
