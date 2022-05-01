@@ -1,9 +1,26 @@
-import { keyboardImplementationWrapper } from '@testing-library/user-event/dist/keyboard'
 import {Component} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import './FußballHerren.css'
 
 class FußballHerren extends Component{
+    state={mobileMode: window.innerWidth<960}
+
+    componentDidMount() {
+        window.addEventListener('resize', this.updateDimensions);
+    }
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateDimensions);
+    }
+
+    updateDimensions=()=>{
+        let newState=Object.assign(this.state)
+        if(window.innerWidth>=960)
+            newState.mobileMode=false
+        else
+            newState.mobileMode=true
+        this.setState(newState)
+    }
+
     render(){
         let kader=require('../../json/Fußball Herren Kader.json')
         return(
@@ -15,38 +32,75 @@ class FußballHerren extends Component{
                 <h1>Aktueller Kader</h1>
                 <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 <h2>Trainer</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Trainer.map((item, index) =>{
+                                return(
+                                    <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                        <p className='player-name'>{item.Name}</p>
+                                    </Col>
+                            
+                                )
+                        })}
+                    </Row>
+                </Container>
                 <h2>Torwart</h2>
                 <Container fluid className='my-container'>
                     <Row>
-                {kader.Torwart.map((item, index) =>{
-                    return(
-<Col className='col-3'>
-                            <img key={index} alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
-                        </Col>
+                        {kader.Torwart.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    <p className='player-name'>{item.Name}</p>
+                                </Col>
                         
-                    )
-                })
-
-                }
-                </Row>
+                            )
+                        })}
+                    </Row>
                 </Container>
                 <h2>Abwehr</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Abwehr.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    <p className='player-name'>{item.Name}</p>
+                                </Col>
+                        
+                            )
+                        })}
+                    </Row>
+                </Container>
                 <h2>Mittelfeld</h2>
                 <Container fluid className='my-container'>
                     <Row>
-                {kader.Mittelfeld.map((item, index) =>{
-                    return(
-<Col className='col-3'>
-                            <img key={index} alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
-                        </Col>
+                        {kader.Mittelfeld.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    <p className='player-name'>{item.Name}</p>
+                                </Col>
                         
-                    )
-                })
-
-                }
-                </Row>
+                            )
+                        })}
+                    </Row>
                 </Container>
                 <h2>Angriff</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Angriff.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    <p className='player-name'>{item.Name}</p>
+                                </Col>
+                        
+                            )
+                        })}
+                    </Row>
+                </Container>
             </>
         )
     }

@@ -5,5 +5,22 @@
 
 .player-picture{
     padding-top: 50px;
-    height: 30vmin;
+    height: 35vmin;
+}
+
+.player-name{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px){
+    .player-name{
+        font-size: 0.8rem;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+    }
 }

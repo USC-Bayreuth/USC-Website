@@ -1,0 +1,132 @@
+{
+    "Trainer":[
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        }
+    ],
+    "Torwart":[
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        }
+    ],
+    "Abwehr":[
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        }
+    ],
+    "Mittelfeld":[
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        }
+    ],
+    "Angriff":[
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        },
+        {
+            "Name":"Erika Musterfrau",
+            "Bild":"Theresa-Sedler.jpg",
+            "Position":"Torwart",
+            "Geburtsdatum":"01.01.0000"
+        }
+    ]
+}

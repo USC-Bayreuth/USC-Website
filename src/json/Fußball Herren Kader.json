@@ -1,86 +1,70 @@
 {
+    "Trainer":[
+        {
+            "Name":"Max Mustermann",
+            "Bild":"Christian-Miller.jpg"
+        },
+        {
+            "Name":"Max Mustermann",
+            "Bild":"Christian-Miller.jpg"
+        }
+    ],
     "Torwart":[
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         }
     ],
     "Abwehr":[
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         }
     ],
     "Mittelfeld":[
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Bild":"Christian-Miller.jpg"
         },
         {
             "Name":"Max Mustermann",
@@ -101,7 +85,7 @@
             "Geburtsdatum":"01.01.0000"
         }
     ],
-    "Sturm":[
+    "Angriff":[
         {
             "Name":"Max Mustermann",
             "Bild":"Christian-Miller.jpg",
