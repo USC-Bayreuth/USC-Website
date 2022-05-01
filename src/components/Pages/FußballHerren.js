@@ -1,9 +1,11 @@
+import { keyboardImplementationWrapper } from '@testing-library/user-event/dist/keyboard'
 import {Component} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import './FußballHerren.css'
 
 class FußballHerren extends Component{
     render(){
+        let kader=require('../../json/Fußball Herren Kader.json')
         return(
             <>
                 <h1>Fußball Herren</h1>
@@ -14,8 +16,36 @@ class FußballHerren extends Component{
                 <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 <h2>Trainer</h2>
                 <h2>Torwart</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                {kader.Torwart.map((item, index) =>{
+                    return(
+<Col className='col-3'>
+                            <img key={index} alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                        </Col>
+                        
+                    )
+                })
+
+                }
+                </Row>
+                </Container>
                 <h2>Abwehr</h2>
                 <h2>Mittelfeld</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                {kader.Mittelfeld.map((item, index) =>{
+                    return(
+<Col className='col-3'>
+                            <img key={index} alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                        </Col>
+                        
+                    )
+                })
+
+                }
+                </Row>
+                </Container>
                 <h2>Angriff</h2>
             </>
         )
