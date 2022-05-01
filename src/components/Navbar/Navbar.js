@@ -4,7 +4,6 @@ import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
 class Navbar extends Component{
-    /*dfnjsKANDJSKL*/
     state={clicked: false, dropdownIndex: -1, mobileMode: window.innerWidth<960}
 
     componentDidMount() {
