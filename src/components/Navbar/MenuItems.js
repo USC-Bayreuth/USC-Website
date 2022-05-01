@@ -18,13 +18,13 @@ export const MenuItems=[
                     {
                         title: 'Herren',
                         mobileTitle: 'Fußball-Herren',
-                        url: '/Fußball-Herren',
+                        url: '/Fussball-Herren',
                         cName: 'drop-nav-link'
                     },
                     {
                         title: 'Damen',
                         mobileTitle: 'Fußball-Damen',
-                        url: '/Fußball-Damen',
+                        url: '/Fussball-Damen',
                         cName: 'drop-nav-link'
                     }
                 ]

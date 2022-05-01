@@ -48,14 +48,14 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
-                <div className="menu-icon" onClick={this.handleMenuClick}>
-                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                <div style={{backgroundColor:'#302f2f'}} className="menu-icon" onClick={this.handleMenuClick}>
+                    <i style={{backgroundColor:'#302f2f'}} className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                <ul style={{backgroundColor:'#302f2f', zIndex: '1'}} className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {!this.state.mobileMode &&
                         MenuItems.map((item, index) => {
                             return (
-                                <li key={index} onMouseEnter={() => {
+                                <li style={{backgroundColor:'#302f2f'}} key={index} onMouseEnter={() => {
                                     this.onMouseEnter(index)
                                 }} onMouseLeave={() => {
                                     this.onMouseLeave()
@@ -68,7 +68,7 @@ class Navbar extends Component{
                                     {item.cName==='nav-dropdown' &&
                                         <>
                                             <span className={item.cName}>
-                                                {item.title} <i className='fas fa-caret-down'/>
+                                                {item.title} <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
                                             </span>
                                             <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>
                                         </>
@@ -80,7 +80,7 @@ class Navbar extends Component{
                     {this.state.mobileMode &&
                         flattenMenuItems(MenuItems).map((item, index) => {
                             return(
-                                <li key={index}>
+                                <li style={{backgroundColor:'#302f2f'}} key={index}>
                                     <a className='nav-link' href={item.url}>
                                         {item.mobileTitle}
                                     </a>

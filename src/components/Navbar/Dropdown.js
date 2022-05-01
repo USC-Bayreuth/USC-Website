@@ -19,7 +19,7 @@ class Dropdown extends Component{
     render(){
         if (this.props.appear)
             return(
-                <ul className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
+                <ul style={{background: 'transparent', zIndex: '1'}} className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
                     {this.props.children.map((item, index) => {
                         return(
                             <li key={index} onMouseEnter={() => {
@@ -34,8 +34,8 @@ class Dropdown extends Component{
                                 }
                                 {item.cName==='drop-dropdown' &&
                                     <>
-                                        <span className={item.cName}>
-                                            {item.title} <i className='fas fa-caret-right' />
+                                        <span style={{background: 'transparent'}} className={item.cName}>
+                                            {item.title} <i style={{background: 'transparent'}} className='fas fa-caret-right' />
                                         </span>
                                         <DropDropdown children={item.children} appear={this.state.dropdownIndex===index} top={9+55*index}/>
                                     </>
