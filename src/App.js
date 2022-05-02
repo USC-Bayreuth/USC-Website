@@ -16,6 +16,7 @@ import UnsereSponsoren from './components/Pages/UnsereSponsoren';
 import Impressum from './components/Pages/Impressum';
 import Footer from './components/Footer/Footer'
 import NewsPage from './components/Pages/NewsPage'
+import Verantwortliche from './components/Pages/Verantwortliche';
 
 function App() {
   let news=require('./json/News.json')
@@ -42,6 +43,7 @@ function App() {
           <Route path='/Werde-Mitglied' element={<WerdeMitglied/>}/>
           <Route path='/Unsere-Sponsoren' element={<UnsereSponsoren/>}/>
           <Route path='/Impressum' element={<Impressum/>}/>
+          <Route path='/Verantwortliche' element={<Verantwortliche/>}/>
           {news.map((item, index) => {
             return(
               <Route key={index} path={'/News-'+index} element={<NewsPage index={index}/>}/>

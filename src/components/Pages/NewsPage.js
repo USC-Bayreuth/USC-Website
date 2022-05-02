@@ -8,7 +8,7 @@ class NewsPage extends Component{
         return(
             <>
                 <h1>{post.title}</h1>
-                <img className='head-image' src={'/img/News/'+post.image}/>
+                <img className='head-image' src={'/img/News/'+post.image} alt={'head'}/>
                 <p className='date'>{post.date}</p>
                 {post.blocks.map((item, index) => {
                     return(

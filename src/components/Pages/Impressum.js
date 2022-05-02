@@ -1,5 +1,4 @@
 import {Component} from 'react'
-import {Container, Row, Col, Image} from 'react-bootstrap'
 
 class Impressum extends Component{
     render(){

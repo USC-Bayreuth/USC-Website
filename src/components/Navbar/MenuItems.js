@@ -92,5 +92,11 @@ export const MenuItems=[
         mobileTitle: 'Kontakt',
         url: '/Kontakt',
         cName: 'nav-link'
+    },
+    {
+        title: 'Verantwortliche',
+        mobileTitle: 'Verantwortliche',
+        url: '/Verantwortliche',
+        cName: 'nav-link'
     }
 ]

@@ -15,7 +15,7 @@ class Navbar extends Component{
 
     updateDimensions=()=>{
         let newState=Object.assign(this.state)
-        if(window.innerWidth>=960)
+        if(window.innerWidth>=1100)
             newState.mobileMode=false
         else
             newState.mobileMode=true

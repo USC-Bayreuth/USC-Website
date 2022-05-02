@@ -28,17 +28,17 @@ class Home extends Component{
                 <h1>Homepage des USC Bayreuth</h1>
                 <Slider tag='Allgemein'/>
                 <h1>Unser Premiumpartner</h1>
-                <a href='https://www.rehau.com/de-de' target="_blank">
+                <a href='https://www.rehau.com/de-de' rel="noreferrer" target="_blank">
                     <img src='/img/Home/Rehau-logo.png' alt='rehau' className='partner'/>
                 </a>
                 <h1>Social Media</h1>
                 <Container className='my-container' fluid>
                     <Row>
                         <Col>
-                            <a href='https://www.facebook.com/uscbayreuth/' target="_blank">
+                            <a href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">
                                 <i className={this.state.mobileMode? "fab fa-facebook fa-3x social-media-icon" : "fab fa-facebook fa-5x social-media-icon"}/>
                             </a>
-                            <a href='https://www.instagram.com/usc_bayreuth/' target="_blank">
+                            <a href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">
                                 <i className={this.state.mobileMode? "fab fa-instagram fa-3x social-media-icon" : "fab fa-instagram fa-5x social-media-icon"}/>
                             </a>
                         </Col>

@@ -1,5 +1,4 @@
 import {Component} from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
 
 class Konzept extends Component{
     render(){
@@ -14,6 +13,17 @@ class Konzept extends Component{
                 <h1>Partner</h1>
                 <p>Für Ihr Unternehmen liegt der Fokus auf lokaler Sichtbarkeit vor Ort? Werden sie Partner des USC Bayreuth und erweitern Sie ihr Paket beliebig mit freien Leistungen, um Ihre Bekanntheit vor Ort zu steigern. Als Partner liegt Ihr Fokus auf einer bestimmten Abteilung des USC Bayreuth. Durch Buchung freier Leistungen kann das Sponsoring auf weitere Abteilungen erweitert werden.</p>
                 <p>Haben wir Ihr Interesse geweckt? Für mehr Informationen nehmen Sie gerne Kontakt zu uns auf: <a className='mail-to' href='mailto:info@usc-bayreuth.de'>Hier klicken</a></p>
+                <h1>Sonstige Unterstützungen</h1>
+                <p>Trotz eines professionellen Sponsoringkonzepts und dem Versuch bei jeglichen Förderungswettbewerben Preise zu gewinnen, fehlt es uns dann doch ab und an an den finanziellen Mitteln, Ideen umzusetzen und uns weiterzuentwickeln. Wir sind noch ein extrem junger Verein, der langsam aber stetig wächst. Möchten Sie uns dabei unterstützen, sind aber nicht vor Ort oder passen als Privatperson nicht ins Sponsoringkonzept, dann spenden Sie doch einen Betrag, indem Sie <a className='mail-to' href='http://usc-bayreuth.de/wp-content/uploads/2018/07/buttonmittel.png' rel="noreferrer" target="_blank">hier</a> klicken. Link updaten!!!!!!!!!!!!!!!!!!!!!!!!11111elf</p>
+                <p>Sie unterstützen damit im speziellen:</p>
+                <p>- Die Anschaffung neuer Trainingsmaterialien</p>
+                <p style={{marginTop: '2px'}}>- Die Aufrechterhaltung des Trainings- und Spielbetriebs</p>
+                <p style={{marginTop: '2px'}}>- Auswärtsfahrten</p>
+                <p style={{marginTop: '2px'}}>- Die Organisation von Vereinsturnieren</p>
+                <p style={{marginTop: '2px'}}>- Die Förderung der Vereinsmitglieder</p>
+                <p>Selbstverständlich können Sie bei der Spende auch den gewünschten Verwendungszweck angeben. Bei Interesse informieren wir Sie im Nachgang gerne, wie das Geld vereinsintern genutzt wurde.</p>
+                <p>Natürlich freuen wir uns über jede Art der Unterstützung. Sie sind in Bayreuth, möchten kein Geld spenden, sondern bieten uns gerne in anderer Art und Weise Ihre Unterstützung an, dann kontaktieren Sie uns doch einfach über <a className='mail-to' href='mailto:info@uni-bayreuth.de'>info@uni-bayreuth.de</a>.</p>
+                <p>Vielen Dank für deine Unterstützung. Wir freuen uns, dich demnächst auch mal bei einem unserer Heimspiele begrüßen zu dürfen.</p>
             </>
         )
     }
