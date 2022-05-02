@@ -1,0 +1,25 @@
+.head-image{
+    padding-top: 25px;
+    height: 48vmin;
+}
+
+.date{
+    font-size: 0.9rem;
+    font-style:italic;
+    padding-bottom: 5px;
+}
+
+.first-block{
+    margin-top: 13px;
+}
+
+@media screen and (max-width: 960px){
+    .date{
+        font-size: 0.8rem;
+        font-style:italic;
+        padding-bottom: 5px;
+    }
+    .first-block{
+        margin-top: 7px;
+    }
+}

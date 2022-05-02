@@ -14,9 +14,11 @@ import Kontakt from './components/Pages/Kontakt';
 import WerdeMitglied from './components/Pages/WerdeMitglied';
 import UnsereSponsoren from './components/Pages/UnsereSponsoren';
 import Impressum from './components/Pages/Impressum';
-import {Container, Row, Col, Image} from 'react-bootstrap'
+import Footer from './components/Footer/Footer'
+import NewsPage from './components/Pages/NewsPage'
 
 function App() {
+  let news=require('./json/News.json')
   return (
     <Router>
       <div className="App">
@@ -40,8 +42,13 @@ function App() {
           <Route path='/Werde-Mitglied' element={<WerdeMitglied/>}/>
           <Route path='/Unsere-Sponsoren' element={<UnsereSponsoren/>}/>
           <Route path='/Impressum' element={<Impressum/>}/>
+          {news.map((item, index) => {
+            return(
+              <Route key={index} path={'/News-'+index} element={<NewsPage index={index}/>}/>
+            )
+          })}
         </Routes>
-        <div className='footer'/>
+        <Footer/>
       </div>
   </Router>
   );

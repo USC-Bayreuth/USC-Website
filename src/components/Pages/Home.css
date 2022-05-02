@@ -2,3 +2,16 @@
     height: 20vmin;
     margin-top: 20px;
 }
+
+.social-media-icon{
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.social-media-icon:hover{
+    color: #017241;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}

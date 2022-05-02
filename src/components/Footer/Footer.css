@@ -1,0 +1,23 @@
+.footer-container{
+    position: relative;
+    top: 50px;
+    padding-bottom: 10px;
+}
+
+.footer-link{
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: #017241;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px){
+    .footer-container{
+        position: relative;
+        top: 50px;
+    }
+}

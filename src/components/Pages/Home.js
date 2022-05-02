@@ -1,13 +1,49 @@
 import {Component} from 'react'
 import './Home.css'
+import Slider from '../Slider/Slider'
+import {Container, Row, Col} from 'react-bootstrap'
 
 class Home extends Component{
+    state={mobileMode: window.innerWidth<960}
+
+    componentDidMount() {
+        window.addEventListener('resize', this.updateDimensions);
+    }
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateDimensions);
+    }
+
+    updateDimensions=()=>{
+        let newState=Object.assign(this.state)
+        if(window.innerWidth>=960)
+            newState.mobileMode=false
+        else
+            newState.mobileMode=true
+        this.setState(newState)
+    }
+
     render(){
         return(
             <>
                 <h1>Homepage des USC Bayreuth</h1>
+                <Slider tag='Allgemein'/>
                 <h1>Unser Premiumpartner</h1>
-                <img src='/img/Home/Rehau-logo.png' alt='rehau' className='partner'/>
+                <a href='https://www.rehau.com/de-de' target="_blank">
+                    <img src='/img/Home/Rehau-logo.png' alt='rehau' className='partner'/>
+                </a>
+                <h1>Social Media</h1>
+                <Container className='my-container' fluid>
+                    <Row>
+                        <Col>
+                            <a href='https://www.facebook.com/uscbayreuth/' target="_blank">
+                                <i className={this.state.mobileMode? "fab fa-facebook fa-3x social-media-icon" : "fab fa-facebook fa-5x social-media-icon"}/>
+                            </a>
+                            <a href='https://www.instagram.com/usc_bayreuth/' target="_blank">
+                                <i className={this.state.mobileMode? "fab fa-instagram fa-3x social-media-icon" : "fab fa-instagram fa-5x social-media-icon"}/>
+                            </a>
+                        </Col>
+                    </Row>
+                </Container>
             </>
         )
     }
