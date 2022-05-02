@@ -4,8 +4,9 @@
 }
 
 .player-picture{
+    max-width: 100%;
+    height: auto;
     padding-top: 50px;
-    height: 35vmin;
 }
 
 .player-name{
@@ -22,5 +23,9 @@
         margin-right: 0px;
         margin-top: 10px;
         text-align: center;
+    }
+
+    .player-picture{
+        padding-top: 20px;
     }
 }
