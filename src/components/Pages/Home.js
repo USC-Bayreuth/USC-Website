@@ -44,6 +44,10 @@ class Home extends Component{
                         </Col>
                     </Row>
                 </Container>
+                <h1>Onlineshop</h1>
+                    <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'>
+                        <img src='/img/Home/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/>
+                    </a>
             </>
         )
     }
