@@ -16,6 +16,12 @@
     text-align: center;
 }
 
+.fupa-widget{
+    padding-top: 20px;
+    width: 100%;
+    height: 634px;
+}
+
 @media screen and (max-width: 960px){
     .player-name{
         font-size: 0.8rem;
@@ -27,5 +33,9 @@
 
     .player-picture{
         padding-top: 20px;
+    }
+
+    .fupa-widget{
+        height: 400px;
     }
 }
