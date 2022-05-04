@@ -36,12 +36,12 @@ class FußballHerren extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62726b5448f17&start=tabelle&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
+                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62726b5448f17&start=tabelle&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62722a97357d5&start=spielplan&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
+                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62722a97357d5&start=spielplan&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
                                 </Col>
                             </Row>
                         </>
@@ -50,10 +50,10 @@ class FußballHerren extends Component{
                         <>
                         <Row>
                             <Col>
-                                <iframe src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62726b5448f17&start=tabelle&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
+                                <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62726b5448f17&start=tabelle&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
                             </Col>
                             <Col>
-                                <iframe src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62722a97357d5&start=spielplan&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
+                                <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=961238&div_id=widget_62722a97357d5&start=spielplan&header=0&navi=0' frameBorder='0' className='fupa-widget'/>
                             </Col>
                         </Row>
                         </>
