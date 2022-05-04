@@ -14,6 +14,9 @@ class UnsereSponsoren extends Component{
                 <p style={{marginTop: '5px'}}><a className='mail-to' style={{textDecoration:'none'}} target="_blank" rel="noreferrer" href='https://www.lamperie.de/'>Lamperie/Lamperium</a></p>
                 <p style={{marginTop: '5px'}}><a className='mail-to' style={{textDecoration:'none'}} target="_blank" rel="noreferrer" href='http://le2lanterne.de/'>Le 2 Lanterne</a></p>
                 <h1>Teamausrüster</h1>
+                <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'>
+                    <img src='/img/Home/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/>
+                </a>
             </>
         )
     }

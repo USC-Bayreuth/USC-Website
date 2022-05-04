@@ -1,132 +1,128 @@
 {
     "Trainer":[
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Benjamin Opel",
+            "Bild":"Benjamin-Opel.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Joshua Behr",
+            "Bild":"Joshua-Behr.jpg"
         }
     ],
     "Torwart":[
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Dennis Bauer",
+            "Bild":"Dennis-Bauer.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Hans-Jakob Milhahn",
+            "Bild":"Hans-Jakob-Milhahn.jpg"
         }
     ],
     "Abwehr":[
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Stefan Am Ende",
+            "Bild":"Stefan-Am-Ende.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Sebastian Firnkes",
+            "Bild":"Sebastian-Firnkes.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Adrian Hafenecker",
+            "Bild":"Adrian-Hafenecker.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Luis Koch",
+            "Bild":"Luis-Koch.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Matteo Kumar",
+            "Bild":"Matteo-Kumar.jpg"
+        },
+        {
+            "Name":"Oscar Wenzel",
+            "Bild":"Oscar-Wenzel.jpg"
+        },
+        {
+            "Name":"Johannes Wetzstein",
+            "Bild":"Johannes-Wetzstein.jpg"
+        },
+        {
+            "Name":"Florian Witzschel",
+            "Bild":"Florian-Witzschel.jpg"
         }
     ],
     "Mittelfeld":[
         {
-            "Name":"Max Mustermann",
+            "Name":"Tobias Biller",
+            "Bild":"Tobias-Biller.jpg"
+        },
+        {
+            "Name":"Johannes Brötling",
+            "Bild":"Johannes-Brötling.jpg"
+        },
+        {
+            "Name":"Dorian Geyer",
+            "Bild":"Dorian-Geyer.jpg"
+        },
+        {
+            "Name":"Jannis Grundler",
+            "Bild":"Jannis-Grundler.jpg"
+        },
+        {
+            "Name":"Marko Hanke",
+            "Bild":"Marko-Hanke.jpg"
+        },
+        {
+            "Name":"David Kaufhold",
+            "Bild":"David-Kaufhold.jpg"
+        },
+        {
+            "Name":"Nico Koplanov",
+            "Bild":"Nico-Koplanov.jpg"
+        },
+        {
+            "Name":"Simon Kuster",
+            "Bild":"Simon-Kuster.jpg"
+        },
+        {
+            "Name":"Leo Liedtke",
+            "Bild":"Leo-Liedtke.jpg"
+        },
+        {
+            "Name":"Christian Miller",
             "Bild":"Christian-Miller.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Adrian Müller",
+            "Bild":"Adrian-Müller.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Lucas Reilly-Scott",
+            "Bild":"Lucas-Reilly-Scott.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
+            "Name":"Tim Schneider",
+            "Bild":"Tim-Schneider.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Name":"Vincent Woller",
+            "Bild":"Vincent-Woller.jpg"
         }
     ],
     "Angriff":[
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Name":"Yazdan Ayo",
+            "Bild":"Yazdan-Ayo.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Name":"Etienne Zagabe",
+            "Bild":"Etienne-Zagabe.jpg"
         },
         {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
-        },
-        {
-            "Name":"Max Mustermann",
-            "Bild":"Christian-Miller.jpg",
-            "Position":"Torwart",
-            "Geburtsdatum":"01.01.0000"
+            "Name":"Jannis Zentgraf",
+            "Bild":"Jannis-Zentgraf.jpg"
         }
     ]
 }
