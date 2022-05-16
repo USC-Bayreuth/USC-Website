@@ -4,7 +4,7 @@ import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
 class Navbar extends Component{
-    state={clicked: false, dropdownIndex: -1, mobileMode: window.innerWidth<1100}
+    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<1100, n:7}
 
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);
@@ -44,6 +44,29 @@ class Navbar extends Component{
             this.setState(newState)
         }
     }
+
+    handleMobileDropdownClick=(index)=>{
+        if(this.state.mobileMode){
+            let newState=Object.assign(this.state)
+            newState.dropDropdownIndex=-1
+            if(index===this.state.dropdownIndex)
+                newState.dropdownIndex=-1
+            else
+                newState.dropdownIndex=index
+            this.setState(newState)
+        }
+    }
+
+    handleMobileDropDropdownClick=(index)=>{
+        if(this.state.mobileMode){
+            let newState=Object.assign(this.state)
+            if(index===this.state.dropDropdownIndex)
+                newState.dropDropdownIndex=-1
+            else
+                newState.dropDropdownIndex=index
+            this.setState(newState)
+        }
+    }
     
     render(){
         return(
@@ -78,12 +101,70 @@ class Navbar extends Component{
                         })
                     }
                     {this.state.mobileMode &&
-                        flattenMenuItems(MenuItems).map((item, index) => {
+                        MenuItems.map((item, index) =>{
                             return(
-                                <li style={{backgroundColor:'#302f2f'}} key={index}>
-                                    <a className='nav-link' href={item.url}>
-                                        {item.mobileTitle}
-                                    </a>
+                                <li style={{backgroundColor: '#302f2f'}} key={index}>
+                                    {item.cName==='nav-link' &&
+                                        <a className={item.cName} href={item.url}>
+                                            {item.title}
+                                        </a>
+                                    }
+                                    {item.cName==='nav-dropdown' &&
+                                        <>
+                                            <span className={item.cName} onClick={()=>{
+                                                this.handleMobileDropdownClick(index)
+                                            }}>
+                                                {item.title}
+                                                {this.state.dropdownIndex===index &&
+                                                    <i style={{background: 'transparent'}} className='fas fa-caret-up'/>
+                                                }
+                                                {this.state.dropdownIndex!==index &&
+                                                    <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
+                                                }
+                                            </span>
+                                            {this.state.dropdownIndex===index &&
+                                                item.children.map((item, index) =>{
+                                                    return(
+                                                        <>
+                                                            {item.cName==='drop-nav-link' &&
+                                                                <a className={item.cName} href={item.url} style={{backgroundColor:'#262322'}}>
+                                                                    {item.title}
+                                                                </a>
+                                                            }
+                                                            {item.cName==='drop-dropdown' &&
+                                                                <>
+                                                                    <span className={item.cName} style={{backgroundColor:'#262322'}} onClick={()=>{
+                                                                        this.handleMobileDropDropdownClick(index)
+                                                                    }}>
+                                                                        {item.title}
+                                                                        {this.state.dropDropdownIndex===index &&
+                                                                            <i style={{background: 'transparent'}} className='fas fa-caret-up'/>
+                                                                        }
+                                                                        {this.state.dropDropdownIndex!==index &&
+                                                                            <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
+                                                                        }
+                                                                    </span>
+                                                                    {this.state.dropDropdownIndex===index &&
+                                                                        item.children.map((item, index) =>{
+                                                                            return(
+                                                                                <>
+                                                                                    {item.cName==='drop-nav-link' &&
+                                                                                        <a className={item.cName} href={item.url} style={{backgroundColor:'#0f0e0e'}}>
+                                                                                            {item.title}
+                                                                                        </a>
+                                                                                    }
+                                                                                </>
+                                                                            )
+                                                                        })
+                                                                    }
+                                                                </>
+                                                            }
+                                                        </>
+                                                    )
+                                                })
+                                            }
+                                        </>
+                                    }
                                 </li>
                             )
                         })
@@ -92,17 +173,6 @@ class Navbar extends Component{
             </nav>
         )
     }
-}
-
-function flattenMenuItems(menuItems, prefix){
-    let flatMenuItems=[]
-    menuItems.forEach(menuItem => {
-        if(menuItem.cName==='nav-link' || menuItem.cName==='drop-nav-link')
-            flatMenuItems.push(menuItem)
-        else if(menuItem.cName==='nav-dropdown' || menuItem.cName==='drop-dropdown')
-            flatMenuItems=flatMenuItems.concat(flattenMenuItems(menuItem.children))
-    })
-    return flatMenuItems
 }
 
 export default Navbar

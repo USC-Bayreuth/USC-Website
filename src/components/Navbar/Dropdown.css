@@ -40,7 +40,6 @@
 }
 
 .drop-nav-link{
-    display: inline-block;
     width: 108%;
     color: whitesmoke;
     text-decoration: none;
@@ -49,4 +48,10 @@
 
 .fa-caret-right{
     float:right;
+}
+
+@media screen and (min-width: 1101px){
+    .drop-nav-link{
+        display: inline-block;
+    }
 }
