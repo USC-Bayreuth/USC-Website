@@ -8,12 +8,19 @@ class NewsPage extends Component{
         return(
             <>
                 <h1>{post.title}</h1>
-                <img className='head-image' src={'/img/News/'+post.image} alt={'head'}/>
+                {post.image!=='' &&
+                    <img className='head-image' src={'/img/News/'+post.image} alt={'head'}/>
+                }
                 <p className='date'>{post.date}</p>
                 {post.blocks.map((item, index) => {
-                    return(
-                        <p key={index} className={index===0? 'first-block':''}>{item}</p>
-                    )
+                    if(item.length>=8 && item.substring(0, 7)==='!image ')
+                        return(
+                            <img key={index} className='head-image' src={'/img/News/'+item.substring(7, item.length)} alt='news-pic'/>
+                        )
+                    else
+                        return(
+                            <p key={index} className={index===0? 'first-block':''}>{item}</p>
+                        )
                 })}
             </>
         )

@@ -1,0 +1,33 @@
+.error-code{
+    font-size: 20vh;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.error-message{
+    font-size: 5vh;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 960px){
+    .error-code{
+        font-size: 15vh;
+        text-align: center;
+        padding-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .error-message{
+        font-size: 3vh;
+        text-align: center;
+        padding-top: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

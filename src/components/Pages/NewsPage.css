@@ -1,6 +1,7 @@
 .head-image{
     padding-top: 25px;
     height: 48vmin;
+    max-width: 100%;
 }
 
 .date{

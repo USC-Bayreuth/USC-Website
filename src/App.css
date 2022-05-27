@@ -64,6 +64,7 @@ p{
   font-size: 1.2rem;
   color: whitesmoke;
   margin-top: 30px;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 960px){

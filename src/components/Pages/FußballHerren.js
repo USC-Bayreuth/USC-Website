@@ -65,13 +65,17 @@ class FußballHerren extends Component{
                 <Container fluid className='my-container'>
                     <Row>
                         {kader.Trainer.map((item, index) =>{
-                                return(
-                                    <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
-                                        <p className='player-name'>{item.Name}</p>
-                                    </Col>
-                            
-                                )
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    {item.Bild==='' &&
+                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                    }
+                                    {item.Bild!=='' &&
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
+                                    }
+                                    <p className='player-name'>{item.Name}</p>
+                                </Col>
+                            )
                         })}
                     </Row>
                 </Container>
@@ -81,7 +85,12 @@ class FußballHerren extends Component{
                         {kader.Torwart.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    {item.Bild==='' &&
+                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                    }
+                                    {item.Bild!=='' &&
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
+                                    }
                                     <p className='player-name'>{item.Name}</p>
                                 </Col>
                         
@@ -95,7 +104,12 @@ class FußballHerren extends Component{
                         {kader.Abwehr.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    {item.Bild==='' &&
+                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                    }
+                                    {item.Bild!=='' &&
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
+                                    }
                                     <p className='player-name'>{item.Name}</p>
                                 </Col>
                         
@@ -109,7 +123,12 @@ class FußballHerren extends Component{
                         {kader.Mittelfeld.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    {item.Bild==='' &&
+                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                    }
+                                    {item.Bild!=='' &&
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
+                                    }
                                     <p className='player-name'>{item.Name}</p>
                                 </Col>
                         
@@ -123,7 +142,12 @@ class FußballHerren extends Component{
                         {kader.Angriff.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                    <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>
+                                    {item.Bild==='' &&
+                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                    }
+                                    {item.Bild!=='' &&
+                                        <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
+                                    }
                                     <p className='player-name'>{item.Name}</p>
                                 </Col>
                         

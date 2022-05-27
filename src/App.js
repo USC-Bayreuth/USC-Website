@@ -17,6 +17,7 @@ import Impressum from './components/Pages/Impressum';
 import Footer from './components/Footer/Footer'
 import NewsPage from './components/Pages/NewsPage'
 import Verantwortliche from './components/Pages/Verantwortliche';
+import ErrorPage from './components/Pages/ErrorPage';
 
 function App() {
   let news=require('./json/News.json')
@@ -49,6 +50,7 @@ function App() {
               <Route key={index} path={'/News-'+index} element={<NewsPage index={index}/>}/>
             )
           })}
+          <Route exact path='*' element={<ErrorPage/>}/>
         </Routes>
         <Footer/>
       </div>

@@ -32,7 +32,7 @@
 
 .rec.rec-arrow:focus:enabled:hover:enabled, .rec.rec-arrow:hover:enabled{
     background-color: #017241;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .rec.rec-dot, .rec.rec-dot:focus{
@@ -68,5 +68,9 @@
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 40px;
+    }
+
+    .rec-arrow{
+        width: 10px;
     }
 }

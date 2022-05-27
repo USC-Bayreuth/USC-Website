@@ -29,8 +29,20 @@
             "Bild":"Sebastian-Firnkes.jpg"
         },
         {
+            "Name":"Max Gerbig",
+            "Bild":""
+        },
+        {
             "Name":"Adrian Hafenecker",
             "Bild":"Adrian-Hafenecker.jpg"
+        },
+        {
+            "Name":"Ruben Just",
+            "Bild":""
+        },
+        {
+            "Name":"David Kaufhold",
+            "Bild":"David-Kaufhold.jpg"
         },
         {
             "Name":"Luis Koch",
@@ -39,6 +51,34 @@
         {
             "Name":"Matteo Kumar",
             "Bild":"Matteo-Kumar.jpg"
+        },
+        {
+            "Name":"Benedikt Lawo",
+            "Bild":""
+        },
+        {
+            "Name":"Ben Luiz Müller",
+            "Bild":""
+        },
+        {
+            "Name":"Conrad von Sandersleben",
+            "Bild":""
+        },
+        {
+            "Name":"Maurice Schürch",
+            "Bild":""
+        },
+        {
+            "Name":"Josef Stauffenberg",
+            "Bild":""
+        },
+        {
+            "Name":"Tim-Tobias Thielen",
+            "Bild":""
+        },
+        {
+            "Name":"Jakob Weber",
+            "Bild":"Jakob-Weber.jpg"
         },
         {
             "Name":"Oscar Wenzel",
@@ -51,6 +91,10 @@
         {
             "Name":"Florian Witzschel",
             "Bild":"Florian-Witzschel.jpg"
+        },
+        {
+            "Name":"Stefan Zeh",
+            "Bild":""
         }
     ],
     "Mittelfeld":[
@@ -65,6 +109,10 @@
         {
             "Name":"Dorian Geyer",
             "Bild":"Dorian-Geyer.jpg"
+        },
+        {
+            "Name":"Jona Groß",
+            "Bild":"Jona_Groß.jpg"
         },
         {
             "Name":"Jannis Grundler",
@@ -83,12 +131,24 @@
             "Bild":"Nico-Koplanov.jpg"
         },
         {
+            "Name":"Jan Kreuder",
+            "Bild":""
+        },
+        {
             "Name":"Simon Kuster",
             "Bild":"Simon-Kuster.jpg"
         },
         {
             "Name":"Leo Liedtke",
             "Bild":"Leo-Liedtke.jpg"
+        },
+        {
+            "Name":"Andreas Maag",
+            "Bild":""
+        },
+        {
+            "Name":"Thies Martens",
+            "Bild":""
         },
         {
             "Name":"Christian Miller",
@@ -107,6 +167,14 @@
             "Bild":"Tim-Schneider.jpg"
         },
         {
+            "Name":"Jens Strohschein",
+            "Bild":""
+        },
+        {
+            "Name":"Alexander Wendt",
+            "Bild":""
+        },
+        {
             "Name":"Vincent Woller",
             "Bild":"Vincent-Woller.jpg"
         }
@@ -117,12 +185,20 @@
             "Bild":"Yazdan-Ayo.jpg"
         },
         {
-            "Name":"Etienne Zagabe",
-            "Bild":"Etienne-Zagabe.jpg"
+            "Name":"Kevin Jauch",
+            "Bild":""
         },
         {
-            "Name":"Jannis Zentgraf",
-            "Bild":"Jannis-Zentgraf.jpg"
+            "Name":"Max Konstantinidis",
+            "Bild":""
+        },
+        {
+            "Name":"Quirin Scharrer",
+            "Bild":""
+        },
+        {
+            "Name":"Etienne Zagabe",
+            "Bild":"Etienne-Zagabe.jpg"
         }
     ]
 }
