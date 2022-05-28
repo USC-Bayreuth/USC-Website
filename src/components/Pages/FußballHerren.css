@@ -6,7 +6,7 @@
 .player-picture{
     max-width: 100%;
     height: auto;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 .player-name{
@@ -32,7 +32,7 @@
     }
 
     .player-picture{
-        padding-top: 20px;
+        margin-top: 20px;
     }
 
     .fupa-widget{

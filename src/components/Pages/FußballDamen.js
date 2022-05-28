@@ -67,7 +67,7 @@ class FußballDamen extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     {item.Bild==='' &&
-                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                        <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                     }
                                     {item.Bild!=='' &&
                                         <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
@@ -86,7 +86,7 @@ class FußballDamen extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     {item.Bild==='' &&
-                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                        <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                     }
                                     {item.Bild!=='' &&
                                         <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
@@ -105,7 +105,7 @@ class FußballDamen extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     {item.Bild==='' &&
-                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                        <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                     }
                                     {item.Bild!=='' &&
                                         <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
@@ -124,7 +124,7 @@ class FußballDamen extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     {item.Bild==='' &&
-                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                        <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                     }
                                     {item.Bild!=='' &&
                                         <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
@@ -143,7 +143,7 @@ class FußballDamen extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     {item.Bild==='' &&
-                                        <img alt={'player'+index} src='/img/no_picture.svg' className='player-picture'/>
+                                        <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                     }
                                     {item.Bild!=='' &&
                                         <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    

@@ -8,12 +8,12 @@ class Impressum extends Component{
                 <p>Universitäts-Sportclub Bayreuth e.V.</p>
                 <p style={{marginTop: '2px'}}>Hölderlin Anlage 8</p>
                 <p style={{marginTop: '2px'}}>95447 Bayreuth</p>
-                <p>E-Mail: info@usc-bayreuth.de</p>
+                <p>E-Mail: <a className='mail-to' href='mailto:info@usc-bayreuth.de'>info@usc-bayreuth.de</a></p>
                 <p>1. Vorsitzender</p>
                 <p style={{marginTop: '2px'}}>Joshua Behr</p>
                 <p style={{marginTop: '2px'}}>Hölderlin Anlage 8</p>
                 <p style={{marginTop: '2px'}}>95447 Bayreuth</p>
-                <p>E-Mail: joshua.behr@gmx.de</p>
+                <p>E-Mail: <a className='mail-to' href='mailto:joshua.behr@gmx.de'>joshua.behr@gmx.de</a></p>
                 <p>Registergericht: Amtsgericht Bayreuth</p>
                 <p style={{marginTop: '2px'}}>Registernummer: VR 200611</p>
                 <h1>Disclaimer</h1>
