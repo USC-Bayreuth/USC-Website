@@ -21,6 +21,7 @@ import ErrorPage from './components/Pages/ErrorPage';
 
 function App() {
   let news=require('./json/News.json')
+  //todo url news
   return (
     <Router>
       <div className="App">
@@ -47,7 +48,7 @@ function App() {
           <Route path='/Verantwortliche' element={<Verantwortliche/>}/>
           {news.map((item, index) => {
             return(
-              <Route key={index} path={'/News-'+index} element={<NewsPage index={index}/>}/>
+              <Route key={index} path={'/News/'+createURL(item.title)} element={<NewsPage index={index}/>}/>
             )
           })}
           <Route exact path='*' element={<ErrorPage/>}/>
@@ -56,6 +57,34 @@ function App() {
       </div>
   </Router>
   );
+}
+
+export function createURL(title){
+  let url=''
+  let combining = /[\u0300-\u036F]/g
+  let lastDash=false
+  for(let c of title){
+    if(c.toUpperCase() !== c.toLowerCase()){
+      if(c==='ß')
+        url+='ss'
+      else
+        url+=c.toLowerCase()
+      lastDash=false
+    }
+    else if(!isNaN(c) && c!==' '){
+      url+=c
+      if(c==='-')
+        lastDash=true
+      else
+        lastDash=false
+    }
+    else if(!lastDash){
+      url+='-'
+      lastDash=true
+    }
+    url=url.normalize('NFKD').replace(combining, '')
+  }
+  return url
 }
 
 export default App;

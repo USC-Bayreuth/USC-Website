@@ -32,7 +32,7 @@ class Verantwortliche extends Component{
                         <img src='/img/Verantwortliche/Joshua-Behr.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>1. Vorstand</p>
                         <p className='contact-subtitle'>Joshua Behr</p>
-                        <p className='contact-subtitle'>E-Mail: <a class='mail-to' href='mailto:joshua.behr@gmx.de'>joshua.behr@gmx.de</a></p>
+                        <p className='contact-subtitle'>E-Mail: <a className='mail-to' href='mailto:joshua.behr@gmx.de'>joshua.behr@gmx.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Christian-Miller.jpg' className="contact-picture" alt="staff"/>
@@ -44,13 +44,13 @@ class Verantwortliche extends Component{
                         <img src='/img/Verantwortliche/Ruben-Just.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Vorstand Finance</p>
                         <p className='contact-subtitle'>Ruben Just</p>
-                        <p className='contact-subtitle'>E-Mail: <a class='mail-to' href='mailto:ruben.just@uni-bayreuth.de'>ruben.just@uni-bayreuth.de</a></p>
+                        <p className='contact-subtitle'>E-Mail: <a className='mail-to' href='mailto:ruben.just@uni-bayreuth.de'>ruben.just@uni-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Oscar-Wenzel.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Vorstand Legal</p>
                         <p className='contact-subtitle'>Oscar Wenzel</p>
-                        <p className='contact-subtitle'>E-Mail: <a class='mail-to' href='mailto:oscarwenzel@me.com'>oscarwenzel@me.com</a></p>
+                        <p className='contact-subtitle'>E-Mail: <a className='mail-to' href='mailto:oscarwenzel@me.com'>oscarwenzel@me.com</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Jannik-Lockl.jpg' className="contact-picture" alt="staff"/>
@@ -79,7 +79,7 @@ class Verantwortliche extends Component{
                         <img src='/img/Verantwortliche/Joshua-Behr.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Trainer</p>
                         <p className='contact-subtitle'>Joshua Behr</p>
-                        <p className='contact-subtitle'>E-Mail: <a class='mail-to' href='mailto:joshua.behr@gmx.de'>joshua.behr@gmx.de</a></p>
+                        <p className='contact-subtitle'>E-Mail: <a className='mail-to' href='mailto:joshua.behr@gmx.de'>joshua.behr@gmx.de</a></p>
                     </Col>
                 </Row>
             </Container>
