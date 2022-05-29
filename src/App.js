@@ -21,6 +21,7 @@ import ErrorPage from './components/Pages/ErrorPage';
 
 function App() {
   let news=require('./json/News.json')
+  let animation='fadeInUp'
   //todo url news
   return (
     <Router>
@@ -35,8 +36,8 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/Philosophie' element={<Philosophie/>}/>
           <Route path='/Roundnet' element={<Roundnet/>}/>
-          <Route path='/Fussball-Herren' element={<FußballHerren/>}/>
-          <Route path='/Fussball-Damen' element={<FußballDamen/>}/>
+          <Route path='/Fussball-Herren' element={<FußballHerren animation={animation}/>}/>
+          <Route path='/Fussball-Damen' element={<FußballDamen animation={animation}/>}/>
           <Route path='/Tennis-Herren' element={<TennisHerren/>}/>
           <Route path='/Tennis-Damen' element={<TennisDamen/>}/>
           <Route path='/Konzept' element={<Konzept/>}/>

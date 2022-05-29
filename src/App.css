@@ -38,6 +38,7 @@ h1{
   margin-right: 200px;
   margin-top: 30px;
   padding-bottom: 5px;
+  background: transparent;
 }
 
 h2{
@@ -48,6 +49,7 @@ h2{
   margin-right: 200px;
   margin-top: 30px;
   padding-bottom: 5px;
+  background: transparent;
 }
 
 p{
@@ -57,6 +59,7 @@ p{
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 25px;
+  background: transparent;
 }
 
 .mail-to{
@@ -65,6 +68,7 @@ p{
   color: whitesmoke;
   margin-top: 30px;
   text-decoration: none;
+  background: transparent;
 }
 
 .download-link{

@@ -12,7 +12,7 @@ class Footer extends Component{
                     </Col>
                 </Row>
                 <Row>
-                <Col>
+                    <Col>
                         <a className='footer-link' href='/Datenschutz'>Datenschutz</a>
                     </Col>
                 </Row>

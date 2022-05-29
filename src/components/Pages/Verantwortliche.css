@@ -1,7 +1,8 @@
 .contact-picture{
     max-width: 100%;
     height: auto;
-    padding-top: 50px;
+    margin-top: 50px;
+    background: transparent;
 }
 
 .contact-subtitle-title{
@@ -9,6 +10,7 @@
     margin-left: 0px;
     margin-right: 0px;
     text-align: center;
+    background: transparent;
 }
 
 .contact-subtitle{
@@ -16,11 +18,12 @@
     margin-left: 0px;
     margin-right: 0px;
     text-align: center;
+    background: transparent;
 }
 
 @media screen and (max-width: 960px){
 
     .contact-picture{
-        padding-top: 20px;
+        margin-top: 20px;
     }
 }

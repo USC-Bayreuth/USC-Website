@@ -4,7 +4,7 @@ import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
 class Navbar extends Component{
-    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<1100, n:7}
+    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<1100}
 
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);
