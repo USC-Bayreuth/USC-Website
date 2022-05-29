@@ -4,8 +4,6 @@ import './Team.css'
 import Slider from '../Slider/Slider'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-let departmentDescription=''
-
 class FußballDamen extends Component{
     state={mobileMode: window.innerWidth<960}
 
