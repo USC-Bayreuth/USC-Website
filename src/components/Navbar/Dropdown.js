@@ -17,12 +17,24 @@ class Dropdown extends Component{
     }
 
     render(){
-        if (this.props.appear)
+        if (this.props.appear){
+            let pathname=window.location.pathname
+            let activeDropdownItem
+            this.props.children.forEach((child, index) => {
+                if(activeDropdownItem===undefined && child.cName==='drop-nav-link' && child.url===pathname)
+                    activeDropdownItem=index
+                else if(activeDropdownItem===undefined && child.cName==='drop-dropdown'){
+                    child.children.forEach(child => {
+                        if(activeDropdownItem===undefined && child.cName==='drop-nav-link' && child.url===pathname)
+                            activeDropdownItem=index
+                    })
+                }
+            })
             return(
                 <ul style={{background: 'transparent', zIndex: '1'}} className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
                     {this.props.children.map((item, index) => {
                         return(
-                            <li key={index} onMouseEnter={() => {
+                            <li className={index===activeDropdownItem?'active-dropdown-item':''} key={index} onMouseEnter={() => {
                                 this.onMouseEnter(index)
                             }} onMouseLeave={() => {
                                 this.onMouseLeave()
@@ -45,6 +57,7 @@ class Dropdown extends Component{
                     })}
                 </ul>
             )
+        }
     }
 }
 

@@ -31,7 +31,7 @@ function App() {
             <img src='/img/usc-logo.png' className="App-logo" alt="logo"/>
           </a>
         </header>
-        <Navbar/>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/Philosophie' element={<Philosophie/>}/>

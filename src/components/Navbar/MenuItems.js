@@ -67,7 +67,7 @@ export const MenuItems=[
             },
             {
                 title: 'Unsere Sponsoren',
-                url: 'Unsere-Sponsoren',
+                url: '/Unsere-Sponsoren',
                 cName: 'drop-nav-link',
             }
         ]
@@ -75,11 +75,6 @@ export const MenuItems=[
     {
         title: 'Werde Mitglied',
         url: '/Werde-Mitglied',
-        cName: 'nav-link'
-    },
-    {
-        title: 'Kontakt',
-        url: '/Kontakt',
         cName: 'nav-link'
     },
     {

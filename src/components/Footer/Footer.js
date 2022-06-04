@@ -8,6 +8,11 @@ class Footer extends Component{
             <Container fluid className='footer-container'>
                 <Row>
                     <Col>
+                        <a className='footer-link' href='/Kontakt'>Kontakt</a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
                         <a className='footer-link' href='/Impressum'>Impressum</a>
                     </Col>
                 </Row>

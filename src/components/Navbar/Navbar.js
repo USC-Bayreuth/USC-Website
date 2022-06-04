@@ -4,7 +4,7 @@ import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
 class Navbar extends Component{
-    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<1100}
+    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<960}
 
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);
@@ -69,6 +69,24 @@ class Navbar extends Component{
     }
     
     render(){
+        let pathname=window.location.pathname
+        let activeNavItem
+        MenuItems.forEach((item, index) => {
+            if(item.cName==='nav-link' && item.url===pathname)
+                activeNavItem=index
+            else if(activeNavItem===undefined && item.cName==='nav-dropdown'){
+                item.children.forEach(child => {
+                    if(activeNavItem===undefined && child.cName==='drop-nav-link' && child.url===pathname)
+                        activeNavItem=index
+                    else if(activeNavItem===undefined && child.cName==='drop-dropdown'){
+                        child.children.forEach(child => {
+                            if(activeNavItem===undefined && child.cName==='drop-nav-link' && child.url===pathname)
+                                activeNavItem=index
+                        })
+                    }
+                })
+            }
+        })
         return(
             <nav className="NavbarItems">
                 <div style={{backgroundColor:'#302f2f'}} className="menu-icon" onClick={this.handleMenuClick}>
@@ -84,13 +102,13 @@ class Navbar extends Component{
                                     this.onMouseLeave()
                                 }}>
                                     {item.cName==='nav-link' &&
-                                        <a className={item.cName} href={item.url}>
+                                        <a className={item.cName+(index===activeNavItem?' active-navbar-item':'')} href={item.url}>
                                             {item.title}
                                         </a>
                                     }
                                     {item.cName==='nav-dropdown' &&
                                         <>
-                                            <span className={item.cName}>
+                                            <span className={item.cName+(index===activeNavItem?' active-navbar-item':'')}>
                                                 {item.title} <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
                                             </span>
                                             <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>

@@ -46,6 +46,14 @@
     background: transparent;
 }
 
+.active-dropdown-item{
+    background:#017241 !important;
+}
+
+.active-dropdown-item:hover{
+    background:#48b385 !important;
+}
+
 .fa-caret-right{
     float:right;
 }
