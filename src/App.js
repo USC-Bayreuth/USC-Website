@@ -38,8 +38,8 @@ function App() {
           <Route path='/Roundnet' element={<Roundnet/>}/>
           <Route path='/Fussball-Herren' element={<FußballHerren animation={animation}/>}/>
           <Route path='/Fussball-Damen' element={<FußballDamen animation={animation}/>}/>
-          <Route path='/Tennis-Herren' element={<TennisHerren/>}/>
-          <Route path='/Tennis-Damen' element={<TennisDamen/>}/>
+          <Route path='/Tennis-Herren' element={<TennisHerren animation={animation}/>}/>
+          <Route path='/Tennis-Damen' element={<TennisDamen animation={animation}/>}/>
           <Route path='/Konzept' element={<Konzept/>}/>
           <Route path='/Datenschutz' element={<Datenschutz/>}/>
           <Route path='/Kontakt' element={<Kontakt/>}/>
