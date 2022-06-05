@@ -29,7 +29,12 @@ class TennisDamen extends Component{
                 <p>Training: Montags, 19h00-20h30 und 20h30 bis 22h00</p>
                 <p>Wenn du also Interesse, Erfahrung, Lust und Zeit hast, dann melde dich einfach bei uns!</p>
                 <p>Caro: 01525 4280162</p>
-                <p style={{marginTop: '2px'}}>Alexandra: 0162 7106823</p>
+                <p style={{marginTop: 5}}>Alexandra: 0162 7106823</p>
+                <h1>Unsere Abteilung</h1>
+                <h2>Trainingszeiten</h2>
+                <p>Dienstag: 18:00 - 19:00 und 19:00 - 20:00</p>
+                <p style={{marginTop:5}}>Freitag: 10:00 - 12:00, 18:00 - 19:00 und 19:00 - 20:00</p>
+                <p style={{marginTop:5}}>Auf den Plätzen des Sportinstituts</p>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1749916&etag=08bddd99-0f10-4468-897f-5425a050714f' frameBorder='0' className='widget'/>

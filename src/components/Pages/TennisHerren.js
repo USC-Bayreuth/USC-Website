@@ -27,6 +27,11 @@ class TennisHerren extends Component{
             <>
                 <h1>Tennis Herren</h1>
                 <Slider tag='Tennis Herren'/>
+                <h1>Unsere Abteilung</h1>
+                <h2>Trainingszeiten</h2>
+                <p>Dienstag: 18:00 - 19:00 und 19:00 - 20:00</p>
+                <p style={{marginTop:5}}>Freitag: 10:00 - 12:00, 18:00 - 19:00 und 19:00 - 20:00</p>
+                <p style={{marginTop:5}}>Auf den Plätzen des Sportinstituts</p>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1743896&etag=e1db4b07-d07d-4576-a335-4061f769a440' frameBorder='0' className='widget'/>

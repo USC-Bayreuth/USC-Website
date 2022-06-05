@@ -30,6 +30,7 @@ class FußballDamen extends Component{
                 <Slider tag='Fußball Damen'/>
                 <h1>Unsere Abteilung</h1>
                 <p>Die Frauenfußballabteilung des USC Bayreuth bietet den Studentinnen die Möglichkeit, ihre sportlichen Ziele zu erreichen, ihre Soft-Skills zu stärken und ihr Netzwerk zu erweitern. Zwei Trainingseinheiten während der Saison, ein Spiel am Wochenende und sowohl die Winter- als auch die Sommervorbereitung stellen einen perfekten Ausgleich für den oft trägen Unialltag. Nach dem Aufstieg in der Premierensaison gehen wir 18/19 in der Kreisliga an den Start. Du möchtest dich darüber hinaus aktiv mit einbringen? 4 Ressorts, darunter Organisation, Media, Sponsoring oder Events bieten dir die Möglichkeit dazu. Kommilitonen. Freunde. Teamkollegen. Bei mittlerweile über 30 Spielerinnen fällt der Kontakt nicht schwer. Haben wir dein Interesse geweckt? Dann komm vorbei – Wir freuen uns auf neue Gesichter! Melde dich einfach bei Facebook oder per Mail an <a className='mail-to' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a>.</p>
+                <h2>Trainingszeiten</h2>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&
@@ -60,7 +61,7 @@ class FußballDamen extends Component{
                     }
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                    <h1>Aktueller Kader</h1>
+                    <h1>Kader</h1>
                     <img alt='fußball-damen' src='/img/Fußball Damen/Mannschaftsfoto Damen.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
