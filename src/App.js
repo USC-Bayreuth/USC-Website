@@ -10,7 +10,6 @@ import TennisHerren from './components/Pages/TennisHerren';
 import TennisDamen from './components/Pages/TennisDamen';
 import Konzept from './/components/Pages/Konzept';
 import Datenschutz from './components/Pages/Datenschutz';
-import Kontakt from './components/Pages/Kontakt';
 import WerdeMitglied from './components/Pages/WerdeMitglied';
 import UnsereSponsoren from './components/Pages/UnsereSponsoren';
 import Impressum from './components/Pages/Impressum';
@@ -42,7 +41,6 @@ function App() {
           <Route path='/Tennis-Damen' element={<TennisDamen animation={animation}/>}/>
           <Route path='/Konzept' element={<Konzept/>}/>
           <Route path='/Datenschutz' element={<Datenschutz/>}/>
-          <Route path='/Kontakt' element={<Kontakt/>}/>
           <Route path='/Werde-Mitglied' element={<WerdeMitglied/>}/>
           <Route path='/Unsere-Sponsoren' element={<UnsereSponsoren/>}/>
           <Route path='/Impressum' element={<Impressum/>}/>

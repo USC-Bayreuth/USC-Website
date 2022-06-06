@@ -2,11 +2,19 @@
     "Trainer":[
         {
             "Name":"Benjamin Opel",
-            "Bild":"Benjamin-Opel.jpg"
+            "Bild":"Benjamin-Opel.jpg",
+            "Rolle":"Cheftrainer",
+            "Handy":"0173 5747526"
         },
         {
-            "Name":"Joshua Behr",
-            "Bild":"Joshua-Behr.jpg"
+            "Name":"Jonathan Weyel",
+            "Bild":"",
+            "Rolle":"Co-Trainer"
+        },
+        {
+            "Name":"Franz Wittmann",
+            "Bild":"",
+            "Rolle":"Co-Trainer"
         }
     ],
     "Torwart":[
@@ -23,6 +31,10 @@
         {
             "Name":"Stefan Am Ende",
             "Bild":"Stefan-Am-Ende.jpg"
+        },
+        {
+            "Name":"Joshua Behr",
+            "Bild":"Joshua-Behr.jpg"
         },
         {
             "Name":"Sebastian Firnkes",

@@ -17,6 +17,22 @@
     text-align: center;
 }
 
+.mobile-number{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    text-align: center;
+    font-style: italic;
+}
+
+.role{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .widget{
     padding-top: 20px;
     width: 100%;
@@ -24,12 +40,8 @@
 }
 
 @media screen and (max-width: 960px){
-    .player-name{
+    .player-name, .role, .mobile-number{
         font-size: 0.8rem;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 10px;
-        text-align: center;
     }
 
     .player-picture{

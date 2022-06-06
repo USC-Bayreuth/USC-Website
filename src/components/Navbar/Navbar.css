@@ -13,7 +13,7 @@
 
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(7, auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
@@ -57,7 +57,7 @@
     100% {opacity: 100%;}
 }
 
-@media screen and (min-width: 961px){
+@media screen and (min-width: 1051px){
     .NavbarItems{
         position: sticky;
         top: 0;
@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1050px){
     .NavbarItems{
         position: relative;
         align-items: flex-start;
@@ -92,10 +92,9 @@
 
     .nav-link, .nav-dropdown, .drop-nav-link, .drop-dropdown{
         text-align: center;
-        padding: 1.8rem;
+        padding: 1.8rem !important;
         width: 100%;
         display:table;
-        margin: -5px;
     }
 
     .drop-nav-link, .drop-dropdown{

@@ -64,6 +64,17 @@ class FußballDamen extends Component{
                     <h1>Kader</h1>
                     <img alt='fußball-damen' src='/img/Fußball Damen/Mannschaftsfoto Damen.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiterin</h2></AnimationOnScroll>
+                <Container fluid className='my-container'>
+                    <Row>
+                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
+                                <img alt='department-leader' src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                <p className='player-name'>Laila Auerochs</p>
+                            </AnimationOnScroll>
+                        </Col>
+                    </Row>
+                </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>

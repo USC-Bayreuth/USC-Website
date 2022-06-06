@@ -34,7 +34,7 @@ class Dropdown extends Component{
                 <ul style={{background: 'transparent', zIndex: '1'}} className={this.state.clicked ? 'dropdown-menu clicked' : 'dropdown-menu'}>
                     {this.props.children.map((item, index) => {
                         return(
-                            <li className={index===activeDropdownItem?'active-dropdown-item':''} key={index} onMouseEnter={() => {
+                            <li className={(index===activeDropdownItem?'active-dropdown-item':'')+(item.cName==='drop-dropdown'?' drop-dropdown-li':'')} key={index} onMouseEnter={() => {
                                 this.onMouseEnter(index)
                             }} onMouseLeave={() => {
                                 this.onMouseLeave()

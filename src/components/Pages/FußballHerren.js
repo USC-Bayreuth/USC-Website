@@ -66,6 +66,17 @@ class FußballHerren extends Component{
                     <h1>Kader</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiter</h2></AnimationOnScroll>
+                <Container fluid className='my-container'>
+                    <Row>
+                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
+                                <img alt='department-leader' src='/img/no-picture-man.jpg' className='player-picture'/>
+                                <p className='player-name'>Max Mustermann</p>
+                            </AnimationOnScroll>
+                        </Col>
+                    </Row>
+                </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
@@ -80,6 +91,12 @@ class FußballHerren extends Component{
                                             <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
+                                        {item.Rolle!==undefined &&
+                                            <p className='role'>{item.Rolle}</p>
+                                        }
+                                        {item.Handy!==undefined &&
+                                            <p className='mobile-number'>Handy: {item.Handy}</p>
+                                        }
                                     </AnimationOnScroll>
                                 </Col>
                             )

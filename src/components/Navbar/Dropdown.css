@@ -22,8 +22,11 @@
     height: 100%;
     text-decoration: none;
     color: whitesmoke;
-    padding: 16px;
     vertical-align:middle;
+}
+
+.drop-dropdown-li{
+    padding: 16px;
 }
 
 .dropdown-menu li:hover{
@@ -40,10 +43,12 @@
 }
 
 .drop-nav-link{
-    width: 108%;
+    width: 100%;
+    padding: 16px;
     color: whitesmoke;
     text-decoration: none;
     background: transparent;
+    margin-top: 0;
 }
 
 .active-dropdown-item{

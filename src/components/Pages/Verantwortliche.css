@@ -22,8 +22,11 @@
 }
 
 @media screen and (max-width: 960px){
-
     .contact-picture{
         margin-top: 20px;
+    }
+
+    .contact-subtitle, .contact-subtitle-title{
+        font-size: 0.8rem;
     }
 }

@@ -3,8 +3,10 @@ import './Navbar.css';
 import {MenuItems} from "./MenuItems";
 import Dropdown from './Dropdown';
 
+const mobileThreshold=1050;
+
 class Navbar extends Component{
-    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<960}
+    state={clicked: false, dropdownIndex: -1, dropDropdownIndex: -1, mobileMode: window.innerWidth<mobileThreshold}
 
     componentDidMount() {
         window.addEventListener('resize', this.updateDimensions);
@@ -15,7 +17,7 @@ class Navbar extends Component{
 
     updateDimensions=()=>{
         let newState=Object.assign(this.state)
-        if(window.innerWidth>=1100)
+        if(window.innerWidth>=mobileThreshold)
             newState.mobileMode=false
         else
             newState.mobileMode=true

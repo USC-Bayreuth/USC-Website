@@ -81,5 +81,10 @@ export const MenuItems=[
         title: 'Verantwortliche',
         url: '/Verantwortliche',
         cName: 'nav-link'
+    },
+    {
+        title: 'Shop',
+        url: '/Shop',
+        cName: 'nav-link'
     }
 ]
