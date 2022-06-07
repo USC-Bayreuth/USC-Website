@@ -116,6 +116,11 @@ class Navbar extends Component{
                                             <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>
                                         </>
                                     }
+                                    {item.cName==='external-link' &&
+                                        <a rel="noreferrer" target="_blank" className='nav-link' href={item.url}>
+                                            {item.title}
+                                        </a>
+                                    }
                                 </li>
                             )
                         })

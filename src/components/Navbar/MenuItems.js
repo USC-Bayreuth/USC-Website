@@ -84,7 +84,7 @@ export const MenuItems=[
     },
     {
         title: 'Shop',
-        url: '/Shop',
-        cName: 'nav-link'
+        url: 'https://usc-bayreuth.fan12.de/',
+        cName: 'external-link'
     }
 ]
