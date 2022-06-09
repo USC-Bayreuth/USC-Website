@@ -63,11 +63,11 @@ class Verantwortliche extends Component{
             <h2>Fußball Herren</h2>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                    {/*<Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Abteilungsleiter</p>
                         <p className='contact-subtitle'>Max Mustermann</p>
-                    </Col>
+                    </Col>*/}
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Benjamin-Opel.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Trainer</p>

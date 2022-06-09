@@ -66,7 +66,7 @@ class FußballHerren extends Component{
                     <h1>Kader</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiter</h2></AnimationOnScroll>
+                {/*<AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiter</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
                         <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
@@ -76,7 +76,7 @@ class FußballHerren extends Component{
                             </AnimationOnScroll>
                         </Col>
                     </Row>
-                </Container>
+                </Container>*/}
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
