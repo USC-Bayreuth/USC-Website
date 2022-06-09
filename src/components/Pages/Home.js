@@ -28,7 +28,7 @@ class Home extends Component{
                 <h1>Homepage des USC Bayreuth</h1>
                 <Slider tag='Allgemein'/>
                 <h1>Der Verein</h1>
-                <p>Ein Text, der den USC Bayreuth beschreibt.</p>
+                <p>Work in progress...</p>
                 <h1>Unser Premiumpartner</h1>
                 <a href='https://www.rehau.com/de-de' rel="noreferrer" target="_blank">
                     <img src='/img/Home/Rehau-logo.png' alt='rehau' className='partner'/>

@@ -92,7 +92,7 @@ class Navbar extends Component{
         return(
             <nav className="NavbarItems">
                 <div style={{backgroundColor:'#302f2f'}} className="menu-icon" onClick={this.handleMenuClick}>
-                    <i style={{backgroundColor:'#302f2f'}} className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                    <i style={{backgroundColor:'#302f2f'}} className={this.state.clicked ? 'fa-solid fa-times' : 'fa-solid fa-bars'}></i>
                 </div>
                 <ul style={{backgroundColor:'#302f2f', zIndex: '1'}} className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {!this.state.mobileMode &&
@@ -111,7 +111,7 @@ class Navbar extends Component{
                                     {item.cName==='nav-dropdown' &&
                                         <>
                                             <span className={item.cName+(index===activeNavItem?' active-navbar-item':'')}>
-                                                {item.title} <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
+                                                {item.title} <i style={{background: 'transparent'}} className='fa-solid fa-caret-down'/>
                                             </span>
                                             <Dropdown children={item.children} appear={this.state.dropdownIndex===index}/>
                                         </>
@@ -141,10 +141,10 @@ class Navbar extends Component{
                                             }}>
                                                 {item.title}
                                                 {this.state.dropdownIndex===index &&
-                                                    <i style={{background: 'transparent'}} className='fas fa-caret-up'/>
+                                                    <i style={{background: 'transparent'}} className='fa-solid fa-caret-up'/>
                                                 }
                                                 {this.state.dropdownIndex!==index &&
-                                                    <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
+                                                    <i style={{background: 'transparent'}} className='fa-solid fa-caret-down'/>
                                                 }
                                             </span>
                                             {this.state.dropdownIndex===index &&
@@ -163,10 +163,10 @@ class Navbar extends Component{
                                                                     }}>
                                                                         {item.title}
                                                                         {this.state.dropDropdownIndex===index &&
-                                                                            <i style={{background: 'transparent'}} className='fas fa-caret-up'/>
+                                                                            <i style={{background: 'transparent'}} className='fa-solid fa-caret-up'/>
                                                                         }
                                                                         {this.state.dropDropdownIndex!==index &&
-                                                                            <i style={{background: 'transparent'}} className='fas fa-caret-down'/>
+                                                                            <i style={{background: 'transparent'}} className='fa-solid fa-caret-down'/>
                                                                         }
                                                                     </span>
                                                                     {this.state.dropDropdownIndex===index &&

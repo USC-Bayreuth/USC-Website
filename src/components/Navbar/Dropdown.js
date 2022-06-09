@@ -47,7 +47,7 @@ class Dropdown extends Component{
                                 {item.cName==='drop-dropdown' &&
                                     <>
                                         <span style={{background: 'transparent'}} className={item.cName}>
-                                            {item.title} <i style={{background: 'transparent'}} className='fas fa-caret-right' />
+                                            {item.title} <i style={{background: 'transparent'}} className='fa-solid fa-caret-right' />
                                         </span>
                                         <DropDropdown children={item.children} appear={this.state.dropdownIndex===index} top={9+55*index}/>
                                     </>
