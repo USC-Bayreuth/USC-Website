@@ -1,6 +1,7 @@
 import {Component} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
 import { AnimationOnScroll } from 'react-animation-on-scroll'
+import Slider from '../Slider/Slider'
 
 class TennisDamen extends Component{
     state={mobileMode: window.innerWidth<960}
@@ -25,6 +26,7 @@ class TennisDamen extends Component{
         return(
             <>
                 <h1>Tennis Damen</h1>
+                <Slider tag='Tennis Damen'/>
                 <h1>Unsere Abteilung</h1>
                 <p>Der USC ist dabei eine Tennisabteilung zu etablieren! Dafür werden insbesondere für unsere Damenannschaft noch einige erfahrene Tennisspielerinnen für den Ligabetrieb gesucht!</p>
                 <p>Wenn du also Interesse, Erfahrung, Lust und Zeit hast, dann melde dich einfach bei uns!</p>

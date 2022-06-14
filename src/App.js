@@ -21,7 +21,6 @@ import ErrorPage from './components/Pages/ErrorPage';
 function App() {
   let news=require('./json/News.json')
   let animation='fadeInUp'
-  //todo url news
   return (
     <Router>
       <div className="App">
