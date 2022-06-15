@@ -129,6 +129,11 @@ class Navbar extends Component{
                         MenuItems.map((item, index) =>{
                             return(
                                 <li style={{backgroundColor: '#302f2f'}} key={index}>
+                                    {item.cName==='external-link' &&
+                                        <a className='nav-link' href={item.url} target='_blank' rel='noreferrer'>
+                                            {item.title}
+                                        </a>
+                                    }
                                     {item.cName==='nav-link' &&
                                         <a className={item.cName} href={item.url}>
                                             {item.title}
