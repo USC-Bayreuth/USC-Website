@@ -31,6 +31,7 @@ class FußballDamen extends Component{
                 <h1>Unsere Abteilung</h1>
                 <p>Die Frauenfußballabteilung des USC Bayreuth bietet den Studentinnen die Möglichkeit, ihre sportlichen Ziele zu erreichen, ihre Soft-Skills zu stärken und ihr Netzwerk zu erweitern. Zwei Trainingseinheiten während der Saison, ein Spiel am Wochenende und sowohl die Winter- als auch die Sommervorbereitung stellen einen perfekten Ausgleich für den oft trägen Unialltag. Nach dem Aufstieg in der Premierensaison gehen wir 18/19 in der Kreisliga an den Start. Du möchtest dich darüber hinaus aktiv mit einbringen? 4 Ressorts, darunter Organisation, Media, Sponsoring oder Events bieten dir die Möglichkeit dazu. Kommilitonen. Freunde. Teamkollegen. Bei mittlerweile über 30 Spielerinnen fällt der Kontakt nicht schwer. Haben wir dein Interesse geweckt? Dann komm vorbei – Wir freuen uns auf neue Gesichter! Melde dich einfach bei Facebook oder per Mail an <a className='mail-to' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
+                <p>Dienstag und Donnerstag: 18:30 - 20:00 Sportinstitut</p>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&
@@ -61,20 +62,9 @@ class FußballDamen extends Component{
                     }
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                    <h1>Kader</h1>
+                    <h1>Team</h1>
                     <img alt='fußball-damen' src='/img/Fußball Damen/Mannschaftsfoto Damen.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiterin</h2></AnimationOnScroll>
-                <Container fluid className='my-container'>
-                    <Row>
-                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                <img alt='department-leader' src='/img/no-picture-woman.jpg' className='player-picture'/>
-                                <p className='player-name'>Laila Auerochs</p>
-                            </AnimationOnScroll>
-                        </Col>
-                    </Row>
-                </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
@@ -88,7 +78,16 @@ class FußballDamen extends Component{
                                         {item.Bild!=='' &&
                                             <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
                                         }
-                                        <p className='player-name'>{item.Name}</p>
+                                        {item.Rolle!==undefined &&
+                                            <p className='contact-subtitle-title'>{item.Rolle}</p>
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>
+                                        {item.Mail!==undefined &&
+                                            <p className='contact-subtitle'><a className='mail-to' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
+                                        }
+                                        {item.Handy!==undefined &&
+                                            <p className='mobile-number contact-subtitle'>{item.Handy}</p>
+                                        }
                                     </AnimationOnScroll>
                                 </Col>
                             )
@@ -174,6 +173,19 @@ class FußballDamen extends Component{
                                 </Col>
                             )
                         })}
+                    </Row>
+                </Container>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h1>Abteilungsleiterin</h1></AnimationOnScroll>
+                <Container fluid className='my-container'>
+                    <Row>
+                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
+                                <img src='/img/no-picture-woman.jpg' className="contact-picture" alt="staff"/>
+                                <p className='contact-subtitle-title'>Abteilungsleiterin</p>
+                                <p className='contact-subtitle'>Laila Auerochs</p>
+                                <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
+                            </AnimationOnScroll>
+                        </Col>
                     </Row>
                 </Container>
             </>

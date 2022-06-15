@@ -11,14 +11,20 @@
     margin-right: 0px;
     text-align: center;
     background: transparent;
+    margin-top: 10px;
 }
 
 .contact-subtitle{
-    margin-top:3px;
+    margin-top: 3px;
     margin-left: 0px;
     margin-right: 0px;
     text-align: center;
     background: transparent;
+}
+
+.mobile-number{
+    text-align: center;
+    font-style: italic;
 }
 
 @media screen and (max-width: 960px){

@@ -30,7 +30,7 @@ class FußballHerren extends Component{
                 <h1>Fußball Herren</h1>
                 <Slider tag='Fußball Herren'/>
                 <h1>Unsere Abteilung</h1>
-                <p>Wir, die Herrenfußball-Abteilung des USC Bayreuth, heißen dich herzlich auf unserer Seite willkommen. Als Abteilung, aus welcher der USC entsprungen ist, bieten wir dir die Möglichkeit dich als Spieler, Funktionär oder in verschiedenen Bereichen rund um den Verein zu engagieren. Nach einigen Jahren in der Kreisklasse als SG Uni-Post SV Bayreuth gelang uns in der Saison 2015/16 und damit in der ersten Saison nach Gründung des USC der Aufstieg in die Kreisliga. Mit zwei überzeugenden Siegen auf großer Bühne konnten wir uns in den Relegationsspielen durchsetzen. Nachdem der erneute Aufstieg 16/17 denkbar knapp verpasst wurde, spielen wir aktuell in der Kreisliga Bayreuth/Kulmbach. Im Sommersemester haben wir das Privileg auf den hervorragenden Sportanlagen der Uni Bayreuth zu trainieren. Im Wintersemester, wenn die Uniplätze gesperrt sind, trainieren wir auf dem städtischen Kunstrasenplatz am Hans-Walter-Wild-Stadion, wo auch unsere Heimspiele ausgetragen werden, oder in der Turnhalle des Sportinstituts. Durch die hohe Fluktuation an Spielern sind wir immer auf der Suche nach neuem Personal. Wir freuen uns auf alle, die den Fußball genauso lieben wie wir. Bei Interesse vereinbare doch einfach ein Probetraining. Dafür kannst du entweder eine Facebook Nachricht senden oder eine Mail an <a className='mail-to' href='mailto:herrenfussball@uni-bayreuth.de'>herrenfussball@uni-bayreuth.de</a>.</p>                
+                <p>Wir, die Herrenfußballabteilung des USC Bayreuth, heißen dich herzlich auf unserer Seite willkommen. Als erste Abteilung, die dem USC entsprungen ist, bieten wir dir die Möglichkeit dich als Spieler, Funktionär oder in verschiedenen Bereichen rund um den Verein zu engagieren. Nach einigen Jahren in der Kreisklasse als Spielgemeinschaft Uni-Post SV Bayreuth gelang uns in der Saison 2015/16 und damit in der ersten Saison nach Gründung des USC der Aufstieg in die Kreisliga. Mit zwei überzeugenden Siegen auf großer Bühne konnten wir uns in den Relegationsspielen durchsetzen. Nachdem der erneute Aufstieg 2016/17 denkbar knapp verpasst wurde, spielen wir aktuell seit nunmehr sechs Jahren ununterbrochen in der Kreisliga Bayreuth/Kulmbach. Im Sommersemester haben wir das Privileg auf den hervorragenden Sportanlagen der Uni Bayreuth trainieren zu können. Im Wintersemester, wenn die Uni-Plätze gesperrt sind, trainieren wir auf dem städtischen Kunstrasenplatz am Hans-Walter-Wild Stadion, wo auch unsere Heimspiele ausgetragen werden, oder in der Turnhalle des Sportinstituts. Durch die hohe Fluktuation an Spielern sind wir immer auf der Suche nach neuem Personal. Wir freuen uns auf alle, die den Fußball genauso lieben wie wir. Bei Interesse melde dich doch einfach bei uns und schau ins Training vorbei. Dafür setz dich am besten mit unserem Coach Benjamin Opel in Verbindung. Alternativ kannst du uns auch eine Nachricht über unsere Social-Media-Kanäle (<a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a>) senden.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Dienstag und Freitag: 18:30 - 20:00 Sportinstitut</p>
                 <h1>Tabelle und Spielplan</h1>
@@ -63,20 +63,9 @@ class FußballHerren extends Component{
                     }
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                    <h1>Kader</h1>
+                    <h1>Team</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                {/*<AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Abteilungsleiter</h2></AnimationOnScroll>
-                <Container fluid className='my-container'>
-                    <Row>
-                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                <img alt='department-leader' src='/img/no-picture-man.jpg' className='player-picture'/>
-                                <p className='player-name'>Max Mustermann</p>
-                            </AnimationOnScroll>
-                        </Col>
-                    </Row>
-                </Container>*/}
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
@@ -90,12 +79,15 @@ class FußballHerren extends Component{
                                         {item.Bild!=='' &&
                                             <img alt={'player'+index} src={'/img/Fußball Herren/'+item.Bild} className='player-picture'/>                                    
                                         }
-                                        <p className='player-name'>{item.Name}</p>
                                         {item.Rolle!==undefined &&
-                                            <p className='role'>{item.Rolle}</p>
+                                            <p className='contact-subtitle-title'>{item.Rolle}</p>
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>
+                                        {item.Mail!==undefined &&
+                                            <p className='contact-subtitle'><a className='mail-to' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
                                         }
                                         {item.Handy!==undefined &&
-                                            <p className='mobile-number'>Handy: {item.Handy}</p>
+                                            <p className='mobile-number contact-subtitle'>{item.Handy}</p>
                                         }
                                     </AnimationOnScroll>
                                 </Col>
@@ -189,6 +181,20 @@ class FußballHerren extends Component{
                         })}
                     </Row>
                 </Container>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h1>Abteilungsleiter</h1></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce>
+                    <Container fluid className='my-container'>
+                        <Row>
+                            <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
+                                <p className='contact-subtitle-title'>Abteilungsleiter</p>
+                                <p className='contact-subtitle'>Jonathan Weyel</p>
+                                <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='herrenfussball@usc-bayreuth.de'>herrenfussball@usc-bayreuth.de</a></p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </AnimationOnScroll>
+                
             </>
         )
     }

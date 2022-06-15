@@ -4,19 +4,14 @@
             "Name":"Benjamin Opel",
             "Bild":"Benjamin-Opel.jpg",
             "Rolle":"Cheftrainer",
-            "Handy":"0173 5747526"
-        },
-        {
-            "Name":"Jonathan Weyel",
-            "Bild":"",
-            "Rolle":"Co-Trainer",
-            "Handy":"0176 81285338"
+            "Handy":"0173 5747526",
+            "Mail":"benjaminopel@web.de"
         },
         {
             "Name":"Franz Wittmann",
             "Bild":"",
             "Rolle":"Co-Trainer",
-            "Handy":"0176 61487592"
+            "Mail":"wittmannfranz@gmx.de"
         }
     ],
     "Torwart":[

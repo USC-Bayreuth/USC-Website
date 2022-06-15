@@ -17,18 +17,10 @@
     text-align: center;
 }
 
-.mobile-number{
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 5px;
-    text-align: center;
-    font-style: italic;
-}
-
 .role{
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 5px;
+    margin-top: 3px;
     text-align: center;
     font-weight: bolder;
 }

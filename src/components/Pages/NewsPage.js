@@ -15,7 +15,7 @@ class NewsPage extends Component{
                         let substring=item.substring(7, item.length)
                         let filenames=substring.split('|')
                         return(
-                            <Container fluid className='my-container'>
+                            <Container key={index} fluid className='my-container'>
                                 {filenames.map((file, fileIndex) => {
                                     return(
                                         <img key={fileIndex} className='head-image' src={'/img/News/'+file} alt='news-pic'/>
