@@ -1,5 +1,5 @@
 {
-    "Trainer":[
+    "Verantwortliche":[
         {
             "Name":"Benjamin Opel",
             "Bild":"Benjamin-Opel.jpg",
@@ -12,6 +12,12 @@
             "Bild":"",
             "Rolle":"Co-Trainer",
             "Mail":"wittmannfranz@gmx.de"
+        },
+        {
+            "Name":"Jonathan Weyel",
+            "Bild":"",
+            "Rolle":"Abteilungsleiter",
+            "Mail":"herrenfussball@usc-bayreuth.de"
         }
     ],
     "Torwart":[

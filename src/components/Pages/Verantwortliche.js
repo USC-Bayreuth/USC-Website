@@ -104,7 +104,7 @@ class Verantwortliche extends Component{
                         <img src='/img/no-picture-woman.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Abteilungsleiterin</p>
                         <p className='contact-subtitle'>Alexandra Hubracht</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:alexandra.hubracht@uni-bayreuth.de'>alexandra.hubracht@uni-bayreuth.de</a></p>
+                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a></p>
                     </Col>
                 </Row>
             </Container>

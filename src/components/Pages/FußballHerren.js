@@ -66,10 +66,10 @@ class FußballHerren extends Component{
                     <h1>Team</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Trainer.map((item, index) =>{
+                        {kader.Verantwortliche.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
@@ -181,20 +181,6 @@ class FußballHerren extends Component{
                         })}
                     </Row>
                 </Container>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h1>Abteilungsleiter</h1></AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                    <Container fluid className='my-container'>
-                        <Row>
-                            <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
-                                <p className='contact-subtitle-title'>Abteilungsleiter</p>
-                                <p className='contact-subtitle'>Jonathan Weyel</p>
-                                <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='herrenfussball@usc-bayreuth.de'>herrenfussball@usc-bayreuth.de</a></p>
-                            </Col>
-                        </Row>
-                    </Container>
-                </AnimationOnScroll>
-                
             </>
         )
     }

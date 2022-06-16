@@ -65,10 +65,10 @@ class FußballDamen extends Component{
                     <h1>Team</h1>
                     <img alt='fußball-damen' src='/img/Fußball Damen/Mannschaftsfoto Damen.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Trainer.map((item, index) =>{
+                        {kader.Verantwortliche.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
@@ -173,19 +173,6 @@ class FußballDamen extends Component{
                                 </Col>
                             )
                         })}
-                    </Row>
-                </Container>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h1>Abteilungsleiterin</h1></AnimationOnScroll>
-                <Container fluid className='my-container'>
-                    <Row>
-                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                <img src='/img/no-picture-woman.jpg' className="contact-picture" alt="staff"/>
-                                <p className='contact-subtitle-title'>Abteilungsleiterin</p>
-                                <p className='contact-subtitle'>Laila Auerochs</p>
-                                <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
-                            </AnimationOnScroll>
-                        </Col>
                     </Row>
                 </Container>
             </>

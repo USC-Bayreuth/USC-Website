@@ -29,7 +29,6 @@ class Roundnet extends Component{
                 <p>Bei Fragen meldet euch einfach <a className='mail-to' href='mailto:info@uni-bayreuth.de'>hier</a> oder bei <a className='mail-to' href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <h1>Tabelle und Spielplan</h1>
-                <h1>Team</h1>
                 <h1>Abteilungsleiter</h1>
                 <Container fluid className='my-container'>
                     <Row>
@@ -41,6 +40,7 @@ class Roundnet extends Component{
                         </Col>
                     </Row>
                 </Container>
+                <h1>Team</h1>
             </>
         )
     }
