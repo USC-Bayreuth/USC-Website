@@ -1,9 +1,24 @@
 [
     {
+        "sliderImage": "22_06_22_slider.jpg|22_06_22_slider2.jpg",
+        "title": "Erfolgloses Tennis Wochenende",
+        "date": "22.06.2022",
+        "tags": "Tennis Damen|Tennis Herren",
+        "blocks": [
+            "!image 22_06_22_0.jpg",
+            "Bei angenehme 35°C kämpften unsere Tennis Damen und Herren am Sonntag auf dem Platz, aber konnten leider den Spieltag beide nicht für sich entscheiden.",
+            "Unsere Damen stellten sich dem TC Schwarz-Weiß Creußen in einem Heimspiel an der Uni und unterlagen 2:7.",
+            "!image 22_06_22_1.jpg",
+            "Die Herren spielten auswärts gegen den TC Burghaig und verloren ebenfalls mit 2:7.",
+            "!image 22_06_22_2.jpg|22_06_22_3.jpg",
+            "Am kommenden Sonntag, dem 26. Juni, begegnen unsere Herren dem TC Schwarz-Weiß Pegnitz an der Uni, kommt vorbei! 💪🏼🔥 Die Damen machen sich auf den Weg zum TC Hollfeld. Ein großes Dankeschön an unseren Hauptsponsor Raumedic und an Medi-Print für die Beflockung unserer Trickots!! 🙏🏼"
+        ]
+    },
+    {
         "sliderImage": "22_06_15_slider.jpg",
         "title": "16. Sieg im 16. Spiel",
         "date": "15.06.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_06_15_0.jpg",
             "Im letzten Saison-Spiel war der SV Hutschdorf an der Uni zu Gast. Das Ziel der USC Damen war klar: es sollte nochmal ein Sieg eingefahren werden.",
@@ -19,7 +34,7 @@
         "sliderImage": "22_06_14_slider.jpg",
         "title": "Niederlage beim TC Engelmannsreuth",
         "date": "14.06.2022",
-        "tag": "Tennis Damen",
+        "tags": "Tennis Damen",
         "blocks": [
             "!image 22_06_14_0.jpg",
             "Trotz starken Kampfgeistes bei Sommerhitze mussten sich unsere Tennis-Damen vergangenem Sonntag dem TC Engelmannsreuth geschlagen geben. Janina konnte das Match für sich entscheiden. 💪🏼🔥 Mit weiterer Erfahrung treten unsere Damen nächste Woche im Heimspiel gegen den TC Schwarz-Weiß Creußen an und werden wieder alles geben! Es wird ein spannendes Match, bei dem Zuschauer gerne willkommen geheißen werden! ☀️",
@@ -30,7 +45,7 @@
         "sliderImage": "22_06_07_slider.jpg",
         "title": "Saisonrückblick USC Bayreuth Herren 2021/22",
         "date": "07.06.2022",
-        "tag": "Fußball Herren",
+        "tags": "Fußball Herren",
         "blocks": [
             "Die Saison 2021/22 der Herrenmannschaft des USC ist vorbei. Der USC beendet die Saison auf dem 10. Tabellenplatz mit 27 Punkten aus 26 Spielen. Zeit also, um einen Rückblick auf eine Spielzeit mit einigen Höhen und Tiefen zu werfen.",
             "Die Saison begann offiziell am 4. Juli mit dem Pokalspiel beim TSV Donndorf-Eckersdorf. Ein kurioser Zeitpunkt, da noch wenige Tage vorher der USC durch eine Niederlage im Elfmeterschießen gegen St. Johannis aus dem Pokal der vorherigen Corona-Saison 2019/21 geflogen war. Insgesamt vier Pokalspiele in weniger als zwei Wochen. Aber zurück zum Spiel gegen Donndorf: Bei schwülen Sommertemperaturen um die 30° Grad entwickelte sich ein packender Pokalfight gegen das Team aus der Kreisklasse. Zwei Wochen vorher wurde der USC noch im Testspiel gegen Donndorf an selber Stelle mit 0:5 in die Schranken gewiesen. Diesmal hielten wir dagegen und nach 90 Minuten stand es unentschieden, womit es direkt ins Elfmeterschießen ging. Dort versagten den Gastgebern jedoch die Nerven. Sie verschossen zweimal und der USC zog in die nächste Runde ein. Welche vier Tage später stattfand. Gegner war der ewige Rivale Eintracht Bayreuth und auch in diesem hart umkämpften Spiel ging es nach einem 1:1 in das Elfmeterschießen. Welches denkwürdig wurde. Alle (!) Feldspieler mussten auf beiden Seiten ran. Am Ende leistete sich der USC einen Fehlschuss zu viel und man schied nach einem 6:7 n. E. aus dem Pokal aus.",
@@ -52,7 +67,7 @@
         "sliderImage": "22_05_29_slider.jpg",
         "title": "Umkämpfter Sieg gegen den TC Weiß-Blau Thurnau III",
         "date": "29.05.2022",
-        "tag": "Tennis Damen",
+        "tags": "Tennis Damen",
         "blocks": [
             "!image 22_05_29_0.jpg",
             "Spiel - Satz - Sieg! 🔥🎾 So hieß es heute bei unseren Tennis Damen gegen den TC Weiß-Blau Thurnau III! Bei wechselhaftem Wetter kämpften sie an ihrem ersten Spieltag, den sie souverän mit 5:4 für sich entscheiden konnten! 💪🏼🔥",
@@ -65,7 +80,7 @@
         "sliderImage": "22_05_28_slider.jpg",
         "title": "USC Mädels gewinnen die Meisterschaft",
         "date": "28.05.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_05_28_0.jpg",
             "Es ist geschafft!💚🖤Die USC Mädels sind Meister und verabschieden sich aus der Kreisliga!",
@@ -79,7 +94,7 @@
         "sliderImage": "22_05_23_slider.jpg",
         "title": "USC Mädels gewinnen 4:0 im Topspiel gegen den FC Redwitz",
         "date": "23.05.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_05_23_0.jpg",
             "Am letzen Samstag stand das 1. Heimspiel der Rückrunde gegen die Damen des FC Redwitz an. Bei bestem Wetter, grandioser Fanunterstützung und hervorragenden Rasenbedingungen starteten die Mädels dominant ins Spiel. Diese Dominanz wurde in der 17. Spielminute mit dem Tor von @_mirafe belohnt. Einen Freistoß von @lailiiiilaila verarbeitete sie grandios mit dem Kopf, sodass der Ball in hohem Bogen über die herauslaufende Torhüterin ins gegnerische Tor flog. In der 2. Hälfte der Partie erzielte @toniflakes das 2:0 nach einem schön in den Lauf gespielten Pass von @annis93 (49‘). Torschützenkönigin @annis93 bereitete nicht nur einen Treffer vor, sondern traf auch in diesem Spiel zweimal: In der 63. Minute markierte sie das 3:0 nach einer hervorragenden Vorlage von @mellime1997. In der 72. Minute konnte Flügelspielerin @toniflakes nur noch mit einem Foul gestoppt werden. Den fälligen Strafstoß schob die Torschützin vom Dienst @annis93 souverän zum 4:0-Endstand ein.",
@@ -93,7 +108,7 @@
         "sliderImage": "22_05_22_slider.jpg",
         "title": "USC muss sich in umkämpfter Begegnung in Hollfeld geschlagen geben",
         "date": "22.05.2022",
-        "tag": "Tennis Herren",
+        "tags": "Tennis Herren",
         "blocks": [
             "!image 22_05_22_0.jpg",
             "Beim zweiten Spieltag der Herren ging es zum Auswärtsspiel nach Hollfeld. Trotz der 5 Tie-Break's konnten wir den Spieltag leider nicht für uns entscheiden und mussten uns mit einem 3:6 zufrieden geben.",
@@ -105,7 +120,7 @@
         "sliderImage": "22_05_17_slider.jpg",
         "title": "6 Punkte für die USC Damen",
         "date": "17.05.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_05_17_0.jpg",
             "Am vergangenen Wochenende standen zwei Spiele auf dem Programm. Freitagabend ging es zum Auswärtsspiel nach Ludwigsstadt. Melissa Moos mit einem Dreierpack, Mira Feuerbach mit einem Doppelpack und Laila Auerochs trugen sich beim 6:1-Sieg in die Torschützenliste ein.",
@@ -119,7 +134,7 @@
         "sliderImage": "22_05_15_slider.jpg",
         "title": "Tennisabteilung bestreitet erstes Ligaspiel",
         "date": "15.05.2022",
-        "tag": "Tennis Herren",
+        "tags": "Tennis Herren",
         "blocks": [
             "!image 22_05_15_0.jpg",
             "Heute haben unsere Tennis-Herren ihr aller erstes Ligaspiel bestritten. Bei herrlicher Sonne und mit vielen Fans haben sie alles gegeben - für einen Sieg hat es leider noch nicht gereicht. Nächste Woche geht es mit Vollgas weiter!",
@@ -130,7 +145,7 @@
         "sliderImage": "22_04_30_slider.jpg",
         "title": "5:2 Sieg gegen TSV 08 Kulmbach",
         "date": "30.04.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_04_30_0.jpg",
             "Bei bestem Fritz-Walter-Wetter gewannen die USC Damen ihr erstes Rückrundenspiel gegen den TSV 08 Kulmbach am vergangenen Sonntag mit 5:2. Der Knoten platzte in der 16. Minute durch ein Eigentor des TSV. Paula Waldmüller, Annika Schmidt (2x) und Melissa Moos erhöhten auf 5:0. Mit zwei satten Distanzschüssen gelang der eingewechselten Spielertrainerin Christina Schmidt noch Ergebniskorrektur (5:2).",
@@ -141,7 +156,7 @@
         "sliderImage": "22_04_25_slider.jpg",
         "title": "USC unterliegt dem FSV Bayreuth mit 3:0",
         "date": "25.04.2022",
-        "tag": "Fußball Herren",
+        "tags": "Fußball Herren",
         "blocks": [
             "!image 22_04_25_0.jpg",
             "Am vergangenen Samstag waren die Herren des USC zum Stadtduell beim FSV Bayreuth zu Gast. Unglücklicherweise fielen sowohl Hajo Milhahn als auch Dennis Bauer aus, sodass Maurice Schürch sich zwischen die Pfosten stellen musste. Zudem feierte Max Konstantinidis sein lang erwartetes Debüt für den USC.",
@@ -156,7 +171,7 @@
         "sliderImage": "22_04_19_slider.jpg",
         "title": "USC Damen ziehen ins Pokalfinale ein",
         "date": "19.04.2022",
-        "tag": "Fußball Damen",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 22_04_19_0.jpg",
             "Im ersten Spiel des Jahres stand am Ostermontag für die USC-Damen das Pokalhalbfinale beim SV Dörfleins (KL West, Platz 4) an.",
@@ -169,7 +184,7 @@
         "sliderImage": "22_04_17_slider.jpg",
         "title": "USC erringt Sieg gegen TSV Kulmbach",
         "date": "17.04.2022",
-        "tag": "Fußball Herren",
+        "tags": "Fußball Herren",
         "blocks": [
             "!image 22_04_17_0.jpg",
             "Am Ostersamstag empfing der USC bei herrlichstem Wetter den TSV 08 Kulmbach. Das dünne Personal machte sich beim letzten Spiel in den Semesterferien, welches auch noch auf das Osterwochende fiel, im Spieltagskader des USC bemerkbar: Ex-Coach Johnny Weyel schnürte nach langer Pause wieder die Schuhe ebenso wie Coach Benni Opel.",
@@ -182,7 +197,7 @@
         "sliderImage": "22_04_06_slider.jpg",
         "title": "Unentschieden beim Sportring",
         "date": "06.04.2022",
-        "tag": "Fußball Herren",
+        "tags": "Fußball Herren",
         "blocks": [
             "!image 22_04_06_0.jpg",
             "Am 22. Spieltag gastierte der USC bei bestem Fußball-Wetter beim Sportring aus Bayreuth.",

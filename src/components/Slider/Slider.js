@@ -11,11 +11,18 @@ class Slider extends Component{
             <Carousel className='news-slider'>
                 {// eslint-disable-next-line
                 news.map((item, index) => {
-                    if(item.tag===this.props.tag || this.props.tag==='Allgemein'){
+                    const itemTags=item.tags.split('|')
+                    if(this.props.tag==='Allgemein' || itemTags.includes(this.props.tag)){
+                        const sliderImages=item.sliderImage.split('|')
+                        let sliderImage
+                        if(this.props.tag==='Allgemein')
+                            sliderImage=sliderImages[0]
+                        else
+                            sliderImage=sliderImages[itemTags.indexOf(this.props.tag)]
                         return(
                             <Col key={index}>
                                 <a style={{textDecoration:'none'}} href={'/News/'+createURL(item.title)}>
-                                    <img className='slider-image' src={'/img/News/'+item.sliderImage} alt={'slider-'+index}/>
+                                    <img className='slider-image' src={'/img/News/'+sliderImage} alt={'slider-'+index}/>
                                     <p className='slider-headline'>{item.title}</p>
                                 </a>
                             </Col>
