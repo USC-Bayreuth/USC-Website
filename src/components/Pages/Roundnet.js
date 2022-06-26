@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
+import Slider from '../Slider/Slider'
 
 class Roundnet extends Component{
     state={mobileMode: window.innerWidth<960}
@@ -23,12 +24,13 @@ class Roundnet extends Component{
         return(
             <>
                 <h1>Roundnet</h1>
-                <p>Work in progress...</p>
+                <Slider tag='Roundnet'/>
                 <h1>Unsere Abteilung</h1>
                 <p>Wir bekommen Zuwachs durch die neu gegründete Abteilung "Roundnet" (Spikeball) und sind somit der erste Roundnet Verein Bayreuths!</p>
-                <p>Du zockst gerne Roundnet und hast Bock an strukturiertem Training sowie Teil der Community zu sein oder ab und an auf ein Turnier zu fahren? Dann komm vorbei und schnupper bei uns rein. Ab Mai beginnt das Training: Mo und Mi: 18.30 -20.30 Uhr auf den Fußballplätzen des Unisportgeländes!</p>          
-                <p>Bei Fragen meldet euch einfach <a className='mail-to' href='mailto:info@uni-bayreuth.de'>hier</a> oder bei <a className='mail-to' href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
+                <p>Du zockst gerne Roundnet und hast Bock an strukturiertem Training sowie Teil der Community zu sein oder ab und an auf ein Turnier zu fahren? Dann komm vorbei und schnupper bei uns rein.</p>          
+                <p>Bei Fragen meldet euch einfach <a className='mail-to' href='mailto:info@uni-bayreuth.de'>hier</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
                 <h2>Trainingszeiten</h2>
+                <p>Montag und Mittwoch: 18:30 - 20:30 Sportinstitut</p>
                 <h1>Tabelle und Spielplan</h1>
                 <h1>Abteilungsleiter</h1>
                 <Container fluid className='my-container'>

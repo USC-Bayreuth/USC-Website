@@ -9,7 +9,7 @@ class Slider extends Component{
         let news=require('../../json/News.json')
         return(
             <Carousel className='news-slider'>
-                {// eslint-disable-next-line
+                {
                 news.map((item, index) => {
                     const itemTags=item.tags.split('|')
                     if(this.props.tag==='Allgemein' || itemTags.includes(this.props.tag)){
@@ -28,6 +28,7 @@ class Slider extends Component{
                             </Col>
                         )
                     }
+                    else return null
                 })}
             </Carousel>
         )
