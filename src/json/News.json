@@ -1,5 +1,18 @@
 [
     {
+        "sliderImage": "22_06_26_slider.jpg|22_06_26_slider2.jpg",
+        "title": "Umkämpfte Niederlagen der Tennis Teams",
+        "date": "26.06.2022",
+        "tags": "Tennis Herren|Tennis Damen",
+        "blocks": [
+            "!image 22_06_26_0.jpg|22_06_26_1.jpg",
+            "Grandioses Wetter und spannende Spiele, aber leider kein Sieg für die USC Tennisabteilung.",
+            "Unsere Herren mussten sich nach einem spannenden Spieltag knapp mit 4:5 geschlagen geben und unsere Damen haben Ihren Spieltag mit 2:7 verloren.",
+            "!image 22_06_26_2.jpg|22_06_26_3.jpg|22_06_26_4.jpg|22_06_26_5.jpg",
+            "Wir gratulieren den Spielerinnen die ihr erstes Ligaspiel bestritten haben und bedanken uns für die tollen Atmosphäre beim Auswärtsspiel in Hollfeld!😎"
+        ]
+    },
+    {
         "sliderImage": "22_06_22_slider.jpg|22_06_22_slider2.jpg",
         "title": "Erfolgloses Tennis Wochenende",
         "date": "22.06.2022",

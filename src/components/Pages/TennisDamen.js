@@ -28,10 +28,11 @@ class TennisDamen extends Component{
                 <h1>Tennis Damen</h1>
                 <Slider tag='Tennis Damen'/>
                 <h1>Unsere Abteilung</h1>
-                <p>Der USC ist dabei eine Tennisabteilung zu etablieren! Dafür werden insbesondere für unsere Damenannschaft noch einige erfahrene Tennisspielerinnen für den Ligabetrieb gesucht!</p>
-                <p>Wenn du also Interesse, Erfahrung, Lust und Zeit hast, dann melde dich einfach bei uns!</p>
-                <p>Caro: 01525 4280162</p>
-                <p style={{marginTop: 5}}>Alexandra: 0162 7106823</p>
+                <p>Cool, dass du dich für die Tennisabteilung der Damen vom USC Bayreuth interessierst!</p>
+                <p>Wir bieten Studentinnen, die Möglichkeit, Erfahrungen im Tennis-Ligabetrieb zu sammeln. Seit der Saison 2022 haben wir eine 6er-Mannschaft beim Bayerischen Tennisverband (BTV) gemeldet und spielen in der Nordliga 2 (Gruppe 99). Im Sommer trainieren wir auf dem Hochschulsportgelände der Universität, im Winter in der Halle des TC Grün-Weiß Bayreuth e.V.</p>
+                <p>Wir trainieren derzeit zusammen mit den Herren, da wir bei beiden Geschlechtern unterschiedliche Niveaus vertreten haben und so jeden bestmöglich fördern. Nicht nur innerhalb der Tennisabteilung, sondern auch innerhalb des gesamten USC organisieren wir gerne mal feucht fröhliche Team-Events, weshalb wir auch untereinander außerhalb des Trainings gut vernetzt sind.</p>
+                <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
+                <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='mail-to' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Dienstag: 18:00 - 19:00 und 19:00 - 20:00</p>
                 <p style={{marginTop:5}}>Freitag: 10:00 - 12:00, 18:00 - 19:00 und 19:00 - 20:00</p>
