@@ -66,10 +66,10 @@ class FußballHerren extends Component{
                     <h1>Team</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Verantwortliche.map((item, index) =>{
+                        {kader.Trainer.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
@@ -84,7 +84,7 @@ class FußballHerren extends Component{
                                         }
                                         <p className='contact-subtitle'>{item.Name}</p>
                                         {item.Mail!==undefined &&
-                                            <p className='contact-subtitle'><a className='mail-to' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
+                                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
                                         }
                                         {item.Handy!==undefined &&
                                             <p className='mobile-number contact-subtitle'>{item.Handy}</p>

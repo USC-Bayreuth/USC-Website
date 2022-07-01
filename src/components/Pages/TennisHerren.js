@@ -42,21 +42,10 @@ class TennisHerren extends Component{
                     <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1743896&etag=e1db4b07-d07d-4576-a335-4061f769a440' frameBorder='0' className='widget'/>
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                    <h1>Abteilungsleiterin</h1>
+                    <h1>Team</h1>
+                    <img alt='tennis-herren' src='/img/Tennis Herren/Mannschaftsfoto_Herren.JPG' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <Container fluid className='my-container'>
-                    <Row>
-                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                <img src='/img/no-picture-woman.jpg' className="contact-picture" alt="staff"/>
-                                <p className='contact-subtitle-title'>Abteilungsleiterin</p>
-                                <p className='contact-subtitle'>Alexandra Hubracht</p>
-                                <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a></p>
-                            </AnimationOnScroll>
-                        </Col>
-                    </Row>
-                </Container>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h1>Team</h1></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Spieler</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
                         {kader.map((item, index) =>{

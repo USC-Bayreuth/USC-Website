@@ -36,7 +36,7 @@ class Roundnet extends Component{
                 <Container fluid className='my-container'>
                     <Row>
                         <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
+                            <img src='/img/Roundnet/Daniel_Kroh.jpg' className="contact-picture" alt="staff"/>
                             <p className='contact-subtitle-title'>Abteilungsleiter</p>
                             <p className='contact-subtitle'>Daniel Kroh</p>
                             <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a></p>
