@@ -31,6 +31,8 @@ class Roundnet extends Component{
                 <p>Bei Fragen meldet euch einfach <a className='mail-to' href='mailto:info@uni-bayreuth.de'>hier</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Montag und Mittwoch: 18:30 - 20:30 Sportinstitut</p>
+                <h1>Unser Partner</h1>
+                <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <h1>Abteilungsleiter</h1>
                 <Container fluid className='my-container'>

@@ -32,6 +32,10 @@ class FußballDamen extends Component{
                 <p>Die Frauenfußballabteilung des USC Bayreuth bietet Studentinnen die Möglichkeit, ihre sportlichen Ziele zu erreichen, ihre Soft-Skills zu stärken und ihr Netzwerk zu erweitern. Zwei Trainingseinheiten während der Saison, ein Spiel am Wochenende, jede Menge Team-Events und sowohl die Winter- als auch die Sommervorbereitung stellen einen perfekten Ausgleich für den oft trägen Unialltag. Nach dem Aufstieg in der Premierensaison 17/18 und drei Saisons in der Kreisliga, geht die Frauen-Mannschaft in der Saison 22/23 nun in der Bezirksliga an den Start. Du möchtest dich darüber hinaus aktiv mit einbringen? 4 Ressorts, darunter Organisation, Media, Sponsoring oder Events bieten dir die Möglichkeit dazu. Kommilitonen. Freunde. Teamkollegen. Bei mittlerweile über 50 Spielerinnen fällt der Kontakt nicht schwer. Haben wir dein Interesse geweckt? Dann komm vorbei – Wir freuen uns auf neue Gesichter! Melde dich einfach bei <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder per Mail an <a className='mail-to' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Dienstag und Donnerstag: 18:30 - 20:00 Sportinstitut</p>
+                <h1>Unsere Partner</h1>
+                <a href='https://www.hausarztpraxis-bayreuth.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/moos_willner.png' alt='moos_willner' className='partner'/></a>
+                <div/>
+                <a href='https://www.allfinanz-dvag.de/sebastian.krause/index.html' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Sebastian_Krause.jpg' alt='dvag' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&

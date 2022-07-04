@@ -37,6 +37,8 @@ class TennisDamen extends Component{
                 <p>Dienstag: 18:00 - 19:00 und 19:00 - 20:00</p>
                 <p style={{marginTop:5}}>Freitag: 10:00 - 12:00, 18:00 - 19:00 und 19:00 - 20:00</p>
                 <p style={{marginTop:5}}>Auf den Plätzen des Sportinstituts</p>
+                <h1>Unser Partner</h1>
+                <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1749916&etag=08bddd99-0f10-4468-897f-5425a050714f' frameBorder='0' className='widget'/>
