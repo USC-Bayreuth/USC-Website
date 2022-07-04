@@ -12,7 +12,7 @@ class UnsereSponsoren extends Component{
                 <h2>Fußball Damen</h2>
                 <a href='https://www.hausarztpraxis-bayreuth.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/moos_willner.png' alt='moos_willner' className='partner'/></a>
                 <div/>
-                <a href='https://www.allfinanz-dvag.de/sebastian.krause/index.html' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Sebastian_Krause.jpg' alt='dvag' className='partner'/></a>
+                <a href='https://www.allfinanz-dvag.de/sebastian.krause/index.html' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Sebastian_Krause.png' alt='dvag' className='partner'/></a>
                 <h2>Tennis</h2>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h2>Roudnet</h2>
