@@ -22,3 +22,10 @@
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 700px){
+    .partner{
+        width: 60vw;
+        margin-top: 20px;
+    }
+}
