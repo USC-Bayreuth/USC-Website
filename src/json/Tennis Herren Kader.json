@@ -1,66 +1,74 @@
-[
-    {
-        "Name":"Severin Oesterle",
-        "Bild":"Oesterle_Severin.JPG"
-    },
-    {
-        "Name":"Laurens Lammers",
-        "Bild":""
-    },
-    {
-        "Name":"Sebastian Ifland",
-        "Bild":""
-    },
-    {
-        "Name":"Marcel Schröder",
-        "Bild":"Schröder_Marcel.JPG"
-    },
-    {
-        "Name":"Paul Schott",
-        "Bild":"Schott_Paul.JPG"
-    },
-    {
-        "Name":"Dennis Bauer",
-        "Bild":"Bauer_Dennis.JPG"
-    },
-    {
-        "Name":"Claudius Jonas",
-        "Bild":"Jonas_Claudius.JPG"
-    },
-    {
-        "Name":"David Kaufhold",
-        "Bild":"Kaufhold_David.JPG"
-    },
-    {
-        "Name":"Hans-Jakob Milhahn",
-        "Bild":""
-    },
-    {
-        "Name":"Lukas Baumann",
-        "Bild":"Baumann_Lukas.JPG"
-    },
-    {
-        "Name":"Lukas Guggemos",
-        "Bild":""
-    },
-    {
-        "Name":"Jannik Lockl",
-        "Bild":""
-    },
-    {
-        "Name":"Michael Burkard",
-        "Bild":""
-    },
-    {
-        "Name":"Johannes Wetzstein",
-        "Bild":"Wetzstein_Johannes.JPG"
-    },
-    {
-        "Name":"Dorian Geyer",
-        "Bild":""
-    },
-    {
-        "Name":"Joshua Behr",
-        "Bild":""
-    }
-]
+{
+    "Trainer":[
+        {
+            "Name":"Konstantin Harre",
+            "Bild":"Harre_Konstantin.JPG"
+        }
+    ],
+    "Spieler":[
+        {
+            "Name":"Severin Oesterle",
+            "Bild":"Oesterle_Severin.JPG"
+        },
+        {
+            "Name":"Laurens Lammers",
+            "Bild":"Lammers_Laurens.JPG"
+        },
+        {
+            "Name":"Sebastian Ifland",
+            "Bild":"Ifland_Sebastian.jpeg"
+        },
+        {
+            "Name":"Marcel Schröder",
+            "Bild":"Schröder_Marcel.JPG"
+        },
+        {
+            "Name":"Paul Schott",
+            "Bild":"Schott_Paul.JPG"
+        },
+        {
+            "Name":"Dennis Bauer",
+            "Bild":"Bauer_Dennis.JPG"
+        },
+        {
+            "Name":"Claudius Jonas",
+            "Bild":"Jonas_Claudius.JPG"
+        },
+        {
+            "Name":"David Kaufhold",
+            "Bild":"Kaufhold_David.JPG"
+        },
+        {
+            "Name":"Hans-Jakob Milhahn",
+            "Bild":"Milhahn_Hans-Jakob.JPG"
+        },
+        {
+            "Name":"Lukas Baumann",
+            "Bild":"Baumann_Lukas.JPG"
+        },
+        {
+            "Name":"Lukas Guggemos",
+            "Bild":""
+        },
+        {
+            "Name":"Jannik Lockl",
+            "Bild":""
+        },
+        {
+            "Name":"Michael Burkard",
+            "Bild":"Burkard_Michael.JPG"
+        },
+        {
+            "Name":"Johannes Wetzstein",
+            "Bild":"Wetzstein_Johannes.JPG"
+        },
+        {
+            "Name":"Dorian Geyer",
+            "Bild":""
+        },
+        {
+            "Name":"Joshua Behr",
+            "Bild":""
+        }
+    ]
+}

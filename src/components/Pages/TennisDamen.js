@@ -47,10 +47,30 @@ class TennisDamen extends Component{
                     <h1>Team</h1>
                     <img alt='tennis-damen' src='/img/Tennis Damen/Mannschaftsfoto_Damen.JPG' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Trainer.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    <AnimationOnScroll animateIn={this.props.animation} animateOnce>
+                                        {item.Bild==='' &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!=='' &&
+                                            <img alt={'player'+index} src={'/img/Tennis Herren/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='player-name'>{item.Name}</p>
+                                    </AnimationOnScroll>
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Spielerinnen</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.map((item, index) =>{
+                        {kader.Spieler.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>

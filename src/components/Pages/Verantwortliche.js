@@ -107,6 +107,11 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'>Claudius Jonas</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:claudius.jonas@uni-bayreuth.de'>claudius.jonas@uni-bayreuth.de</a></p>
                     </Col>
+                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                        <img src='/img/Tennis Herren/Harre_Konstantin.JPG' className="contact-picture" alt="staff"/>
+                        <p className='contact-subtitle-title'>Trainer</p>
+                        <p className='contact-subtitle'>Konstantin Harre</p>
+                    </Col>
                 </Row>
             </Container>
             <h2>Roundnet</h2>

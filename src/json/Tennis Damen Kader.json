@@ -1,86 +1,94 @@
-[
-    {
-        "Name":"Someya Tiszberger",
-        "Bild":""
-    },
-    {
-        "Name":"Antonia Haberkorn",
-        "Bild":"Haberkorn_Antonia.JPG"
-    },
-    {
-        "Name":"Janina Ehrmann",
-        "Bild":""
-    },
-    {
-        "Name":"Alexandra Hubracht",
-        "Bild":"Hubracht_Alexandra.JPG"
-    },
-    {
-        "Name":"Marie-Christin Fritzsche",
-        "Bild":""
-    },
-    {
-        "Name":"Lea Carolin Lauber",
-        "Bild":"Lauber_Lea_Carolin.JPG"
-    },
-    {
-        "Name":"Sarah Klotz",
-        "Bild":"Klotz_Sarah.JPG"
-    },
-    {
-        "Name":"Sara Faghih-Naini",
-        "Bild":""
-    },
-    {
-        "Name":"Marie Gehrke",
-        "Bild":"Gehrke_Marie.JPG"
-    },
-    {
-        "Name":"Nadine Albrecht",
-        "Bild":""
-    },
-    {
-        "Name":"Rebecca Kohl",
-        "Bild":"Kohl_Rebecca.JPG"
-    },
-    {
-        "Name":"Melinda Herfet",
-        "Bild":""
-    },
-    {
-        "Name":"Kristina Hall",
-        "Bild":"Hall_Kristina.JPG"
-    },
-    {
-        "Name":"Carolin Burgard",
-        "Bild":"Burgard_Carolin.JPG"
-    },
-    {
-        "Name":"Catrin Porwik",
-        "Bild":""
-    },
-    {
-        "Name":"Laura Trummer",
-        "Bild":"Trummer_Laura.JPG"
-    },
-    {
-        "Name":"Antonie Teuchert",
-        "Bild":""
-    },
-    {
-        "Name":"Kirstin Köhler",
-        "Bild":"Köhler_Kirstin.JPG"
-    },
-    {
-        "Name":"Jeanette Berchtold",
-        "Bild":""
-    },
-    {
-        "Name":"Lea Zirkler",
-        "Bild":"Zirkler_Lea.JPG"
-    },
-    {
-        "Name":"Sophie Bühr",
-        "Bild":""
-    }
-]
+{
+    "Trainer":[
+        {
+            "Name":"Konstantin Harre",
+            "Bild":"Harre_Konstantin.JPG"
+        }
+    ],
+    "Spieler":[
+        {
+            "Name":"Someya Tiszberger",
+            "Bild":"Tiszberger_Someya.jpeg"
+        },
+        {
+            "Name":"Antonia Haberkorn",
+            "Bild":"Haberkorn_Antonia.JPG"
+        },
+        {
+            "Name":"Janina Ehrmann",
+            "Bild":""
+        },
+        {
+            "Name":"Alexandra Hubracht",
+            "Bild":"Hubracht_Alexandra.JPG"
+        },
+        {
+            "Name":"Marie-Christin Fritzsche",
+            "Bild":"Fritzsche_Marie-Chrsitin.JPG"
+        },
+        {
+            "Name":"Lea Carolin Lauber",
+            "Bild":"Lauber_Lea_Carolin.JPG"
+        },
+        {
+            "Name":"Sarah Klotz",
+            "Bild":"Klotz_Sarah.JPG"
+        },
+        {
+            "Name":"Sara Faghih-Naini",
+            "Bild":"Faghih_Naini_Sara.JPG"
+        },
+        {
+            "Name":"Marie Gehrke",
+            "Bild":"Gehrke_Marie.JPG"
+        },
+        {
+            "Name":"Nadine Albrecht",
+            "Bild":""
+        },
+        {
+            "Name":"Rebecca Kohl",
+            "Bild":"Kohl_Rebecca.JPG"
+        },
+        {
+            "Name":"Melinda Herfet",
+            "Bild":"Herfert_Melinda.JPG"
+        },
+        {
+            "Name":"Kristina Hall",
+            "Bild":"Hall_Kristina.JPG"
+        },
+        {
+            "Name":"Carolin Burgard",
+            "Bild":"Burgard_Carolin.JPG"
+        },
+        {
+            "Name":"Catrin Porwik",
+            "Bild":""
+        },
+        {
+            "Name":"Laura Trummer",
+            "Bild":"Trummer_Laura.JPG"
+        },
+        {
+            "Name":"Antonie Teuchert",
+            "Bild":""
+        },
+        {
+            "Name":"Kirstin Köhler",
+            "Bild":"Köhler_Kirstin.JPG"
+        },
+        {
+            "Name":"Jeanette Berchtold",
+            "Bild":""
+        },
+        {
+            "Name":"Lea Zirkler",
+            "Bild":"Zirkler_Lea.JPG"
+        },
+        {
+            "Name":"Sophie Bühr",
+            "Bild":"Bühr_Sophie.JPG"
+        }
+    ]
+}
