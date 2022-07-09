@@ -6,6 +6,8 @@ class UnsereSponsoren extends Component{
             <>
                 {/*<h1>Premiumpartner</h1>
                 <a href='https://www.rehau.com/de-de' target="_blank" rel="noreferrer"><img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/></a>*/}
+                <h1>Classicpartner</h1>
+                <img className='partner' src='/img/Sponsoren/rönn_dr_rönn_stein.png' alt='kanzlei'/>
                 <h1>Partner</h1>
                 <h2>Fußball Herren</h2>
                 <a href='https://purehardseltzer.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/PURE-Logo.png' alt='pure' className='partner'/></a>
