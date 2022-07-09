@@ -29,13 +29,13 @@ class Verantwortliche extends Component{
             <Container fluid className='my-container'>
                 <Row>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Damen/Joshua_Behr_Trainer.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Verantwortliche/Joshua-Behr.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>1. Vorstand</p>
                         <p className='contact-subtitle'>Joshua Behr</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:joshua.behr@uni-bayreuth.de'>joshua.behr@uni-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Christian-Miller.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Verantwortliche/Christian-Miller.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>2. Vorstand</p>
                         <p className='contact-subtitle'>Christian Miller</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:cmiller95@web.de'>cmiller95@web.de</a></p>
@@ -47,7 +47,7 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:ruben.just@uni-bayreuth.de'>ruben.just@uni-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Oscar-Wenzel.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Verantwortliche/Oscar-Wenzel.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Vorstand Legal</p>
                         <p className='contact-subtitle'>Oscar Wenzel</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:oscarwenzel@me.com'>oscarwenzel@me.com</a></p>
