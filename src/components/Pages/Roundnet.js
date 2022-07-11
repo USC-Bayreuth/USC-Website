@@ -28,12 +28,11 @@ class Roundnet extends Component{
                 <h1>Unsere Abteilung</h1>
                 <p>Wir bekommen Zuwachs durch die neu gegründete Abteilung "Roundnet" (Spikeball) und sind somit der erste Roundnet Verein Bayreuths!</p>
                 <p>Du zockst gerne Roundnet und hast Bock an strukturiertem Training sowie Teil der Community zu sein oder ab und an auf ein Turnier zu fahren? Dann komm vorbei und schnupper bei uns rein.</p>          
-                <p>Bei Fragen meldet euch einfach <a className='mail-to' href='mailto:info@uni-bayreuth.de'>hier</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
+                <p>Bei Fragen meldet euch einfach bei <a className='mail-to' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/roundnet.bayreuth/'>@roundnet.bayreuth</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Montag und Mittwoch: 18:30 - 20:30 Sportinstitut</p>
                 <h1>Unser Partner</h1>
-                <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner'/></a>
-                <h1>Tabelle und Spielplan</h1>
+                <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
                 <h1>Abteilungsleiter</h1>
                 <Container fluid className='my-container'>
                     <Row>
@@ -45,7 +44,6 @@ class Roundnet extends Component{
                         </Col>
                     </Row>
                 </Container>
-                <h1>Team</h1>
             </>
         )
     }

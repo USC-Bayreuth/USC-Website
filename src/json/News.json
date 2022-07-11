@@ -1,5 +1,27 @@
 [
     {
+        "sliderImage": "22_07_10_slider.jpg",
+        "title": "Sieg der Tennis-Herren im letzten Spiel",
+        "date": "10.07.2022",
+        "tags": "Tennis Herren",
+        "blocks": [
+            "!image 22_07_10_0.jpg",
+            "Sieg der Tennis-Herren im letzten Spiel!🔥 Auch das letzte Spiel der Saison konnte unsere Herrenmannschaft für sich entscheiden! Trotz einiger Ausfälle unserer Stammspieler und in Unterzahl bei den Doppeln konnten unsere Herren den zweiten Sieg nach Hause holen!💪",
+            "Was eine coole erste Saison!🎾😎 Wir freuen uns schon auf die kommende Saison und bedanken uns nochmal bei unserem Hauptsponsor RAUMEDIC!🔥"
+        ]
+    },
+    {
+        "sliderImage": "22_07_11_slider.jpg",
+        "title": "Mitgliederversammlung 2022",
+        "date": "11.07.2022",
+        "tags": "Allgemein",
+        "blocks": [
+            "Ein paar Eindrücke von der Mitgliederversammlung des USC aus der vergangenen Woche!",
+            "Im Rahmen der Versammlung wurden noch ein paar Leute für ihre Verdienste geehrt: Der ehemalige Vorstand um Johannes Wetzstein, Laila Auerochs, Dennis Bauer und Denise Schäfer; Die Trainer der Damen- und Herrenmannschaft, Josh Behr und Benni Opel; Alex Hubracht und Marcel Schröder für den Aufbau der Tennisabteilung und Daniel Kroh für den der Roundnetabteilung!",
+            "!image 22_07_11_0.jpg|22_07_11_1.jpg|22_07_11_2.jpg"
+        ]
+    },
+    {
         "sliderImage": "22_07_04_slider.jpg|22_07_04_slider2.jpg",
         "title": "Spannender Auswärtssieg der Tennis Herren - Niederlage der Damen",
         "date": "04.07.2022",
