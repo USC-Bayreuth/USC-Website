@@ -1,5 +1,15 @@
 [
     {
+        "sliderImage": "22_07_17_slider.jpg",
+        "title": "Abschlussfahrt 2022",
+        "date": "17.07.2022",
+        "tags": "Allgemein",
+        "blocks": [
+            "!image 22_07_17.jpg",
+            "Dieses Wochenende verweilten einige Spieler und Spielerinnen auf der USC-Abschlussfahrt am Altmühlsee! Terminbedingt musste sie in diesem Jahr etwas später stattfinden, ein Fest war’s trotzdem allemal!"
+        ]
+    },
+    {
         "sliderImage": "22_07_10_slider.jpg",
         "title": "Sieg der Tennis-Herren im letzten Spiel",
         "date": "10.07.2022",
