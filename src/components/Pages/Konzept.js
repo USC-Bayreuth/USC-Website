@@ -22,7 +22,7 @@ class Konzept extends Component{
                 <p style={{marginTop: '2px'}}>- Die Organisation von Vereinsturnieren</p>
                 <p style={{marginTop: '2px'}}>- Die Förderung der Vereinsmitglieder</p>
                 <p>Selbstverständlich können Sie bei der Spende auch den gewünschten Verwendungszweck angeben. Bei Interesse informieren wir Sie im Nachgang gerne, wie das Geld vereinsintern genutzt wurde.</p>
-                <p>Natürlich freuen wir uns über jede Art der Unterstützung. Sie sind in Bayreuth, möchten kein Geld spenden, sondern bieten uns gerne in anderer Art und Weise Ihre Unterstützung an, dann kontaktieren Sie uns doch einfach über <a className='mail-to' href='mailto:info@uni-bayreuth.de' style={{fontWeight:'bolder'}}>info@uni-bayreuth.de</a>.</p>
+                <p>Natürlich freuen wir uns über jede Art der Unterstützung. Sie sind in Bayreuth, möchten kein Geld spenden, sondern bieten uns gerne in anderer Art und Weise Ihre Unterstützung an, dann kontaktieren Sie uns doch einfach über <a className='mail-to' href='mailto:info@usc-bayreuth.de' style={{fontWeight:'bolder'}}>info@usc-bayreuth.de</a>.</p>
                 <p>Vielen Dank für Ihre Unterstützung. Wir freuen uns, Sie demnächst auch mal bei einem unserer Heimspiele begrüßen zu dürfen.</p>
             </>
         )
