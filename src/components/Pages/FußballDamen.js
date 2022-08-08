@@ -77,7 +77,7 @@ class FußballDamen extends Component{
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
                                         {item.Bild==='' &&
-                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!=='' &&
                                             <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    

@@ -6,11 +6,16 @@
             "Rolle":"Cheftrainer",
             "Handy":"01575 0662674",
             "Mail":"joshua.behr@uni-bayreuth.de"
+        },
+        {
+            "Name":"Philipp Rank",
+            "Rolle":"Co-Trainer",
+            "Bild":""
         }
     ],
     "Torwart":[
         {
-            "Name":"Sara Auweiler",
+            "Name":"Magdalena Holl",
             "Bild":""
         }
     ],
@@ -54,18 +59,6 @@
         {
             "Name":"Fanny Mauhourat",
             "Bild":""
-        },
-        {
-            "Name":"Denise Schäfer",
-            "Bild":"Denise_Schäfer.jpg"
-        },
-        {
-            "Name":"Theresa Sedler",
-            "Bild":"Theresa_Sedler.jpg"
-        },
-        {
-            "Name":"Lea Zirkler",
-            "Bild":"Lea_Zirkler.jpg"
         }
     ],
     "Mittelfeld":[
@@ -86,20 +79,12 @@
             "Bild":""
         },
         {
-            "Name":"Josephin Bruhn",
-            "Bild":""
-        },
-        {
             "Name":"Sina Dziumbla",
             "Bild":"Sina_Dziumbla.jpg"
         },
         {
             "Name":"Mira Feuerbach",
             "Bild":"Mira_Feuerbach.jpg"
-        },
-        {
-            "Name":"Alina Fischer",
-            "Bild":""
         },
         {
             "Name":"Caroline Freiin von Ow- Wachendorf",
@@ -122,6 +107,10 @@
             "Bild":"Kira_Meineke.jpg"
         },
         {
+            "Name":"Hannah Mohr",
+            "Bild":""
+        },
+        {
             "Name":"Melissa Moos",
             "Bild":"Melissa_Moos.jpg"
         },
@@ -132,6 +121,10 @@
         {
             "Name":"Lea Petschler",
             "Bild":"Lea_Petschler.jpg"
+        },
+        {
+            "Name":"Anna Schürdinger",
+            "Bild":""
         },
         {
             "Name":"Paula Waldmüller",
@@ -149,14 +142,6 @@
         },
         {
             "Name":"Antonia Gürster",
-            "Bild":""
-        },
-        {
-            "Name":"Annika Schmidt",
-            "Bild":""
-        },
-        {
-            "Name":"Laura Schmidt",
             "Bild":""
         },
         {
