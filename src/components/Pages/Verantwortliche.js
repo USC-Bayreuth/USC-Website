@@ -71,11 +71,14 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Benjamin-Opel.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Cheftrainer Herren</p>
-                        <p className='contact-subtitle'>Benjamin Opel</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='benjaminopel@web.de'>benjaminopel@web.de</a></p>
-                        <p className='contact-subtitle mobile-number'>0173 5747526</p>
+                        <img src='/img/Fußball Herren/Lucas-Reilly-Scott.jpg' className="contact-picture" alt="staff"/>
+                        <p className='contact-subtitle-title'>Spielertrainer Herren</p>
+                        <p className='contact-subtitle'>Lucas Reilly-Scott</p>
+                    </Col>
+                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                        <img src='/img/Fußball Herren/Nico-Koplanov.jpg' className="contact-picture" alt="staff"/>
+                        <p className='contact-subtitle-title'>Spielertrainer Herren</p>
+                        <p className='contact-subtitle'>Nico Koplanov</p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Franz_Wittmann.jpg' className="contact-picture" alt="staff"/>
@@ -89,6 +92,11 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'>Joshua Behr</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:joshua.behr@uni-bayreuth.de'>joshua.behr@uni-bayreuth.de</a></p>
                         <p className='contact-subtitle mobile-number'>01575 0662674</p>
+                    </Col>
+                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                        <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
+                        <p className='contact-subtitle-title'>Co-Trainer Damen</p>
+                        <p className='contact-subtitle'>Philipp Rank</p>
                     </Col>
                 </Row>
             </Container>

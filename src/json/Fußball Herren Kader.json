@@ -1,11 +1,14 @@
 {
     "Trainer":[
         {
-            "Name":"Benjamin Opel",
-            "Bild":"Benjamin-Opel.jpg",
-            "Rolle":"Cheftrainer",
-            "Handy":"0173 5747526",
-            "Mail":"benjaminopel@web.de"
+            "Name":"Lucas Reilly-Scott",
+            "Bild":"Lucas-Reilly-Scott.jpg",
+            "Rolle":"Spielertrainer"
+        },
+        {
+            "Name":"Nico Koplanov",
+            "Bild":"Nico-Koplanov.jpg",
+            "Rolle":"Spielertrainer"
         },
         {
             "Name":"Franz Wittmann",
@@ -34,8 +37,16 @@
             "Bild":"Joshua-Behr.jpg"
         },
         {
+            "Name":"Joscha Bingenheimer",
+            "Bild":""
+        },
+        {
             "Name":"Sebastian Firnkes",
             "Bild":"Sebastian-Firnkes.jpg"
+        },
+        {
+            "Name":"Christopher Fröhlich",
+            "Bild":""
         },
         {
             "Name":"Max Gerbig",
@@ -116,6 +127,10 @@
             "Bild":"Johannes-Brötling.jpg"
         },
         {
+            "Name":"Héctor Cantera Azpiazu",
+            "Bild":""
+        },
+        {
             "Name":"Dorian Geyer",
             "Bild":"Dorian-Geyer.jpg"
         },
@@ -128,20 +143,12 @@
             "Bild":"Jannis-Grundler.jpg"
         },
         {
-            "Name":"Marko Hanke",
-            "Bild":"Marko-Hanke.jpg"
-        },
-        {
             "Name":"David Kaufhold",
             "Bild":"David-Kaufhold.jpg"
         },
         {
             "Name":"Nico Koplanov",
             "Bild":"Nico-Koplanov.jpg"
-        },
-        {
-            "Name":"Jan Kreuder",
-            "Bild":""
         },
         {
             "Name":"Simon Kuster",
@@ -160,8 +167,16 @@
             "Bild":""
         },
         {
+            "Name":"Christoph Michel",
+            "Bild":""
+        },
+        {
             "Name":"Christian Miller",
             "Bild":"Christian-Miller.jpg"
+        },
+        {
+            "Name":"Ben Moss",
+            "Bild":""
         },
         {
             "Name":"Adrian Müller",
@@ -186,6 +201,10 @@
         {
             "Name":"Vincent Woller",
             "Bild":"Vincent-Woller.jpg"
+        },
+        {
+            "Name":"Maurice Yacoub",
+            "Bild":""
         }
     ],
     "Angriff":[
