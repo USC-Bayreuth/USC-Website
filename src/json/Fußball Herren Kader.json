@@ -3,12 +3,15 @@
         {
             "Name":"Lucas Reilly-Scott",
             "Bild":"Lucas-Reilly-Scott.jpg",
-            "Rolle":"Spielertrainer"
+            "Rolle":"Spielertrainer",
+            "Handy":"0176 98591804",
+            "Mail":"l.reillyschott@gmail.com"
         },
         {
             "Name":"Nico Koplanov",
             "Bild":"Nico-Koplanov.jpg",
-            "Rolle":"Spielertrainer"
+            "Rolle":"Spielertrainer",
+            "Handy":"0175 1290428"
         },
         {
             "Name":"Franz Wittmann",
