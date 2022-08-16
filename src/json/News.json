@@ -1,5 +1,17 @@
 [
     {
+        "sliderImage": "22_08_16_slider.jpg",
+        "title": "Erster Saisonsieg in Motschenbach",
+        "date": "16.08.2022",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 22_08_16_slider.jpg",
+            "Nachdem sich der Unisportclub Bayreuth unter der Woche von seinem Trainer Benni Opel getrennt hatte, reiste der USC mit dem neuen Trainer-Duo Nico Koplanov und Lucas Reilly-Scott zum Aufsteiger nach Motschenbach. Nach zwei Doppelpässen ging der Bayreuther Kapitän Maurice Yacoub im Sechzehner zu Boden, den fälligen Strafstoß verwandelte er auch anschließend selbst. Der SV Motschenbach kam jedoch in der Folge gefährlicher vor das USC-Tor, konnte einen zweiten Ball in unmittelbarer Tornähe gewinnen und so durch Daniel Suchan in der 32. Minute ausgleichen. Nach dem Seitenwechsel war der USC besser im Spiel, eine schöne Kombination brachte Joshua Behr nach einer Stunde im Tor des SVM unter. In der Folge versuchte der SVM, den Ausgleich zu erzwingen und hatte Glück, als der Schiedsrichter einen bereits gegebenen Strafstoß für den USC zurücknahm. Die letzte gefährliche Aktion gehörte schließlich dem Gastgeber: Aus spitzem Winkel scheiterte der Stürmer des Liganeulings jedoch am Aluminium.",
+            "Der Universität gelingt durch die wichtigen drei Punkte zwar keine Verbesserung der Tabellensituation, allerdings hat der USC die Möglichkeit, am Dienstag beim TSV St. Johannis nachzulegen. Der SVM gastiert beim TSV Kulmbach.",
+            "Sebastian Firnkes"
+        ]
+    },
+    {
         "sliderImage": "22_07_31_slider.jpg",
         "title": "Heimniederlage gegen den TSV 08 Kulmbach",
         "date": "31.07.2022",
@@ -274,21 +286,6 @@
         ]
     },
     {
-        "sliderImage": "22_04_25_slider.jpg",
-        "title": "USC unterliegt dem FSV Bayreuth mit 3:0",
-        "date": "25.04.2022",
-        "tags": "Fußball Herren",
-        "blocks": [
-            "!image 22_04_25_0.jpg",
-            "Am vergangenen Samstag waren die Herren des USC zum Stadtduell beim FSV Bayreuth zu Gast. Unglücklicherweise fielen sowohl Hajo Milhahn als auch Dennis Bauer aus, sodass Maurice Schürch sich zwischen die Pfosten stellen musste. Zudem feierte Max Konstantinidis sein lang erwartetes Debüt für den USC.",
-            "!image 22_04_25_1.jpg",
-            "In der ersten Halbzeit stand der USC hinten kompakt und überließ hauptsächlich dem FSV das Spiel. Einige Umschaltsituationen des USC konnte jedoch nicht in zwingende Torchancen umgemünzt werden. Wenn der USC zu Chancen kam, dann über Standards, wie auch Mitte der ersten Halbzeit, als Nico Koplanov einen Freistoß über das Tor setzte. In der 36. Minute fiel nach einem Standard für den FSV das 1:0 für die Gastgeber: Ein Freistoß aus dem Halbfeld wurde von Johannes Heim am langen Pfosten über die Linie gedrückt.",
-            "!image 22_04_25_2.jpg",
-            "Nach der Pause konnten die Prellmühler ihre Führung innerhalb weniger Minuten durch zwei Tore von Moritz Lunk ausbauen (54. und 59.). Der USC versuchte weiterhin sich Chancen zu erarbeiten, jedoch stand die Dreierkette des FSV kompakt und gut geordnet. Der Spielfluss wurde im zweiten Durchgang durch viele kleinere Fouls gestört, sodass der FSV am Ende einen verdienten Sieg feiern konnte.",
-            "Der USC steht nach dieser Niederlage weiterhin auf Platz 8 und erwartet am nächsten Sonntag (1.5.22, 15h00) den FC Neuenmarkt."
-        ]
-    },
-    {
         "sliderImage": "22_04_19_slider.jpg",
         "title": "USC Damen ziehen ins Pokalfinale ein",
         "date": "19.04.2022",
@@ -299,33 +296,6 @@
             "Bereits der erste Angriff ließ auf ein munteres Spiel hindeuten. Nach langem Ball von Laila Auerochs kombinierten sich Melissa Moos, Mira Feuerbach und Annika Schmidt mit Direktpassspiel vor das gegnerische Tor; der Abschluss verfehlte jedoch knapp. In der 18. Minute fiel dann das 1:0 für den USC. Nach Schnittstellenpass von Mira Feuerbach lief Annika Schmidt auf die Torhüterin zu, behielt die Nerven und verwandelte ins lange Eck. Kurz vor der Halbzeitpause sollte dann noch das 2:0 fallen. Nach einem Foul an Annika Schmidt im Mittelfeld beförderte Laila Auerochs den fälligen Freistoß in den Strafraum. Mira Feuerbach lief freistehend ein und schob per Dropkick ins lange Eck ein ('40.).",
             "Mit der 2:0-Führung ging es in die Halbzeitpause. In der zweiten Halbzeit stand die USC-Hintermannschaft weiter sicher. Auf der anderen Seite wurden zahlreiche Torchancen mit Abseitspfiffen unterbunden.",
             "In der 57. Minute tankte sich mal wieder Stürmerin Annika Schmidt durch. Ihren Querpass musste die mitgelaufene Paula Waldmüller nur noch ins leere Tor zum 3:0-Endstand einschieben. Am 1. Mai spielen die USC-Damen dann im Kreispokalfinale gegen die Damen vom @rsc_oberhaid (KL West, Platz 3), die nach ihrem 6:0-Sieg das Spiel von der Seitenlinie verfolgten."
-        ]
-    },
-    {
-        "sliderImage": "22_04_17_slider.jpg",
-        "title": "USC erringt Sieg gegen TSV Kulmbach",
-        "date": "17.04.2022",
-        "tags": "Fußball Herren",
-        "blocks": [
-            "!image 22_04_17_0.jpg",
-            "Am Ostersamstag empfing der USC bei herrlichstem Wetter den TSV 08 Kulmbach. Das dünne Personal machte sich beim letzten Spiel in den Semesterferien, welches auch noch auf das Osterwochende fiel, im Spieltagskader des USC bemerkbar: Ex-Coach Johnny Weyel schnürte nach langer Pause wieder die Schuhe ebenso wie Coach Benni Opel.",
-            "Es entwickelte sich ein umkämpftes Spiel mit den zwingenderen Chancen für den USC. Mitte der ersten Halbzeit trafen Schüsse von Chris Miller und Dorian Geyer nach einem USC-Standard innerhalb weniger Sekunden zweimal die Latte. Pech für die Universität. Kurz vor der Halbzeit verschätzte sich die Kulmbacher Hintermannschaft und Eddi Zagabe konnte allein auf den Torwart zulaufen und verwandelte eiskalt (44.).",
-            "Im zweiten Durchgang musste Kulmbach nun agieren und versuchte es meistens mit langen Bällen auf ihre zwei Stürmer. Die USC-Abwehr stand jedoch an diesem Tag. Die Bälle, die durchkamen, konnte Dennis Bauer mit starken Paraden abwehren. Nach einer hektischen Schlussphase konnte der USC das Ergebnis über die Zeit bringen. Mit diesem Sieg dürfte der Klassenerhalt für den USC bei 13 Punkten Vorsprung auf den Relegationsplatz so gut wie sicher sein.",
-            "Am nächsten Wochenende gastiert der USC am Samstag, 15h00 beim FSV aus Bayreuth. Eine Stunde vorher empfängt der TSV 08 Kulmbach die SG Kupferberg/Ludwigschorgast."
-        ]
-    },
-    {
-        "sliderImage": "22_04_06_slider.jpg",
-        "title": "Unentschieden beim Sportring",
-        "date": "06.04.2022",
-        "tags": "Fußball Herren",
-        "blocks": [
-            "!image 22_04_06_0.jpg",
-            "Am 22. Spieltag gastierte der USC bei bestem Fußball-Wetter beim Sportring aus Bayreuth.",
-            "Es war zugleich auch das erste Spiel in den neuen @pure.hardseltzer -Trikots. Präsidente Jannik Lockl verfolgte das Spiel vom Seitenrand.",
-            "Zum Spiel: In der ersten Halbzeit standen beide Mannschaften kompakt und das Geschehen spielte sich meistens weit weg von den Toren ab. Nach einem USC-Standard fiel der Ball vor die Füße von Oscar Wenzel, der mit seinem Schuss die Latte traf, den Abpraller konnte Tim Schneider zum 0:1 verwerten (18.). Es war bereits Tim’s 8. Saisontor. In der Folge kam der Sportring vor allem über Standards zu Chancen, jedoch führte keine zu einem Tor, sodass der USC mit einer Führung in die Pause ging.",
-            "Im zweiten Durchgang wurde der USC immer weiter hinten reingedrängt und konnte sich kaum befreien. In der 68. Minute foulte USC-Verteidiger Luis Koch Sportring-Stürmer Daniel Lienhardt an der Strafraumgrenze. Der fällige Freistoß aus guter Position konnte jedoch nicht verwandelt werden. Wenige Minuten später musste der USC den Ausgleich dann doch hinnehmen. Nach einem Durcheinander im Strafraum des USC erzielte Daniel Lienhardt das 1:1 (76.). Bei diesem Ergebnis blieb es dann auch.",
-            "Nächstes Spiel ist das Auswärtsspiel beim Ligaprimus Mistelgau am nächsten Sonntag, den 10.4.!"
         ]
     }
 ]
