@@ -7,6 +7,8 @@ class UnsereSponsoren extends Component{
                 {/*<h1>Premiumpartner</h1>
                 <a href='https://www.rehau.com/de-de' target="_blank" rel="noreferrer"><img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/></a>*/}
                 <h1>Classicpartner</h1>
+                <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
+                <div/>
                 <img className='partner' src='/img/Sponsoren/rönn_dr_rönn_stein.png' alt='kanzlei'/>
                 <h1>Partner</h1>
                 <h2>Fußball Herren</h2>
@@ -20,9 +22,7 @@ class UnsereSponsoren extends Component{
                 <h2>Roudnet</h2>
                 <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
                 <h1>Teamausrüster</h1>
-                <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'>
-                    <img src='/img/Sponsoren/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/>
-                </a>
+                <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/></a>
             </>
         )
     }
