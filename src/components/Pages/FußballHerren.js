@@ -35,6 +35,8 @@ class FußballHerren extends Component{
                 <p>Dienstag und Freitag: 18:30 - 20:00 Sportinstitut</p>
                 <h1>Unser Partner</h1>
                 <a href='https://purehardseltzer.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/PURE-Logo.png' alt='pure' className='partner'/></a>
+                <div/>
+                <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&

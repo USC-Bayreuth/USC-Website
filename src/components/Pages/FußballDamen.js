@@ -36,6 +36,8 @@ class FußballDamen extends Component{
                 <a href='https://www.hausarztpraxis-bayreuth.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/moos_willner.png' alt='moos_willner' className='partner'/></a>
                 <div/>
                 <a href='https://www.allfinanz-dvag.de/sebastian.krause/index.html' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Sebastian_Krause.png' alt='dvag' className='partner'/></a>
+                <div/>
+                <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&
