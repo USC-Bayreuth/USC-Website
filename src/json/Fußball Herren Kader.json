@@ -2,14 +2,14 @@
     "Trainer":[
         {
             "Name":"Lucas Reilly-Scott",
-            "Bild":"Lucas-Reilly-Scott.jpg",
+            "Bild":"Reilly-Schott-Lucas.JPG",
             "Rolle":"Spielertrainer",
             "Handy":"0176 98591804",
             "Mail":"l.reillyschott@gmail.com"
         },
         {
             "Name":"Nico Koplanov",
-            "Bild":"Nico-Koplanov.jpg",
+            "Bild":"Koplanov-Nico.JPG",
             "Rolle":"Spielertrainer",
             "Handy":"0175 1290428"
         },
@@ -27,7 +27,7 @@
         },
         {
             "Name":"Hans-Jakob Milhahn",
-            "Bild":"Hans-Jakob-Milhahn.jpg"
+            "Bild":"Milhahn-Hans-Jakob.JPG"
         }
     ],
     "Abwehr":[
@@ -37,15 +37,15 @@
         },
         {
             "Name":"Joshua Behr",
-            "Bild":"Joshua-Behr.jpg"
+            "Bild":"Behr-Joshua.JPG"
         },
         {
             "Name":"Joscha Bingenheimer",
-            "Bild":""
+            "Bild":"Bingenheimer-Joscha.JPG"
         },
         {
             "Name":"Sebastian Firnkes",
-            "Bild":"Sebastian-Firnkes.jpg"
+            "Bild":"Firnkes-Sebastian.JPG"
         },
         {
             "Name":"Christopher Fröhlich",
@@ -68,12 +68,16 @@
             "Bild":"David-Kaufhold.jpg"
         },
         {
+            "Name":"Philipp Kerl",
+            "Bild":"Kerl-Philipp.JPG"
+        },
+        {
             "Name":"Luis Koch",
-            "Bild":"Luis-Koch.jpg"
+            "Bild":"Koch-Luis.jpg"
         },
         {
             "Name":"Matteo Kumar",
-            "Bild":"Matteo-Kumar.jpg"
+            "Bild":"Kumar-Matteo.JPG"
         },
         {
             "Name":"Benedikt Lawo",
@@ -105,11 +109,11 @@
         },
         {
             "Name":"Oscar Wenzel",
-            "Bild":"Oscar-Wenzel.jpg"
+            "Bild":"Wenzel-Oscar.JPG"
         },
         {
             "Name":"Johannes Wetzstein",
-            "Bild":"Johannes-Wetzstein.jpg"
+            "Bild":"Wetzstein-Johannes.JPG"
         },
         {
             "Name":"Florian Witzschel",
@@ -127,15 +131,15 @@
         },
         {
             "Name":"Johannes Brötling",
-            "Bild":""
+            "Bild":"Brötling-Johannes.JPG"
         },
         {
             "Name":"Héctor Cantera Azpiazu",
-            "Bild":""
+            "Bild":"Cantera-Hector.JPG"
         },
         {
             "Name":"Dorian Geyer",
-            "Bild":"Dorian-Geyer.jpg"
+            "Bild":"Geyer-Dorian.JPG"
         },
         {
             "Name":"Jona Groß",
@@ -150,12 +154,8 @@
             "Bild":"David-Kaufhold.jpg"
         },
         {
-            "Name":"Nico Koplanov",
-            "Bild":"Nico-Koplanov.jpg"
-        },
-        {
             "Name":"Simon Kuster",
-            "Bild":"Simon-Kuster.jpg"
+            "Bild":"Kuster-Simon.JPG"
         },
         {
             "Name":"Leo Liedtke",
@@ -175,27 +175,27 @@
         },
         {
             "Name":"Christian Miller",
-            "Bild":"Christian-Miller.jpg"
+            "Bild":"Miller-Christian.JPG"
         },
         {
             "Name":"Ben Moss",
-            "Bild":""
+            "Bild":"Moss-Ben.JPG"
         },
         {
             "Name":"Adrian Müller",
-            "Bild":"Adrian-Müller.jpg"
-        },
-        {
-            "Name":"Lucas Reilly-Scott",
-            "Bild":"Lucas-Reilly-Scott.jpg"
+            "Bild":"Müller-Adrian.JPG"
         },
         {
             "Name":"Tim Schneider",
             "Bild":"Tim-Schneider.jpg"
         },
         {
+            "Name":"Michael Schöffel",
+            "Bild":"Schöffel-Michael.JPG"
+        },
+        {
             "Name":"Jens Strohschein",
-            "Bild":""
+            "Bild":"Strohschein-Jens.JPG"
         },
         {
             "Name":"Alexander Wendt",
@@ -221,11 +221,11 @@
         },
         {
             "Name":"Max Konstantinidis",
-            "Bild":""
+            "Bild":"Konstantinidis-Max.JPG"
         },
         {
             "Name":"Quirin Scharrer",
-            "Bild":""
+            "Bild":"Scharrer-Quirin.JPG"
         },
         {
             "Name":"Etienne Zagabe",
