@@ -59,6 +59,10 @@
         {
             "Name":"Fanny Mauhourat",
             "Bild":""
+        },
+        {
+            "Name":"Theresa Süß",
+            "Bild":"Suess-Theresa.JPG"
         }
     ],
     "Mittelfeld":[
@@ -107,6 +111,10 @@
             "Bild":"Kira_Meineke.jpg"
         },
         {
+            "Name":"Nadja Meyer",
+            "Bild":"Meyer-Nadja.JPG"
+        },
+        {
             "Name":"Hannah Mohr",
             "Bild":""
         },
@@ -121,6 +129,10 @@
         {
             "Name":"Lea Petschler",
             "Bild":"Lea_Petschler.jpg"
+        },
+        {
+            "Name":"Tamara Schirbel",
+            "Bild":"Schirbel-Tamara.JPG"
         },
         {
             "Name":"Anna Schürdinger",
@@ -143,6 +155,14 @@
         {
             "Name":"Antonia Gürster",
             "Bild":""
+        },
+        {
+            "Name":"Hanna Laik",
+            "Bild":"Laik-Hanna.JPG"
+        },
+        {
+            "Name":"Nancy Villagran",
+            "Bild":"Villagran-Nancy.JPG"
         },
         {
             "Name":"Laura Watkowski",
