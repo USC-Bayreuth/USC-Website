@@ -25,10 +25,6 @@
             "Bild":"Miriam_Bloß.jpg"
         },
         {
-            "Name":"Katharina Brandner",
-            "Bild":"Katharina_Brandner.jpg"
-        },
-        {
             "Name":"Julia Bräuer",
             "Bild":"Bräuer-Julia.JPG"
         },
@@ -57,10 +53,6 @@
             "Bild":"Köhler-Kirstin.JPG"
         },
         {
-            "Name":"Fanny Mauhourat",
-            "Bild":""
-        },
-        {
             "Name":"Theresa Süß",
             "Bild":"Suess-Theresa.JPG"
         }
@@ -75,10 +67,6 @@
             "Bild":""
         },
         {
-            "Name":"Lena Bitz",
-            "Bild":""
-        },
-        {
             "Name":"Isabella Boll",
             "Bild":"Boll-Isabella.JPG"
         },
@@ -89,10 +77,6 @@
         {
             "Name":"Mira Feuerbach",
             "Bild":"Mira_Feuerbach.jpg"
-        },
-        {
-            "Name":"Caroline Freiin von Ow- Wachendorf",
-            "Bild":""
         },
         {
             "Name":"Antonia Haberkorn",
@@ -123,20 +107,12 @@
             "Bild":"Melissa_Moos.jpg"
         },
         {
-            "Name":"Héloïse Oudin",
-            "Bild":""
-        },
-        {
             "Name":"Lea Petschler",
             "Bild":"Lea_Petschler.jpg"
         },
         {
             "Name":"Tamara Schirbel",
             "Bild":"Schirbel-Tamara.JPG"
-        },
-        {
-            "Name":"Anna Schürdinger",
-            "Bild":""
         },
         {
             "Name":"Paula Waldmüller",
@@ -153,20 +129,12 @@
             "Bild":"Lucie_Franzl.jpg"
         },
         {
-            "Name":"Antonia Gürster",
-            "Bild":""
-        },
-        {
             "Name":"Hanna Laik",
             "Bild":"Laik-Hanna.JPG"
         },
         {
             "Name":"Nancy Villagran",
             "Bild":"Villagran-Nancy.JPG"
-        },
-        {
-            "Name":"Laura Watkowski",
-            "Bild":""
         }
     ]
 }
