@@ -65,20 +65,20 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:herrenfussball@usc-bayreuth.de'>herrenfussball@usc-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/no-picture-woman.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Fußball Damen/Auerochs-Laila.JPG' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>stellvertretende Abteilungsleiterin</p>
                         <p className='contact-subtitle'>Laila Auerochs</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Lucas-Reilly-Scott.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Fußball Herren/Reilly-Schott-Lucas.JPG' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Spielertrainer Herren</p>
                         <p className='contact-subtitle'>Lucas Reilly-Scott</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:l.reillyschott@gmail.com'>l.reillyschott@gmail.com</a></p>
                         <p className='contact-subtitle mobile-number'>0176 98591804</p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Nico-Koplanov.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Fußball Herren/Koplanov-Nico.JPG' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Spielertrainer Herren</p>
                         <p className='contact-subtitle'>Nico Koplanov</p>
                         <p className='contact-subtitle mobile-number'>0175 1290428</p>

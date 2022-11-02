@@ -52,7 +52,7 @@
             "Bild":""
         },
         {
-            "Name":"Max Gerbig",
+            "Name":"Maximilian Gerbig",
             "Bild":""
         },
         {
@@ -84,28 +84,8 @@
             "Bild":""
         },
         {
-            "Name":"Ben Luiz Müller",
-            "Bild":""
-        },
-        {
             "Name":"Conrad von Sandersleben",
             "Bild":""
-        },
-        {
-            "Name":"Maurice Schürch",
-            "Bild":""
-        },
-        {
-            "Name":"Josef Stauffenberg",
-            "Bild":""
-        },
-        {
-            "Name":"Tim-Tobias Thielen",
-            "Bild":""
-        },
-        {
-            "Name":"Jakob Weber",
-            "Bild":"Jakob-Weber.jpg"
         },
         {
             "Name":"Oscar Wenzel",
@@ -118,10 +98,6 @@
         {
             "Name":"Florian Witzschel",
             "Bild":"Florian-Witzschel.jpg"
-        },
-        {
-            "Name":"Stefan Zeh",
-            "Bild":""
         }
     ],
     "Mittelfeld":[
@@ -142,7 +118,7 @@
             "Bild":"Geyer-Dorian.JPG"
         },
         {
-            "Name":"Jona Groß",
+            "Name":"Jonathan Groß",
             "Bild":"Jona_Groß.jpg"
         },
         {
@@ -150,20 +126,20 @@
             "Bild":""
         },
         {
-            "Name":"David Kaufhold",
-            "Bild":"David-Kaufhold.jpg"
-        },
-        {
             "Name":"Haris Kirapoglou",
             "Bild":"Kirapoglou-Haris.JPG"
         },
         {
-            "Name":"Simon Kuster",
-            "Bild":"Kuster-Simon.JPG"
+            "Name":"Timo Knödler",
+            "Bild":""
         },
         {
-            "Name":"Leo Liedtke",
+            "Name":"Jan Kreuder",
             "Bild":""
+        },
+        {
+            "Name":"Simon Kuster",
+            "Bild":"Kuster-Simon.JPG"
         },
         {
             "Name":"Andreas Maag",
@@ -176,10 +152,6 @@
         {
             "Name":"Christoph Michel",
             "Bild":""
-        },
-        {
-            "Name":"Christian Miller",
-            "Bild":"Miller-Christian.JPG"
         },
         {
             "Name":"Ben Moss",
@@ -198,8 +170,20 @@
             "Bild":"Schöffel-Michael.JPG"
         },
         {
+            "Name":"Maurice Schürch",
+            "Bild":""
+        },
+        {
             "Name":"Jens Strohschein",
             "Bild":"Strohschein-Jens.JPG"
+        },
+        {
+            "Name":"Tim-Tobias Thielen",
+            "Bild":""
+        },
+        {
+            "Name":"Jakob Weber",
+            "Bild":"Jakob-Weber.jpg"
         },
         {
             "Name":"Alexander Wendt",
@@ -224,8 +208,12 @@
             "Bild":""
         },
         {
-            "Name":"Max Konstantinidis",
+            "Name":"Maximilian Konstantinidis",
             "Bild":"Konstantinidis-Max.JPG"
+        },
+        {
+            "Name":"Christian Miller",
+            "Bild":"Miller-Christian.JPG"
         },
         {
             "Name":"Quirin Scharrer",
