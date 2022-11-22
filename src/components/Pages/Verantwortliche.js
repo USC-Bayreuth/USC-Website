@@ -120,6 +120,7 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle-title'>Abteilungsleiter</p>
                         <p className='contact-subtitle'>Valentin Rädler</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a></p>
+                        <p className='contact-subtitle mobile-number'>01577 8975004</p>
                     </Col>
                 </Row>
             </Container>
