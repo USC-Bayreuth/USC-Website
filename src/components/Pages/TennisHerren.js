@@ -32,11 +32,11 @@ class TennisHerren extends Component{
                 <p>Wir bieten Studenten die Möglichkeit, Erfahrungen im Tennis-Ligabetrieb zu sammeln. Seit der Saison 2022 haben wir eine 6er-Mannschaft beim Bayerischen Tennisverband (BTV) gemeldet und spielen in der Nordliga 3 (Gruppe 30). Im Sommer trainieren wir auf dem Hochschulsportgelände der Universität, im Winter in der Halle des TC Grün-Weiß Bayreuth e.V.</p>
                 <p>Wir trainieren derzeit zusammen mit den Damen, da wir bei beiden Geschlechtern unterschiedliche Niveaus vertreten haben und so jeden bestmöglich fördern. Nicht nur innerhalb der Tennisabteilung, sondern auch innerhalb des gesamten USC organisieren wir gerne mal feucht fröhliche Team-Events, weshalb wir auch untereinander außerhalb des Trainings gut vernetzt sind.</p>
                 <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
-                <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='mail-to' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
+                <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
-                <p>Anfänger: Dienstag, 21:30 - 23:00</p>
-                <p style={{marginTop:5}}>Fortgeschrittene: Donnerstag, 20:00 - 21:30</p>
+                <p>Fortgeschrittene: Donnerstag, 20:00 - 21:30</p>
                 <p style={{marginTop:5}}>Profis: Dienstag, 19:30 - 21:30</p>
+                <p style={{marginTop:5}}>Freies Spiel: Freitag, 20:00 - 21:30</p>
                 <p style={{marginTop:5}}>In der Halle von TC Grün-Weiß Bayreuth</p>
                 <h1>Unser Partner</h1>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>

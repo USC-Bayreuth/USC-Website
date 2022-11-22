@@ -1,19 +1,6 @@
 {
     "Trainer":[
         {
-            "Name":"Lucas Reilly-Scott",
-            "Bild":"Reilly-Schott-Lucas.JPG",
-            "Rolle":"Spielertrainer",
-            "Handy":"0176 98591804",
-            "Mail":"l.reillyschott@gmail.com"
-        },
-        {
-            "Name":"Nico Koplanov",
-            "Bild":"Koplanov-Nico.JPG",
-            "Rolle":"Spielertrainer",
-            "Handy":"0175 1290428"
-        },
-        {
             "Name":"Franz Wittmann",
             "Bild":"",
             "Rolle":"Co-Trainer",
@@ -134,6 +121,10 @@
             "Bild":""
         },
         {
+            "Name":"Nico Koplanov",
+            "Bild":"Koplanov-Nico.JPG"
+        },
+        {
             "Name":"Jan Kreuder",
             "Bild":""
         },
@@ -168,6 +159,10 @@
         {
             "Name":"Michael Schöffel",
             "Bild":"Schöffel-Michael.JPG"
+        },
+        {
+            "Name":"Lucas Reilly-Scott",
+            "Bild":"Reilly-Schott-Lucas.JPG"
         },
         {
             "Name":"Maurice Schürch",

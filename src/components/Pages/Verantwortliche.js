@@ -71,19 +71,6 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Reilly-Schott-Lucas.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Spielertrainer Herren</p>
-                        <p className='contact-subtitle'>Lucas Reilly-Scott</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:l.reillyschott@gmail.com'>l.reillyschott@gmail.com</a></p>
-                        <p className='contact-subtitle mobile-number'>0176 98591804</p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Koplanov-Nico.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Spielertrainer Herren</p>
-                        <p className='contact-subtitle'>Nico Koplanov</p>
-                        <p className='contact-subtitle mobile-number'>0175 1290428</p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Verantwortliche/Franz_Wittmann.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Co-Trainer Herren</p>
                         <p className='contact-subtitle'>Franz Wittmann</p>
@@ -129,9 +116,9 @@ class Verantwortliche extends Component{
             <Container fluid className='my-container'>
                 <Row>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Roundnet/Daniel_Kroh.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Abteilungsleiter</p>
-                        <p className='contact-subtitle'>Daniel Kroh</p>
+                        <p className='contact-subtitle'>Valentin Rädler</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a></p>
                     </Col>
                 </Row>
