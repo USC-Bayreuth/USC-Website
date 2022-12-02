@@ -1,5 +1,19 @@
 [
     {
+        "sliderImage": "22_12_02_slider.jpg",
+        "title": "Heimspieltag Roundnet Regionalliga",
+        "date": "02.12.2022",
+        "tags": "Roundnet",
+        "blocks": [
+            "!image 22_12_02.jpg",
+            "Regionalliga Spieltag in Bayreuth!",
+            "Am Samstag 3.12 dürfen wir den 2. Spieltag der Regionalliga in Bayreuth ausrichten. Dabei treten die Baboons gegen \"Die Krönung\" (@roundnet_nuernberg) , die \"Ingolstadt Hornets\" (@roundnet_ingolstadt) und die Regio-Rabbits 1 (@roundnetrabbits) an.",
+            "Der Spieltag startet um 10 Uhr und geht bis ca. 17 Uhr. (Mittagspause 12-13 Uhr).",
+            "Kommt gerne vorbei und feuert uns an! Um in die Halle zu kommen müsst ihr allerdings leider Hochschulsport-Mitglied sein.",
+            "Baboons! Baboom!"
+        ]
+    },
+    {
         "sliderImage": "22_11_22_slider.jpg",
         "title": "Fabrik neuer Sponsor der Herrenmannschaft",
         "date": "22.11.2022",

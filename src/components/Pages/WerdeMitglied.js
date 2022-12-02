@@ -12,7 +12,7 @@ class WerdeMitglied extends Component{
                 <p>Falls ein Mitglied erst nach dem 1.7. eines Jahres beitritt, muss für das restliche Jahr nur die Hälfte des Abteilungsbeitrags gezahlt werden (jedoch der volle Grundbeitrag).</p>
                 <img src='/img/Werde Mitglied/Beitragssätze.jpeg' className='beitragssätze' alt='Beitragssätze'/>
                 <h2>Mitgliedsantrag</h2>
-                <p>Wurde dein Interesse geweckt? <a target="_blank" rel="noreferrer" href='/download/aufnahmeantrag_usc_bayreuth.pdf' className='link'>Hier</a> findest du unseren Mitgliedsantrag. Wende dich bitte damit zum Verantwortlichen der entsprechenden Abteilung.</p>
+                <p>Wurde dein Interesse geweckt? <a target="_blank" rel="noreferrer" href='/download/aufnahmeantrag_usc_bayreuth.pdf' className='link'>Hier</a> findest du unseren Mitgliedsantrag. Wende dich bitte damit zum <a className='link' href='/Verantwortliche'>Verantwortlichen</a> der entsprechenden Abteilung.</p>
             </>
         )
     }

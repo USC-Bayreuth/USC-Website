@@ -30,10 +30,10 @@ class Home extends Component{
                 <h1>Der Verein</h1>
                 <p>Herzlich Willkommen auf der Homepage des USC Bayreuth! Der USC Bayreuth wurde 2015 als Verein von Studierenden für Studierende gegründet. Zunächst als Fußballverein gedacht, wuchs der Verein seit seiner Gründung stark an und umfasst mit seinen knapp 200 Mitgliedern mittlerweile drei Abteilungen: Fußball, Tennis und Roundnet. </p>
                 <p>Als Studentenverein gewährt der USC ein familiäres, freundliches und respektvolles Umfeld. Es bietet sich besonders für Neulinge an der Universität und in Bayreuth die Möglichkeit an, durch den Sport Kontakte zu knüpfen und Freunde zu finden. Im Einklang dazu stehen auch die Werte und die Philosophie des USC: Wir sind ein Verein für alle Menschen, ungeachtet der sozialen oder kulturellen Herkunft oder des Geschlechts.</p>
-                {/*<h1>Unser Premiumpartner</h1>
+                <h1>Unser Premiumpartner</h1>
                 <a href='https://www.rehau.com/de-de' rel="noreferrer" target="_blank">
                     <img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/>
-                </a>*/}
+                </a>
                 <h1>Social Media</h1>
                 <Container className='my-container' fluid>
                     <Row>

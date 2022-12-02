@@ -4,8 +4,8 @@ class UnsereSponsoren extends Component{
     render(){
         return(
             <>
-                {/*<h1>Premiumpartner</h1>
-                <a href='https://www.rehau.com/de-de' target="_blank" rel="noreferrer"><img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/></a>*/}
+                <h1>Premiumpartner</h1>
+                <a href='https://www.rehau.com/de-de' target="_blank" rel="noreferrer"><img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/></a>
                 <h1>Classicpartner</h1>
                 <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
                 <div/>
