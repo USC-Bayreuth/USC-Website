@@ -1,5 +1,15 @@
 [
     {
+        "sliderImage": "22_12_14_slider.jpg",
+        "title": "Fußball Herren Trainer gesucht!",
+        "date": "14.12.2022",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 22_12_14.jpg",
+            "Der USC Bayreuth sucht ab sofort einen Trainer für die Herrenmannschaft in der Kreisliga Bayreuth/Kulmbach! Bei Interesse meldet euch bei Abteilungsleiter Jonathan Weyel (0176 81285338)!"
+        ]
+    },
+    {
         "sliderImage": "22_12_02_slider.jpg",
         "title": "Heimspieltag Roundnet Regionalliga",
         "date": "02.12.2022",
