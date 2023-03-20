@@ -71,10 +71,10 @@ class Verantwortliche extends Component{
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Franz_Wittmann.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Co-Trainer Herren</p>
-                        <p className='contact-subtitle'>Franz Wittmann</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:wittmannfranz@gmx.de'>wittmannfranz@gmx.de</a></p>
+                        <img src='/img/Fußball Herren/Kamal-Abdi.jpg' className="contact-picture" alt="staff"/>
+                        <p className='contact-subtitle-title'>Trainer Herren</p>
+                        <p className='contact-subtitle'>Kamal Adbi</p>
+                        <p className='contact-subtitle mobile-number'>0163 2504057</p>
                     </Col>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
                         <img src='/img/Fußball Damen/Joshua_Behr_Trainer.jpg' className="contact-picture" alt="staff"/>
