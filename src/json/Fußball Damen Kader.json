@@ -11,6 +11,12 @@
             "Name":"Philipp Rank",
             "Rolle":"Co-Trainer",
             "Bild":""
+        },
+        {
+            "Name":"Laila Auerochs",
+            "Rolle":"Abteilungsleiterin",
+            "Mail":"damenfussball@usc-bayreuth.de",
+            "Bild":"Auerochs-Laila.JPG"
         }
     ],
     "Torwart":[

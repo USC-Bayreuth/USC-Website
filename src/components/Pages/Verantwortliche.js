@@ -59,7 +59,7 @@ class Verantwortliche extends Component{
             <Container fluid className='my-container'>
                 <Row>
                     <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Jonathan_Weyel.jpg' className="contact-picture" alt="staff"/>
+                        <img src='/img/Fußball Herren/Jonathan_Weyel.jpg' className="contact-picture" alt="staff"/>
                         <p className='contact-subtitle-title'>Abteilungsleiter</p>
                         <p className='contact-subtitle'>Jonathan Weyel</p>
                         <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:herrenfussball@usc-bayreuth.de'>herrenfussball@usc-bayreuth.de</a></p>
