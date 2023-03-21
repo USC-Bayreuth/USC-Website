@@ -47,12 +47,10 @@
             "Bild":"Baumann_Lukas.JPG"
         },
         {
-            "Name":"Lukas Guggemos",
-            "Bild":""
+            "Name":"Lukas Guggemos"
         },
         {
-            "Name":"Jannik Lockl",
-            "Bild":""
+            "Name":"Jannik Lockl"
         },
         {
             "Name":"Michael Burkard",
@@ -63,12 +61,10 @@
             "Bild":"Wetzstein_Johannes.JPG"
         },
         {
-            "Name":"Dorian Geyer",
-            "Bild":""
+            "Name":"Dorian Geyer"
         },
         {
-            "Name":"Joshua Behr",
-            "Bild":""
+            "Name":"Joshua Behr"
         }
     ]
 }

@@ -1,146 +1,141 @@
 {
-    "Trainer":[
+    "Trainer": [
         {
-            "Name":"Joshua Behr",
-            "Bild":"Joshua_Behr_Trainer.jpg",
-            "Rolle":"Cheftrainer",
-            "Handy":"01575 0662674",
-            "Mail":"joshua.behr@uni-bayreuth.de"
+            "Name": "Joshua Behr",
+            "Bild": "Joshua_Behr_Trainer.jpg",
+            "Rolle": "Cheftrainer",
+            "Handy": "01575 0662674",
+            "Mail": "joshua.behr@uni-bayreuth.de"
         },
         {
-            "Name":"Philipp Rank",
-            "Rolle":"Co-Trainer",
-            "Bild":""
+            "Name": "Philipp Rank",
+            "Rolle": "Co-Trainer",
+            "Geschlecht": "m"
         },
         {
-            "Name":"Laila Auerochs",
-            "Rolle":"Abteilungsleiterin",
-            "Mail":"damenfussball@usc-bayreuth.de",
-            "Bild":"Auerochs-Laila.JPG"
+            "Name": "Laila Auerochs",
+            "Rolle": "Abteilungsleiterin",
+            "Mail": "damenfussball@usc-bayreuth.de",
+            "Bild": "Auerochs-Laila.JPG"
         }
     ],
-    "Torwart":[
+    "Torwart": [
         {
-            "Name":"Magdalena Holl",
-            "Bild":"Holl-Magdalena.JPG"
+            "Name": "Magdalena Holl",
+            "Bild": "Holl-Magdalena.JPG"
         }
     ],
-    "Abwehr":[
+    "Abwehr": [
         {
-            "Name":"Miriam Bloß",
-            "Bild":"Miriam_Bloß.jpg"
+            "Name": "Miriam Bloß",
+            "Bild": "Miriam_Bloß.jpg"
         },
         {
-            "Name":"Julia Bräuer",
-            "Bild":"Bräuer-Julia.JPG"
+            "Name": "Julia Bräuer",
+            "Bild": "Bräuer-Julia.JPG"
         },
         {
-            "Name":"Sophie Bühr",
-            "Bild":"Bühr-Sophie.JPG"
+            "Name": "Sophie Bühr",
+            "Bild": "Bühr-Sophie.JPG"
         },
         {
-            "Name":"Carolin Burgard",
-            "Bild":""
+            "Name": "Carolin Burgard"
         },
         {
-            "Name":"Hanna Durczok",
-            "Bild":"Durczok-Hanna.JPG"
+            "Name": "Hanna Durczok",
+            "Bild": "Durczok-Hanna.JPG"
         },
         {
-            "Name":"Elena Fedler",
-            "Bild":"Fedler-Elena.JPG"
+            "Name": "Elena Fedler",
+            "Bild": "Fedler-Elena.JPG"
         },
         {
-            "Name":"Isabella Grüner",
-            "Bild":""
+            "Name": "Isabella Grüner"
         },
         {
-            "Name":"Kirstin Köhler",
-            "Bild":"Köhler-Kirstin.JPG"
+            "Name": "Kirstin Köhler",
+            "Bild": "Köhler-Kirstin.JPG"
         },
         {
-            "Name":"Theresa Süß",
-            "Bild":"Suess-Theresa.JPG"
+            "Name": "Theresa Süß",
+            "Bild": "Suess-Theresa.JPG"
         }
     ],
-    "Mittelfeld":[
+    "Mittelfeld": [
         {
-            "Name":"Laila Auerochs",
-            "Bild":"Auerochs-Laila.JPG"
+            "Name": "Laila Auerochs",
+            "Bild": "Auerochs-Laila.JPG"
         },
         {
-            "Name":"Jelena Best",
-            "Bild":""
+            "Name": "Jelena Best"
         },
         {
-            "Name":"Isabella Boll",
-            "Bild":"Boll-Isabella.JPG"
+            "Name": "Isabella Boll",
+            "Bild": "Boll-Isabella.JPG"
         },
         {
-            "Name":"Sina Dziumbla",
-            "Bild":"Sina_Dziumbla.jpg"
+            "Name": "Sina Dziumbla",
+            "Bild": "Sina_Dziumbla.jpg"
         },
         {
-            "Name":"Mira Feuerbach",
-            "Bild":"Mira_Feuerbach.jpg"
+            "Name": "Mira Feuerbach",
+            "Bild": "Mira_Feuerbach.jpg"
         },
         {
-            "Name":"Antonia Haberkorn",
-            "Bild":""
+            "Name": "Antonia Haberkorn"
         },
         {
-            "Name":"Melinda Herfet",
-            "Bild":"Melinda_Herfet.jpg"
+            "Name": "Melinda Herfet",
+            "Bild": "Melinda_Herfet.jpg"
         },
         {
-            "Name":"Kiara Kindler",
-            "Bild":"Kiara_Kindler.jpg"
+            "Name": "Kiara Kindler",
+            "Bild": "Kiara_Kindler.jpg"
         },
         {
-            "Name":"Kira Meineke",
-            "Bild":"Kira_Meineke.jpg"
+            "Name": "Kira Meineke",
+            "Bild": "Kira_Meineke.jpg"
         },
         {
-            "Name":"Nadja Meyer",
-            "Bild":"Meyer-Nadja.JPG"
+            "Name": "Nadja Meyer",
+            "Bild": "Meyer-Nadja.JPG"
         },
         {
-            "Name":"Hannah Mohr",
-            "Bild":""
+            "Name": "Hannah Mohr"
         },
         {
-            "Name":"Melissa Moos",
-            "Bild":"Melissa_Moos.jpg"
+            "Name": "Melissa Moos",
+            "Bild": "Melissa_Moos.jpg"
         },
         {
-            "Name":"Lea Petschler",
-            "Bild":"Lea_Petschler.jpg"
+            "Name": "Lea Petschler",
+            "Bild": "Lea_Petschler.jpg"
         },
         {
-            "Name":"Tamara Schirbel",
-            "Bild":"Schirbel-Tamara.JPG"
+            "Name": "Tamara Schirbel",
+            "Bild": "Schirbel-Tamara.JPG"
         },
         {
-            "Name":"Paula Waldmüller",
-            "Bild":"Paula_Waldmüller.jpg"
+            "Name": "Paula Waldmüller",
+            "Bild": "Paula_Waldmüller.jpg"
         }
     ],
-    "Angriff":[
+    "Angriff": [
         {
-            "Name":"Juliane Bachmann",
-            "Bild":"Juliane_Bachmann.jpg"
+            "Name": "Juliane Bachmann",
+            "Bild": "Juliane_Bachmann.jpg"
         },
         {
-            "Name":"Lucie Franzl",
-            "Bild":"Lucie_Franzl.jpg"
+            "Name": "Lucie Franzl",
+            "Bild": "Lucie_Franzl.jpg"
         },
         {
-            "Name":"Hanna Laik",
-            "Bild":"Laik-Hanna.JPG"
+            "Name": "Hanna Laik",
+            "Bild": "Laik-Hanna.JPG"
         },
         {
-            "Name":"Nancy Villagran",
-            "Bild":"Villagran-Nancy.JPG"
+            "Name": "Nancy Villagran",
+            "Bild": "Villagran-Nancy.JPG"
         }
     ]
 }

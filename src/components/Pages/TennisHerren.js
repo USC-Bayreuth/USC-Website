@@ -55,10 +55,13 @@ class TennisHerren extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                        {item.Bild==='' &&
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
-                                        {item.Bild!=='' &&
+                                        {item.Bild===undefined && item.Geschlecht!=="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
                                             <img alt={'player'+index} src={'/img/Tennis Herren/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
@@ -75,10 +78,10 @@ class TennisHerren extends Component{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
-                                        {item.Bild==='' &&
+                                        {item.Bild===undefined &&
                                             <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
                                         }
-                                        {item.Bild!=='' &&
+                                        {item.Bild!==undefined &&
                                             <img alt={'player'+index} src={'/img/Tennis Herren/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>

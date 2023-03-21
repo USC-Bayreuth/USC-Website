@@ -1,229 +1,213 @@
 {
-    "Trainer":[
+    "Trainer": [
         {
-            "Name":"Kamal Abdi",
-            "Bild":"Kamal-Abdi.jpg",
-            "Rolle":"Trainer",
-            "Handy":"0163 2504057"
+            "Name": "Kamal Abdi",
+            "Bild": "Kamal-Abdi.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0163 2504057"
         },
         {
-            "Name":"Jonathan Weyel",
-            "Bild":"Jonathan_Weyel.jpg",
-            "Rolle":"Abteilungsleiter",
-            "Handy":"0176 81285338 ",
-            "Mail":"herrenfussball@usc-bayreuth.de"
+            "Name": "Jonathan Weyel",
+            "Bild": "Jonathan_Weyel.jpg",
+            "Rolle": "Abteilungsleiter",
+            "Handy": "0176 81285338 ",
+            "Mail": "herrenfussball@usc-bayreuth.de"
         }
     ],
-    "Torwart":[
+    "Torwart": [
         {
-            "Name":"Dennis Bauer",
-            "Bild":"Dennis-Bauer.jpg"
+            "Name": "Dennis Bauer",
+            "Bild": "Dennis-Bauer.jpg"
         },
         {
-            "Name":"Hans-Jakob Milhahn",
-            "Bild":"Milhahn-Hans-Jakob.JPG"
+            "Name": "Hans-Jakob Milhahn",
+            "Bild": "Milhahn-Hans-Jakob.JPG"
         }
     ],
-    "Abwehr":[
+    "Abwehr": [
         {
-            "Name":"Stefan Am Ende",
-            "Bild":"Stefan-Am-Ende.jpg"
+            "Name": "Stefan Am Ende",
+            "Bild": "Stefan-Am-Ende.jpg"
         },
         {
-            "Name":"Joshua Behr",
-            "Bild":"Behr-Joshua.JPG"
+            "Name": "Joshua Behr",
+            "Bild": "Behr-Joshua.JPG"
         },
         {
-            "Name":"Joscha Bingenheimer",
-            "Bild":"Bingenheimer-Joscha.JPG"
+            "Name": "Joscha Bingenheimer",
+            "Bild": "Bingenheimer-Joscha.JPG"
         },
         {
-            "Name":"Sebastian Firnkes",
-            "Bild":"Firnkes-Sebastian.JPG"
+            "Name": "Sebastian Firnkes",
+            "Bild": "Firnkes-Sebastian.JPG"
         },
         {
-            "Name":"Christopher Fröhlich",
-            "Bild":""
+            "Name": "Christopher Fröhlich"
         },
         {
-            "Name":"Maximilian Gerbig",
-            "Bild":""
+            "Name": "Maximilian Gerbig"
         },
         {
-            "Name":"Adrian Hafenecker",
-            "Bild":"Adrian-Hafenecker.jpg"
+            "Name": "Adrian Hafenecker",
+            "Bild": "Adrian-Hafenecker.jpg"
         },
         {
-            "Name":"Ruben Just",
-            "Bild":""
+            "Name": "Ruben Just"
         },
         {
-            "Name":"David Kaufhold",
-            "Bild":"David-Kaufhold.jpg"
+            "Name": "David Kaufhold",
+            "Bild": "David-Kaufhold.jpg"
         },
         {
-            "Name":"Philipp Kerl",
-            "Bild":"Kerl-Philipp.JPG"
+            "Name": "Philipp Kerl",
+            "Bild": "Kerl-Philipp.JPG"
         },
         {
-            "Name":"Luis Koch",
-            "Bild":"Koch-Luis.jpg"
+            "Name": "Luis Koch",
+            "Bild": "Koch-Luis.jpg"
         },
         {
-            "Name":"Matteo Kumar",
-            "Bild":"Kumar-Matteo.JPG"
+            "Name": "Matteo Kumar",
+            "Bild": "Kumar-Matteo.JPG"
         },
         {
-            "Name":"Benedikt Lawo",
-            "Bild":""
+            "Name": "Benedikt Lawo"
         },
         {
-            "Name":"Conrad von Sandersleben",
-            "Bild":""
+            "Name": "Conrad von Sandersleben"
         },
         {
-            "Name":"Oscar Wenzel",
-            "Bild":"Wenzel-Oscar.JPG"
+            "Name": "Oscar Wenzel",
+            "Bild": "Wenzel-Oscar.JPG"
         },
         {
-            "Name":"Johannes Wetzstein",
-            "Bild":"Wetzstein-Johannes.JPG"
+            "Name": "Johannes Wetzstein",
+            "Bild": "Wetzstein-Johannes.JPG"
         },
         {
-            "Name":"Florian Witzschel",
-            "Bild":"Florian-Witzschel.jpg"
+            "Name": "Florian Witzschel",
+            "Bild": "Florian-Witzschel.jpg"
         }
     ],
-    "Mittelfeld":[
+    "Mittelfeld": [
         {
-            "Name":"Tobias Biller",
-            "Bild":"Tobias-Biller.jpg"
+            "Name": "Tobias Biller",
+            "Bild": "Tobias-Biller.jpg"
         },
         {
-            "Name":"Johannes Brötling",
-            "Bild":"Brötling-Johannes.JPG"
+            "Name": "Johannes Brötling",
+            "Bild": "Brötling-Johannes.JPG"
         },
         {
-            "Name":"Héctor Cantera Azpiazu",
-            "Bild":"Cantera-Hector.JPG"
+            "Name": "Héctor Cantera Azpiazu",
+            "Bild": "Cantera-Hector.JPG"
         },
         {
-            "Name":"Dorian Geyer",
-            "Bild":"Geyer-Dorian.JPG"
+            "Name": "Dorian Geyer",
+            "Bild": "Geyer-Dorian.JPG"
         },
         {
-            "Name":"Jonathan Groß",
-            "Bild":"Jona_Groß.jpg"
+            "Name": "Jonathan Groß",
+            "Bild": "Jona_Groß.jpg"
         },
         {
-            "Name":"Jannis Grundler",
-            "Bild":""
+            "Name": "Jannis Grundler"
         },
         {
-            "Name":"Haris Kirapoglou",
-            "Bild":"Kirapoglou-Haris.JPG"
+            "Name": "Haris Kirapoglou",
+            "Bild": "Kirapoglou-Haris.JPG"
         },
         {
-            "Name":"Timo Knödler",
-            "Bild":""
+            "Name": "Timo Knödler"
         },
         {
-            "Name":"Nico Koplanov",
-            "Bild":"Koplanov-Nico.JPG"
+            "Name": "Nico Koplanov",
+            "Bild": "Koplanov-Nico.JPG"
         },
         {
-            "Name":"Jan Kreuder",
-            "Bild":""
+            "Name": "Jan Kreuder"
         },
         {
-            "Name":"Simon Kuster",
-            "Bild":"Kuster-Simon.JPG"
+            "Name": "Simon Kuster",
+            "Bild": "Kuster-Simon.JPG"
         },
         {
-            "Name":"Andreas Maag",
-            "Bild":""
+            "Name": "Andreas Maag"
         },
         {
-            "Name":"Thies Martens",
-            "Bild":""
+            "Name": "Thies Martens"
         },
         {
-            "Name":"Christoph Michel",
-            "Bild":""
+            "Name": "Christoph Michel"
         },
         {
-            "Name":"Ben Moss",
-            "Bild":"Moss-Ben.JPG"
+            "Name": "Ben Moss",
+            "Bild": "Moss-Ben.JPG"
         },
         {
-            "Name":"Adrian Müller",
-            "Bild":"Müller-Adrian.JPG"
+            "Name": "Adrian Müller",
+            "Bild": "Müller-Adrian.JPG"
         },
         {
-            "Name":"Tim Schneider",
-            "Bild":"Tim-Schneider.jpg"
+            "Name": "Tim Schneider",
+            "Bild": "Tim-Schneider.jpg"
         },
         {
-            "Name":"Michael Schöffel",
-            "Bild":"Schöffel-Michael.JPG"
+            "Name": "Michael Schöffel",
+            "Bild": "Schöffel-Michael.JPG"
         },
         {
-            "Name":"Lucas Reilly-Scott",
-            "Bild":"Reilly-Schott-Lucas.JPG"
+            "Name": "Lucas Reilly-Scott",
+            "Bild": "Reilly-Schott-Lucas.JPG"
         },
         {
-            "Name":"Maurice Schürch",
-            "Bild":""
+            "Name": "Maurice Schürch"
         },
         {
-            "Name":"Jens Strohschein",
-            "Bild":"Strohschein-Jens.JPG"
+            "Name": "Jens Strohschein",
+            "Bild": "Strohschein-Jens.JPG"
         },
         {
-            "Name":"Tim-Tobias Thielen",
-            "Bild":""
+            "Name": "Tim-Tobias Thielen"
         },
         {
-            "Name":"Jakob Weber",
-            "Bild":"Jakob-Weber.jpg"
+            "Name": "Jakob Weber",
+            "Bild": "Jakob-Weber.jpg"
         },
         {
-            "Name":"Alexander Wendt",
-            "Bild":""
+            "Name": "Alexander Wendt"
         },
         {
-            "Name":"Vincent Woller",
-            "Bild":"Vincent-Woller.jpg"
+            "Name": "Vincent Woller",
+            "Bild": "Vincent-Woller.jpg"
         },
         {
-            "Name":"Maurice Yacoub",
-            "Bild":""
+            "Name": "Maurice Yacoub"
         }
     ],
-    "Angriff":[
+    "Angriff": [
         {
-            "Name":"Yazdan Ayo",
-            "Bild":"Yazdan-Ayo.jpg"
+            "Name": "Yazdan Ayo",
+            "Bild": "Yazdan-Ayo.jpg"
         },
         {
-            "Name":"Kevin Jauch",
-            "Bild":""
+            "Name": "Kevin Jauch"
         },
         {
-            "Name":"Maximilian Konstantinidis",
-            "Bild":"Konstantinidis-Max.JPG"
+            "Name": "Maximilian Konstantinidis",
+            "Bild": "Konstantinidis-Max.JPG"
         },
         {
-            "Name":"Christian Miller",
-            "Bild":"Miller-Christian.JPG"
+            "Name": "Christian Miller",
+            "Bild": "Miller-Christian.JPG"
         },
         {
-            "Name":"Quirin Scharrer",
-            "Bild":"Scharrer-Quirin.JPG"
+            "Name": "Quirin Scharrer",
+            "Bild": "Scharrer-Quirin.JPG"
         },
         {
-            "Name":"Etienne Zagabe",
-            "Bild":"Etienne-Zagabe.jpg"
+            "Name": "Etienne Zagabe",
+            "Bild": "Etienne-Zagabe.jpg"
         }
     ]
 }

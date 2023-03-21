@@ -21,7 +21,7 @@ class UnsereSponsoren extends Component{
                 <a href='https://www.allfinanz-dvag.de/sebastian.krause/index.html' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Sebastian_Krause.png' alt='dvag' className='partner'/></a>
                 <h2>Tennis</h2>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
-                <h2>Roudnet</h2>
+                <h2>Roundnet</h2>
                 <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
                 <h1>Teamausrüster</h1>
                 <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/></a>

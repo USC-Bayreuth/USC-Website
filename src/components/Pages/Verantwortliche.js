@@ -23,105 +23,120 @@ class Verantwortliche extends Component{
     }
 
     render(){
+        let verantwortliche=require('../../json/Verantwortliche.json')
         return(
             <>
             <h1>Vorstand</h1>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Joshua-Behr.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>1. Vorstand</p>
-                        <p className='contact-subtitle'>Joshua Behr</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:joshua.behr@uni-bayreuth.de'>joshua.behr@uni-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Christian-Miller.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>2. Vorstand</p>
-                        <p className='contact-subtitle'>Christian Miller</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:cmiller95@web.de'>cmiller95@web.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Ruben-Just.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Vorstand Finance</p>
-                        <p className='contact-subtitle'>Ruben Just</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:ruben.just@uni-bayreuth.de'>ruben.just@uni-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Verantwortliche/Oscar-Wenzel.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Vorstand Legal</p>
-                        <p className='contact-subtitle'>Oscar Wenzel</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:oscarwenzel@me.com'>oscarwenzel@me.com</a></p>
-                    </Col>
+                    {verantwortliche.Vorstand.map((item, index) => {
+                        return(
+                            <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                {item.Bild === undefined && item.Geschlecht === "w" &&
+                                    <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                    <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild !== undefined &&
+                                    <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                }
+                                <p className="contact-subtitle-title">{item.Rolle}</p>
+                                <p className="contact-subtitle">{item.Name}</p>
+                                {item.Mail !== undefined &&
+                                    <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                }
+                                {item.Handy !== undefined &&
+                                    <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                }
+                            </Col>
+                        )
+                    })}
                 </Row>
             </Container>
             <h1>Abteilungen</h1>
             <h2>Fußball</h2>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Jonathan_Weyel.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Abteilungsleiter</p>
-                        <p className='contact-subtitle'>Jonathan Weyel</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:herrenfussball@usc-bayreuth.de'>herrenfussball@usc-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Damen/Auerochs-Laila.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>stellvertretende Abteilungsleiterin</p>
-                        <p className='contact-subtitle'>Laila Auerochs</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Kamal-Abdi.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Trainer Herren</p>
-                        <p className='contact-subtitle'>Kamal Adbi</p>
-                        <p className='contact-subtitle mobile-number'>0163 2504057</p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Damen/Joshua_Behr_Trainer.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Cheftrainer Damen</p>
-                        <p className='contact-subtitle'>Joshua Behr</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:joshua.behr@uni-bayreuth.de'>joshua.behr@uni-bayreuth.de</a></p>
-                        <p className='contact-subtitle mobile-number'>01575 0662674</p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Co-Trainer Damen</p>
-                        <p className='contact-subtitle'>Philipp Rank</p>
-                    </Col>
+                    {verantwortliche.Fußball.map((item, index) => {
+                        return(
+                            <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                {item.Bild === undefined && item.Geschlecht === "w" &&
+                                    <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                    <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild !== undefined &&
+                                    <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                }
+                                <p className="contact-subtitle-title">{item.Rolle}</p>
+                                <p className="contact-subtitle">{item.Name}</p>
+                                {item.Mail !== undefined &&
+                                    <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                }
+                                {item.Handy !== undefined &&
+                                    <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                }
+                            </Col>
+                        )
+                    })}
                 </Row>
             </Container>
             <h2>Tennis</h2>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Tennis Damen/Haberkorn_Antonia.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Abteilungsleiterin</p>
-                        <p className='contact-subtitle'>Antonia Haberkorn</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Tennis Herren/Jonas_Claudius.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>stellvertretender Abteilungsleiter</p>
-                        <p className='contact-subtitle'>Claudius Jonas</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:claudius.jonas@uni-bayreuth.de'>claudius.jonas@uni-bayreuth.de</a></p>
-                    </Col>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Tennis Herren/Harre_Konstantin.JPG' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Trainer</p>
-                        <p className='contact-subtitle'>Konstantin Harre</p>
-                    </Col>
+                    {verantwortliche.Tennis.map((item, index) => {
+                        return(
+                            <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                {item.Bild === undefined && item.Geschlecht === "w" &&
+                                    <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                    <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild !== undefined &&
+                                    <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                }
+                                <p className="contact-subtitle-title">{item.Rolle}</p>
+                                <p className="contact-subtitle">{item.Name}</p>
+                                {item.Mail !== undefined &&
+                                    <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                }
+                                {item.Handy !== undefined &&
+                                    <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                }
+                            </Col>
+                        )
+                    })}
                 </Row>
             </Container>
             <h2>Roundnet</h2>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Abteilungsleiter</p>
-                        <p className='contact-subtitle'>Valentin Rädler</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a></p>
-                        <p className='contact-subtitle mobile-number'>01577 8975004</p>
-                    </Col>
+                    {verantwortliche.Roundnet.map((item, index) => {
+                        return(
+                            <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                {item.Bild === undefined && item.Geschlecht === "w" &&
+                                    <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                    <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild !== undefined &&
+                                    <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                }
+                                <p className="contact-subtitle-title">{item.Rolle}</p>
+                                <p className="contact-subtitle">{item.Name}</p>
+                                {item.Mail !== undefined &&
+                                    <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                }
+                                {item.Handy !== undefined &&
+                                    <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                }
+                            </Col>
+                        )
+                    })}
                 </Row>
             </Container>
             <h1>Präsident und Gründer</h1>
@@ -137,12 +152,29 @@ class Verantwortliche extends Component{
             <h1>Webmaster</h1>
             <Container fluid className='my-container'>
                 <Row>
-                    <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                        <img src='/img/Fußball Herren/Stefan-Am-Ende.jpg' className="contact-picture" alt="staff"/>
-                        <p className='contact-subtitle-title'>Webmaster</p>
-                        <p className='contact-subtitle'>Stefan Am Ende</p>
-                        <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:stefan.am-ende@uni-bayreuth.de'>stefan.am-ende@uni-bayreuth.de</a></p>
-                    </Col>
+                    {verantwortliche.Webmaster.map((item, index) => {
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                    {item.Bild === undefined && item.Geschlecht === "w" &&
+                                        <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                    }
+                                    {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                        <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                    }
+                                    {item.Bild !== undefined &&
+                                        <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                    }
+                                    <p className="contact-subtitle-title">{item.Rolle}</p>
+                                    <p className="contact-subtitle">{item.Name}</p>
+                                    {item.Mail !== undefined &&
+                                        <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                    }
+                                    {item.Handy !== undefined &&
+                                        <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                    }
+                                </Col>
+                            )
+                        })}
                 </Row>
             </Container>
             <p style={{marginTop: 60, fontWeight: 'bolder'}}>Sonstige Kontaktaufnahme auch über unsere Social-Media-Kanäle</p>

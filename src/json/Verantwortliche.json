@@ -1,0 +1,94 @@
+{
+    "Vorstand":[
+        {
+            "Name":"Joshua Behr",
+            "Rolle":"1. Vorstand",
+            "Bild":"/img/Verantwortliche/Joshua-Behr.jpg",
+            "Mail":"joshua.behr@uni-bayreuth.de"
+        },
+        {
+            "Name":"Christian Miller",
+            "Rolle":"2. Vorstand",
+            "Bild":"/img/Verantwortliche/Christian-Miller.jpg",
+            "Mail":"cmiller95@web.de"
+        },
+        {
+            "Name":"Ruben Just",
+            "Rolle":"Vorstand Finance",
+            "Bild":"/img/Verantwortliche/Ruben-Just.jpg",
+            "Mail":"ruben.just@uni-bayreuth.de"
+        },
+        {
+            "Name":"Oscar Wenzel",
+            "Rolle":"Vorstand Legal",
+            "Bild":"/img/Verantwortliche/Oscar-Wenzel.jpg",
+            "Mail":"oscarwenzel@me.com"
+        }
+    ],
+    "Fußball":[
+        {
+            "Name":"Jonathan Weyel",
+            "Rolle":"1. Abteilungsleiter",
+            "Bild":"/img/Fußball Herren/Jonathan_Weyel.jpg",
+            "Mail":"herrenfussball@usc-bayreuth.de"
+        },
+        {
+            "Name":"Laila Auerochs",
+            "Rolle":"2. Abteilungsleiterin",
+            "Bild":"/img/Fußball Damen/Auerochs-Laila.JPG",
+            "Mail":"damenfussball@usc-bayreuth.de"
+        },
+        {
+            "Name":"Kamal Abdi",
+            "Rolle":"Trainer Herren",
+            "Bild":"/img/Fußball Herren/Kamal-Abdi.jpg",
+            "Handy":"0163 2504057"
+        },
+        {
+            "Name":"Joshua Behr",
+            "Rolle":"Trainer Damen",
+            "Bild":"/img/Fußball Damen/Joshua_Behr_Trainer.jpg",
+            "Handy":"01575 0662674",
+            "Mail":"joshua.behr@uni-bayreuth.de"
+        },
+        {
+            "Name":"Philipp Rank",
+            "Rolle":"Co-Trainer Damen"
+        }
+    ],
+    "Tennis":[
+        {
+            "Name":"Antonia Haberkorn",
+            "Rolle":"1. Abteilungsleiterin",
+            "Bild":"/img/Tennis Damen/Haberkorn_Antonia.JPG",
+            "Mail":"tennis@usc-bayreuth.de"
+        },
+        {
+            "Name":"Claudius Jonas",
+            "Rolle":"2. Abteilungsleiter",
+            "Bild":"/img/Tennis Herren/Jonas_Claudius.JPG",
+            "Mail":"claudius.jonas@uni-bayreuth.de"
+        },
+        {
+            "Name":"Konstantin Harre",
+            "Rolle":"Trainer",
+            "Bild":"/img/Tennis Herren/Harre_Konstantin.JPG"
+        }
+    ],
+    "Roundnet":[
+        {
+            "Name":"Valentin Rädler",
+            "Rolle":"Abteilungsleiter",
+            "Handy":"01577 8975004",
+            "Mail":"roundnet.bayreuth@gmail.com"
+        }
+    ],
+    "Webmaster":[
+        {
+            "Name":"Stefan Am Ende",
+            "Rolle":"Webmaster",
+            "Bild":"/img/Fußball Herren/Stefan-Am-Ende.jpg",
+            "Mail":"stefan.am-ende@uni-bayreuth.de"
+        }
+    ]
+}
