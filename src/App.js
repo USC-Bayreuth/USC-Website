@@ -13,10 +13,12 @@ import Datenschutz from './components/Pages/Datenschutz';
 import WerdeMitglied from './components/Pages/WerdeMitglied';
 import UnsereSponsoren from './components/Pages/UnsereSponsoren';
 import Impressum from './components/Pages/Impressum';
-import Footer from './components/Footer/Footer'
-import NewsPage from './components/Pages/NewsPage'
+import NewsPage from './components/Pages/NewsPage';
 import Verantwortliche from './components/Pages/Verantwortliche';
 import ErrorPage from './components/Pages/ErrorPage';
+import Volleyball from './components/Pages/Volleyball';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   let news=require('./json/News.json')
@@ -44,6 +46,7 @@ function App() {
           <Route path='/Unsere-Sponsoren' element={<UnsereSponsoren/>}/>
           <Route path='/Impressum' element={<Impressum/>}/>
           <Route path='/Verantwortliche' element={<Verantwortliche/>}/>
+          <Route path="/Volleyball" element={<Volleyball/>}/>
           {news.map((item, index) => {
             return(
               <Route key={index} path={'/News/'+createURL(item.title)} element={<NewsPage index={index}/>}/>
