@@ -1,4 +1,5 @@
 import {Component} from 'react'
+import {Container, Row, Col} from 'react-bootstrap'
 import Slider from '../Slider/Slider'
 
 class Volleyball extends Component{
@@ -29,6 +30,18 @@ class Volleyball extends Component{
                 <p>Melde dich bei Fragen jederzeit über unsere Social Media Kanäle (<a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a>) oder bei <a className='link' href='mailto:info@usc-bayreuth.de'>info@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
                 <p>Montag: 18:30 - 20:00 (Halle 2, Sportinstitut)</p>
+                <h1>Team</h1>
+                <Container fluid className='my-container'>
+                    <Row>
+                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                            <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
+                            <p className='contact-subtitle-title'>Abteilungsleiter</p>
+                            <p className='contact-subtitle'>Duc Viet Nguyen</p>
+                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
+                            <p className='contact-subtitle mobile-number'>0171 2393629</p>
+                        </Col>
+                    </Row>
+                </Container>
             </>
         )
     }

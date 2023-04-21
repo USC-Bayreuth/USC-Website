@@ -34,7 +34,7 @@ class Roundnet extends Component{
                 <p style={{marginTop: 5}}>Samstag: 10:00 - 12:00 (Turnhalle)</p>
                 <h1>Unser Partner</h1>
                 <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
-                <h1>Abteilungsleiter</h1>
+                <h1>Team</h1>
                 <Container fluid className='my-container'>
                     <Row>
                         <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
