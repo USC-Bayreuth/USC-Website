@@ -30,8 +30,7 @@ class Roundnet extends Component{
                 <p>Du zockst gerne Roundnet und hast Bock an strukturiertem Training sowie Teil der Community zu sein oder ab und an auf ein Turnier zu fahren? Dann komm vorbei und schnupper bei uns rein.</p>          
                 <p>Bei Fragen meldet euch einfach bei <a className='link' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/bayreuth.baboons/'>@bayreuth.baboons</a>.</p>
                 <h2>Trainingszeiten</h2>
-                <p>Mittwoch: 15:00 - 17:00 (Spielhalle 3)</p>
-                <p style={{marginTop: 5}}>Samstag: 10:00 - 12:00 (Turnhalle)</p>
+                <p>Montag und Mittwoch 18:00 - 20:00 (Sportinstitut)</p>
                 <h1>Unser Partner</h1>
                 <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
                 <h1>Team</h1>

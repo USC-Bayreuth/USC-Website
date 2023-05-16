@@ -34,15 +34,12 @@ class TennisDamen extends Component{
                 <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
                 <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
-                <p>Fortgeschrittene: Donnerstag, 20:00 - 21:30</p>
-                <p style={{marginTop:5}}>Profis: Dienstag, 19:30 - 21:30</p>
-                <p style={{marginTop:5}}>Freies Spiel: Freitag, 20:00 - 21:30</p>
-                <p style={{marginTop:5}}>In der Halle von TC Grün-Weiß Bayreuth</p>
+                <p>Dienstag und Mittwoch 19:00 - 21:00 (Sportinstitut)</p>
                 <h1>Unser Partner</h1>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
                 <Container fluid className='my-container'>
-                    <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1749916&etag=08bddd99-0f10-4468-897f-5425a050714f' frameBorder='0' className='widget'/>
+                    <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1840330&etag=715d718a-ce44-441c-9c1e-8ad8896161aa' frameBorder='0' className='widget'/>
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
                     <h1>Team</h1>
@@ -84,7 +81,7 @@ class TennisDamen extends Component{
                                         {item.Bild!==undefined &&
                                             <img alt={'player'+index} src={'/img/Tennis Damen/'+item.Bild} className='player-picture'/>                                    
                                         }
-                                        <p className='player-name'>{item.Name}</p>
+                                        <p className='player-name'>{(index+1)+'. '+item.Name}</p>
                                     </AnimationOnScroll>
                                 </Col>
                             )

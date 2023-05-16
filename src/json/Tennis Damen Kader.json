@@ -11,79 +11,52 @@
             "Bild":"Tiszberger_Someya.jpeg"
         },
         {
+            "Name":"Maike Schümann"
+        },
+        {
             "Name":"Antonia Haberkorn",
             "Bild":"Haberkorn_Antonia.JPG"
         },
         {
-            "Name":"Janina Ehrmann"
+            "Name":"Leonie Sauerwein"
         },
         {
             "Name":"Alexandra Hubracht",
             "Bild":"Hubracht_Alexandra.JPG"
         },
         {
-            "Name":"Marie-Christin Fritzsche",
-            "Bild":"Fritzsche_Marie-Chrsitin.JPG"
-        },
-        {
-            "Name":"Lea Carolin Lauber",
-            "Bild":"Lauber_Lea_Carolin.JPG"
-        },
-        {
-            "Name":"Sarah Klotz",
-            "Bild":"Klotz_Sarah.JPG"
-        },
-        {
             "Name":"Sara Faghih-Naini",
             "Bild":"Faghih_Naini_Sara.JPG"
-        },
-        {
-            "Name":"Marie Gehrke",
-            "Bild":"Gehrke_Marie.JPG"
-        },
-        {
-            "Name":"Nadine Albrecht"
-        },
-        {
-            "Name":"Rebecca Kohl",
-            "Bild":"Kohl_Rebecca.JPG"
-        },
-        {
-            "Name":"Melinda Herfet",
-            "Bild":"Herfert_Melinda.JPG"
-        },
-        {
-            "Name":"Kristina Hall",
-            "Bild":"Hall_Kristina.JPG"
-        },
-        {
-            "Name":"Carolin Burgard",
-            "Bild":"Burgard_Carolin.JPG"
-        },
-        {
-            "Name":"Catrin Porwik"
-        },
-        {
-            "Name":"Laura Trummer",
-            "Bild":"Trummer_Laura.JPG"
-        },
-        {
-            "Name":"Antonie Teuchert"
-        },
-        {
-            "Name":"Kirstin Köhler",
-            "Bild":"Köhler_Kirstin.JPG"
-        },
-        {
-            "Name":"Jeanette Berchtold"
         },
         {
             "Name":"Lea Zirkler",
             "Bild":"Zirkler_Lea.JPG"
         },
         {
-            "Name":"Sophie Bühr",
-            "Bild":"Bühr_Sophie.JPG"
+            "Name":"Marie-Christin Fritzsche",
+            "Bild":"Fritzsche_Marie-Chrsitin.JPG"
+        },
+        {
+            "Name":"Pia Späth"
+        },
+        {
+            "Name":"Rebecca Kohl",
+            "Bild":"Kohl_Rebecca.JPG"
+        },
+        {
+            "Name":"Lea Carolin Lauber",
+            "Bild":"Lauber_Lea_Carolin.JPG"
+        },
+        {
+            "Name":"Kristina Hall",
+            "Bild":"Hall_Kristina.JPG"
+        },
+        {
+            "Name":"Lea Neidhardt"
+        },
+        {
+            "Name":"Kirstin Köhler",
+            "Bild":"Köhler_Kirstin.JPG"
         }
     ]
 }
