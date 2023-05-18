@@ -1,6 +1,5 @@
 import {Component} from 'react'
 import {Container, Row, Col} from 'react-bootstrap'
-import Slider from '../Slider/Slider'
 
 class Roundnet extends Component{
     state={mobileMode: window.innerWidth<960}
@@ -24,8 +23,6 @@ class Roundnet extends Component{
         return(
             <>
                 <h1>Roundnet</h1>
-                <Slider tag='Roundnet'/>
-                <h1>Unsere Abteilung</h1>
                 <p>Wir bekommen Zuwachs durch die neu gegründete Abteilung "Roundnet" (Spikeball) und sind somit der erste Roundnet Verein Bayreuths!</p>
                 <p>Du zockst gerne Roundnet und hast Bock an strukturiertem Training sowie Teil der Community zu sein oder ab und an auf ein Turnier zu fahren? Dann komm vorbei und schnupper bei uns rein.</p>          
                 <p>Bei Fragen meldet euch einfach bei <a className='link' href='mailto:roundnet.bayreuth@gmail.com'>roundnet.bayreuth@gmail.com</a> oder bei <a className='link' target="_blank" rel="noreferrer" href='https://www.instagram.com/bayreuth.baboons/'>@bayreuth.baboons</a>.</p>
