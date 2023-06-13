@@ -27,7 +27,7 @@
     font-style: italic;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1050px){
     .contact-picture{
         margin-top: 20px;
     }

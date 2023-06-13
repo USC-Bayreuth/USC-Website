@@ -78,7 +78,11 @@ p{
   margin-top: 30px;
 }
 
-@media screen and (max-width: 960px){
+td, th{
+  background: transparent;
+}
+
+@media screen and (max-width: 1050px){
   h1{
     text-align: left;
     font-size: 1.5rem;
@@ -126,5 +130,10 @@ p{
     font-size: 1.0rem;
     color: whitesmoke;
     margin-top: 30px;
+  }
+
+  td, th{
+    background: transparent;
+    font-size: 0.9rem;
   }
 }
