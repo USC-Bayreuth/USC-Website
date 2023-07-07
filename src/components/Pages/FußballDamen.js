@@ -71,7 +71,7 @@ class FußballDamen extends Component{
                     <h1>Team</h1>
                     <img alt='fußball-damen' src='/img/Fußball Damen/Mannschaftsfoto Damen.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
                         {kader.Trainer.map((item, index) =>{

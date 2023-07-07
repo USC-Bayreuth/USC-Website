@@ -72,7 +72,7 @@ class FußballHerren extends Component{
                     <h1>Team</h1>
                     <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
                         {kader.Trainer.map((item, index) =>{
