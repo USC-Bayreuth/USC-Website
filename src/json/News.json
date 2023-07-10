@@ -1,5 +1,18 @@
 [
     {
+        "sliderImage": "23_07_10_0.jpg|23_07_10_1.jpg",
+        "title": "Erfolgreiches Tenniswochenende",
+        "date": "10.07.2023",
+        "tags": "Tennis Damen|Tennis Herren",
+        "blocks": [
+            "!image 23_07_10_0.jpg|23_07_10_1.jpg",
+            "Ein erfolgreiches Tenniswochenende für den USC liegt hinter uns. Sowohl die Damen als auch die Herren gingen beide siegreich aus ihren Sonntagsbegegnungen hervor.",
+            "Während die Damen sehr eindeutig (7:2) gewinnen konnten, entschied es sich bei den Herren erst im letzten Doppel im Matchtiebreak (5:4). Damit endet auch bereits die Sommersaison der Herren. Diese konnten 3 von 6 Spieltagen für sich entscheiden und landen damit aktuell auf dem dritten Platz der Tabelle. Eine deutliche Steigerung zum letzten Jahr!",
+            "Die Damen treten zu ihrem Sainsonabschluss am So, 16.7 noch ein letztes Mal auswärts gegen Engelmannsreuth an.",
+            "Erfreulicherweise endet damit noch nicht die Tennissaison für 2023, da der USC dieses Jahr erstmalig auch eine Mixedmannschaft und eine Wintermannschaft gemeldet hat. Wessen Interesse geweckt ist, kann sich gerne bei uns melden; wir suchen immer sportliche Unterstützung bei den Damen und Herren!"
+        ]
+    },
+    {
         "sliderImage": "23_06_29.jpg",
         "title": "USC Tennis Herren feiern zweiten Saisonsieg",
         "date": "29.06.2023",
