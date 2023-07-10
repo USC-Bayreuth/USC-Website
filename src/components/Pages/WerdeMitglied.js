@@ -20,7 +20,7 @@ class WerdeMitglied extends Component{
                                     <th style={itemStyle}>Fußball</th>
                                     <th>Tennis</th>
                                     <th>Roundnet</th>
-                                    {/*<th>Volleyball</th>*/}
+                                    <th>Volleyball</th>
                                 </tr>
                                 <tr style={subheaderStyle}>
                                     <td style={basicStyle}/>
@@ -28,7 +28,7 @@ class WerdeMitglied extends Component{
                                     <td style={itemStyle}>Abteilungsbeitrag<br/>45€</td>
                                     <td>Abteilungsbeitrag<br/>110€</td>
                                     <td>Abteilungsbeitrag<br/>24€</td>
-                                    {/*<td>Abteilungsbeitrag<br/>24€</td>*/}
+                                    <td>Abteilungsbeitrag<br/>24€</td>
                                 </tr>
                             </thead>
                             <tbody>
@@ -38,7 +38,7 @@ class WerdeMitglied extends Component{
                                     <td>65€</td>
                                     <td>130€</td>
                                     <td>44€</td>
-                                    {/*<td>44€</td>*/}
+                                    <td>44€</td>
                                 </tr>
                                 <tr>
                                     <td style={itemStyle}>Beschäftigte</td>
@@ -46,7 +46,7 @@ class WerdeMitglied extends Component{
                                     <td>85€</td>
                                     <td>150€</td>
                                     <td>64€</td>
-                                    {/*<td>64€</td>*/}
+                                    <td>64€</td>
                                 </tr>
                                 <tr style={lightRow}>
                                     <td style={itemStyle}>Alumni/Externe</td>
@@ -54,7 +54,7 @@ class WerdeMitglied extends Component{
                                     <td>105€</td>
                                     <td>170€</td>
                                     <td>84€</td>
-                                    {/*<td>84€</td>*/}
+                                    <td>84€</td>
                                 </tr>
                             </tbody>
                         </Table>
