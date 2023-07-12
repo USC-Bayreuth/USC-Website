@@ -1,5 +1,23 @@
 {
     "Verantwortliche": [
+        {
+            "Name": "Dennis Bauer",
+            "Bild": "Dennis-Bauer.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0151 46601150"
+        },
+        {
+            "Name": "Christian Miller",
+            "Bild": "Miller-Christian.JPG",
+            "Rolle": "Trainer",
+            "Handy": "0176 45776648"
+        },
+        {
+            "Name": "Adrian Hafenecker",
+            "Bild": "Adrian-Hafenecker.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0176 45707885"
+        }
     ],
     "Torwart": [
         {
@@ -13,10 +31,6 @@
     ],
     "Abwehr": [
         {
-            "Name": "Stefan Am Ende",
-            "Bild": "Stefan-Am-Ende.jpg"
-        },
-        {
             "Name": "Joshua Behr",
             "Bild": "Behr-Joshua.JPG"
         },
@@ -27,12 +41,6 @@
         {
             "Name": "Sebastian Firnkes",
             "Bild": "Firnkes-Sebastian.JPG"
-        },
-        {
-            "Name": "Christopher Fröhlich"
-        },
-        {
-            "Name": "Maximilian Gerbig"
         },
         {
             "Name": "Adrian Hafenecker",
@@ -58,18 +66,11 @@
             "Bild": "Kumar-Matteo.JPG"
         },
         {
-            "Name": "Benedikt Lawo"
-        },
-        {
             "Name": "Conrad von Sandersleben"
         },
         {
             "Name": "Oscar Wenzel",
             "Bild": "Wenzel-Oscar.JPG"
-        },
-        {
-            "Name": "Johannes Wetzstein",
-            "Bild": "Wetzstein-Johannes.JPG"
         },
         {
             "Name": "Florian Witzschel",
@@ -78,57 +79,19 @@
     ],
     "Mittelfeld": [
         {
-            "Name": "Tobias Biller",
-            "Bild": "Tobias-Biller.jpg"
-        },
-        {
             "Name": "Johannes Brötling",
             "Bild": "Brötling-Johannes.JPG"
-        },
-        {
-            "Name": "Héctor Cantera Azpiazu",
-            "Bild": "Cantera-Hector.JPG"
         },
         {
             "Name": "Dorian Geyer",
             "Bild": "Geyer-Dorian.JPG"
         },
         {
-            "Name": "Jonathan Groß",
-            "Bild": "Jona_Groß.jpg"
-        },
-        {
-            "Name": "Jannis Grundler"
-        },
-        {
-            "Name": "Haris Kirapoglou",
-            "Bild": "Kirapoglou-Haris.JPG"
-        },
-        {
-            "Name": "Timo Knödler"
-        },
-        {
             "Name": "Nico Koplanov",
             "Bild": "Koplanov-Nico.JPG"
         },
         {
-            "Name": "Jan Kreuder"
-        },
-        {
-            "Name": "Simon Kuster",
-            "Bild": "Kuster-Simon.JPG"
-        },
-        {
-            "Name": "Andreas Maag"
-        },
-        {
-            "Name": "Thies Martens"
-        },
-        {
-            "Name": "Christoph Michel"
-        },
-        {
-            "Name": "Ben Moss",
+            "Name": "Ben Moß",
             "Bild": "Moss-Ben.JPG"
         },
         {
@@ -136,26 +99,8 @@
             "Bild": "Müller-Adrian.JPG"
         },
         {
-            "Name": "Tim Schneider",
-            "Bild": "Tim-Schneider.jpg"
-        },
-        {
             "Name": "Michael Schöffel",
             "Bild": "Schöffel-Michael.JPG"
-        },
-        {
-            "Name": "Lucas Reilly-Scott",
-            "Bild": "Reilly-Schott-Lucas.JPG"
-        },
-        {
-            "Name": "Maurice Schürch"
-        },
-        {
-            "Name": "Jens Strohschein",
-            "Bild": "Strohschein-Jens.JPG"
-        },
-        {
-            "Name": "Tim-Tobias Thielen"
         },
         {
             "Name": "Jakob Weber",
@@ -163,23 +108,9 @@
         },
         {
             "Name": "Alexander Wendt"
-        },
-        {
-            "Name": "Vincent Woller",
-            "Bild": "Vincent-Woller.jpg"
-        },
-        {
-            "Name": "Maurice Yacoub"
         }
     ],
     "Angriff": [
-        {
-            "Name": "Yazdan Ayo",
-            "Bild": "Yazdan-Ayo.jpg"
-        },
-        {
-            "Name": "Kevin Jauch"
-        },
         {
             "Name": "Maximilian Konstantinidis",
             "Bild": "Konstantinidis-Max.JPG"

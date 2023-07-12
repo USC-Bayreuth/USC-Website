@@ -34,6 +34,24 @@
             "Mail":"joshua.behr@uni-bayreuth.de"
         },
         {
+            "Name": "Dennis Bauer",
+            "Bild": "/img/Fußball Herren/Dennis-Bauer.jpg",
+            "Rolle": "Trainer Herren",
+            "Handy": "0151 46601150"
+        },
+        {
+            "Name": "Christian Miller",
+            "Bild": "/img/Fußball Herren/Miller-Christian.JPG",
+            "Rolle": "Trainer Herren",
+            "Handy": "0176 45776648"
+        },
+        {
+            "Name": "Adrian Hafenecker",
+            "Bild": "/img/Fußball Herren/Adrian-Hafenecker.jpg",
+            "Rolle": "Trainer Herren",
+            "Handy": "0176 45707885"
+        },
+        {
             "Name":"Jonathan Weyel",
             "Rolle":"Trainer Damen",
             "Bild":"/img/Fußball Damen/Jonathan_Weyel.jpg",
