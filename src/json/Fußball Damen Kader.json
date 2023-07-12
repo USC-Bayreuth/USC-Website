@@ -1,11 +1,10 @@
 {
-    "Trainer": [
+    "Verantwortliche": [
         {
-            "Name": "Joshua Behr",
-            "Bild": "Joshua_Behr_Trainer.jpg",
-            "Rolle": "Cheftrainer",
-            "Handy": "01575 0662674",
-            "Mail": "joshua.behr@uni-bayreuth.de"
+            "Name": "Jonathan Weyel",
+            "Bild": "Jonathan_Weyel.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0176 81285338 "
         },
         {
             "Name": "Philipp Rank",
@@ -14,8 +13,7 @@
         },
         {
             "Name": "Laila Auerochs",
-            "Rolle": "Abteilungsleiterin",
-            "Mail": "damenfussball@usc-bayreuth.de",
+            "Rolle": "Betreuerin",
             "Bild": "Auerochs-Laila.JPG"
         }
     ],
@@ -26,6 +24,9 @@
         }
     ],
     "Abwehr": [
+        {
+            "Name": "Antonia Behl"
+        },
         {
             "Name": "Miriam Bloß",
             "Bild": "Miriam_Bloß.jpg"
@@ -39,7 +40,7 @@
             "Bild": "Bühr-Sophie.JPG"
         },
         {
-            "Name": "Carolin Burgard"
+            "Name": "Caro Burgard"
         },
         {
             "Name": "Hanna Durczok",
@@ -50,15 +51,24 @@
             "Bild": "Fedler-Elena.JPG"
         },
         {
-            "Name": "Isabella Grüner"
+            "Name": "Caroline Fuchs"
+        },
+        {
+            "Name": "Johanna-Sophie Gros"
+        },
+        {
+            "Name": "Ella Herrmann"
+        },
+        {
+            "Name": "Giulia Kettel"
         },
         {
             "Name": "Kirstin Köhler",
             "Bild": "Köhler-Kirstin.JPG"
         },
         {
-            "Name": "Theresa Süß",
-            "Bild": "Suess-Theresa.JPG"
+            "Name": "Paula Waldmüller",
+            "Bild": "Paula_Waldmüller.jpg"
         }
     ],
     "Mittelfeld": [
@@ -67,30 +77,18 @@
             "Bild": "Auerochs-Laila.JPG"
         },
         {
-            "Name": "Jelena Best"
+            "Name": "Lena Bitz"
         },
         {
             "Name": "Isabella Boll",
             "Bild": "Boll-Isabella.JPG"
         },
         {
-            "Name": "Sina Dziumbla",
-            "Bild": "Sina_Dziumbla.jpg"
-        },
-        {
-            "Name": "Mira Feuerbach",
-            "Bild": "Mira_Feuerbach.jpg"
-        },
-        {
-            "Name": "Antonia Haberkorn"
-        },
-        {
             "Name": "Melinda Herfet",
             "Bild": "Melinda_Herfet.jpg"
         },
         {
-            "Name": "Kiara Kindler",
-            "Bild": "Kiara_Kindler.jpg"
+            "Name": "Sophie Kossmann"
         },
         {
             "Name": "Kira Meineke",
@@ -108,16 +106,13 @@
             "Bild": "Melissa_Moos.jpg"
         },
         {
-            "Name": "Lea Petschler",
-            "Bild": "Lea_Petschler.jpg"
+            "Name": "Elena Rütters"
         },
         {
-            "Name": "Tamara Schirbel",
-            "Bild": "Schirbel-Tamara.JPG"
+            "Name": "Leonie Schmale"
         },
         {
-            "Name": "Paula Waldmüller",
-            "Bild": "Paula_Waldmüller.jpg"
+            "Name": "Lilli Skapczyk"
         }
     ],
     "Angriff": [
@@ -126,12 +121,17 @@
             "Bild": "Juliane_Bachmann.jpg"
         },
         {
-            "Name": "Lucie Franzl",
-            "Bild": "Lucie_Franzl.jpg"
+            "Name": "Antonia Haberkorn"
         },
         {
             "Name": "Hanna Laik",
             "Bild": "Laik-Hanna.JPG"
+        },
+        {
+            "Name": "Amelie Meier"
+        },
+        {
+            "Name": "Veronika Riedl"
         },
         {
             "Name": "Nancy Villagran",

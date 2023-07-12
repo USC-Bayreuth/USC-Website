@@ -45,12 +45,12 @@ class FußballHerren extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1031545&div_id=widget_62c32f526458d&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead046b5df&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1031545&div_id=widget_62c32ec466334&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead3d8592b&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                         </>
@@ -59,10 +59,10 @@ class FußballHerren extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1031545&div_id=widget_62c32f526458d&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead046b5df&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
                                 </Col>
                                 <Col>
-                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1031545&div_id=widget_62c32ec466334&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead3d8592b&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                         </>
@@ -75,7 +75,7 @@ class FußballHerren extends Component{
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Trainer.map((item, index) =>{
+                        {kader.Verantwortliche.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>

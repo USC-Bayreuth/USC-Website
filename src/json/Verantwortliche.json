@@ -27,33 +27,17 @@
     ],
     "Fußball":[
         {
-            "Name":"Jonathan Weyel",
-            "Rolle":"1. Abteilungsleiter",
-            "Bild":"/img/Fußball Herren/Jonathan_Weyel.jpg",
-            "Mail":"herrenfussball@usc-bayreuth.de"
-        },
-        {
-            "Name":"Laila Auerochs",
-            "Rolle":"2. Abteilungsleiterin",
-            "Bild":"/img/Fußball Damen/Auerochs-Laila.JPG",
-            "Mail":"damenfussball@usc-bayreuth.de"
-        },
-        {
-            "Name":"Kamal Abdi",
-            "Rolle":"Trainer Herren",
-            "Bild":"/img/Fußball Herren/Kamal-Abdi.jpg",
-            "Handy":"0163 2504057"
-        },
-        {
             "Name":"Joshua Behr",
-            "Rolle":"Trainer Damen",
-            "Bild":"/img/Fußball Damen/Joshua_Behr_Trainer.jpg",
+            "Rolle":"Abteilungsleiter",
+            "Bild":"/img/Fußball Herren/Behr-Joshua.JPG",
             "Handy":"01575 0662674",
             "Mail":"joshua.behr@uni-bayreuth.de"
         },
         {
-            "Name":"Philipp Rank",
-            "Rolle":"Co-Trainer Damen"
+            "Name":"Jonathan Weyel",
+            "Rolle":"Trainer Damen",
+            "Bild":"/img/Fußball Damen/Jonathan_Weyel.jpg",
+            "Handy":"0176 81285338"
         }
     ],
     "Tennis":[
