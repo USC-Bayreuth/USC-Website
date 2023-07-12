@@ -15,6 +15,13 @@
             "Name": "Laila Auerochs",
             "Rolle": "Betreuerin",
             "Bild": "Auerochs-Laila.JPG"
+        },
+        {
+            "Name":"Joshua Behr",
+            "Rolle":"Spielleiter",
+            "Bild":"Joshua_Behr_Trainer.jpg",
+            "Handy":"01575 0662674",
+            "Mail":"joshua.behr@uni-bayreuth.de"
         }
     ],
     "Torwart": [
