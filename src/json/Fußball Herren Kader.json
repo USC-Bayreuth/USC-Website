@@ -69,6 +69,9 @@
             "Name": "Conrad von Sandersleben"
         },
         {
+            "Name": "Ferdinand Theilacker"
+        },
+        {
             "Name": "Oscar Wenzel",
             "Bild": "Wenzel-Oscar.JPG"
         },
@@ -81,6 +84,9 @@
         {
             "Name": "Johannes Brötling",
             "Bild": "Brötling-Johannes.JPG"
+        },
+        {
+            "Name": "Alexander Gerk"
         },
         {
             "Name": "Dorian Geyer",
@@ -103,6 +109,15 @@
             "Bild": "Schöffel-Michael.JPG"
         },
         {
+            "Name": "Enno Schröder"
+        },
+        {
+            "Name": "Lukas Schwierz"
+        },
+        {
+            "Name": "Felix Streble"
+        },
+        {
             "Name": "Jakob Weber",
             "Bild": "Jakob-Weber.jpg"
         },
@@ -111,6 +126,9 @@
         }
     ],
     "Angriff": [
+        {
+            "Name": "Michael Burkard"
+        },
         {
             "Name": "Maximilian Konstantinidis",
             "Bild": "Konstantinidis-Max.JPG"
@@ -122,6 +140,9 @@
         {
             "Name": "Quirin Scharrer",
             "Bild": "Scharrer-Quirin.JPG"
+        },
+        {
+            "Name": "Corbin Williams"
         },
         {
             "Name": "Etienne Zagabe",
