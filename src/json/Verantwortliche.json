@@ -3,17 +3,18 @@
         {
             "Name":"Julia Bräuer",
             "Rolle":"1. Vorstand",
-            "Mail":""
+            "Mail":"",
+            "Geschlecht":"w"
         },
         {
             "Name":"Duc Viet Nguyen",
             "Rolle":"2. Vorstand",
-            "Mail":""
+            "Mail":"ducviet199812@yahoo.de"
         },
         {
             "Name":"Matteo Kumar",
             "Rolle":"Vorstand Finance",
-            "Mail":""
+            "Mail":"Matteo.Kumar@uni-bayreuth.de"
         },
         {
             "Name":"Oscar Wenzel",
