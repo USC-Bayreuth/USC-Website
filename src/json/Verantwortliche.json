@@ -3,7 +3,8 @@
         {
             "Name":"Julia Bräuer",
             "Rolle":"1. Vorstand",
-            "Mail":"julia.braeuer@uni-bayreuth.de"
+            "Mail":"julia.braeuer@uni-bayreuth.de",
+            "Geschlecht":"w"
         },
         {
             "Name":"Duc Viet Nguyen",
