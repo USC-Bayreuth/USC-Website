@@ -31,6 +31,10 @@
     ],
     "Abwehr": [
         {
+            "Name": "Stefan Am Ende",
+            "Bild": "Stefan-Am-Ende.jpg"
+        },
+        {
             "Name": "Joshua Behr",
             "Bild": "Behr-Joshua.JPG"
         },

@@ -1,5 +1,44 @@
 [
     {
+        "sliderImage": "23_08_21.jpg|23_08_21.jpg",
+        "title": "Erstes Spiel der Tennis-Mixedmannschaft",
+        "date": "21.08.2023",
+        "tags": "Tennis Damen|Tennis Herren",
+        "blocks": [
+            "Das zweite Saisonspiel unserer Tennis-Mixedmannschaft ging gestern untentschieden auseinander (3:3). Bei über 30 Grad wurden wir vom TA Eckersdorf sehr herzlich empfangen.",
+            "Weiter geht es für uns mit einem Heimspiel am Sa, 2.9. gegen den TSC Mainleus auf den Tennisplätzen der Uni Bayreuth. Wir freuen uns über Zuschauer:innen!"
+        ]
+    },
+    {
+        "sliderImage": "23_08_20.jpg",
+        "title": "Sieg gegen den TSV Kirchenlaibach-Speichersdorf II",
+        "date": "20.08.2023",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 23_08_20.jpg",
+            "Die Herren gewinnen bei hochsommerlichen Temperaturen ihr Heimspiel an der Uni, erstmals in ungewohnter blau-grüner Farbkombo!☀️",
+            "⚽️ 1:0 Müller (23., Zagabe)",
+            "⚽️ 2:0 Geyer (26., Firnkes)",
+            "⚽️ 3:0 Witzschel (68., Müller)",
+            "❌ 3:1 (Knie, 80.)",
+            "🟢⚫️"
+        ]
+    },
+    {
+        "sliderImage": "23_08_08.jpg",
+        "title": "Erster Saisonsieg für die Fußball Herren",
+        "date": "08.08.2023",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 23_08_08.jpg",
+            "Nachdem die ersten drei Saisonspiele knapp verloren gingen, konnte das erste Heimspiel gegen Mistelgau II mit 2:1 gewonnen werden!🔥",
+            "⚽️ 1:0 Kaufhold (7., Geyer)",
+            "⚽️ 2:0 Witzschel (80., Behr)",
+            "❌ 2:1 Schleuning (90.+2)",
+            "🟢⚫️"
+        ]
+    },
+    {
         "sliderImage": "23_07_12.jpg",
         "title": "Volleyball Trainer gesucht",
         "date": "12.07.2023",

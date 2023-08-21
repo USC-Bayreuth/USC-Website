@@ -4,6 +4,11 @@ import './Team.css'
 import Slider from '../Slider/Slider'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
+const fupaLinkTabelle1 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1160639&div_id=widget_64e31b3a087a0&start=tabelle&header=0&navi=0'
+const fupaLinkSpielplan1 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1160639&div_id=widget_64e31b6527207&start=spielplan&header=0&navi=0'
+const fupaLinkTabelle2 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1182327&div_id=widget_64e31bc8288e5&start=tabelle&header=0&navi=0'
+const fupaLinkSpielplan2 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1182327&div_id=widget_64e31d1786aa9&start=spielplan&header=0&navi=0'
+
 class FußballDamen extends Component{
     state={mobileMode: window.innerWidth<960}
 
@@ -37,17 +42,18 @@ class FußballDamen extends Component{
                 <div/>
                 <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
                 <h1>Tabelle und Spielplan</h1>
+                <h2>1. Mannschaft</h2>
                 <Container fluid className='my-container'>
                     {this.state.mobileMode &&
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1077843&div_id=widget_62dfabfc0bb53&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='tabelle' src={fupaLinkTabelle1} frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1077843&div_id=widget_62dfac552688a&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='spielplan' src={fupaLinkSpielplan1} frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                         </>
@@ -56,10 +62,39 @@ class FußballDamen extends Component{
                         <>
                         <Row>
                             <Col>
-                                <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1077843&div_id=widget_62dfabfc0bb53&start=tabelle&header=0&navi=0' frameBorder='0' className='widget widget-fußball-damen'/>
+                                <iframe title='tabelle' src={fupaLinkTabelle1} frameBorder='0' className='widget widget-fußball-damen'/>
                             </Col>
                             <Col>
-                                <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1077843&div_id=widget_62dfac552688a&start=spielplan&header=0&navi=0' frameBorder='0' className='widget widget-fußball-damen'/>
+                                <iframe title='spielplan' src={fupaLinkSpielplan1} frameBorder='0' className='widget widget-fußball-damen'/>
+                            </Col>
+                        </Row>
+                        </>
+                    }
+                </Container>
+                <h2>2. Mannschaft</h2>
+                <Container fluid className='my-container'>
+                    {this.state.mobileMode &&
+                        <>
+                            <Row>
+                                <Col>
+                                    <iframe title='tabelle' src={fupaLinkTabelle2} frameBorder='0' className='widget'/>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col>
+                                    <iframe title='spielplan' src={fupaLinkSpielplan2} frameBorder='0' className='widget'/>
+                                </Col>
+                            </Row>
+                        </>
+                    }
+                    {!this.state.mobileMode &&
+                        <>
+                        <Row>
+                            <Col>
+                                <iframe title='tabelle' src={fupaLinkTabelle2} frameBorder='0' className='widget widget-fußball-damen'/>
+                            </Col>
+                            <Col>
+                                <iframe title='spielplan' src={fupaLinkSpielplan2} frameBorder='0' className='widget widget-fußball-damen'/>
                             </Col>
                         </Row>
                         </>

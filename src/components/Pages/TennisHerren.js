@@ -38,8 +38,13 @@ class TennisHerren extends Component{
                 <h1>Unser Partner</h1>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
+                <h2>Herren</h2>
                 <Container fluid className='my-container'>
                     <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1840268&etag=bc36ba91-e354-4aae-9a2c-1a878429e587' frameBorder='0' className='widget'/>
+                </Container>
+                <h2>Mixed</h2>
+                <Container fluid className='my-container'>
+                    <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1863888&etag=49d94f2c-8d92-4da2-b855-2b0d4ea824ad' frameBorder='0' className='widget'/>
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
                     <h1>Team</h1>

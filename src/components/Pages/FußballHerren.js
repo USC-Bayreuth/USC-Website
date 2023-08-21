@@ -4,6 +4,9 @@ import './Team.css'
 import Slider from '../Slider/Slider'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
+const fupaLinkTabelle = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead046b5df&start=tabelle&header=0&navi=0'
+const fupaLinkSpielplan = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead3d8592b&start=spielplan&header=0&navi=0'
+
 class FußballHerren extends Component{
     state={mobileMode: window.innerWidth<960}
 
@@ -45,12 +48,12 @@ class FußballHerren extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead046b5df&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='tabelle' src={fupaLinkTabelle} frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead3d8592b&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='spielplan' src={fupaLinkSpielplan} frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                         </>
@@ -59,10 +62,10 @@ class FußballHerren extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead046b5df&start=tabelle&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='tabelle' src={fupaLinkTabelle} frameBorder='0' className='widget'/>
                                 </Col>
                                 <Col>
-                                    <iframe title='spielplan' src='https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1131720&div_id=widget_64aead3d8592b&start=spielplan&header=0&navi=0' frameBorder='0' className='widget'/>
+                                    <iframe title='spielplan' src={fupaLinkSpielplan} frameBorder='0' className='widget'/>
                                 </Col>
                             </Row>
                         </>

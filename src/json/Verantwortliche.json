@@ -1,22 +1,19 @@
 {
     "Vorstand":[
         {
-            "Name":"Joshua Behr",
+            "Name":"Julia Bräuer",
             "Rolle":"1. Vorstand",
-            "Bild":"/img/Verantwortliche/Joshua-Behr.jpg",
-            "Mail":"joshua.behr@uni-bayreuth.de"
+            "Mail":""
         },
         {
-            "Name":"Christian Miller",
+            "Name":"Duc Viet Nguyen",
             "Rolle":"2. Vorstand",
-            "Bild":"/img/Verantwortliche/Christian-Miller.jpg",
-            "Mail":"cmiller95@web.de"
+            "Mail":""
         },
         {
-            "Name":"Ruben Just",
+            "Name":"Matteo Kumar",
             "Rolle":"Vorstand Finance",
-            "Bild":"/img/Verantwortliche/Ruben-Just.jpg",
-            "Mail":"ruben.just@uni-bayreuth.de"
+            "Mail":""
         },
         {
             "Name":"Oscar Wenzel",
