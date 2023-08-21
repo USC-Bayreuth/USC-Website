@@ -208,6 +208,7 @@ class Verantwortliche extends Component{
             <p style={{marginTop: 60, fontWeight: 'bolder'}}>Sonstige Kontaktaufnahme auch über unsere Social-Media-Kanäle</p>
             <p style={{marginTop: 5}}>Facebook: <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">USC Bayreuth</a></p>
             <p style={{marginTop: 5}}>Instagram: <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">@usc_bayreuth</a>, <a className='link' href='https://www.instagram.com/roundnet.bayreuth/' target="_blank" rel="noreferrer">@roundnet.bayreuth</a></p>
+            <p style={{marginTop: 5}}>Oder über <a className='link' href='mailto:info@usc-bayreuth.de'>info@usc-bayreuth.de</a></p>
             </>
         )
     }
