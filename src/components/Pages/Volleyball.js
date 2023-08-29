@@ -36,7 +36,7 @@ class Volleyball extends Component{
                 <Container fluid className='my-container'>
                     <Row>
                         <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <img src='/img/no-picture-man.jpg' className="contact-picture" alt="staff"/>
+                            <img src='/img/Verantwortliche/Duc-Nguyen.jpg' className="contact-picture" alt="staff"/>
                             <p className='contact-subtitle-title'>Abteilungsleiter</p>
                             <p className='contact-subtitle'>Duc Viet Nguyen</p>
                             <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>

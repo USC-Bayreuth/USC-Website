@@ -4,17 +4,19 @@
             "Name":"Julia Bräuer",
             "Rolle":"1. Vorstand",
             "Mail":"julia.braeuer@uni-bayreuth.de",
-            "Geschlecht":"w"
+            "Bild":"/img/Verantwortliche/Julia-Bräuer.jpg"
         },
         {
             "Name":"Duc Viet Nguyen",
             "Rolle":"2. Vorstand",
-            "Mail":"Duc.Nguyen-Viet@uni-bayreuth.de"
+            "Mail":"Duc.Nguyen-Viet@uni-bayreuth.de",
+            "Bild":"/img/Verantwortliche/Duc-Nguyen.jpg"
         },
         {
             "Name":"Matteo Kumar",
             "Rolle":"Vorstand Finance",
-            "Mail":"Matteo.Kumar@uni-bayreuth.de"
+            "Mail":"Matteo.Kumar@uni-bayreuth.de",
+            "Bild":"/img/Verantwortliche/Matteo-Kumar.jpg"
         },
         {
             "Name":"Oscar Wenzel",
@@ -88,7 +90,8 @@
             "Name":"Duc Viet Nguyen",
             "Rolle":"Abteilungsleiter",
             "Handy":"0171 2393629",
-            "Mail":"volleyball@usc-bayreuth.de"
+            "Mail":"volleyball@usc-bayreuth.de",
+            "Bild":"/img/Verantwortliche/Duc-Nguyen.jpg"
         }
     ],
     "Webmaster":[
