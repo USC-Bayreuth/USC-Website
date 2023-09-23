@@ -1,5 +1,40 @@
 [
     {
+        "sliderImage": "23_09_19.jpg",
+        "title": "Erster BOL Punkt",
+        "date": "19.09.2023",
+        "tags": "Fußball Damen",
+        "blocks": [
+            "!image 23_09_19.jpg",
+            "Am vergangenen Sonntag konnten die USC Damen ihren ersten BOL-Punkt sammeln. In einem ausgeglichenen Spiel gegen die Mitaufsteigerinnen aus Waischenfeld belohnte @tammi56 die engagierte Mannschaftsleistung. Der Kopfballtreffer in der 89. Minute war damit auch der Endstand von 1:1.",
+            "Am Samstag (13 Uhr) ist der FC Pegnitz an der Uni zu Gast. Wir freuen uns über euren Support!"
+        ]
+    },
+    {
+        "sliderImage": "23_09_18.jpg",
+        "title": "Co-Trainer gesucht",
+        "date": "18.09.2023",
+        "tags": "Fußball Damen",
+        "blocks": [
+            "!image 23_09_18.jpg",
+            "Die Fußballabteilung des USC-Bayreuth sucht nach einem:r Co-Trainer:in für die Damenmannschaft in der Bezirksoberliga!⚽️",
+            "Wenn ihr Interesse oder noch Fragen habt, dann meldet euch am besten bei Abteilungsleiter Joshua Behr (01575 0662674)!"
+        ]
+    },
+    {
+        "sliderImage": "23_09_17.jpg",
+        "title": "Sieg gegen die SG Bindlach/Ramsenthal",
+        "date": "17.09.2023",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 23_09_17.jpg",
+            "In einem Spiel mit vielen Torchancen behält der USC die Oberhand und gewinnt mit 2:1. Zuhause an der Universität sind die Herren damit weiter ungeschlagen!🔥",
+            "⚽️ 1:0 Miller (43., Zagabe)",
+            "⚽️ 2:0 Wenzel (45., Koplanov)",
+            "❌ 2:1 Llugaxhija (80.)"
+        ]
+    },
+    {
         "sliderImage": "23_08_30.jpg",
         "title": "Neuer USC Vorstand",
         "date": "30.08.2023",
