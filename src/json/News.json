@@ -1,5 +1,31 @@
 [
     {
+        "sliderImage": "23_09_24_1.jpg|23_09_24_1.jpg",
+        "title": "2:4 Niederlage zum Saisonabschluss",
+        "date": "24.09.2023",
+        "tags": "Tennis Damen|Tennis Herren",
+        "blocks": [
+            "!image 23_09_24_1.jpg",
+            "Gestern ging die Mixedsaison für uns zu Ende. Leider mussten wir uns am Ende 2:4 gegen Lichtenfels geschlagen geben. Für uns endet damit auch die Outdoorsaison und es geht in die Halle, wo es für die Herren am 14. Oktober in der Winterrunde geht.",
+            "Interesse am Wintertraining? Dann schau gerne am Di, 18:00-20:00 Uhr Mal vorbei 🎾"
+        ]
+    },
+    {
+        "sliderImage": "23_09_24_0.jpg",
+        "title": "2:3 Sieg bei der SG Nemmersdorf/Goldkronach",
+        "date": "24.09.2023",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 23_09_24_0.jpg",
+            "Gestern holten die Herren den ersten Auswärtsdreier der Saison! Mit Yazo und JLo schnürten zudem zwei USC-Legenden nach langer Zeit wieder die Schuhe für die Universität! Nächsten Samstag geht’s zuhause weiter gegen den SSV Kirchenpingarten!",
+            "❌ 1:0 Neuner (7.)",
+            "⚽️ 1:1 Miller (15., Zagabe)",
+            "⚽️ 1:2 Wenzel (50., Miller)",
+            "❌ 2:2 Cuchta (64.)",
+            "⚽️ 2:3 Miller (71., Zagabe)"
+        ]
+    },
+    {
         "sliderImage": "23_09_19.jpg",
         "title": "Erster BOL Punkt",
         "date": "19.09.2023",
