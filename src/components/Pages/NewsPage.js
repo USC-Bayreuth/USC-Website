@@ -25,9 +25,11 @@ class NewsPage extends Component{
                         )
                     }
                     else
-                        return(
-                            <p key={index} className={index===0? 'first-block':''}>{item}</p>
-                        )
+                        return item.split('|').map((line, index2) => {
+                            return(
+                                <p key={index2} style={{marginTop: index2>0?5:(index===0?13:25)}}>{line}</p>
+                            )
+                        })
                 })}
             </>
         )

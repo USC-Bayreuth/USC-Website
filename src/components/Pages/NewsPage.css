@@ -14,10 +14,6 @@
     margin-top: 10px;
 }
 
-.first-block{
-    margin-top: 13px;
-}
-
 @media screen and (max-width: 1050px){
     .date{
         font-size: 0.8rem;
