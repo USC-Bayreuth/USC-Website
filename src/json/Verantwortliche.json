@@ -100,6 +100,10 @@
             "Rolle":"Webmaster",
             "Bild":"/img/Fußball Herren/Stefan-Am-Ende.jpg",
             "Mail":"stefan.am-ende@uni-bayreuth.de"
-        }
+        },
+        {            
+            "Name":"Erik Reinsch",
+            "Rolle":"Webmaster",
+            "Mail":"erik.reinsch@uni-bayreuth.de"}
     ]
 }
