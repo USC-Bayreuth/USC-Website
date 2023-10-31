@@ -34,7 +34,7 @@ class TennisDamen extends Component{
                 <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
                 <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten</h2>
-                <p>Dienstag und Mittwoch 19:00 - 21:00 (Sportinstitut)</p>
+                <p>Dienstag 18:00 - 20:00 (<a className='link' href='https://maps.app.goo.gl/CAH1DWJeXEBZHmSQ9' target='_blank' rel='noreferrer'>TC Grün-Weiß Bayreuth</a>)</p>
                 <h1>Unser Partner</h1>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>

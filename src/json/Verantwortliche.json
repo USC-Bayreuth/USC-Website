@@ -60,14 +60,8 @@
     ],
     "Tennis":[
         {
-            "Name":"Antonia Haberkorn",
-            "Rolle":"1. Abteilungsleiterin",
-            "Bild":"/img/Tennis Damen/Haberkorn_Antonia.JPG",
-            "Mail":"tennis@usc-bayreuth.de"
-        },
-        {
             "Name":"Claudius Jonas",
-            "Rolle":"2. Abteilungsleiter",
+            "Rolle":"Abteilungsleiter",
             "Bild":"/img/Tennis Herren/Jonas_Claudius.JPG",
             "Mail":"claudius.jonas@uni-bayreuth.de"
         },
