@@ -31,7 +31,7 @@ class Volleyball extends Component{
                 <p>Bei weiteren Fragen wende dich jederzeit an unseren Abteilungsleiter Duc (<a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a>).</p>
                 <h2>Trainingszeiten</h2>
                 <p>Mittwoch: 20:00 - 22:00 (Halle 3, Sportinstitut)</p>
-                <p>Samstag: 12:00 - 14:00 (kleine Turnhalle, Sportinstitut)</p>
+                <p style={{marginTop: 15}}>Samstag: 12:00 - 14:00 (kleine Turnhalle, Sportinstitut)</p>
                 <h1>Team</h1>
                 <Container fluid className='my-container'>
                     <Row>
