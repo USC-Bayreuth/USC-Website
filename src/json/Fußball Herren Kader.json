@@ -47,6 +47,9 @@
             "Bild": "Firnkes-Sebastian.JPG"
         },
         {
+            "Name": "Moritz Füßl"
+        },
+        {
             "Name": "Adrian Hafenecker",
             "Bild": "Adrian-Hafenecker.jpg"
         },
@@ -93,30 +96,24 @@
             "Name": "Alexander Gerk"
         },
         {
-            "Name": "Dorian Geyer",
-            "Bild": "Geyer-Dorian.JPG"
+            "Name": "Ayman Ghorabi"
         },
         {
             "Name": "Nico Koplanov",
             "Bild": "Koplanov-Nico.JPG"
         },
         {
+            "Name": "Jannik Lockl"
+        },
+        {
             "Name": "Ben Moß",
             "Bild": "Moss-Ben.JPG"
         },
         {
-            "Name": "Adrian Müller",
-            "Bild": "Müller-Adrian.JPG"
+            "Name": "Tobias Neuberger"
         },
         {
-            "Name": "Michael Schöffel",
-            "Bild": "Schöffel-Michael.JPG"
-        },
-        {
-            "Name": "Enno Schröder"
-        },
-        {
-            "Name": "Lukas Schwierz"
+            "Name": "Alessandro Seck"
         },
         {
             "Name": "Felix Streble"
@@ -131,22 +128,27 @@
     ],
     "Angriff": [
         {
+            "Name": "Yazdan Ayo",
+            "Bild": "Yazdan-Ayo.jpg"
+        },
+        {
             "Name": "Michael Burkard"
         },
         {
-            "Name": "Maximilian Konstantinidis",
-            "Bild": "Konstantinidis-Max.JPG"
+            "Name": "Dorian Geyer",
+            "Bild": "Geyer-Dorian.JPG"
         },
         {
             "Name": "Christian Miller",
             "Bild": "Miller-Christian.JPG"
         },
         {
-            "Name": "Quirin Scharrer",
-            "Bild": "Scharrer-Quirin.JPG"
+            "Name": "Adrian Müller",
+            "Bild": "Müller-Adrian.JPG"
         },
         {
-            "Name": "Corbin Williams"
+            "Name": "Quirin Scharrer",
+            "Bild": "Scharrer-Quirin.JPG"
         },
         {
             "Name": "Etienne Zagabe",
