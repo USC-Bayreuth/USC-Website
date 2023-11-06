@@ -52,10 +52,11 @@
             "Handy": "0176 45707885"
         },
         {
-            "Name":"Jonathan Weyel",
-            "Rolle":"Trainer Damen",
-            "Bild":"/img/Fußball Damen/Jonathan_Weyel.jpg",
-            "Handy":"0176 81285338"
+            "Name": "Mark Michel",
+            "Rolle": "Trainer Damen",
+            "Geschlecht": "m",
+            "Handy": "0170 4508423",
+            "Mail": "mark.michel@aol.de"
         }
     ],
     "Tennis":[
