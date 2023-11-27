@@ -2,7 +2,7 @@
     "Verantwortliche": [
         {
             "Name": "Dennis Bauer",
-            "Bild": "Dennis Bauer.jpg",
+            "Bild": "Dennis-Bauer.jpg",
             "Rolle": "Trainer",
             "Handy": "0151 46601150"
         },
@@ -14,7 +14,7 @@
         },
         {
             "Name": "Adrian Hafenecker",
-            "Bild": "Adrian Hafenecker.jpg",
+            "Bild": "Adrian-Hafenecker.jpg",
             "Rolle": "Trainer",
             "Handy": "0176 45707885"
         }
@@ -22,7 +22,7 @@
     "Torwart": [
         {
             "Name": "Dennis Bauer",
-            "Bild": "Dennis Bauer.jpg"
+            "Bild": "Dennis-Bauer.jpg"
         },
         {
             "Name": "Hans-Jakob Milhahn",
@@ -32,7 +32,7 @@
     "Abwehr": [
         {
             "Name": "Stefan Am Ende",
-            "Bild": "Stefan Am Ende.jpg"
+            "Bild": "Stefan-Am-Ende.jpg"
         },
         {
             "Name": "Joshua Behr",
@@ -47,27 +47,21 @@
             "Bild": "Firnkes-Sebastian.JPG"
         },
         {
-            "Name": "Moritz Füßl",
-            "Bild": "Moritz Füßl.JPG"
+            "Name": "Moritz Füßl"
         },
         {
             "Name": "Erik Große Beilage"
         },
         {
             "Name": "Adrian Hafenecker",
-            "Bild": "Adrian Hafenecker.jpg"
+            "Bild": "Adrian-Hafenecker.jpg"
         },
         {
-            "Name": "Tobias Jedlicka",
-            "Bild": "Tobias Jedlicka.JPG"
-        },
-        {
-            "Name": "Ruben Just",
-            "Bild": "Ruben Just.JPG"
+            "Name": "Ruben Just"
         },
         {
             "Name": "David Kaufhold",
-            "Bild": "David Kaufhold.JPG"
+            "Bild": "David-Kaufhold.jpg"
         },
         {
             "Name": "Philipp Kerl",
@@ -79,18 +73,17 @@
         },
         {
             "Name": "Matteo Kumar",
-            "Bild": "Matteo Kumar.JPG"
+            "Bild": "Kumar-Matteo.JPG"
         },
         {
             "Name": "Conrad von Sandersleben"
         },
         {
-            "Name": "Ferdinand Theilacker",
-            "Bild": "Ferdinand Theilacker.JPG"
+            "Name": "Ferdinand Theilacker"
         },
         {
             "Name": "Oscar Wenzel",
-            "Bild": "Oscar Wenzel.JPG"
+            "Bild": "Wenzel-Oscar.JPG"
         },
         {
             "Name": "Florian Witzschel",
@@ -99,20 +92,14 @@
     ],
     "Mittelfeld": [
         {
-            "Name": "Julian Birkner",
-            "Bild": "Julian Birkner.JPG"
-        },
-        {
             "Name": "Johannes Brötling",
-            "Bild": "Brötling-Johannes.JPG"
+            "Bild": "Brötling-Johannes.JPG"
         },
         {
-            "Name": "Alexander Gerk",
-            "Bild": "Alexander Gerk.JPG"
+            "Name": "Alexander Gerk"
         },
         {
-            "Name": "Ayman Ghorabi",
-            "Bild": "Ayman Ghorabi.JPG"
+            "Name": "Ayman Ghorabi"
         },
         {
             "Name": "Nico Koplanov",
@@ -139,8 +126,7 @@
             "Bild": "Jakob-Weber.jpg"
         },
         {
-            "Name": "Alexander Wendt",
-            "Bild": "Alexander Wendt.JPG"
+            "Name": "Alexander Wendt"
         }
     ],
     "Angriff": [
@@ -153,7 +139,7 @@
         },
         {
             "Name": "Dorian Geyer",
-            "Bild": "Dorian Geyer.JPG"
+            "Bild": "Geyer-Dorian.JPG"
         },
         {
             "Name": "Christian Miller",
@@ -161,7 +147,7 @@
         },
         {
             "Name": "Adrian Müller",
-            "Bild": "Adrian Müller.JPG"
+            "Bild": "Müller-Adrian.JPG"
         },
         {
             "Name": "Quirin Scharrer",

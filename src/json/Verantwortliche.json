@@ -35,7 +35,7 @@
         },
         {
             "Name": "Dennis Bauer",
-            "Bild": "/img/Fußball Herren/Dennis Bauer.jpg",
+            "Bild": "/img/Fußball Herren/Dennis-Bauer.jpg",
             "Rolle": "Trainer Herren",
             "Handy": "0151 46601150"
         },
@@ -47,7 +47,7 @@
         },
         {
             "Name": "Adrian Hafenecker",
-            "Bild": "/img/Fußball Herren/Adrian Hafenecker.jpg",
+            "Bild": "/img/Fußball Herren/Adrian-Hafenecker.jpg",
             "Rolle": "Trainer Herren",
             "Handy": "0176 45707885"
         },
@@ -93,13 +93,12 @@
         {
             "Name":"Stefan Am Ende",
             "Rolle":"Webmaster",
-            "Bild":"/img/Fußball Herren/Stefan Am Ende.jpg",
+            "Bild":"/img/Fußball Herren/Stefan-Am-Ende.jpg",
             "Mail":"stefan.am-ende@uni-bayreuth.de"
         },
-        {
+        {            
             "Name":"Erik Reinsch",
             "Rolle":"Webmaster",
-            "Mail":"erik.reinsch@uni-bayreuth.de"
-        }
+            "Mail":"erik.reinsch@uni-bayreuth.de"}
     ]
 }
