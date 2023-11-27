@@ -30,8 +30,8 @@ class Volleyball extends Component{
                 <p>ACHTUNG: Aufgrund der großen Nachfrage müssen wir für vorübergehend einen Aufnahmestopp verhängen. Gerne kannst du dich schon mal in die Warteliste für das Jahr 2024 eintragen lassen, um beim offiziellen Volleyballbetrieb aufgenommen zu werden. Wir freuen uns auf dich!</p>
                 <p>Bei weiteren Fragen wende dich jederzeit an unseren Abteilungsleiter Duc (<a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a>).</p>
                 <h2>Trainingszeiten</h2>
-                <p>Mittwoch: 20:00 - 22:00 (Halle 3, Sportinstitut)</p>
-                <p style={{marginTop: 15}}>Samstag: 12:00 - 14:00 (kleine Turnhalle, Sportinstitut)</p>
+                <p>Mittwoch: 20:00 - 22:00 (Halle 3, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
+                <p style={{marginTop: 15}}>Samstag: 12:00 - 14:00 (kleine Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 <h1>Team</h1>
                 <Container fluid className='my-container'>
                     <Row>
