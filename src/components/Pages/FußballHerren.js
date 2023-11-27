@@ -74,7 +74,7 @@ class FußballHerren extends Component{
                 </Container>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce>
                     <h1>Team</h1>
-                    <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsfoto Herren.jpg' className='mannschaftsfoto'/>
+                    <img alt='fußball-herren' src='/img/Fußball Herren/Mannschaftsbild.jpg' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
