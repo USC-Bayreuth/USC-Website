@@ -1,8 +1,10 @@
 .contact-picture{
     max-width: 100%;
-    height: auto;
+    aspect-ratio:  3/4;
     margin-top: 50px;
-    background: transparent;
+    background:transparent;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .contact-subtitle-title{
