@@ -7,35 +7,34 @@
     ],
     "Spieler":[
         {
-            "Name":"Tizian Huber"
-        },
-        {
             "Name":"Paul Schott",
             "Bild":"Schott_Paul.JPG"
-        },
-        {
-            "Name":"Claudius Jonas",
-            "Bild":"Jonas_Claudius.JPG"
-        },
-        {
-            "Name":"Marcel Schröder",
-            "Bild":"Schröder_Marcel.JPG"
         },
         {
             "Name":"Laurens Lammers",
             "Bild":"Lammers_Laurens.JPG"
         },
         {
-            "Name":"Severin Oesterle",
-            "Bild":"Oesterle_Severin.JPG"
+            "Name":"Claudius Jonas",
+            "Bild":"Jonas_Claudius.JPG"
+        },
+        {
+            "Name":"Tizian Huber"
         },
         {
             "Name":"Dennis Bauer",
             "Bild":"Bauer_Dennis.JPG"
         },
         {
-            "Name":"Hans-Jakob Milhahn",
-            "Bild":"Milhahn_Hans-Jakob.JPG"
+            "Name":"Marcel Schröder",
+            "Bild":"Schröder_Marcel.JPG"
+        },
+        {
+            "Name":"Tobias Bagdahn"
+        },
+        {
+            "Name":"Severin Oesterle",
+            "Bild":"Oesterle_Severin.JPG"
         },
         {
             "Name":"Daniel Dickes"
@@ -44,12 +43,8 @@
             "Name":"Maximilian Hörl"
         },
         {
-            "Name":"Lukas Baumann",
-            "Bild":"Baumann_Lukas.JPG"
-        },
-        {
-            "Name":"Johannes Wetzstein",
-            "Bild":"Wetzstein_Johannes.JPG"
+            "Name":"Hans-Jakob Milhahn",
+            "Bild":"Milhahn_Hans-Jakob.JPG"
         },
         {
             "Name":"Markus Kurscheidt"
