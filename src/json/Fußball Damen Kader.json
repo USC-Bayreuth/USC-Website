@@ -5,7 +5,8 @@
             "Rolle": "Trainer",
             "Geschlecht": "m",
             "Handy": "0170 4508423",
-            "Mail": "mark.michel@aol.de"
+            "Mail": "mark.michel@aol.de",
+            "Bild": "Mark Michel.JPG"
         },
         {
             "Name": "Philipp Rank",
@@ -23,7 +24,7 @@
     "Torwart": [
         {
             "Name": "Magdalena Holl",
-            "Bild": "Holl-Magdalena.JPG"
+            "Bild": "Magdalena Holl.JPG"
         }
     ],
     "Abwehr": [
@@ -37,34 +38,39 @@
             "Name": "Antonia Behl"
         },
         {
-            "Name": "Alina Besch"
+            "Name": "Alina Besch",
+            "Bild": "Alina Besch.JPG"
         },
         {
             "Name": "Jalena Best"
         },
         {
             "Name": "Julia Bräuer",
-            "Bild": "Bräuer-Julia.JPG"
+            "Bild": "Julia Bräuer.JPG"
         },
         {
             "Name": "Sophie Bühr",
             "Bild": "Bühr-Sophie.JPG"
         },
         {
-            "Name": "Caroline Fuchs"
+            "Name": "Caroline Fuchs",
+            "Bild": "Caroline Fuchs.JPG"
         },
         {
-            "Name": "Johanna-Sophie Groß"
+            "Name": "Johanna-Sophie Groß",
+            "Bild": "Johanna Groß.JPG"
         },
         {
-            "Name": "Giulia Kettel"
+            "Name": "Giulia Kettel",
+            "Bild": "Giulia Kettel.JPG"
         },
         {
             "Name": "Kirstin Köhler",
             "Bild": "Köhler-Kirstin.JPG"
         },
         {
-            "Name": "Kristin Nelißen"
+            "Name": "Kristin Nelißen",
+            "Bild": "Kristin Nelißen.JPG"
         },
         {
             "Name": "Paula Waldmüller",
@@ -74,36 +80,45 @@
     "Mittelfeld": [
         {
             "Name": "Laila Auerochs",
-            "Bild": "Auerochs-Laila.JPG"
+            "Bild": "Laila Auerochs.JPG"
         },
         {
-            "Name": "Ann-Marie Heisinger"
+            "Name": "Ann-Marie Heisinger",
+            "Bild": "Ann-Marie Heisinger.JPG"
         },
         {
             "Name": "Melinda Herfet",
             "Bild": "Melinda_Herfet.jpg"
         },
         {
+            "Name": "Lea-Sophie Kohl",
+            "Bild": "Lea-Sophie Kohl.JPG"
+        },
+        {
             "Name": "Sophie Kossmann"
         },
         {
-            "Name": "Hannah Mohr"
+            "Name": "Hannah Mohr",
+            "Bild": "Hannah Mohr.JPG"
         },
         {
             "Name": "Melissa Moos",
             "Bild": "Melissa_Moos.jpg"
         },
         {
-            "Name": "Veronika Riedl"
+            "Name": "Veronika Riedl",
+            "Bild": "Veronika Riedl.JPG"
         },
         {
-            "Name": "Elena Rütters"
+            "Name": "Elena Rütters",
+            "Bild": "Elena Rütters.JPG"
         },
         {
             "Name": "Tamara Schirbel"
         },
         {
-            "Name": "Leonie Schmale"
+            "Name": "Leonie Schmale",
+            "Bild": "Leonie Schmale.JPG"
         },
         {
             "Name": "Lilli Skapczyk"
@@ -112,14 +127,14 @@
     "Angriff": [
         {
             "Name": "Juliane Bachmann",
-            "Bild": "Juliane_Bachmann.jpg"
+            "Bild": "Juliane Bachmann.jpg"
         },
         {
             "Name": "Antonia Haberkorn"
         },
         {
             "Name": "Hanna Laik",
-            "Bild": "Laik-Hanna.JPG"
+            "Bild": "Hanna Laik.JPG"
         },
         {
             "Name": "Amelie Meier"
@@ -129,6 +144,10 @@
         },
         {
             "Name": "Elena Strauß"
+        },
+        {
+            "Name": "Lilly Wunderlich",
+            "Bild": "Lilly Wunderlich.JPG"
         }
     ]
 }

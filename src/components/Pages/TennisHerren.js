@@ -38,9 +38,9 @@ class TennisHerren extends Component{
                 <h1>Unser Partner</h1>
                 <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
                 <h1>Tabelle und Spielplan</h1>
-                <h2>Herren</h2>
+                <h2>Herren (Winter)</h2>
                 <Container fluid className='my-container'>
-                    <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1840268&etag=bc36ba91-e354-4aae-9a2c-1a878429e587' frameBorder='0' className='widget'/>
+                    <iframe title='tabelle' src='https://btv.liga.nu/cgi-bin/WebObjects/nuLigaDokumentTENDE.woa/wa/nuDokument?dokument=ScheduleReportFOP&group=1886250&etag=e334a9ea-3332-485f-9b76-8d0767d8f385' frameBorder='0' className='widget'/>
                 </Container>
                 <h2>Mixed</h2>
                 <Container fluid className='my-container'>
