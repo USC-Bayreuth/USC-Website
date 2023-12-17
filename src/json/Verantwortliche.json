@@ -28,35 +28,32 @@
     "Fußball":[
         {
             "Name":"Joshua Behr",
-            "Rolle":"Abteilungsleiter",
+            "Rolle":"Abteilungs- & Spielleiter",
             "Bild":"/img/Fußball Damen/Joshua_Behr_Trainer.jpg",
             "Handy":"01575 0662674",
             "Mail":"joshua.behr@uni-bayreuth.de"
         },
         {
-            "Name": "Dennis Bauer",
-            "Bild": "/img/Fußball Herren/Dennis Bauer.jpg",
+            "Name": "Faruk Öztas",
             "Rolle": "Trainer Herren",
-            "Handy": "0151 46601150"
+            "Handy": "0160 2633245"
         },
         {
-            "Name": "Christian Miller",
-            "Bild": "/img/Fußball Herren/Miller-Christian.JPG",
-            "Rolle": "Trainer Herren",
-            "Handy": "0176 45776648"
-        },
-        {
-            "Name": "Adrian Hafenecker",
-            "Bild": "/img/Fußball Herren/Adrian-Hafenecker.jpg",
-            "Rolle": "Trainer Herren",
-            "Handy": "0176 45707885"
+            "Name": "Yassin Philipp",
+            "Rolle": "Co-Trainer Herren",
+            "Handy": "0173 6946743"
         },
         {
             "Name": "Mark Michel",
             "Rolle": "Trainer Damen",
             "Geschlecht": "m",
             "Handy": "0170 4508423",
-            "Mail": "mark.michel@aol.de"
+            "Mail": "mark.michel@aol.de",
+            "Bild": "/img/Fußball Damen/Mark Michel.JPG"
+        },
+        {
+            "Name": "Philipp Rank",
+            "Rolle": "Co-Trainer Damen"
         }
     ],
     "Tennis":[

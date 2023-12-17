@@ -1,22 +1,31 @@
 {
     "Verantwortliche": [
         {
-            "Name": "Dennis Bauer",
-            "Bild": "Dennis Bauer.jpg",
+            "Name": "Faruk Öztas",
             "Rolle": "Trainer",
-            "Handy": "0151 46601150"
+            "Handy": "0160 2633245"
         },
         {
-            "Name": "Christian Miller",
-            "Bild": "Miller-Christian.JPG",
-            "Rolle": "Trainer",
-            "Handy": "0176 45776648"
+            "Name": "Yassin Philipp",
+            "Rolle": "Co-Trainer",
+            "Handy": "0173 6946743"
         },
         {
-            "Name": "Adrian Hafenecker",
-            "Bild": "Adrian-Hafenecker.jpg",
-            "Rolle": "Trainer",
-            "Handy": "0176 45707885"
+            "Name": "Sebahattin Caliskan",
+            "Rolle": "Betreuer",
+            "Handy": "0176 66832764"
+        },
+        {
+            "Name": "Ahmet Özilban",
+            "Rolle": "Betreuer",
+            "Handy": "0151 23165071"
+        },
+        {
+            "Name":"Joshua Behr",
+            "Rolle":"Spielleiter",
+            "Bild":"Joshua_Behr_Trainer.jpg",
+            "Handy":"0157 50662674",
+            "Mail":"joshua.behr@uni-bayreuth.de"
         }
     ],
     "Torwart": [
