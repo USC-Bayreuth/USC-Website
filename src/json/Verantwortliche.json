@@ -30,8 +30,7 @@
             "Name":"Joshua Behr",
             "Rolle":"Abteilungs- & Spielleiter",
             "Bild":"/img/Fußball Damen/Joshua_Behr_Trainer.jpg",
-            "Handy":"01575 0662674",
-            "Mail":"joshua.behr@uni-bayreuth.de"
+            "Handy":"01575 0662674"
         },
         {
             "Name": "Faruk Öztas",
@@ -40,7 +39,8 @@
         },
         {
             "Name": "Yassin Philipp",
-            "Rolle": "Co-Trainer Herren"
+            "Rolle": "Co-Trainer Herren",
+            "Mail": "yassin.philipp@outlook.de"
         },
         {
             "Name": "Mark Michel",
