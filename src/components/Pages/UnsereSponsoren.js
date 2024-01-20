@@ -23,7 +23,7 @@ class UnsereSponsoren extends Component{
                 <a href='https://www.naupaka.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/naupaka.png' alt='naupaka' className='partner' style={{width:'20vw'}}/></a>
                 <h2>Volleyball</h2>
                 <a href='https://sushibayreuth.de/10811' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Mangolein.png' alt='mangolein' className='partner' style={{width:'20vw'}}/></a>
-                <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Nachtisch.png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
+                <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
                 <h1>Teamausrüster</h1>
                 <a href='https://usc-bayreuth.fan12.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Fan12_Logo_RGB.png' className='partner' alt='fan-12-logo'/></a>
             </>
