@@ -61,7 +61,7 @@ class WerdeMitglied extends Component{
                     </div>
                 </Container>
                 <h2>Mitgliedsantrag</h2>
-                <p>Wurde dein Interesse geweckt? <a target="_blank" rel="noreferrer" href='/download/aufnahmeantrag_usc_bayreuth.pdf' className='link'>Hier</a> findest du unseren Mitgliedsantrag. Wende dich bitte damit zum <a className='link' href='/Verantwortliche'>Verantwortlichen</a> der entsprechenden Abteilung.</p>
+                <p>Wurde dein Interesse geweckt? <a target="_blank" rel="noreferrer" href='/download/aufnahmeantrag_usc_bayreuth_2024.pdf' className='link'>Hier</a> findest du unseren Mitgliedsantrag. Wende dich bitte damit zum <a className='link' href='/Verantwortliche'>Verantwortlichen</a> der entsprechenden Abteilung.</p>
             </>
         )
     }
