@@ -44,6 +44,14 @@ class Volleyball extends Component{
                         </Col>
                     </Row>
                 </Container>
+
+                <h1>Unser Partner</h1>
+                <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
+                <p></p>
+                <a href='https://sushibayreuth.de/10811' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Mangolein.png' alt='mangolein' className='partner' style={{width:'20vw'}}/></a>
+
+                
+                                                
             </>
         )
     }
