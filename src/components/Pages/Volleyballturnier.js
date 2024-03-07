@@ -1,6 +1,4 @@
 import {Component} from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
-import Slider from '../Slider/Slider'
 
 class Volleyballturnier extends Component{
     state={mobileMode: window.innerWidth<960}
