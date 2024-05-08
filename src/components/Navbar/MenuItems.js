@@ -50,20 +50,8 @@ export const MenuItems=[
             },
             {
                 title: 'Volleyball',
-                url: '',
-                cName: 'drop-dropdown',
-                children:[
-                    {
-                        title: 'Mannschaft',
-                        url: "/Volleyball",
-                        cName: 'drop-nav-link'
-                    },
-                    {
-                        title: 'Volleyball-Frühlingsturnier 2024',
-                        url: '/Volleyballturnier',
-                        cName: 'drop-nav-link'
-                    }
-                ]
+                url: '/Volleyball',
+                cName: 'drop-nav-link'
             },
         ]
     },
