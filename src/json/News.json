@@ -1,5 +1,70 @@
 [
-
+    {
+        "sliderImage": "24_06_05.jpg",
+        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "date": "05.06.2024",
+        "tags": "Fußball Damen",
+        "blocks": [
+            "!image 24_06_05.jpg",
+            "Was für ein Saisonfinale für unsere Erste Frauenmannschaft! Am Samstag traten sie gegen den bis dahin ungeschlagenen Tabellenführer Don Bosco Bamberg an und lieferten eine sensationelle Leistung ab. 💪",
+            "Der Knoten platzte in der 20. Minute, als Ann-Marie Heisinger das erste Tor erzielte und das Team auf die Siegesspur brachte. Mit großem Einsatz und unermüdlichem Kampfgeist ließen unsere Frauen den Gegnerinnen keine nennenswerten Chance. Schließlich sicherte ein Eigentor, nach Freistoß von Laila Aucherochs, in der 78. Minute unseren Frauen den 2:0-Sieg gegen die Spielerinnen aus Bamberg, die gedanklich schon im Flieger nach Malle saßen.🍹✈️",
+            "Ein unvergesslicher Abschluss einer Saison mit vielen Höhen und Tiefen! Ein großes Dankeschön an alle Spielerinnen, Trainer und Fans, die uns unterstützt haben. Ihr seid die Besten! 🙌🏼",
+            "Jetzt freuen wir uns auf die wohlverdiente Pause und kommen noch stärker zurück!",
+            "Herzlichen Glückwunsch auch an Don Bosco Bamberg zur starken Saison und zur verdienten Meisterschaft!👏🏼🏆"
+        ]
+    },
+    {
+        "sliderImage": "24_05_28.jpg",
+        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "date": "28.05.2024",
+        "tags": "Fußball Damen",
+        "blocks": [
+            "!image 24_05_28.jpg",
+            "Ein unvergesslicher Sonntag für unsere Erste Frauenmannschaft! Mit einem fantastischen 3:0-Sieg gegen die SpVgg Ebing II sicherten sich die Damen den Klassenerhalt in der Bezirksoberliga. 🎉💪 Laila Auerochs schnürte einen Doppelpack und traf in der 25. und 67. Minute. Kurz vor dem Abpfiff setzte Tamara Schirbel mit ihrem Treffer zum 3:0 den Schlusspunkt und krönte damit die großartige Teamleistung. 💚⚽️",
+            "Unsere Zweite Frauenmannschaft zeigte ebenfalls eine starke Leistung und trennte sich mit einem 0:0-Unentschieden vom TSV Plankenfels II. Ein hart erkämpfter Punkt, der das Team weiter motiviert!💥"
+        ]
+    },
+    {
+        "sliderImage": "24_05_20.jpg",
+        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "date": "20.05.2024",
+        "tags": "Fußball Damen|Fußball Herren",
+        "blocks": [
+            "!image 24_05_20.jpg",
+            "➡️Frauen", "Unsere Erste Frauenmannschaft hat an diesem Wochenende eine herausragende Leistung gezeigt und ein spannendes Spiel gegen die SpVg Eicha mit 2:1 gewonnen. Die Tore erzielten Ann-Marie Heisinger und Elena Strauß. Damit konnten sich die Frauen 3 wichtige Punkte im Abstiegskampf sichern. In der ersten Halbzeit dominierte unser Team das Spiel, ließ keine nennenswerten Torchancen der Gegner zu, und kontrollierte das Spielgeschehen. Das Gegentor entstand aus einem schnellen Konter der SpVgg Eicha. Das Endergebnis ist ein verdienter 2:1-Erfolg! 💪🏼⚽️",
+            "➡️Herren", "Leider verlief das Spiel unserer Herrenmannschaft nicht so erfreulich und musste kurz vor Ende abgebrochen werden.",
+            "Beim USC Bayreuth ist jeder Mensch willkommen – unabhängig von Hautfarbe, Herkunft oder Religion. Wir stehen als Team geschlossen gegen Rassismus und jede Form von Diskriminierung. Wir verurteilen rassistische Äußerungen und Handlungen aufs Schärfste und tolerieren keinerlei Ausgrenzung in unserem Verein.⛔️",
+            "Fußball verbindet, und wir setzen uns dafür ein, dass unser Sport ein sicherer und respektvoller Raum für alle bleibt. Wir erwarten konsequentes Handeln gegen rassistische Vorfälle und stehen solidarisch an der Seite der Betroffenen.",
+            "Gemeinsam sind wir stark – auf und neben dem Platz. ✊🏼"
+        ]
+    },
+    {
+        "sliderImage": "24_05_14.jpg",
+        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "date": "14.05.2024",
+        "tags": "Fußball Damen|Fußball Herren",
+        "blocks": [
+            "!image 24_05_14.jpg",
+            "Was für eine Woche voller Emotionen, spannender Spiele und wichtiger Siege!",
+            "Unsere Erste Frauenmannschaft hat in zwei nervenaufreibenden Begegnungen alles gegeben. Am Donnerstag kämpften sie tapfer, lagen sogar mit zwei Toren vorn. Sowohl Elena Strauß (25‘) als auch Giulia Kettel (35‘) netzten, aber am Ende reichte es leider nur für einen Punkt. Doch sie ließen sich nicht unterkriegen. Torschützen Tamara Schirbel (73‘) und Elena Strauß (75‘) erzielten die entscheidenden Treffer beim spannenden 2:0-Sieg gegen den DJK Teuchatz am Sonntag.🚀🥅",
+            "Auch die Zweite Frauenmannschaft hat gezeigt, was in ihnen steckt! Mit einer kämpferischen Leistung holten sie sich am Wochenende mit einer tollen Teamleistung und einem Treffer von Sabrina Angerer in der 50. Minute einen knappen, aber wichtigen 1:0 Sieg und somit die 3 Punkte.⚡⚽",
+            "Last but not least, unsere USC Herren - was ein Nervenkitzel! Niklas Hägele (12‘, 23‘), Leo Schmidt (77‘) und Diego Diaz Cordova (90‘) zeigten absolute Präzision vor dem Tor. In einem torreichen Spiel gegen die SG SC Hummeltal/TSV Glashütten haben sie sich mit einem atemberaubenden 4:3-Sieg den Klassenerhalt gesichert!🥳🏆"    
+        ]
+    },
+    {
+        "sliderImage": "24_05_07.jpg",
+        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "date": "07.05.2024",
+        "tags": "Fußball Damen|Fußball Herren",
+        "blocks": [
+            "!image 24_05_07.jpg",
+            "Das Wochenende war vollgepackt mit Fußball, sodass unsere Herren gleich zweimal ran mussten.",
+            "Unsere Erste Frauenmannschaft hat ein packendes und hart umkämpftes Spiel hingelegt. Trotz einer starken Leistung mussten sie sich knapp mit 3:4 geschlagen geben.💪💚 Torschützen waren Elena Strauß (25‘), Giulia Kettel (71‘) und Amelie Meier (73‘).",
+            "Die Zweite Frauenmannschaft hat es richtig spannend gemacht und sich am Ende mit einem 3:3-Unentschieden getrennt und sich damit einen Punkt sichern können.👏🔥Hier konnten Lena-Marie Gorski (33‘) und Sabrina Angerer (60‘, 89‘) punkten.",
+            "Bei den Herren gab es zwei Spiele. Das erste endete torlos 0:0, ein taktisches Duell, in dem beide Seiten nichts anbrennen ließen. Im zweiten Spiel hat unsere Mannschaft mit einem souveränen 3:1-Sieg überzeugt. Tolle Tore und eine starke Teamleistung! 💥⚽ Die drei Tore erzielten Sebastian Firnkes (56‘, 69‘) und Nico Koplanov (89‘)."  ,  
+            "n englischer Woche Manier kommt der Ball für unsere Frauen I am Donnerstag in Pegnitz wieder ins Rollen."
+        ]
+    },
     {
         "sliderImage": "24_05_06.jpg",
         "title": "1:3 Auswärtssieg auf bundesligareifem Rasen beim SSV Kirchenpingarten! 💪🏼",
