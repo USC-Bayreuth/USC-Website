@@ -15,7 +15,7 @@
     },
     {
         "sliderImage": "24_05_28.jpg",
-        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "title": "Spielergebnisse",
         "date": "28.05.2024",
         "tags": "Fußball Damen",
         "blocks": [
@@ -26,9 +26,9 @@
     },
     {
         "sliderImage": "24_05_20.jpg",
-        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "title": "📝 Spielergebnisse 📝",
         "date": "20.05.2024",
-        "tags": "Fußball Damen|Fußball Herren",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 24_05_20.jpg",
             "➡️Frauen", "Unsere Erste Frauenmannschaft hat an diesem Wochenende eine herausragende Leistung gezeigt und ein spannendes Spiel gegen die SpVg Eicha mit 2:1 gewonnen. Die Tore erzielten Ann-Marie Heisinger und Elena Strauß. Damit konnten sich die Frauen 3 wichtige Punkte im Abstiegskampf sichern. In der ersten Halbzeit dominierte unser Team das Spiel, ließ keine nennenswerten Torchancen der Gegner zu, und kontrollierte das Spielgeschehen. Das Gegentor entstand aus einem schnellen Konter der SpVgg Eicha. Das Endergebnis ist ein verdienter 2:1-Erfolg! 💪🏼⚽️",
@@ -40,9 +40,9 @@
     },
     {
         "sliderImage": "24_05_14.jpg",
-        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "title": "⚽ Spielergebnisse ⚽",
         "date": "14.05.2024",
-        "tags": "Fußball Damen|Fußball Herren",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 24_05_14.jpg",
             "Was für eine Woche voller Emotionen, spannender Spiele und wichtiger Siege!",
@@ -53,9 +53,9 @@
     },
     {
         "sliderImage": "24_05_07.jpg",
-        "title": "📝⚽ Spielergebnisse ⚽📝",
+        "title": "Spielergebnis",
         "date": "07.05.2024",
-        "tags": "Fußball Damen|Fußball Herren",
+        "tags": "Fußball Damen",
         "blocks": [
             "!image 24_05_07.jpg",
             "Das Wochenende war vollgepackt mit Fußball, sodass unsere Herren gleich zweimal ran mussten.",

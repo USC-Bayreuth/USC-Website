@@ -19,6 +19,12 @@
             "Bild":"Joshua_Behr_Trainer.jpg",
             "Handy":"01575 0662674",
             "Mail":"joshua.behr@uni-bayreuth.de"
+        },
+        {
+            "Name":"Erik große Beilage",
+            "Rolle":"Verantwortlicher für Spielerpässe",
+            "Handy":"01520 9983277",
+            "Geschlecht": "m"
         }
     ],
     "Torwart": [

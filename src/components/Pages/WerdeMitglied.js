@@ -62,6 +62,9 @@ class WerdeMitglied extends Component{
                 </Container>
                 <h2>Mitgliedsantrag</h2>
                 <p>Wurde dein Interesse geweckt? <a target="_blank" rel="noreferrer" href='/download/aufnahmeantrag_usc_bayreuth_2024.pdf' className='link'>Hier</a> findest du unseren Mitgliedsantrag. Wende dich bitte damit zum <a className='link' href='/Verantwortliche'>Verantwortlichen</a> der entsprechenden Abteilung.</p>
+                <h2>Antrag auf Spielberechtigung für Fußball</h2>
+                <p>- <a target="_blank" rel="noreferrer" href='/download/antrag-auf-spielberechtigung-erwachsene-ab-01.07.2023.pdf' className='link'>Antrag auf Spielberechtigung</a> </p>
+                <p>- <a target="_blank" rel="noreferrer" href='/download/antrag_zweitspielrecht_erwachsene_pendler.pdf' className='link'>Antrag auf Zweitspielrecht</a> </p>
             </>
         )
     }
