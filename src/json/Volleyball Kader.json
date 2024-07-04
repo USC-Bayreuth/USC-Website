@@ -11,6 +11,7 @@
         },
         {
             "Name": "Christine Baumann",
+            "Bild":"Chrissy.jpg",
             "Rolle": "Organisation | Sponsoring",
             "Handy": "0173 5658304",
             "Mail":"Christine.Baumann@uni-bayreuth.de",
@@ -35,7 +36,12 @@
             "Bild": "Julian.jpg",
             "Rolle": "Trainer",
             "Handy": "0162 1720991"
-        }
+        },
+        {            
+            "Name":"Erik Reinsch",
+            "Bild":"Erik.jpg",
+            "Rolle":"IT",
+            "Mail":"erik.reinsch@uni-bayreuth.de"}
         
     ],
     "Zusteller": [
