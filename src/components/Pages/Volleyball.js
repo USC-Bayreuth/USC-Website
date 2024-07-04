@@ -20,7 +20,22 @@ class Volleyball extends Component{
             newState.mobileMode=true
         this.setState(newState)
     }
+
+    calcAge(birthdate) {
+        const [day, month, year] = birthdate.split('.').map(Number);
+        const birthDateObj = new Date(year, month - 1, day);
+        const today = new Date();
+        let age = today.getFullYear() - birthDateObj.getFullYear();
+        const monthDiff = today.getMonth() - birthDateObj.getMonth();
+        if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDateObj.getDate())) {
+            age--;
+        }
+        return age;
+    }
+
+
     render(){
+        let kader=require('../../json/Volleyball Kader.json')
         return(
             <>
                 <h1>Volleyball</h1>
@@ -42,6 +57,132 @@ class Volleyball extends Component{
                             <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
                             <p className='contact-subtitle mobile-number'>0171 2393629</p>
                         </Col>
+                    </Row>
+                </Container>
+
+                
+                    <h1>Team</h1>
+                
+                <h2>Verantwortliche</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Verantwortliche.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        {item.Rolle!==undefined &&
+                                            <p className='contact-subtitle-title'>{item.Rolle}</p>
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>
+                                        {item.Mail!==undefined &&
+                                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
+                                        }
+                                        {item.Handy!==undefined &&
+                                            <p className='mobile-number contact-subtitle'>{item.Handy}</p>
+                                        }
+                                </Col>
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Zuteller</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Zusteller.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                                                                
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Mittelblocker</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Mittelblocker.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Außenangreifer</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Außenangreifer.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Libero</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Libero.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
                     </Row>
                 </Container>
 
