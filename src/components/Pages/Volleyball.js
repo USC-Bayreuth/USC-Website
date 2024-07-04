@@ -80,7 +80,7 @@ class Volleyball extends Component{
                         })}
                     </Row>
                 </Container>
-                <h2>Zuteller</h2>
+                <h2>Zusteller</h2>
                 <Container fluid className='my-container'>
                     <Row>
                         {kader.Zusteller.map((item, index) =>{
