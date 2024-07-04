@@ -49,7 +49,7 @@ class Volleyball extends Component{
                 <p style={{marginTop: 15}}>Freitag: 20:00 - 22:00 (Spielhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 
                 <h1>Team</h1>
-                
+                <img alt='fußball-herren' src='/img/Volleyball/Mannschaftsbild.jpeg' className='mannschaftsfoto'/>
                 <h2>Verantwortliche</h2>
                 <Container fluid className='my-container'>
                     <Row>

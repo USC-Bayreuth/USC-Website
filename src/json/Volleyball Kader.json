@@ -41,8 +41,12 @@
             "Name":"Erik Reinsch",
             "Bild":"Erik.jpg",
             "Rolle":"IT",
-            "Mail":"erik.reinsch@uni-bayreuth.de"}
-        
+            "Mail":"erik.reinsch@uni-bayreuth.de"},
+        {            
+            "Name":"Kira",
+            "Bild":"Kira.jpg",
+            "Rolle":"Maskottchen"}
+    
     ],
     "Zusteller": [
         {
