@@ -23,7 +23,7 @@
             "Bild": "Huseyn.jpg",
             "Rolle": "Organisation",
             "Handy": "0176 65123998",
-            "Mail":"Huseyn.Abbas.uni-bayreuth.de"
+            "Mail":"Huseyn.Abbas@uni-bayreuth.de"
         },
         {
             "Name": "Maurice Bode",
@@ -113,7 +113,6 @@
         },
         {
             "Name": "Moritz",
-            "Bild": "Moritz.jpg",
             "Alter":"13.11.2002",
             "Größe": "1,79 m"
         },
@@ -168,6 +167,7 @@
         },
         {
             "Name": "Peter",
+            "Bild": "Peter.jpg",
             "Alter":"03.03.2001",
             "Größe": "1,80 m"
         },
