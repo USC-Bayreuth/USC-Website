@@ -47,21 +47,8 @@ class Volleyball extends Component{
                 <h2>Trainingszeiten</h2>
                 <p>Dienstag: 18:30 - 20:00 (Halle 2 und 3, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 <p style={{marginTop: 15}}>Freitag: 20:00 - 22:00 (Spielhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
-                <h1>Team</h1>
-                <Container fluid className='my-container'>
-                    <Row>
-                        <Col className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                            <img src='/img/Verantwortliche/Duc-Nguyen.jpg' className="contact-picture" alt="staff"/>
-                            <p className='contact-subtitle-title'>Abteilungsleiter</p>
-                            <p className='contact-subtitle'>Duc Viet Nguyen</p>
-                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
-                            <p className='contact-subtitle mobile-number'>0171 2393629</p>
-                        </Col>
-                    </Row>
-                </Container>
-
                 
-                    <h1>Team</h1>
+                <h1>Team</h1>
                 
                 <h2>Verantwortliche</h2>
                 <Container fluid className='my-container'>
