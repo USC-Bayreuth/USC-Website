@@ -1,31 +1,27 @@
 {
     "Verantwortliche": [
         {
-            "Name": "Faruk Öztas",
+            "Name": "Nico Koplanov",
             "Rolle": "Trainer",
-            "Handy": "0160 2633245"
+            "Handy": "0175 1290428",
+            "Bild": "Koplanov-Nico.JPG"
         },
         {
-            "Name": "Yassin Philipp",
-            "Rolle": "Co-Trainer",
-            "Handy": "0173 6946743"
+            "Name": "Tobias Neuberger",
+            "Rolle": "Trainer",
+            "Handy": "01515 9480299"
         },
         {
-            "Name": "Sebahattin Caliskan",
-            "Rolle": "Betreuer",
-            "Handy": "0176 66832764"
+            "Name": "Christian Miller",
+            "Rolle": "Abteilungsleiter",            
+            "Handy": "0176 45776648",
+            "Email": "info@usc-bayreuth.de",
+            "Bild": "Miller-Christian.JPG"
         },
         {
             "Name": "Ahmet Özilban",
             "Rolle": "Betreuer",
             "Handy": "0151 23165071"
-        },
-        {
-            "Name":"Joshua Behr",
-            "Rolle":"Spielleiter",
-            "Bild":"Joshua_Behr_Trainer.jpg",
-            "Handy":"0157 50662674",
-            "Mail":"joshua.behr@uni-bayreuth.de"
         },
         {
             "Name":"Erik große Beilage",
