@@ -9,7 +9,8 @@
         {
             "Name": "Tobias Neuberger",
             "Rolle": "Trainer",
-            "Handy": "01515 9480299"
+            "Handy": "01515 9480299",
+            "Bild": "Tobias-Neuberger.jpg"
         },
         {
             "Name": "Christian Miller",
@@ -18,11 +19,7 @@
             "Email": "info@usc-bayreuth.de",
             "Bild": "Miller-Christian.JPG"
         },
-        {
-            "Name": "Ahmet Özilban",
-            "Rolle": "Betreuer",
-            "Handy": "0151 23165071"
-        },
+        
         {
             "Name":"Erik große Beilage",
             "Rolle":"Verantwortlicher für Spielerpässe",
