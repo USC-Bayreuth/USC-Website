@@ -45,7 +45,7 @@ class Volleyball extends Component{
                 <p>Bei weiteren Fragen wende dich jederzeit an unseren Abteilungsleiter Duc (<a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a>).</p>
                 <h2>Trainingszeiten</h2>
                 
-                <p>Mittwoch*: 19:00 - 20:30 (Halle 3, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
+                <p>Mittwoch*: 19:00 - 20:30 (Halle 2, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 <p style={{marginTop: 15}}>Freitag*: 20:00 - 21:45 (Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 <p style={{marginTop: 15}}>Samstag: 10:00 - 12:00 (Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 <p style={{marginTop: 15}}>.</p>
