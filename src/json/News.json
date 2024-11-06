@@ -1,4 +1,29 @@
 [
+
+    {
+        "sliderImage": "24_11_06.jpg",
+        "title": "VOLLEYBALLTRAINER/IN GESUCHT!",
+        "date": "06.11.2024",
+        "tags": "Volleyball",
+        "blocks": [
+            "!image 24_11_06.jpg",
+            "Die Volleyballabteilung des USC Bayreuth sucht eine/n Volleyballtrainer/in für unsere Hobby-Mixed-Mannschaft! ",
+            "Wenn ihr Interesse oder Fragen habt, dann meldet euch gerne beim Abteilungsleiter Duc Nguyen (0171 2393629)! 🟢⚪"            
+        ]
+    },    
+    {
+        "sliderImage": "24_11_04.jpg",
+        "title": "USC IST DERBYSIEGER",
+        "date": "04.11.2024",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 24_11_04.jpg",
+            "Was ein Spiel, was ein Kampf, was für ein Team! Wir gewinnen mit 2:1 gegen die Eintracht!💚",
+            "⚽️ 1:0 Nico Koplanov (35.)",
+            "⚽️ 2:1 Philipp Szpak (86.)",
+            "Am nächsten Sonntag geht es auswärts weiter beim SV Mistelgau II! Anpfiff dort ist 16h00! Euch allen eine schöne Bayerische Woche an der Uni!"
+            ]
+    },
     {
         "sliderImage": "24_10_18.jpg",
         "title": "15. Spieltag",
