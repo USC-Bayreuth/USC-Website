@@ -42,12 +42,16 @@ class Volleyball extends Component{
                 <Slider tag='Volleyball'/>
                 <h1>Unsere Abteilung</h1>
                 <p>Der USC Bayreuth e.V. stellt sich breiter auf und bietet seit dem SS 2023 Volleyball für Student*innen an der Universität Bayreuth an. Doch wer sind wir überhaupt? Wir sind eine junge, motivierte und semi-wettkampforientierte Hobby-Mixed-Mannschaft, bei der alle Spielerniveaus herzlich willkommen sind! Unser Ziel ist es, unsere Stärken auszubauen und unsere Fähigkeiten leistungsorientiert zu verbessern, ohne dabei den Spaß am Spiel zu verlieren. Bei uns wird das Mannschaftsgefühl großgeschrieben! Darum nehmen wir als Team an zahlreichen Liga- und Turnierspielen teil, wobei auch die Afterpartys nicht zu kurz kommen. Um der anspruchsvollen Sportart gerecht zu werden, legen wir viel Wert auf ein kontinuierliches Training, das an das jeweilige Spielerniveau angepasst wird. Daneben finden regelmäßig unter der Woche Freundschaftsspiele statt. Wenn du Lust hast, ein aktives Mitglied unserer Abteilung zu werden, komm gerne zu einem Probetraining vorbei.</p>
-                <p>ACHTUNG: Aufgrund der großen Nachfrage müssen wir für vorübergehend einen Aufnahmestopp verhängen. Gerne kannst du dich schon mal in die Warteliste für das Jahr 2024 eintragen lassen, um beim offiziellen Volleyballbetrieb aufgenommen zu werden. Wir freuen uns auf dich!</p>
                 <p>Bei weiteren Fragen wende dich jederzeit an unseren Abteilungsleiter Duc (<a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a>).</p>
                 <h2>Trainingszeiten</h2>
-                <p>Dienstag: 18:30 - 20:00 (Halle 2 und 3, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
-                <p style={{marginTop: 15}}>Freitag: 20:00 - 22:00 (Spielhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
                 
+                <p>Mittwoch*: 19:00 - 20:30 (Halle 3, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
+                <p style={{marginTop: 15}}>Freitag*: 20:00 - 21:45 (Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
+                <p style={{marginTop: 15}}>Samstag: 10:00 - 12:00 (Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
+                <p style={{marginTop: 15}}>.</p>
+                <p style={{marginTop: 15}}>* aller 2 Wochen jeweils abwechselnd</p>
+
+
                 <h1>Team</h1>
                 <img alt='fußball-herren' src='/img/Volleyball/Mannschaftsbild.jpeg' className='mannschaftsfoto'/>
                 <h2>Verantwortliche</h2>
