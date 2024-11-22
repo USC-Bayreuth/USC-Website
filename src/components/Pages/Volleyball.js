@@ -35,7 +35,8 @@ class Volleyball extends Component{
 
 
     render(){
-        let kader=require('../../json/Volleyball Kader.json')
+        let kader=require('../../json/Volleyball USC1 Kader.json')
+        let kader2=require('../../json/Volleyball USC2 Kader.json')
         return(
             <>
                 <h1>Volleyball</h1>
@@ -51,39 +52,10 @@ class Volleyball extends Component{
                 <p style={{marginTop: 15}}>.</p>
                 <p style={{marginTop: 15}}>* aller 2 Wochen jeweils abwechselnd</p>
 
+                <img alt='volleyballer' src='/img/Volleyball/Mannschaftsbild.jpeg' className='mannschaftsfoto'/>
 
-                <h1>Team</h1>
-                <img alt='fußball-herren' src='/img/Volleyball/Mannschaftsbild.jpeg' className='mannschaftsfoto'/>
-                <h2>Verantwortliche</h2>
-                <Container fluid className='my-container'>
-                    <Row>
-                        {kader.Verantwortliche.map((item, index) =>{
-                            return(
-                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
-                                        {item.Bild===undefined && item.Geschlecht===undefined &&
-                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
-                                        }
-                                        {item.Bild===undefined && item.Geschlecht==="w" &&
-                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
-                                        }
-                                        {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
-                                        }
-                                        {item.Rolle!==undefined &&
-                                            <p className='contact-subtitle-title'>{item.Rolle}</p>
-                                        }
-                                        <p className='contact-subtitle'>{item.Name}</p>
-                                        {item.Mail!==undefined &&
-                                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
-                                        }
-                                        {item.Handy!==undefined &&
-                                            <p className='mobile-number contact-subtitle'>{item.Handy}</p>
-                                        }
-                                </Col>
-                            )
-                        })}
-                    </Row>
-                </Container>
+
+                <h1>USC1</h1>
                 <h2>Zusteller</h2>
                 <Container fluid className='my-container'>
                     <Row>
@@ -172,6 +144,133 @@ class Volleyball extends Component{
                                         <p className='contact-subtitle'>{item.Größe}</p>
                                         <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
                                 </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+
+
+                <h1>USC 2</h1>
+                <h2>Zusteller</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader2.Zusteller.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                                                                
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Mittelblocker</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader2.Mittelblocker.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Außenangreifer</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader2.Außenangreifer.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+                <h2>Libero</h2>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader2.Libero.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>                                    
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>                                        
+                                        <p className='contact-subtitle'>{item.Größe}</p>
+                                        <p className='contact-subtitle'>Alter: {this.calcAge(item.Alter)}</p>                                
+                                </Col>         
+                            )
+                        })}
+                    </Row>
+                </Container>
+
+
+                <h1>Verantwortliche</h1>
+                <Container fluid className='my-container'>
+                    <Row>
+                        {kader.Verantwortliche.map((item, index) =>{
+                            return(
+                                <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                        {item.Bild===undefined && item.Geschlecht===undefined &&
+                                            <img alt={'player'+index} src='/img/no-picture-man.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild===undefined && item.Geschlecht==="w" &&
+                                            <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
+                                        }
+                                        {item.Bild!==undefined &&
+                                            <img alt={'player'+index} src={'/img/Volleyball/'+item.Bild} className='player-picture'/>                                    
+                                        }
+                                        {item.Rolle!==undefined &&
+                                            <p className='contact-subtitle-title'>{item.Rolle}</p>
+                                        }
+                                        <p className='contact-subtitle'>{item.Name}</p>
+                                        {item.Mail!==undefined &&
+                                            <p className='contact-subtitle'><a className='mail-to contact-subtitle' href={'mailto:'+item.Mail}>{item.Mail}</a></p>
+                                        }
+                                        {item.Handy!==undefined &&
+                                            <p className='mobile-number contact-subtitle'>{item.Handy}</p>
+                                        }
+                                </Col>
                             )
                         })}
                     </Row>

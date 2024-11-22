@@ -1,0 +1,141 @@
+
+
+{       
+    "Verantwortliche": [
+        {
+            "Name": "Duc Viet Nguyen",
+            "Bild": "Duc.jpg",
+            "Rolle": "Abteilungsleiter",
+            "Handy": "0171 2393629",
+            "Mail":"volleyball@usc-bayreuth.de"
+        },
+        {
+            "Name": "Christine Baumann",
+            "Bild":"Chrissy.jpg",
+            "Rolle": "Organisation | Sponsoring",
+            "Handy": "0173 5658304",
+            "Mail":"Christine.Baumann@uni-bayreuth.de",
+            "Geschlecht": "w"
+        },
+        {
+            "Name": "Maurice Bode",
+            "Rolle": "Finanzen",
+            "Handy": "0172 2008431",
+            "Mail":"Maurice.Bode@uni-bayreuth.de"
+        },
+        {
+            "Name": "Julian Lindner",
+            "Bild": "Julian.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0162 1720991"
+        },
+        {            
+            "Name":"Erik Reinsch",
+            "Bild":"Erik.jpg",
+            "Rolle":"IT",
+            "Mail":"erik.reinsch@uni-bayreuth.de"},
+        {            
+            "Name":"Kira",
+            "Bild":"Kira.jpg",
+            "Rolle":"Maskottchen"}
+    
+    ],
+    "Zusteller": [
+        {
+            "Name": "Huseyn",
+            "Bild": "Huseyn.jpg",
+            "Alter":"14.06.2002",
+            "Größe": "1,69 m"
+        },
+        {
+            "Name": "Christoph",
+            "Bild": "Christoph.jpg",
+            "Alter":"09.11.1998",
+            "Größe": "1,84 m"
+        },
+        {
+            "Name": "Phuong",
+            "Bild": "Phuong.jpg",
+            "Alter":"05.05.2003",
+            "Größe": "1,65 m"
+        }
+    ],
+    "Mittelblocker": [
+
+        {
+            "Name": "Leonard",
+            "Bild":"Leonard.jpg",
+            "Alter":"28.03.2002",
+            "Größe": "1,89 m"
+        },
+        {
+            "Name": "Marcel",
+            "Bild":"Marcel.jpg",
+            "Alter":"15.10.1998",
+            "Größe": "1,88 m"
+        },
+        {
+            "Name": "Moritz",
+            "Alter":"13.11.2002",
+            "Größe": "1,79 m"
+        },
+        {
+            "Name": "Tim",
+            "Bild": "Tim.jpg",
+            "Alter":"16.12.1996",
+            "Größe": "1,84 m"
+        }
+    ],
+    "Außenangreifer": [
+        {
+            "Name": "David",
+            "Bild": "David.jpg",
+            "Alter":"26.06.2001",
+            "Größe": "1,74 m"
+        },
+        {
+            "Name": "Erik",
+            "Alter":"15.04.2003",
+            "Größe": "1,85 m"
+        },        
+        {
+            "Name": "Gustav",
+            "Bild":"Gustav.jpg",
+            "Alter":"16.02.2000",
+            "Größe": "1,85 m"
+        },
+        {
+            "Name": "Justus",
+            "Bild":"Justus.jpg",
+            "Alter":"30.03.2003",
+            "Größe": "1,85 m"
+        },
+        {
+            "Name": "Lisa",
+            "Alter":"26.04.1999",
+            "Größe": "1,69 m",
+            "Geschlecht": "w"
+        },
+        {
+            "Name": "Peter",
+            "Bild": "Peter.jpg",
+            "Alter":"03.03.2001",
+            "Größe": "1,80 m"
+        },
+        {
+            "Name": "Celine",
+            "Alter":"31.08.1998",
+            "Größe": "1,71 m",
+            "Geschlecht": "w"
+        }
+    ],
+    "Libero": [
+        {
+            "Name": "Chrissy",
+            "Bild": "Chrissy.jpg",
+            "Alter":"08.10.1999",
+            "Größe": "1,65 m"
+        }
+    ]
+   
+ }

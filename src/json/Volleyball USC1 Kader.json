@@ -1,0 +1,105 @@
+
+
+{       
+    "Verantwortliche": [
+        {
+            "Name": "Duc Viet Nguyen",
+            "Bild": "Duc.jpg",
+            "Rolle": "Abteilungsleiter",
+            "Handy": "0171 2393629",
+            "Mail":"volleyball@usc-bayreuth.de"
+        },
+        {
+            "Name": "Christine Baumann",
+            "Bild":"Chrissy.jpg",
+            "Rolle": "Organisation | Sponsoring",
+            "Handy": "0173 5658304",
+            "Mail":"Christine.Baumann@uni-bayreuth.de",
+            "Geschlecht": "w"
+        },
+        {
+            "Name": "Maurice Bode",
+            "Rolle": "Finanzen",
+            "Handy": "0172 2008431",
+            "Mail":"Maurice.Bode@uni-bayreuth.de"
+        },
+        {
+            "Name": "Julian Lindner",
+            "Bild": "Julian.jpg",
+            "Rolle": "Trainer",
+            "Handy": "0162 1720991"
+        },
+        {            
+            "Name":"Erik Reinsch",
+            "Bild":"Erik.jpg",
+            "Rolle":"IT",
+            "Mail":"erik.reinsch@uni-bayreuth.de"},
+        {            
+            "Name":"Kira",
+            "Bild":"Kira.jpg",
+            "Rolle":"Maskottchen"}
+    
+    ],
+    "Zusteller": [
+
+        {
+            "Name": "Duc",
+            "Bild":"Duc.jpg",
+            "Alter":"11.04.1998",
+            "Größe": "1,73 m"
+        },        {
+            "Name": "Anni",
+            "Bild":"Anni.jpg",
+            "Alter":"03.03.1999",
+            "Größe": "1,70 m"
+        }
+    ],
+    "Mittelblocker": [
+
+        {
+            "Name": "Franz",
+            "Alter":"15.02.2001",
+            "Größe": "1,93 m"
+        },
+        {
+            "Name": "Erik",
+            "Bild":"Erik.jpg",
+            "Alter":"03.07.2000",
+            "Größe": "1,93 m"
+        },
+        {
+            "Name": "Linnea",
+            "Bild": "Linnea.jpg",
+            "Alter":"16.06.2002",
+            "Größe": "1,75 m"
+        },
+        {
+            "Name": "Maurice",
+            "Alter":"03.04.1998",
+            "Größe": "1,83 m"
+        }
+    ],
+    "Außenangreifer": [
+        {
+            "Name": "Andre",
+            "Bild": "Andre.jpg",
+            "Alter":"24.07.1996",
+            "Größe": "1,81 m"
+        },        
+        {
+            "Name": "Jiaqi",
+            "Bild":"Jiaqi.jpg",
+            "Alter":"06.08.1996",
+            "Größe": "1,78 m"
+        }
+    ],
+    "Libero": [
+        {
+            "Name": "Thilo",
+            "Bild": "Thilo.jpg",
+            "Alter":"09.04.2000",
+            "Größe": "1,75 m"
+        }
+    ]
+   
+ }
