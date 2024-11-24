@@ -91,6 +91,11 @@
             "Bild":"Jiaqi.jpg",
             "Alter":"06.08.1996",
             "Größe": "1,78 m"
+        },        
+        {
+            "Name": "Katharina",
+            "Alter":"19.05.2000",
+            "Größe": "1,65 m"
         }
     ],
     "Libero": [
