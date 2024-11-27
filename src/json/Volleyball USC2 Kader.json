@@ -120,18 +120,6 @@
             "Alter":"26.04.1999",
             "Größe": "1,69 m",
             "Geschlecht": "w"
-        },
-        {
-            "Name": "Peter",
-            "Bild": "Peter.jpg",
-            "Alter":"03.03.2001",
-            "Größe": "1,80 m"
-        },
-        {
-            "Name": "Celine",
-            "Alter":"31.08.1998",
-            "Größe": "1,71 m",
-            "Geschlecht": "w"
         }
     ],
     "Libero": [

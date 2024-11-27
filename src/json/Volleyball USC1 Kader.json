@@ -47,10 +47,16 @@
             "Bild":"Duc.jpg",
             "Alter":"11.04.1998",
             "Größe": "1,73 m"
-        },        {
-            "Name": "Anni",
+        },       
+        {
+            "Name": "Ani",
             "Bild":"Anni.jpg",
             "Alter":"03.03.1999",
+            "Größe": "1,70 m"
+        },
+        {
+            "Name": "Alex",
+            "Alter":"23.02.2002",
             "Größe": "1,70 m"
         }
     ],
@@ -96,6 +102,18 @@
             "Name": "Katharina",
             "Alter":"19.05.2000",
             "Größe": "1,65 m"
+        },
+        {
+            "Name": "Peter",
+            "Bild": "Peter.jpg",
+            "Alter":"03.03.2001",
+            "Größe": "1,80 m"
+        },
+        {
+            "Name": "Celine",
+            "Alter":"31.08.1998",
+            "Größe": "1,71 m",
+            "Geschlecht": "w"
         }
     ],
     "Libero": [
