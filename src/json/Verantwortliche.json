@@ -31,19 +31,19 @@
             "Rolle": "Abteilungsleiter",            
             "Handy": "0176 45776648",
             "Email": "info@usc-bayreuth.de",
-            "Bild": "Miller-Christian.JPG"
+            "Bild": "/img/Fußball Herren/Miller-Christian.JPG"
         },
         {
             "Name": "Nico Koplanov",
             "Rolle": "Trainer Herren",
             "Handy": "0175 1290428",
-            "Bild": "Koplanov-Nico.JPG"
+            "Bild": "/img/Fußball Herren/Koplanov-Nico.JPG"
         },
         {
             "Name": "Tobias Neuberger",
             "Rolle": "Co-Trainer Herren",
             "Handy": "01515 9480299",
-            "Bild": "Tobias-Neuberger.jpg"
+            "Bild": "/img/Fußball Herren/Tobias-Neuberger.jpg"
         },
         {
             "Name": "Mark Michel",
