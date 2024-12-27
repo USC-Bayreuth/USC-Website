@@ -27,20 +27,23 @@
     ],
     "Fußball":[
         {
-            "Name":"Joshua Behr",
-            "Rolle":"Abteilungs- & Spielleiter",
-            "Bild":"/img/Fußball Damen/Joshua_Behr_Trainer.jpg",
-            "Handy":"01575 0662674"
+           "Name": "Christian Miller",
+            "Rolle": "Abteilungsleiter",            
+            "Handy": "0176 45776648",
+            "Email": "info@usc-bayreuth.de",
+            "Bild": "Miller-Christian.JPG"
         },
         {
-            "Name": "Faruk Öztas",
+            "Name": "Nico Koplanov",
             "Rolle": "Trainer Herren",
-            "Handy": "0160 2633245"
+            "Handy": "0175 1290428",
+            "Bild": "Koplanov-Nico.JPG"
         },
         {
-            "Name": "Yassin Philipp",
+            "Name": "Tobias Neuberger",
             "Rolle": "Co-Trainer Herren",
-            "Mail": "yassin.philipp@outlook.de"
+            "Handy": "01515 9480299",
+            "Bild": "Tobias-Neuberger.jpg"
         },
         {
             "Name": "Mark Michel",
