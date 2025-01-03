@@ -83,6 +83,12 @@
             "Name": "Maurice",
             "Alter":"03.04.1998",
             "Größe": "1,83 m"
+        },
+        {
+            "Name": "Peter",
+            "Bild": "Peter.jpg",
+            "Alter":"03.03.2001",
+            "Größe": "1,80 m"
         }
     ],
     "Außenangreifer": [
@@ -102,12 +108,6 @@
             "Name": "Katharina",
             "Alter":"19.05.2000",
             "Größe": "1,65 m"
-        },
-        {
-            "Name": "Peter",
-            "Bild": "Peter.jpg",
-            "Alter":"03.03.2001",
-            "Größe": "1,80 m"
         },
         {
             "Name": "Celine",
