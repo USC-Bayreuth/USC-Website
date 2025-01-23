@@ -13,19 +13,13 @@
             "Bild": "Tobias-Neuberger.jpg"
         },
         {
-            "Name": "Christian Miller",
+            "Name": "Erik große Beilage",
             "Rolle": "Abteilungsleiter",            
-            "Handy": "0176 45776648",
+            "Handy": "01520 9983277",
             "Email": "info@usc-bayreuth.de",
-            "Bild": "Miller-Christian.JPG"
-        },
-        
-        {
-            "Name":"Erik große Beilage",
-            "Rolle":"Verantwortlicher für Spielerpässe",
-            "Handy":"01520 9983277",
             "Geschlecht": "m"
         }
+
     ],
     "Torwart": [
         {
