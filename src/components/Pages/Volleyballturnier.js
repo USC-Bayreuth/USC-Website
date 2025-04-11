@@ -36,7 +36,7 @@ class Volleyballturnier extends Component{
 
                    Also los, schnapp dir dein Team und sei bereit für eine Menge Spaß! 🙌🏼🏐</p>
                 <h1>Turnierinfos</h1>
-                <p>- am 04.05.2024</p>
+                <p>- am ?.2025</p>
                 <p>- BaySpo Halle 1-3, vss. von ?-? Uhr</p>
                 <p>- insgesamt ? Mannschaften</p>
                 <p>- für Versorgung während des Turniers ist gesorgt + Afterparty </p>
