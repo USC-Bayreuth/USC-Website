@@ -1,5 +1,53 @@
 [
     {
+        "sliderImage": "25_03_30.jpg",
+        "title": "Heimspielsieg",
+        "date": "30.03.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_03_30.jpg",
+           "Unsere Herren kommen nach der bitteren Niederlage vergangene Woche zurück und gewinnen ihr Heimspiel mit 4:1!",
+           "Nach einer zerfahrenen ersten Hälfte, helfen zwei schnelle Tore nach Wiederanpfiff in die Spur zu kommen.😮‍💨 Damit sammeln wir drei wichtige Punkte und klettern in der Tabelle🙂‍↕️",
+           "Weiter geht’s!",
+           "⚽️ Neuberger", "⚽️ Geyer", "⚽️ Fröhlich", "⚽️ Hägele"  
+        ]
+    },
+    {
+        "sliderImage": "25_03_16.jpg",
+        "title": "Was für ein Kampf, was für wichtige 3️⃣ Punkte!",
+        "date": "16.03.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_03_16.jpg",
+           "Unsere Herren gewinnen ihr Heimspiel gegen den SV Röhrenhof mit 5:2!🤝🫡 Der Capitano geht mit einem Hattrick voran, Neubi zaubert den Freistoß rein und Jerome vollendet sein Dribbling mit einem Schlenzer!🤩",
+           "Wir machen weiter!🚀", "⚽️⚽️⚽️ Oscar Wenzel","⚽️ Jerome van Loosen", "⚽️ Tobias Neuberger"  
+        ]
+    },   
+    {
+        "sliderImage": "25_03_03.jpg",
+        "title": "USC 1 vs. USC 2: Testspiel mit Déjà-vu-Effekt",
+        "date": "03.03.2025",
+        "tags": "Volleyball",
+        "blocks": [
+            "!image 25_03_03.jpg",
+            "Neues Spiel, gleiches Ergebnis: USC 2 setzt sich in einem Testspiel erneut mit 3:1 durch! 💪🔥 Doch der USC 1 hat es uns nicht leicht gemacht – ein heftiges Match mit starken Ballwechseln und harten Angriffen auf beiden Seiten.",
+            "Das absolute Highlight? Im letzten Satz stand es bereits 14:24 für USC 1 – da hätte man denken können, die Sache sei gelaufen. Aber Punkt für Punkt haben wir uns zurückgekämpft, die Spannung ins Unermessliche getrieben und den Satz am Ende tatsächlich noch geholt. Comeback? Erledigt. Gegner? Ohne Gute-Nacht-Geschichte schlafen gelegt.🔥",
+            "Großer Respekt an USC 1 für das starke Spiel – aber der USC 2 bleibt wohl erstmal vorne. Wir freuen uns auf die nächste Runde!"    
+        ]
+    },
+
+    {
+        "sliderImage": "25_02_16.jpg",
+        "title": "Einstand ins Jahr 2025 erfolgreich erledigt!",
+        "date": "16.02.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_02_16.jpg",
+            "Die Herren starteten heute mit dem ersten Freundschaftsspiel des Jahres gegen den @sckreuz.bayreuth 🫵 Wir arbeiten weiter!💪🔥",
+            "⚽️⚽️⚽️ Wenzel", "⚽️⚽️ Huber", "⚽️⚽️ Birkner", "⚽️ Caliskan"    
+        ]
+    },
+    {
         "sliderImage": "25_01_19.jpg",
         "title": "Erster Spieltag des USC 1 im neuen Jahr",
         "date": "19.01.2025",
