@@ -50,8 +50,20 @@ export const MenuItems=[
             },
             {
                 title: 'Volleyball',
-                url: '/Volleyball',
-                cName: 'drop-nav-link'
+                url: '',
+                cName: 'drop-dropdown',
+                children:[
+                    {
+                        title: 'Mannschaft',
+                        url: '/Volleyball',
+                        cName: 'drop-nav-link'
+                    },
+                    {
+                        title: 'Turnier',
+                        url: '/Volleyballturnier',
+                        cName: 'drop-nav-link'
+                    }
+                ]
             },
         ]
     },
