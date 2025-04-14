@@ -21,42 +21,30 @@ class Volleyballturnier extends Component{
     render(){
         return(
             <>
+                <h1>2. Frühlingsturnier des USC Bayreuth <p>Samstag, 24. Mai 2025</p></h1>
 
-                  <h1> Endlich ist es soweit! 🟢⚪</h1> 
+                <p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>zweiten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
 
-                   <p> Unsere Volleyballabteilung präsentiert euch mit Stolz das zweite Hobby-Mix USC Volleyball Frühlingsturnier, am ?! <br/>
+                <p>Um das sportliche Niveau ausgewogen zu halten, sind <b>keine Passspieler erwünscht.</b></p>
 
-                    Seid ihr bereit für ein Volleyball-Turnier, das eure Socken wegbläst und eure Knieschoner zum Glühen bringt?<br/>
+                <p>Die Veranstaltung findet am <b>Samstag, den 24. Mai 2025 </b>statt. Die Halle öffnet für euch um 8:30 Uhr, die Begrüßung und der Spielbeginn folgen um <b>9:00 Uhr</b>. Das Turnier wird voraussichtlich gegen <b>19:00 Uhr</b> enden.</p>
 
-                   Schnapp dir deine Teamkolleg*innen und kommt in die BaySpo Halle, Uni Bayreuth, von ? bis ? Uhr!<br/><br/>
+                <p>Gespielt wird mit <b>zwölf Hobby-Mixed-Teams</b>, wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
 
-                   Nach einem Tag voller Schmetterbälle und Blocks geht die Party dann erst richtig los - mit unserer unvergesslichen Afterparty!  🪩🥳
+                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Foé</b> und <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten. Die Getränkeversorgung übernimmt <b>NachTisch</b>, damit ihr zwischen den Spielen gut versorgt seid.</p>
 
-                   Melde dein Team bis zum ?.2025 unter volleyball@usc-bayreuth.de an und seid beim Hobby-Mix-Turnier mit dabei!<br/>
+                <p>Und wer nach einem sportlichen Tag noch Energie übrig hat, darf sich freuen – <b>nach dem Turnier steigt die Afterparty im NachTisch!</b> Dort lassen wir gemeinsam den Tag bei guter Musik und bester Stimmung ausklingen.</p>
 
-                   Also los, schnapp dir dein Team und sei bereit für eine Menge Spaß! 🙌🏼🏐</p>
-                <h1>Turnierinfos</h1>
-                <p>- am ?.2025</p>
-                <p>- BaySpo Halle 1-3, vss. von ?-? Uhr</p>
-                <p>- insgesamt ? Mannschaften</p>
-                <p>- für Versorgung während des Turniers ist gesorgt + Afterparty </p>
-                
-                <h1>Teamanmeldung</h1>
-                <p>- nach dem Prinzip first come first serve </p>
-                <p>- bis Bezirksliga erlaubt, reine Hobbymannschaft erwünscht </p>
-                <p>- min. 2 Frauen pro Team </p>
-                <p>- Teilnahmegebühr pro Team ? € für Studenten/ ? € für Externe </p>
-                <p>- ? € Kaution (ist nach Anmeldebestätigung zu zahlen)</p>
-                <p>- Anmeldung an Volleyball@usc-bayreuth.de</p>
+                <p>Wir freuen uns auf einen sportlichen, fairen und fröhlichen Tag mit euch – seid dabei und macht das Frühlingsturnier auch dieses Jahr wieder zu einem besonderen Erlebnis!</p>
+
+                <p>Für Anmeldungen und Rückfragen schreibt uns gerne an: <a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
 
 
                 <h1>Unser Partner</h1>
                 <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
                 <p></p>
                 <a href='https://sushibayreuth.de/10811' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Mangolein.png' alt='mangolein' className='partner' style={{width:'20vw'}}/></a>
-
-                
-                                                
+                                             
             </>
         )
     }
