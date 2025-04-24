@@ -1,0 +1,23 @@
+{"Verantwortliche": [
+        {
+            "Name": "Daniel Kroh",
+            "Rolle": "Abteilungsleiter",
+            "Mail":"DaniKroh@gmx.de",
+            "Bild": "Daniel_Kroh.jpg"
+        },
+        {
+            "Name": "Alina_Oloff",
+            "Rolle": "Abteilungsleiterin",
+            "Mail": "alinaoloff01@gmail.com",
+            "Bild": "Alina_Oloff.jpg"
+        },
+        {
+            "Name": "Valentin Rädler",
+            "Rolle": "Abteilungsleiter",
+            "Mail": "valentinraedler@gmail.com",            
+            "Bild": "Valentin_Rädler.jpg",
+            "Geschlecht": "m"
+        }
+
+    ]
+}           
