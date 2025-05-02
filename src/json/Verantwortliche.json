@@ -27,11 +27,11 @@
     ],
     "Fußball":[
         {
-           "Name": "Christian Miller",
+            "Name": "Erik große Beilage",
             "Rolle": "Abteilungsleiter",            
-            "Handy": "0176 45776648",
+            "Handy": "01520 9983277",
             "Email": "info@usc-bayreuth.de",
-            "Bild": "/img/Fußball Herren/Miller-Christian.JPG"
+            "Geschlecht": "m"
         },
         {
             "Name": "Nico Koplanov",
@@ -74,10 +74,23 @@
     ],
     "Roundnet":[
         {
-            "Name":"James Killas",
-            "Rolle":"Abteilungsleiter",
-            "Handy":"0177 4563854",
-            "Mail":"roundnet.bayreuth@gmail.com"
+            "Name": "Daniel Kroh",
+            "Rolle": "Abteilungsleiter",
+            "Mail":"DaniKroh@gmx.de",
+            "Bild": "/img/Roundnet/Daniel_Kroh.jpg"
+        },
+        {
+            "Name": "Alina_Oloff",
+            "Rolle": "Abteilungsleiterin",
+            "Mail": "alinaoloff01@gmail.com",
+            "Bild": "/img/Roundnet/Alina_Oloff.jpg"
+        },
+        {
+            "Name": "Valentin Rädler",
+            "Rolle": "Abteilungsleiter",
+            "Mail": "valentinraedler@gmail.com",            
+            "Bild": "/img/Roundnet/Valentin_Rädler.jpg",
+            "Geschlecht": "m"
         }
     ],
     "Volleyball":[
