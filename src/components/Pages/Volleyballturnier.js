@@ -29,9 +29,9 @@ class Volleyballturnier extends Component{
 
                 <p>Die Veranstaltung findet am <b>Samstag, den 24. Mai 2025 </b>statt. Die Halle öffnet für euch um 8:30 Uhr, die Begrüßung und der Spielbeginn folgen um <b>9:00 Uhr</b>. Das Turnier wird voraussichtlich gegen <b>19:00 Uhr</b> enden.</p>
 
-                <p>Gespielt wird mit <b>zwölf Hobby-Mixed-Teams</b>, wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
+                <p>Gespielt wird mit <b>16 Hobby-Mixed-Teams</b>, wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
 
-                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Foé</b> und <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten. Die Getränkeversorgung übernimmt <b>NachTisch</b>, damit ihr zwischen den Spielen gut versorgt seid.</p>
+                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Foé</b> und <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten, damit ihr zwischen den Spielen gut versorgt seid.</p>
 
                 <p>Und wer nach einem sportlichen Tag noch Energie übrig hat, darf sich freuen – <b>nach dem Turnier steigt die Afterparty im NachTisch!</b> Dort lassen wir gemeinsam den Tag bei guter Musik und bester Stimmung ausklingen.</p>
 

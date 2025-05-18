@@ -23,12 +23,6 @@
             "Handy": "0172 2008431",
             "Mail":"Maurice.Bode@uni-bayreuth.de"
         },
-        {
-            "Name": "Julian Lindner",
-            "Bild": "Julian.jpg",
-            "Rolle": "Trainer",
-            "Handy": "0162 1720991"
-        },
         {            
             "Name":"Erik Reinsch",
             "Bild":"Erik.jpg",
@@ -95,12 +89,6 @@
             "Bild": "Linnea.jpg",
             "Alter":"16.06.2002",
             "Größe": "1,75 m"
-        },
-        {
-            "Name": "Marcel",
-            "Bild":"Marcel.jpg",
-            "Alter":"15.10.1998",
-            "Größe": "1,88 m"
         },
         {
             "Name": "Maurice",

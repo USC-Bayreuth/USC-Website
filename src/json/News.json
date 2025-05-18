@@ -1,5 +1,16 @@
 [
     {
+        "sliderImage": "25_05_18.jpg",
+        "title": "Auftakt",
+        "date": "18.05.2025",
+        "tags": "Tennis Damen|Tennis Herren",
+        "blocks": [
+            "!image 25_05_18.jpg",
+           "Die Tennisabteilung des USC Bayreuth e.V. in Spielgemeinschaft mit dem TSV Bindlach e.V. gewinnt auswärts beim TC Kasendorf mit 6:3 in der Nordliga 2 (6er). Für den USC spielten Tobias (oben rechts) und Magnus (unten rechts). Die 4er Mannschaft musste sich leider dieses Mal auswärts in Creußen 5 zu 1 geschlagen geben. ",
+           "Nächste Woche Sonntag (25.5) geht es auf den Plätzen der Universität weiter."
+        ]
+    },
+    {
         "sliderImage": "25_03_30.jpg",
         "title": "Heimspielsieg",
         "date": "30.03.2025",
