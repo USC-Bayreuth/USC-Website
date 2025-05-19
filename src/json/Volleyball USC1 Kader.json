@@ -23,12 +23,6 @@
             "Handy": "0172 2008431",
             "Mail":"Maurice.Bode@uni-bayreuth.de"
         },
-        {
-            "Name": "Julian Lindner",
-            "Bild": "Julian.jpg",
-            "Rolle": "Trainer",
-            "Handy": "0162 1720991"
-        },
         {            
             "Name":"Erik Reinsch",
             "Bild":"Erik.jpg",
@@ -83,12 +77,6 @@
             "Name": "Maurice",
             "Alter":"03.04.1998",
             "Größe": "1,83 m"
-        },
-        {
-            "Name": "Peter",
-            "Bild": "Peter.jpg",
-            "Alter":"03.03.2001",
-            "Größe": "1,80 m"
         }
     ],
     "Außenangreifer": [
@@ -108,12 +96,6 @@
             "Name": "Katharina",
             "Alter":"19.05.2000",
             "Größe": "1,65 m"
-        },
-        {
-            "Name": "Celine",
-            "Alter":"31.08.1998",
-            "Größe": "1,71 m",
-            "Geschlecht": "w"
         }
     ],
     "Libero": [

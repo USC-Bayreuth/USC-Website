@@ -21,7 +21,7 @@ class Volleyballturnier extends Component{
     render(){
         return(
             <>
-                <h1>2. Frühlingsturnier des USC Bayreuth <p>Samstag, 24. Mai 2025</p></h1>
+                <h1>2. Frühlingsturnier des USC Bayreuth <p style={{ textAlign: 'left' }}>Samstag, 24. Mai 2025</p></h1>
 
                 <p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>zweiten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
 
@@ -29,7 +29,7 @@ class Volleyballturnier extends Component{
 
                 <p>Die Veranstaltung findet am <b>Samstag, den 24. Mai 2025 </b>statt. Die Halle öffnet für euch um 8:30 Uhr, die Begrüßung und der Spielbeginn folgen um <b>9:00 Uhr</b>. Das Turnier wird voraussichtlich gegen <b>19:00 Uhr</b> enden.</p>
 
-                <p>Gespielt wird mit <b>16 Hobby-Mixed-Teams</b>, wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
+                <p>Gespielt wird mit <b>16 Hobby-Mixed-Teams</b> (bereits vollzählig), wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
 
                 <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Foé</b> und <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten, damit ihr zwischen den Spielen gut versorgt seid.</p>
 
@@ -39,6 +39,23 @@ class Volleyballturnier extends Component{
 
                 <p>Für Anmeldungen und Rückfragen schreibt uns gerne an: <a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
 
+                <h1>Teilnehmer (bereits vollzählig)</h1>
+                <p>1. USC Bayreuth</p>
+                    <p>2. Heilsbronn Set-sationell</p>
+                    <p>3. ATS Oberkotzau</p>
+                    <p>4. Münchener Buben</p>
+                    <p>5. BSV Bayreuth</p>
+                    <p>6. Netz Fetz Bergtheim</p>
+                    <p>7. Uni Bamberg</p>
+                    <p>8. LeBron's Sonnenscheine</p>
+                    <p>9. BTS Hobbymannschaft</p>
+                    <p>10. NuB</p>
+                    <p>11. IFL Bayreuth</p>
+                    <p>12. Niemand</p>
+                    <p>13. Schmerzgebirge Haue</p>
+                    <p>14. Baddies</p>
+                    <p>15. Oettifanten</p>
+                    <p>16. Baggerbande</p>
 
                 <h1>Unser Partner</h1>
                 <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>

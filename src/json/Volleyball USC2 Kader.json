@@ -23,12 +23,6 @@
             "Handy": "0172 2008431",
             "Mail":"Maurice.Bode@uni-bayreuth.de"
         },
-        {
-            "Name": "Julian Lindner",
-            "Bild": "Julian.jpg",
-            "Rolle": "Trainer",
-            "Handy": "0162 1720991"
-        },
         {            
             "Name":"Erik Reinsch",
             "Bild":"Erik.jpg",
@@ -52,38 +46,9 @@
             "Bild": "Christoph.jpg",
             "Alter":"09.11.1998",
             "Größe": "1,84 m"
-        },
-        {
-            "Name": "Phuong",
-            "Bild": "Phuong.jpg",
-            "Alter":"05.05.2003",
-            "Größe": "1,65 m"
-        },
-        {
-            "Name": "Emilia",
-            "Alter":"28.10.2004",
-            "Größe": "1,68 m"
         }
     ],
     "Mittelblocker": [
-
-        {
-            "Name": "Leonard",
-            "Bild":"Leonard.jpg",
-            "Alter":"28.03.2002",
-            "Größe": "1,89 m"
-        },
-        {
-            "Name": "Marcel",
-            "Bild":"Marcel.jpg",
-            "Alter":"15.10.1998",
-            "Größe": "1,88 m"
-        },
-        {
-            "Name": "Moritz",
-            "Alter":"13.11.2002",
-            "Größe": "1,79 m"
-        },
         {
             "Name": "Tim",
             "Bild": "Tim.jpg",
@@ -97,12 +62,7 @@
             "Bild": "David.jpg",
             "Alter":"26.06.2001",
             "Größe": "1,74 m"
-        },
-        {
-            "Name": "Erik",
-            "Alter":"15.04.2003",
-            "Größe": "1,85 m"
-        },        
+        },       
         {
             "Name": "Gustav",
             "Bild":"Gustav.jpg",

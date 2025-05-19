@@ -1,5 +1,21 @@
 [
     {
+        "sliderImage": "25_05_19.jpg",
+        "title": "IT‘S A WRAP!🔚",
+        "date": "19.05.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_05_19.jpg",
+           "Wir beenden die Saison 2024/25 mit einem Torfest in Seybothenreuth! In einer wilden Partie mit mehreren Führungswechseln trennen wir uns 4:4 gegen die Lilanen. Mit dem Unentschieden verabschieden wir uns von unserem Trainerteam, riesiges Dankeschön für die Zeit mit euch als Coaches!💚 ",
+           "Gleich drei Mal durften wir heute außerdem über Treffer von Abschiedsspielern jubeln!🙌🏽 ",
+           "Bis nächste Saison, eure Herren vom USC!🫂",
+           "⚽️ Hägele",
+           "⚽️ Ghorabi",
+           "⚽️ Neuberger",
+           "⚽️ Moss"
+        ]
+    },
+    {
         "sliderImage": "25_05_18.jpg",
         "title": "Auftakt",
         "date": "18.05.2025",
@@ -8,6 +24,62 @@
             "!image 25_05_18.jpg",
            "Die Tennisabteilung des USC Bayreuth e.V. in Spielgemeinschaft mit dem TSV Bindlach e.V. gewinnt auswärts beim TC Kasendorf mit 6:3 in der Nordliga 2 (6er). Für den USC spielten Tobias (oben rechts) und Magnus (unten rechts). Die 4er Mannschaft musste sich leider dieses Mal auswärts in Creußen 5 zu 1 geschlagen geben. ",
            "Nächste Woche Sonntag (25.5) geht es auf den Plätzen der Universität weiter."
+        ]
+    },
+    {
+        "sliderImage": "25_05_16.jpg",
+        "title": "🏐 Zwei Siege für den USC 1! 💚💪",
+        "date": "16.05.2025",
+        "tags": "Volleyball",
+        "blocks": [
+            "!image 25_05_16.jpg",
+           "Im heiß erwarteten Rückspiel gegen USC 2 holt sich unsere erste Mannschaft den verdienten 3:1-Sieg – Revanche geglückt! 🔥",
+           "Im ersten Satz stand unsere Blockwand: Starke Angriffe vom USC 2 wurden konsequent gestoppt. 👊 Satz zwei ging verdient an USC 2 – einige kleine Fehler und Unaufmerksamkeiten kosteten den Ausgleich. Doch nach einer kurzen Teambesprechung, stabiler Blockarbeit und der richtigen Teamdynamik sicherte sich USC 1 Satz drei und vier souverän. ✅💥",
+           "Ein schönes und faires Spiel gegen unsere zweite Mannschaft – mit vielen spannenden Ballwechseln und großartiger Stimmung vor zahlreichen Zuschauer*innen. 🥳",
+           "📈 Satzverlauf: 25:20 | 23:25 | 25:19 | 25:19",
+           "Drei Wochen nach dem letzten Match setzte sich unsere erste Mannschaft mit einem klaren 3:0-Sieg gegen Kirchenlaibach durch! 🔥",
+           "Im ersten Satz dominierte USC 1 mit einem beeindruckenden 25:10 – starke Aufschläge und eine solide Annahme legten den Grundstein. 💥 Auch im zweiten Satz blieben wir souverän und sicherten uns den 25:16-Sieg. Der dritte Satz war dann noch einmal spannend – mit einem knappen 27:25 holten wir uns aber auch diesen! 🏅",
+           "Es war ein tolles Spiel mit vielen schönen Spielzügen und fairen Gegnern. Dazu eine super Stimmung auf dem Feld und bei den Zuschauern! 🥳",
+           "📈 Satzverlauf: 25:10 | 25:16 | 27:25"
+        ]
+    },
+    {
+        "sliderImage": "25_05_12jpg.jpg",
+        "title": "DECKEL DRAUF - USC macht Klassenerhalt fix!🤝",
+        "date": "12.05.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_05_12jpg.jpg",
+           "Jetzt steht es fest, am vorletzten Spieltag machen wir den Sack mit einem 2:1-Heimsieg zu und sichern den Ligaverbleib.🤩 Ein Sonntagsschuss und ein Elfmetertor reichen, um die wichtigen drei Punkte einzufahren!💪 Geile Leistung, Männer!💚",
+           "⚽️ Huber",
+           "⚽️ Wenzel"
+        ]
+    },
+    {
+        "sliderImage": "25_05_05.jpg",
+        "title": "WIEDER BIG POINTS FÜR DEN USC!🔥",
+        "date": "05.05.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_05_05.jpg",
+           "Wir revanchieren uns für die bittere Niederlage im Hinspiel und siegen mit 4:1 gegen den TSV St. Johannis💪 Damit klettern wir auf Platz 10 und belohnen uns mit einem weiteren Sieg für die intensiven Trainingseinheiten!🤩",
+           "Weiter geht’s in Richting Klassenerhalt!🫡",
+           "⚽️ Miller",
+           "⚽️ Horster",
+           "⚽️ Koplanov",
+           "⚽️ Horster"
+        ]
+    },
+    {
+        "sliderImage": "25_04_28.jpg",
+        "title": "Wichtiger Heimsieg für unsere Herren!🤩",
+        "date": "28.04.2025",
+        "tags": "Fußball Herren",
+        "blocks": [
+            "!image 25_04_28.jpg",
+           "Mit einer geschlossenen Teamleistung und einem großen Kampf holen wir einen 2:0-Sieg gegen den FSV Bayreuth und sammeln Big Points im Fight um den Klassenerhalt!💪",
+           "⚽️ Miller",
+           "⚽️ Birkner"
         ]
     },
     {

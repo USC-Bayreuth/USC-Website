@@ -14,20 +14,17 @@
             "Bild":"Chrissy.jpg",
             "Rolle": "Organisation | Sponsoring",
             "Handy": "0173 5658304",
-            "Mail":"Christine.Baumann@uni-bayreuth.de",
             "Geschlecht": "w"
         },
         {
             "Name": "Maurice Bode",
             "Rolle": "Finanzen",
-            "Handy": "0172 2008431",
-            "Mail":"Maurice.Bode@uni-bayreuth.de"
+            "Handy": "0172 2008431"
         },
         {            
             "Name":"Erik Reinsch",
             "Bild":"Erik.jpg",
-            "Rolle":"IT",
-            "Mail":"erik.reinsch@uni-bayreuth.de"},
+            "Rolle":"IT"},
         {            
             "Name":"Kira",
             "Bild":"Kira.jpg",
