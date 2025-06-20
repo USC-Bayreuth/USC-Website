@@ -1,5 +1,55 @@
 [
     {
+        "sliderImage": "25_05_15.jpg",
+        "title": "⚜️10 Jahre USC Bayreuth!⚜️",
+        "date": "15.05.2025",
+        "tags": "Allgemein",
+        "blocks": [
+            "!image 25_05_15.jpg",
+        "Am 15. März 2015 wurde der Universitäts-Sportclub Bayreuth e.V. gegründet!🥳🎈",
+        "Wir danken allen Mitgliedern, Sponsoren, Partnern und weiteren Weggefährten, die uns über die Jahre hinweg begleitet und unterstützt haben und sind sehr stolz auf das, was zusammen in diesen 10 Jahren erreicht wurde! Ohne euch wären wir nicht der Verein, der wir heute sind!🫶🏼",
+        "„Ohh USC, ich liebe dich…“🎶💚"
+        ]
+    },
+   {
+        "sliderImage": "25_06_20.jpg",
+        "title": "🏐 Saisonabschluss mit zwei Siegen und Platz 4 für USC 1 🎉",
+        "date": "25.06.2025",
+        "tags": "Volleyball",
+        "blocks": [
+            "!image 25_06_20.jpg",
+        "Zum Abschluss der Volleyball Hobby Mixed Liga trat USC 1 beim Abschlussturnier in Minimalbesetzung an – mit umso größerem Einsatz und Teamgeist 💪. In zwei spannenden Partien konnten wir uns am Ende über die volle Punkteausbeute freuen ✅.",
+        "Im ersten Spiel ging es gegen unseren alten Rivalen BSV Bayreuth V 🔥, der an diesem Tag personell geschwächt auftrat. Trotz des fehlenden Schiedsrichters verlief die Partie fair und sportlich. Am Ende konnten wir uns mit einem verdienten 3:1-Sieg durchsetzen 🏆.",
+        "Im zweiten Spiel trafen wir auf Naila. Mit konstantem Spiel und guter Abstimmung gelang uns ein klarer 3:0-Erfolg – und damit ein perfekter Turnierabschluss mit 6 von 6 möglichen Punkten 💯🙌.",
+        "Mit diesen beiden Siegen krönen wir eine Saison, in der sich das Team des USC 1 kontinuierlich gesteigert hat 📈. Der Lohn: ein starker vierter Platz in der Abschlusstabelle der Mixed Hobby Liga 🥳.",
+        "Abgerundet wurde die Saison mit einem gemütlichen Grillabend in entspannter Atmosphäre 🍔🌭🔥 – ein gelungener Abschluss eines tollen Volleyballjahres! 🏐💚"
+        ]
+    },
+    {
+        "sliderImage": "25_05_31.jpg",
+        "title": "2. Frühlingsturnier der USC Volleyballer*innen  - ein voller Erfolg! 🎉",
+        "date": "31.05.2025",
+        "tags": "Volleyball",
+        "blocks": [
+            "!image 25_05_31.jpg",
+        "Mit einer Zahl von 16 Teams konnte die zweite Auflage des Frühlingsturniers doppelt so viele Mannschaften wie noch im letzten Jahr verzeichnen! Das Format sowie Organisation und Ablauf des Turniers wurden von vielen Seiten gelobt. Alle Teilnehmenden zeigten ein faires Auftreten und konnten einen Volleyballtag voll spannender Ballwechsel und ohne Verletzungen genießen. 🏐",
+        "Die Gastgeber vom USC Bayreuth erreichten am Ende einen gelungenen 7. Platz und konnten sich damit im Vergleich zum Vorjahr auch sportlich steigern.💚",
+        "Wir freuen uns auf ein weiteres Turnier im nächsten Jahr! 🏆",
+        "Besonders danken wir unseren Sponsoren @mangoleinbayreuth, @foebayreuth und @geseeserlandbaeckerei, die für das leibliche Wohl der Sportler*innen sorgten sowie @nachtisch_bt für die abschließende Afterparty. 🥳"   
+        ]
+    },
+        {
+        "sliderImage": "25_05_22.jpg",
+        "title": "Eine wahre USC-Legende verlässt den Verein!",
+        "date": "22.05.2025",
+        "tags": "Allgemein",
+        "blocks": [
+            "!image 25_05_22.jpg",
+           "Josh the Behr stoß vor knapp 10 Jahren kurz nach der Gründung zum USC und trug als 1. Vorstand, langjähriger Damen-Coach, Kapitän und Spieler maßgeblich zur Entwicklung des Vereins in dieser Zeit bei! Ohne ihn wäre der USC nicht der Verein, der er heute ist!💪🏼",
+           "Wir danken dir für dein unglaubliches Engagement, lieber Josh, und hoffen, dass du auch in Zukunft regelmäßig vorbeischaust!💚"
+        ]
+    },
+    {
         "sliderImage": "25_05_19.jpg",
         "title": "IT‘S A WRAP!🔚",
         "date": "19.05.2025",
