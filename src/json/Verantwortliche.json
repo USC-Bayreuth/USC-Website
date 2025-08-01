@@ -95,11 +95,19 @@
     ],
     "Volleyball":[
         {
-            "Name":"Duc Viet Nguyen",
-            "Rolle":"Abteilungsleiter",
-            "Handy":"0171 2393629",
-            "Mail":"volleyball@usc-bayreuth.de",
-            "Bild":"/img/Verantwortliche/Duc-Nguyen.jpg"
+            "Name": "Alexandra Bauer",
+            "Rolle": "Abteilungsleiter",
+            "Handy": "0176 43172302",
+            "Mail":"volleyball@usc-bayreuth.de"
+        }
+        
+    ],
+    "Tischtennis":[
+        {
+            "Name": "Laurits Kretschmer",
+            "Rolle": "Abteilungsleiter",
+            "Handy": "0921 55-3462",
+            "Mail":"laurits.kretschmer@uni-bayreuth.de"
         }
         
     ],

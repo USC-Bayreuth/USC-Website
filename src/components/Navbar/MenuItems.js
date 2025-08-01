@@ -53,6 +53,11 @@ export const MenuItems=[
                 url: '/Volleyball',
                 cName: 'drop-nav-link'
             },
+            {
+                title: 'Tischtennis',
+                url: '/Tischtennis',
+                cName: 'drop-nav-link'
+            },
         ]
     },
     {

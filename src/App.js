@@ -19,6 +19,7 @@ import ErrorPage from './components/Pages/ErrorPage';
 import Volleyball from './components/Pages/Volleyball';
 import Volleyballturnier from './components/Pages/Volleyballturnier';
 import Footer from './components/Footer/Footer';
+import Tischtennis from './components/Pages/Tischtennis';
 
 
 
@@ -50,6 +51,7 @@ function App() {
           <Route path='/Verantwortliche' element={<Verantwortliche/>}/>
           <Route path="/Volleyball" element={<Volleyball/>}/>
           <Route path="/Volleyballturnier" element={<Volleyballturnier/>}/> 
+          <Route path="/Tischtennis" element={<Tischtennis/>}/>
           {news.map((item, index) => {
             return(
               <Route key={index} path={'/News/'+createURL(item.title)} element={<NewsPage index={index}/>}/>

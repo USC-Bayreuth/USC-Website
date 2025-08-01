@@ -167,6 +167,34 @@ class Verantwortliche extends Component{
                     })}
                 </Row>
             </Container>
+            <h2>Tischtennis</h2>
+            <Container fluid className='my-container'>
+                <Row>
+                    {verantwortliche.Tischtennis.map((item, index) => {
+                        return(
+                            <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
+                                {item.Bild === undefined && item.Geschlecht === "w" &&
+                                    <img src="/img/no-picture-woman.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild === undefined && item.Geschlecht !== "w" &&
+                                    <img src="/img/no-picture-man.jpg" className="contact-picture" alt="staff"/>
+                                }
+                                {item.Bild !== undefined &&
+                                    <img src={item.Bild} className="contact-picture" alt="staff"/>
+                                }
+                                <p className="contact-subtitle-title">{item.Rolle}</p>
+                                <p className="contact-subtitle">{item.Name}</p>
+                                {item.Mail !== undefined &&
+                                    <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                }
+                                {item.Handy !== undefined &&
+                                    <p className='contact-subtitle mobile-number'>{item.Handy}</p>
+                                }
+                            </Col>
+                        )
+                    })}
+                </Row>
+            </Container>
             <h1>Präsident und Gründer</h1>
             <Container fluid className='my-container'>
                 <Row>
