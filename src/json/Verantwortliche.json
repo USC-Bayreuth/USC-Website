@@ -1,16 +1,15 @@
 {
     "Vorstand":[
         {
-            "Name":"Julia Bräuer",
+            "Name":"Juliane Bachmann",
             "Rolle":"1. Vorstand",
-            "Mail":"julia.braeuer@uni-bayreuth.de",
-            "Bild":"/img/Verantwortliche/Julia-Bräuer.jpg"
+            "Mail":"Juliane.Bachmann@uni-bayreuth.de"
+            
         },
         {
-            "Name":"Duc Viet Nguyen",
+            "Name":"Veronika Riedl",
             "Rolle":"2. Vorstand",
-            "Mail":"Duc.Nguyen-Viet@uni-bayreuth.de",
-            "Bild":"/img/Verantwortliche/Duc-Nguyen.jpg"
+            "Mail":" Veronika.riedl@uni-bayreuth.de"
         },
         {
             "Name":"Matteo Kumar",
@@ -19,10 +18,9 @@
             "Bild":"/img/Verantwortliche/Matteo-Kumar.jpg"
         },
         {
-            "Name":"Oscar Wenzel",
+            "Name":"Samuel Lo Curto",
             "Rolle":"Vorstand Legal",
-            "Bild":"/img/Verantwortliche/Oscar-Wenzel.jpg",
-            "Mail":"oscarwenzel@me.com"
+            "Mail":"Samuel.lo-curto@uni-bayreuth.de"
         }
     ],
     "Fußball":[
