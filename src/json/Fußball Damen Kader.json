@@ -1,17 +1,17 @@
 {
     "Verantwortliche": [
         {
-            "Name": "Mark Michel",
+            "Name": "Kristoff Reichel",
             "Rolle": "Trainer",
             "Geschlecht": "m",
-            "Handy": "0170 4508423",
-            "Mail": "mark.michel@aol.de",
-            "Bild": "Mark Michel.JPG"
+            "Mail": "kristoff.reichel@uni-bayreuth.de",
+            "Bild":"Kristoff Reichel.jpg"
         },
         {
             "Name": "Philipp Rank",
             "Rolle": "Co-Trainer",
-            "Geschlecht": "m"
+            "Geschlecht": "m",
+            "Bild":"Philip Rank.jpg"
         },
         {
             "Name":"Joshua Behr",

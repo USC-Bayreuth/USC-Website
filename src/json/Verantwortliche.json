@@ -44,16 +44,16 @@
             "Bild": "/img/Fußball Herren/Tobias-Neuberger.jpg"
         },
         {
-            "Name": "Mark Michel",
+            "Name": "Kristoff Reichel",
             "Rolle": "Trainer Damen",
             "Geschlecht": "m",
-            "Handy": "0170 4508423",
-            "Mail": "mark.michel@aol.de",
-            "Bild": "/img/Fußball Damen/Mark Michel.JPG"
+            "Mail": "kristoff.reichel@uni-bayreuth.de",
+            "Bild":"/img/Fußball Damen/Kristoff Reichel.jpg"
         },
         {
             "Name": "Philipp Rank",
-            "Rolle": "Co-Trainer Damen"
+            "Rolle": "Co-Trainer Damen",
+            "Bild":"/img/Fußball Damen/Philip Rank.jpg"
         }
     ],
     "Tennis":[
@@ -95,7 +95,6 @@
         {
             "Name": "Alexandra Bauer",
             "Rolle": "Abteilungsleiter",
-            "Handy": "0176 43172302",
             "Mail":"volleyball@usc-bayreuth.de"
         }
         
