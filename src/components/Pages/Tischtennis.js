@@ -33,8 +33,8 @@ class Tischtennis extends Component{
  
  
             <h1> Trainingszeiten (Sommersemester)</h1>
-                   <p> Montag 18:00-20:00*</p>
-                   <p>  Donnerstag 17:00-18:30 (parallel zum Hochschulsport)*</p>
+                   <p> Montag 20:00-22:00*</p>
+                   <p>  Donnerstag 17:30-19:00 (parallel zum Hochschulsport)*</p>
                    
                     <p style={{textAlign: 'center',fontSize: '0.8rem',marginTop: '2rem'}}>*in dem letzten Drittel der Spielhalle - <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' tyle={{color: 'inherit', textDecoration: 'none',font: 'inherit', fontSize: '0.8rem' }}target='_blank' rel='noreferrer'>Sportinstitut</a> </p>                      
                                         </>
