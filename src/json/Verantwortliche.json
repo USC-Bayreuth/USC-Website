@@ -3,24 +3,27 @@
         {
             "Name":"Juliane Bachmann",
             "Rolle":"1. Vorstand",
-            "Mail":"Juliane.Bachmann@uni-bayreuth.de"
+            "Bild": "/img/Verantwortliche/Bachmann_Juliane.jpg",
+            "Mail":"info@usc-bayreuth.de"
             
         },
         {
             "Name":"Veronika Riedl",
             "Rolle":"2. Vorstand",
-            "Mail":" Veronika.riedl@uni-bayreuth.de"
+            "Mail":" info@usc-bayreuth.de",
+            "Bild": "/img/Verantwortliche/Riedl_Veronika.jpg"
         },
         {
             "Name":"Matteo Kumar",
             "Rolle":"Vorstand Finance",
-            "Mail":"Matteo.Kumar@uni-bayreuth.de",
-            "Bild":"/img/Verantwortliche/Matteo-Kumar.jpg"
+            "Mail":"info@usc-bayreuth.de",
+            "Bild":"/img/Verantwortliche/Kumar_Matteo.jpg"
         },
         {
             "Name":"Samuel Lo Curto",
             "Rolle":"Vorstand Legal",
-            "Mail":"Samuel.lo-curto@uni-bayreuth.de"
+            "Mail":"info@usc-bayreuth.de",
+            "Bild":"/img/Verantwortliche/LoCurto_Samuel.jpg"
         }
     ],
     "Fußball":[
