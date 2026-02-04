@@ -10,10 +10,10 @@ class Impressum extends Component{
                 <p style={{marginTop: '2px'}}>95447 Bayreuth</p>
                 <p>E-Mail: <a className='mail-to' href='mailto:info@usc-bayreuth.de'>info@usc-bayreuth.de</a></p>
                 <p>1. Vorsitzende</p>
-                <p style={{marginTop: '2px'}}>Julia Bräuer</p>
+                <p style={{marginTop: '2px'}}>Juliane Bachmann</p>
                 <p style={{marginTop: '2px'}}>Emil-Warburg-Weg 28</p>
                 <p style={{marginTop: '2px'}}>95447 Bayreuth</p>
-                <p>E-Mail: <a className='mail-to' href='mailto:julia.braeuer@uni-bayreuth.de'>julia.braeuer@uni-bayreuth.de</a></p>
+                <p>E-Mail: <a className='mail-to' href='mailto:juliane.bachmann@uni-bayreuth.de'>juliane.bachmann@uni-bayreuth.de</a></p>
                 <p>Registergericht: Amtsgericht Bayreuth</p>
                 <p style={{marginTop: '2px'}}>Registernummer: VR 200611</p>
                 <h1>Disclaimer</h1>
