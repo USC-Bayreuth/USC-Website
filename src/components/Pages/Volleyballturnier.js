@@ -21,9 +21,10 @@ class Volleyballturnier extends Component{
     render(){
         return(
             <>
-                <h1>2. Frühlingsturnier des USC Bayreuth <p style={{ textAlign: 'left' }}>Samstag, 24. Mai 2025</p></h1>
+                <h1>3. Frühlingsturnier des USC Bayreuth {/*<p style={{ textAlign: 'left' }}>Samstag, 24. Mai 2025</p>*/}</h1>
+                <h2>Weitere Infos werden demnächst bekanntgegeben</h2>
 
-                <p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>zweiten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
+                {/*<p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>zweiten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
 
                 <p>Um das sportliche Niveau ausgewogen zu halten, sind <b>keine Passspieler erwünscht.</b></p>
 
@@ -61,7 +62,7 @@ class Volleyballturnier extends Component{
                 <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
                 <p></p>
                 <a href='https://sushibayreuth.de/10811' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Mangolein.png' alt='mangolein' className='partner' style={{width:'20vw'}}/></a>
-                                             
+                 */}                            
             </>
         )
     }

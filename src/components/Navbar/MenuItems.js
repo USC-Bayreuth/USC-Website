@@ -48,10 +48,27 @@ export const MenuItems=[
                 url: '/Roundnet',
                 cName: 'drop-nav-link'
             },
-            {
+            /*{
                 title: 'Volleyball',
                 url: '/Volleyball',
                 cName: 'drop-nav-link'
+            },*/
+            {
+                title: 'Volleyball',
+                url: '',
+                cName: 'drop-dropdown',
+                children:[
+                    {
+                        title: 'Mannschaft',
+                        url: '/Volleyball',
+                        cName: 'drop-nav-link'
+                    },
+                    {
+                        title: 'Turnier',
+                        url: '/Volleyballturnier',
+                        cName: 'drop-nav-link'
+                    }
+                ]
             },
             {
                 title: 'Tischtennis',
