@@ -21,25 +21,25 @@ class Volleyballturnier extends Component{
     render(){
         return(
             <>
-                <h1>3. Frühlingsturnier des USC Bayreuth {/*<p style={{ textAlign: 'left' }}>Samstag, 24. Mai 2025</p>*/}</h1>
-                <h2>Weitere Infos werden demnächst bekanntgegeben</h2>
+                <h1>3. Frühlingsturnier des USC Bayreuth {/*<p style={{ textAlign: 'left' }}>Samstag, 23. Mai 2026</p>*/}</h1>
 
-                {/*<p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>zweiten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
+                <p>Nach dem tollen Erfolg im letzten Jahr laden wir euch herzlich zum <b>dritten Frühlingsturnier des USC Bayreuth e.V.</b> ein! Das Turnier richtet sich an Hobby-Mixed-Teams – ganz im Sinne des Fairplays und des gemeinsamen Spaßes am Spiel.</p>
 
-                <p>Um das sportliche Niveau ausgewogen zu halten, sind <b>keine Passspieler erwünscht.</b></p>
+                <p>Um ein ausgewogenes sportliches Niveau zu gewährleisten, ist <b> pro Team maximal ein Passspieler erlaubt</b>. Bitte gebt daher bei der Anmeldung die <b>Spielernamen</b> zur Überprüfung an. Falls diese noch nicht feststehen, können sie später nachgereicht werden.</p>
 
-                <p>Die Veranstaltung findet am <b>Samstag, den 24. Mai 2025 </b>statt. Die Halle öffnet für euch um 8:30 Uhr, die Begrüßung und der Spielbeginn folgen um <b>9:00 Uhr</b>. Das Turnier wird voraussichtlich gegen <b>19:00 Uhr</b> enden.</p>
+                <p>Die Veranstaltung findet am <b>Samstag, den 23. Mai 2026 </b>statt. Die Halle öffnet für euch um 8:30 Uhr, die Begrüßung und der Spielbeginn folgen um <b>9:00 Uhr</b>. Das Turnier wird voraussichtlich gegen <b>20:00 Uhr</b> enden.</p>
 
-                <p>Gespielt wird mit <b>16 Hobby-Mixed-Teams</b> (bereits vollzählig), wobei <b>mindestens zwei Frauen pro Team</b> gleichzeitig auf dem Feld stehen müssen. Die <b>Teilnahmegebühr beträgt 35 Euro pro Team</b>, zusätzlich wird eine <b>Kaution von 15 Euro</b> erhoben, die bei der Anmeldung vor Ort in bar zurückerstattet wird.</p>
+                <p>Gespielt wird mit <b>16 Hobby-Mixed-Teams</b>, wobei <b>mindestens zwei Frauen und mindestens zwei Männer pro Team</b> gleichzeitig auf dem Feld stehen müssen. Zusätzlich muss jedes Team ein Schiedsgericht stellen (bestehend aus <b>1 Hauptschiedsrichter, 2 Linienrichtern und 1 Punkterichter</b>). Dafür sollten die offiziellen Regeln des DVV allen Beteiligten bekannt sein.</p>
 
-                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Foé</b> und <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten, damit ihr zwischen den Spielen gut versorgt seid.</p>
+                <p>Die <b>Teilnahmegebühr beträgt 45 Euro pro Team</b>. Sollte euer Team nicht antreten können, wird die Anmeldegebühr auf das uns bekannte Konto zurückerstattet, sofern eine Abmeldung bis zum <b>26. April 2026</b> erfolgt. Nach Ablauf dieser Frist ist keine Erstattung mehr möglich.</p>
 
-                <p>Und wer nach einem sportlichen Tag noch Energie übrig hat, darf sich freuen – <b>nach dem Turnier steigt die Afterparty im NachTisch!</b> Dort lassen wir gemeinsam den Tag bei guter Musik und bester Stimmung ausklingen.</p>
+                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten, damit ihr zwischen den Spielen gut versorgt seid. Außerdem stellen wir euch gemeinsam mit der <b>Geseeser Landbäckerei Gebäck</b> belegte Brötchen gegen eine kleine Spende zur Verfügung</p>
 
                 <p>Wir freuen uns auf einen sportlichen, fairen und fröhlichen Tag mit euch – seid dabei und macht das Frühlingsturnier auch dieses Jahr wieder zu einem besonderen Erlebnis!</p>
 
                 <p>Für Anmeldungen und Rückfragen schreibt uns gerne an: <a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
 
+                {/*
                 <h1>Teilnehmer (bereits vollzählig)</h1>
                 <p>1. USC Bayreuth</p>
                     <p>2. Heilsbronn Set-sationell</p>
@@ -57,12 +57,13 @@ class Volleyballturnier extends Component{
                     <p>14. Baddies</p>
                     <p>15. Oettifanten</p>
                     <p>16. Baggerbande</p>
+                    */} 
 
                 <h1>Unser Partner</h1>
-                <a href='https://www.instagram.com/nachtisch_bt/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/nachtisch (2).png' alt='nachtisch' className='partner' style={{width:'20vw'}}/></a>
+                <a href='https://geseeser-landbaeckerei.de/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Landbäckerei.png' alt='Landbäckerei' className='partner' style={{width:'20vw'}}/></a>
                 <p></p>
                 <a href='https://sushibayreuth.de/10811' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/Mangolein.png' alt='mangolein' className='partner' style={{width:'20vw'}}/></a>
-                 */}                            
+                                            
             </>
         )
     }
