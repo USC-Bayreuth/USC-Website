@@ -33,8 +33,6 @@ class Volleyballturnier extends Component{
 
                 <p>Die <b>Teilnahmegebühr beträgt 45 Euro pro Team</b>. Sollte euer Team nicht antreten können, wird die Anmeldegebühr auf das uns bekannte Konto zurückerstattet, sofern eine Abmeldung bis zum <b>26. April 2026</b> erfolgt. Nach Ablauf dieser Frist ist keine Erstattung mehr möglich.</p>
 
-                <p>Für die Verpflegung während des Turniers ist bestens gesorgt: Wir werden kulinarisch unterstützt von <b>Mangolein</b>, die ein liebevoll zusammengestelltes Buffet inklusive warmer Speisen anbieten, damit ihr zwischen den Spielen gut versorgt seid. Außerdem stellen wir euch gemeinsam mit der <b>Geseeser Landbäckerei Gebäck</b> belegte Brötchen gegen eine kleine Spende zur Verfügung</p>
-
                 <p>Wir freuen uns auf einen sportlichen, fairen und fröhlichen Tag mit euch – seid dabei und macht das Frühlingsturnier auch dieses Jahr wieder zu einem besonderen Erlebnis!</p>
 
                 <p>Für Anmeldungen und Rückfragen schreibt uns gerne an: <a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a></p>
