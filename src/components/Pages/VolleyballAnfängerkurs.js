@@ -44,13 +44,13 @@ class Anfängerkurs extends Component{
                     Volleyballs kennen, darunter:
                     
 
-                    <ul>
-                    <li>Pritschen</li>
-                    <li>Baggern</li>
-                    <li>Schlagen</li>
-                    <li>
-                        sowie die Grundlagen von Bewegung, Stellungsspiel und Teamkommunikation
-                    </li>
+                    <ul className="list">
+                        <li>Pritschen</li>
+                        <li>Baggern</li>
+                        <li>Schlagen</li>
+                        <li>
+                            sowie die Grundlagen von Bewegung, Stellungsspiel und Teamkommunikation
+                        </li>
                     </ul>
 
                     
