@@ -35,6 +35,20 @@
     height: 398px;
 }
 
+ul {
+  margin: 15px auto;
+  padding-left: 25px;
+  width: fit-content;
+  text-align: left;
+  color: white;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 @media screen and (max-width: 1050px){
     .player-name, .role, .mobile-number{
         font-size: 0.8rem;

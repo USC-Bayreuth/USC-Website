@@ -18,6 +18,7 @@ import Verantwortliche from './components/Pages/Verantwortliche';
 import ErrorPage from './components/Pages/ErrorPage';
 import Volleyball from './components/Pages/Volleyball';
 import Volleyballturnier from './components/Pages/Volleyballturnier';
+import Anfängerkurs from './components/Pages/VolleyballAnfängerkurs';
 import Footer from './components/Footer/Footer';
 import Tischtennis from './components/Pages/Tischtennis';
 
@@ -51,6 +52,7 @@ function App() {
           <Route path='/Verantwortliche' element={<Verantwortliche/>}/>
           <Route path="/Volleyball" element={<Volleyball/>}/>
           <Route path="/Volleyballturnier" element={<Volleyballturnier/>}/> 
+          <Route path="/Anfaengerkurs" element={<Anfängerkurs/>}/>
           <Route path="/Tischtennis" element={<Tischtennis/>}/>
           {news.map((item, index) => {
             return(

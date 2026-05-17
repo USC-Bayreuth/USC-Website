@@ -64,6 +64,12 @@ export const MenuItems=[
                         cName: 'drop-nav-link'
                     },
                     {
+                        title: 'Anfängerkurs',
+                        url: '/Anfaengerkurs',
+                        cName: 'drop-nav-link'
+
+                    },
+                    {
                         title: 'Turnier',
                         url: '/Volleyballturnier',
                         cName: 'drop-nav-link'
