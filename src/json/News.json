@@ -1,5 +1,340 @@
 [
-                               {
+    {
+    "sliderImage": "26_05_29.jpg",
+    "title": "Heimsieg USC2 gegen Kirchenlaibach",
+    "date": "29.05.2026",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 26_05_29.jpg",
+        "Heimspiel USC 2 gegen TSV Kirchenlaibach.",
+        "Der Blitz hat unsere Augen erwischt – der Gegner unsere Aufschläge.",
+        "Mit einem klaren 3:0-Heimsieg sichert sich der USC 2 den nächsten Erfolg."
+    ]
+},
+
+{
+    "sliderImage": "26_05_24_02.jpg",
+    "title": "Danke an Teams und Sponsoren",
+    "date": "24.05.2026",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 26_05_24_02.jpg",
+        "Ein großes Dankeschön an alle Teams und Sponsoren, die das III. Volleyballfrühlingsturnier 2026 möglich gemacht haben.",
+        "Ein besonderer Dank geht an den Hochschulsport Bayreuth, Intersport Gießübel und die Geseser Landbäckerei.",
+        "Ebenso bedanken wir uns herzlich bei unserem Orga-Team.",
+        "Mit eurer Unterstützung, eurem Engagement und eurer Begeisterung habt ihr das Turnier zu etwas ganz Besonderem gemacht."
+    ]
+},
+
+{
+    "sliderImage": "26_05_24.jpg",
+    "title": "Saisonabschluss der Fußball-Herren",
+    "date": "24.05.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_05_24.jpg",
+        "Im letzten Spiel der Saison musste sich der USC dem 1. FC Bayreuth mit 1:2 geschlagen geben.",
+        "Den zwischenzeitlichen Führungstreffer erzielte Wenzel in der 10. Minute nach Vorlage von Sofer Matthias.",
+        "Vor dem Spiel wurde USC-Rekordtorschütze Chris Miller für seinen 100. Einsatz im USC-Trikot geehrt. Seit 2019 spielt er für die Herrenmannschaft und zählt zu den dienstältesten Spielern des Vereins.",
+        "Außerdem verabschiedete der USC Jerome van Loosen nach knapp drei Jahren im Verein. Nach seinem Studium kehrt er in seine Heimat zurück.",
+        "Erfreulich verlief dagegen das letzte Saisonspiel der zweiten Mannschaft, die durch einen späten Treffer von Sofer Matthias einen 1:0-Heimsieg gegen den SV Röhrenhof feiern konnte.",
+        "Mit diesem Spiel verabschiedet sich die Fußballabteilung in die Sommerpause und bedankt sich bei allen Sponsoren, Unterstützern und Helfern für die Saison."
+    ]
+},
+
+{
+    "sliderImage": "26_05_18.jpg",
+    "title": "USC Damen feiern Heimsieg",
+    "date": "18.05.2026",
+    "tags": "Fußball Damen",
+    "blocks": [
+        "!image 26_05_18.jpg",
+        "Die USC-Damen gewinnen zuhause mit 3:0 gegen den 1. FFC Hof II und sichern sich damit wichtige drei Punkte.",
+        "Mit großer Unterstützung von den Zuschauerrängen und einer starken Leistung auf dem Heimplatz gelang ein verdienter Erfolg.",
+        "Besonders erfreulich war ein Meilenstein für die Vereinsgeschichte: Melli absolvierte als erst zweite Spielerin der USC-Damen ihr 100. Spiel für die Mannschaft.",
+        "Der Spieltag wurde jedoch von einer Verletzung einer Spielerin überschattet. Der Verein wünscht ihr von Herzen eine schnelle und vollständige Genesung und steht ihr weiterhin zur Seite."
+    ]
+},
+
+{
+    "sliderImage": "26_05_15.jpg",
+    "title": "Kooperation mit dem ASV Laineck verlängert",
+    "date": "15.05.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_05_15.jpg",
+        "Die Kooperation zwischen der Fußballabteilung des USC Bayreuth und dem ASV Laineck wird auch in der Saison 2026/27 fortgesetzt.",
+        "Die Spielgemeinschaft ASV Laineck/USC II wird erneut in der A-Klasse an den Start gehen, während der USC weiterhin eine Liga höher in der Kreisklasse spielt.",
+        "Mit der Verlängerung der Zusammenarbeit setzen beide Vereine ihren gemeinsamen Weg fort.",
+        "Der USC freut sich gemeinsam mit dem ASV Laineck auf die kommende Saison."
+    ]
+},
+
+{
+    "sliderImage": "26_05_10_02.jpg",
+    "title": "Klassenerhalt perfekt gemacht",
+    "date": "10.05.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_05_10_02.jpg",
+        "Was für ein Wochenende! Der USC gewinnt mit 2:1 beim SV Schreez und macht damit den Klassenerhalt perfekt.",
+        "Andi Horn brachte den USC in der 10. Minute nach Vorlage von Chris Miller in Führung, ehe Miller selbst fünf Minuten später auf 2:0 erhöhte.",
+        "Der Anschlusstreffer der Gastgeber zum 2:1-Endstand fiel in der 73. Minute.",
+        "Auch die zweite Mannschaft konnte einen Auswärtssieg feiern und gewann mit 3:2 bei der zweiten Mannschaft des SV Seybothenreuth.",
+        "Zum Saisonabschluss empfängt der USC am kommenden Sonntag den 1. FC Bayreuth an der Universität Bayreuth.",
+        "Die zweite Mannschaft spielt ebenfalls zuhause in Laineck gegen den SV Röhrenhof."
+    ]
+},
+
+{
+    "sliderImage": "26_05_10.jpg",
+    "title": "Tennissaison in der Nordliga 4",
+    "date": "10.05.2026",
+    "tags": "Tennis",
+    "blocks": [
+        "!image 26_05_10.jpg",
+        "Weiter geht die Tennissaison in der Nordliga 4 (Herren 6er) für die USC-Mannschaft.",
+        "Nach einem gelungenen Saisonauftakt mit einem 6:3-Sieg gegen den TC Gefrees musste sich das Team am zweiten Spieltag der zweiten Mannschaft des TeG Steinwald-Fichtelgebirge mit 3:6 geschlagen geben.",
+        "Davon lässt sich die Mannschaft jedoch nicht beirren.",
+        "Am 17.05. geht es auf der Anlage der Universität Bayreuth zuhause gegen den TA Eckersdorf weiter."
+    ]
+},
+
+{
+    "sliderImage": "26_04_13.jpg",
+    "title": "Back to Winning Ways",
+    "date": "13.04.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_04_13.jpg",
+        "Nach drei Niederlagen zum Start nach der Winterpause gewinnen die USC-Herren ihr Auswärtsspiel bei der zweiten Mannschaft von Sporting Bayreuth mit 6:2.",
+        "Bereits in den ersten Minuten stellte Chris Miller mit einem Doppelpack die Weichen auf Sieg.",
+        "Durch weitere Treffer von Ayman Ghorabi und Alex Gerk erhöhte der USC noch vor der Pause auf 4:1.",
+        "In der zweiten Halbzeit bauten Miller und ein Eigentor der Gastgeber die Führung auf 6:1 aus, bevor kurz vor Schluss der Treffer zum 6:2-Endstand fiel.",
+        "Mit diesem Erfolg verschaffen sich die Herren etwas Luft im Tabellenkampf und halten Sporting Bayreuth auf Distanz.",
+        "Am kommenden Sonntag um 13:00 Uhr steht das Heimspiel gegen die Zweitvertretung des FSV Bayreuth auf dem Programm."
+    ]
+},
+
+{
+    "sliderImage": "26_04_04.jpg",
+    "title": "Meisterschaft und Aufstieg",
+    "date": "04.04.2026",
+    "tags": "Tischtennis",
+    "blocks": [
+        "!image 26_04_04.jpg",
+        "Mit ein paar Eindrücken verabschieden wir die erste Saison des USC Tischtennis.",
+        "Souverän mit 13 Siegen, 2 Unentschieden und nur einer Niederlage beenden wir die Saison 2025/26 als Aufsteiger und Tabellenführer.",
+        "Damit startet der USC Tischtennis in der kommenden Saison mit einer starken Mannschaft in der Bezirksklasse B.",
+        "Zudem wird die Tischtennis-Abteilung in der nächsten Wettkampfsaison mit einer neuen zweiten Mannschaft antreten.",
+        "Wir bedanken uns beim Verein und freuen uns auf die kommenden Wettbewerbe."
+    ]
+},
+
+{
+    "sliderImage": "26_02_07.jpg",
+    "title": "USC 2 übernimmt die Tabellenspitze",
+    "date": "07.02.2026",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 26_02_07.jpg",
+        "Heimsieg für den USC 2!",
+        "Mit einem souveränen 3:0 gegen den BSV Schlechtschmetterfront (Punktestand 75:46) setzt das Team seine starke Serie fort.",
+        "Die aktuelle Siegesserie hält an und katapultiert den USC 2 an die Spitze der Tabelle."
+    ]
+},
+
+{
+    "sliderImage": "26_02_01.jpg",
+    "title": "2. Platz beim Mixedturnier in Netzschkau",
+    "date": "01.02.2026",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 26_02_01.jpg",
+        "Mixedturnier in Netzschkau – USC 2 auf Auswärtsmission.",
+        "Sowohl die Gruppenphase als auch die K.-o.-Phase meisterte das Team souverän, ohne einen Satz an die Gegner abzugeben.",
+        "Im Finale hielt der Nervenkitzel bis zum letzten Ballwechsel an. Erst im entscheidenden Satz musste man sich geschlagen geben.",
+        "Am Ende stand ein starker 2. Platz für den USC 2.",
+        "Auch wirtschaftlich lief das Turnier erfolgreich: Mit nur drei Fehlaufschlägen und der Regel „3 Fehlaufschläge = 1 Kasten Bier“ konnte das Team am Ende vier Kästen Plus verbuchen.",
+        "Ein großer Dank geht an die Veranstalter für die Einladung und die hervorragende Organisation des Turniers."
+    ]
+},
+
+{
+    "sliderImage": "26_01_26.jpg",
+    "title": "USC beim Susi-Cup in Weißenstadt",
+    "date": "26.01.2026",
+    "tags": "Fußball Damen",
+    "blocks": [
+        "!image 26_01_26.jpg",
+        "Hallenturniere sind immer schön – und wenn Damen und Herren gemeinsam um Punkte kämpfen, macht es besonders viel Spaß.",
+        "Am vergangenen Samstag nahm der USC mit der Damen- und Herrenmannschaft am Susi-Cup in Weißenstadt teil. Die Spiele bestanden jeweils aus zwei Hälften: In der ersten Halbzeit spielten die Frauen-, in der zweiten Halbzeit die Männerteams gegeneinander.",
+        "Zum Auftakt setzte sich der USC mit 4:0 gegen die ATG Tröstau durch.",
+        "Im zweiten Spiel musste man sich knapp mit 1:2 dem SV Neusorg geschlagen geben.",
+        "Das dritte Spiel gewann der USC gegen den 1. FC Marktleuthen und wahrte damit die Chance auf den Turniersieg.",
+        "Im letzten Spiel gegen die SpVgg Weißenstadt setzte der USC alles auf eine Karte, verlor jedoch mit 4:3 und belegte aufgrund des verlorenen direkten Vergleichs am Ende Platz 4 hinter Neusorg.",
+        "Wir gratulieren dem Turniersieger aus Weißenstadt und bedanken uns herzlich für die Einladung sowie die tolle Afterparty."
+    ]
+},
+
+{
+    "sliderImage": "26_01_22.jpg",
+    "title": "Starker Start in die Rückrunde",
+    "date": "22.01.2026",
+    "tags": "Tischtennis",
+    "blocks": [
+        "!image 26_01_22.jpg",
+        "Zweite Woche der Rückrunde, zwei Siege!",
+        "Mit einem 9:1 gegen den SV Neunkirchen am Main und einem 7:3 gegen den 1. FC Bayreuth startet die Tischtennis-Abteilung des USC stark ins neue Jahr und festigt den Tabellenplatz an der Spitze.",
+        "Kretschmer, Serin, Diepold und Wilke überzeugten sowohl im Einzel als auch im Doppel und halten den Aufstiegskurs aufrecht.",
+        "Am 26.01. steht das nächste Heimspiel gegen den SV Mistelgau an.",
+        "Spielbeginn ist um 20:30 Uhr. Zuschauerinnen und Zuschauer sind herzlich auf der Tribüne der Spielhalle willkommen."
+    ]
+},
+
+{
+    "sliderImage": "26_01_17.jpg",
+    "title": "USC2 schlägt USC1",
+    "date": "17.01.2026",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 26_01_17.jpg",
+        "Gesagt, getan. USC2 vs. USC1 – Endstand 97:70 für den USC2.",
+        "Der erste Satz ging mit 22:25 noch knapp an den USC1, danach drehte USC2 jedoch auf.",
+        "Mit Ruffy- und Superman-Outfits holten wir uns den zweiten Satz mit 25:22.",
+        "Ab da war die Partie entschieden: Satz drei (25:8) und Satz vier (25:15) gingen ebenfalls deutlich an USC2.",
+        "Vielen Dank an die Schiedsrichterinnen und Schiedsrichter sowie an alle, die am Start waren."
+    ]
+},
+
+{
+    "sliderImage": "26_01_07.jpg",
+    "title": "3. Platz bei der Stadtmeisterschaft",
+    "date": "07.01.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_01_07.jpg",
+        "3. Platz bei der Stadtmeisterschaft für die Fußball-Herren!",
+        "Nach einem Vorrundenaus 2023, einem 3. Platz 2024 und einem erneuten Vorrundenaus im letzten Jahr holen wir bei der diesjährigen Stadtmeisterschaft einen starken 3. Platz.",
+        "In der Gruppe reichten nach einer 0:2-Niederlage gegen die Saas und einem 11:1-Sieg gegen Einheit Rudolstadt drei Punkte zum Weiterkommen.",
+        "Im Viertelfinale besiegten wir Eintracht Bayreuth durch einen Doppelpack von Andi Horn mit 2:0.",
+        "Im Halbfinale mussten wir uns dann in einem engen Spiel mit 1:2 gegen den späteren Turniersieger Sporting Bayreuth geschlagen geben.",
+        "Wir gratulieren dem 1. FC Bayreuth zum Turniersieg."
+    ]
+},
+
+{
+    "sliderImage": "26_01_05.jpg",
+    "title": "Stadtmeisterschaften der Jugend",
+    "date": "05.01.2026",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 26_01_05.jpg",
+        "Nächster Spieltag, anhaltend gute Stimmung!",
+        "Herzlichen Glückwunsch an den TSV St. Johannis als Sieger der A-Jugend, die SpVgg Bayreuth als Sieger der B-Jugend und die USC Bayreuth Damen als Siegerinnen des Turniers.",
+        "Ein großer Dank geht an alle Trainerinnen und Trainer, Betreuerinnen und Betreuer sowie an die Eltern, die den Jugendfußball überhaupt erst möglich machen.",
+        "Ihr seid klasse!"
+    ]
+},
+
+{
+    "sliderImage": "25_12_15.jpg",
+    "title": "Herbstmeisterschaft gesichert",
+    "date": "15.12.2025",
+    "tags": "Tischtennis",
+    "blocks": [
+        "!image 25_12_15.jpg",
+        "Heute endet offiziell die Hinrunde der Bezirksklasse C.",
+        "Für den USC Bayreuth TT gab es letzte Woche schon das Abschlussspiel.",
+        "Mit einem 9:1-Sieg gegen Glückauf Pegnitz sichern wir uns in der ersten Saison die Herbstmeisterschaft.",
+        "Jetzt wird weiter trainiert und im neuen Jahr am Aufstieg gearbeitet."
+    ]
+},
+
+{
+    "sliderImage": "25_12_13.jpg",
+    "title": "Matchday USC 2 vs TSV Bad Berneck",
+    "date": "13.12.2025",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 25_12_13.jpg",
+        "Drei Sätze auf Augenhöhe, jeder Punkt hart umkämpft.",
+        "Am Ende konnten die Gäste das Spiel mit einem Punktestand von 63:75 für sich gewinnen.",
+        "Am 16.01.2026 geht es gegen den USC 1. Seid dabei, wenn sich der USC 2 den Sieg holen will!"
+    ]
+},
+
+{
+    "sliderImage": "25_12_04.jpg",
+    "title": "Tabellenführung gefestigt",
+    "date": "04.12.2025",
+    "tags": "Tischtennis",
+    "blocks": [
+        "!image 25_12_04.jpg",
+        "Letzte Woche auswärts gegen Bindlach und diese Woche im Spitzenduell gegen Bayreuth jeweils ein 6:4-Sieg für den USC Bayreuth!",
+        "Damit bestätigen wir unseren starken Start in die erste Wettkampfphase.",
+        "Nächste Woche am Montag bestreiten wir als Tabellenführer unser letztes Heimspiel der Hinrunde gegen Pegnitz (aktuell Platz 3).",
+        "Los geht es um 20:30 Uhr am 08.12. in der Spielhalle. Die Tribüne ist geöffnet und wir freuen uns über jede Zuschauerin und jeden Zuschauer."
+    ]
+},
+
+{
+    "sliderImage": "25_11_21.jpg",
+    "title": "Auftaktsieg in der Hobblyliga",
+    "date": "21.11.2025",
+    "tags": "Volleyball",
+    "blocks": [
+        "!image 25_11_21.jpg",
+        "Was für ein Auftakt in die Hobblyliga-Saison!",
+        "Unser Auswärtsspiel in Kirchenlaibach war nichts für schwache Nerven.",
+        "Vier hart umkämpfte Sätze (3:1), am Ende ein Gesamtergebnis von 100:93 – und der Sieg gehört dem USC 2!"
+    ]
+},
+
+{
+    "sliderImage": "25_11_18.jpg",
+    "title": "Sieg im Doppelpack",
+    "date": "18.11.2025",
+    "tags": "Tischtennis",
+    "blocks": [
+        "!image 25_11_18.jpg",
+        "Vergangene Woche gewann der USC Tischtennis bereits mit 7:3 gegen den TTC Creußen.",
+        "Gestern beim zweiten Heimspiel gewann der USC zwar knapp, aber verdient mit 6:4. Der Arbeitssieg gegen den TTC Trebgast-Lanzendorf IV setzt die Siegesserie fort und festigt den ersten Tabellenplatz in der Bezirksklasse C.",
+        "In der kommenden Woche steht das Auswärtsspiel gegen den TSV Bindlach an.",
+        "Am 01.12. folgt das Heim- und Topspiel gegen den FC Bayreuth."
+    ]
+},
+
+{
+    "sliderImage": "25_11_08.jpg",
+    "title": "Punktgewinn in Kirchenlaibach",
+    "date": "08.11.2025",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 25_11_08.jpg",
+        "Wir spielen 1:1 Unentschieden bei der Zweiten des TSV Kirchenlaibach. Ein gerechtes Unentschieden in einem wilden Spiel, auch wenn der Ausgleichstreffer der Heimelf erst in der Nachspielzeit fiel.",
+        "Tor: Sofer Matthias",
+        "Im Jubiläumsjahr spielen sowohl die Damen als auch die Herren seit Saisonbeginn in den schwarzen Jubiläumstrikots, gesponsert von USC-Alumnus Joshua Behr. Vielen Dank für die Unterstützung!",
+        "Wer sich noch kein Jubiläumsshirt gesichert hat, kann dies weiterhin im Uni-Shop erwerben. Das Shirt eignet sich außerdem hervorragend als Weihnachtsgeschenk."
+    ]
+},
+
+{
+    "sliderImage": "25_11_01.jpg",
+    "title": "Zurück in der Erfolgsspur",
+    "date": "01.11.2025",
+    "tags": "Fußball Herren",
+    "blocks": [
+        "!image 25_11_01.jpg",
+        "Wir gewinnen zuhause mit 4:1 gegen den SV Mistelgau! Benny „Hupe“ Huber mit einer absoluten Gala-Vorstellung und einem Hattrick in der ersten Halbzeit! Die bayerische Woche hat er sich jetzt auch verdient!",
+        "Tore: Huber (3), Wenzel",
+        "Nächste Woche Samstag steht das letzte Auswärtsspiel vor der Winterpause beim TSV Kirchenlaibach an."
+    ]
+},
+
+
+    
+    {
         "sliderImage": "25_10_28.jpg",
         "title": "Derbysieg!",
         "date": "28.10.2025",
