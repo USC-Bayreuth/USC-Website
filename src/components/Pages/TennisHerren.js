@@ -28,15 +28,33 @@ class TennisHerren extends Component{
                 <h1>Tennis Herren</h1>
                 <Slider tag='Tennis Herren'/>
                 <h1>Unsere Abteilung</h1>
-                <p>Servus aus der Tennisabteilung der Herren vom USC Bayreuth!</p>
-                <p>Wir bieten Studenten die Möglichkeit, Erfahrungen im Tennis-Ligabetrieb zu sammeln. Seit der Saison 2022 haben wir eine 6er-Mannschaft beim Bayerischen Tennisverband (BTV) gemeldet und spielen in der Nordliga 3 (Gruppe 30). Im Sommer trainieren wir auf dem Hochschulsportgelände der Universität, im Winter in der Halle des TC Grün-Weiß Bayreuth e.V.</p>
+                <p>Servus aus der Tennisabteilung vom USC Bayreuth!</p>
+                <p>Wir bieten Studenten die Möglichkeit, Erfahrungen im Tennis-Ligabetrieb zu sammeln. Seit der Saison 2022 haben wir eine 6er-Mannschaft beim Bayerischen Tennisverband (BTV) gemeldet und spielen in der Nordliga 4. Im Sommer trainieren wir auf dem Hochschulsportgelände der Universität, im Winter in der Halle des TC Grün-Weiß Bayreuth e.V. und des TC Am Lerchenbühl e.V..</p>
                 <p>Wir trainieren derzeit zusammen mit den Damen, da wir bei beiden Geschlechtern unterschiedliche Niveaus vertreten haben und so jeden bestmöglich fördern. Nicht nur innerhalb der Tennisabteilung, sondern auch innerhalb des gesamten USC organisieren wir gerne mal feucht fröhliche Team-Events, weshalb wir auch untereinander außerhalb des Trainings gut vernetzt sind.</p>
                 <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
-                <p>Melde dich bei Interesse gerne bei uns über <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder am besten per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
+                <p>Melde dich bei Interesse gerne bei uns per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten (Winter)</h2>
                 <p>Dienstag 18:00 - 20:00 (<a className='link' href='https://maps.app.goo.gl/CAH1DWJeXEBZHmSQ9' target='_blank' rel='noreferrer'>TC Grün-Weiß Bayreuth</a>)</p>
                 <h1>Unser Partner</h1>
-                <a href='https://www.raumedic.com/' target='_blank' rel='noreferrer'><img src='/img/Sponsoren/raumedic-Logo-weiß.png' alt='raumedic' className='partner'/></a>
+                                <div className="partner-container">
+                    <a href="https://formaxx.de/berater/joshua-behr/"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/formaxx_ag.png"
+                            alt="Formaxx"
+                            className="partner"
+                        />
+                    </a>
+
+                    <a href="https://gebrueder-lockl.de"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/Gebr_Lockl_GmbH.png"
+                            alt="Gebrüder Lockl"
+                            className="partner"
+                        />
+                    </a>
+                </div>
                 <h1>Tabelle und Spielplan</h1>
                 <h2>Herren (Winter)</h2>
                 <Container fluid className='my-container'>
@@ -50,10 +68,10 @@ class TennisHerren extends Component{
                     <h1>Team</h1>
                     <img alt='tennis-herren' src='/img/Tennis Herren/Mannschaftsfoto_Herren.JPG' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Trainer</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Sportwart</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Trainer.map((item, index) =>{
+                        {kader.Sportwart.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>

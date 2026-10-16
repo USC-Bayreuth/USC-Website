@@ -61,16 +61,9 @@
     ],
     "Tennis":[
         {
-            "Name":"Tobias Bagdahn",
-            "Rolle":"Abteilungsleiter",
-            "Bild":"/img/Tennis Herren/Tobias_Bagdahn.jpg",
-            "Handy": "0177 2275669",
-            "Mail":"tennis@usc-bayreuth.de "
-        },
-        {
-            "Name":"Konstantin Harre",
-            "Rolle":"Trainer",
-            "Bild":"/img/Tennis Herren/Harre_Konstantin.JPG"
+            "Name":"Max Gößmann",
+            "Rolle":"Sportwart",
+            "EMail":"tennis@usc-bayreuth.de"
         }
     ],
     "Roundnet":[
@@ -96,7 +89,7 @@
     ],
     "Volleyball":[
         {
-            "Name": "Alexandra Bauer",
+            "Name": "Simon Hofmann",
             "Rolle": "Abteilungsleiter",
             "Mail":"volleyball@usc-bayreuth.de"
         }

@@ -5,7 +5,25 @@ class UnsereSponsoren extends Component{
         return(
             <>
                 <h1>Premiumpartner</h1>
-                <a href='https://www.rehau.com/de-de' target="_blank" rel="noreferrer"><img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/></a>
+                                               <div className="partner-container">
+                    <a href="https://formaxx.de/berater/joshua-behr/"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/formaxx_ag.png"
+                            alt="Formaxx"
+                            className="partner"
+                        />
+                    </a>
+
+                    <a href="https://gebrueder-lockl.de"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/Gebr_Lockl_GmbH.png"
+                            alt="Gebrüder Lockl"
+                            className="partner"
+                        />
+                    </a>
+                </div>
                 <h1>Classicpartner</h1>
                 <a href='https://www.dynamic-bayreuth.de/' target='_blank' rel='noreferrer'><img className='partner' src='/img/Sponsoren/white_greydynamic_logo.png' alt='dynamic fitness'/></a>
                 <div/>

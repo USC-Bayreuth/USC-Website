@@ -1,3 +1,4 @@
+
 {
     "Verantwortliche": [
         {
@@ -5,155 +6,131 @@
             "Rolle": "Trainer",
             "Geschlecht": "m",
             "Mail": "kristoff.reichel@uni-bayreuth.de",
-            "Bild":"Kristoff Reichel.jpg"
+            "Bild": "Kristoff Reichel.jpg"
         },
         {
             "Name": "Philipp Rank",
             "Rolle": "Co-Trainer",
             "Geschlecht": "m",
-            "Bild":"Philip Rank.jpg"
+            "Bild": "Philip Rank.jpg"
         },
         {
-            "Name":"Joshua Behr",
-            "Rolle":"Spielleiter",
-            "Bild":"Joshua_Behr_Trainer.jpg",
-            "Handy":"01575 0662674",
-            "Mail":"joshua.behr@uni-bayreuth.de"
-        },
-        {
-            "Name":"Erik große Beilage",
-            "Rolle":"Verantwortlicher für Spielerpässe",
-            "Handy":"01520 9983277",
+            "Name": "Erik große Beilage",
+            "Rolle": "Verantwortlicher für Spielerpässe",
+            "Handy": "01520 9983277",
             "Geschlecht": "m"
         }
     ],
     "Torwart": [
         {
             "Name": "Magdalena Holl",
-            "Bild": "Magdalena Holl.JPG"
+            "Bild": "Tor_Magdalena Holl.jpg"
+        },
+        {
+            "Name": "Sarah Körber",
+            "Bild": "Tor_Sarah Körber.jpg"
         }
     ],
     "Abwehr": [
         {
-            "Name": "Sabrina Angerer"
+            "Name": "Frederike von der Haar",
+            "Bild": "Abwehr_Frederike von der Haar.jpg"
         },
         {
-            "Name": "Sara Auweiler"
+            "Name": "Hanna Durczok",
+            "Bild": "Abwehr_Hanna Durczok.jpg"
         },
         {
-            "Name": "Antonia Behl"
-        },
-        {
-            "Name": "Alina Besch",
-            "Bild": "Alina Besch.JPG"
-        },
-        {
-            "Name": "Jalena Best"
-        },
-        {
-            "Name": "Julia Bräuer",
-            "Bild": "Julia Bräuer.JPG"
-        },
-        {
-            "Name": "Sophie Bühr",
-            "Bild": "Bühr-Sophie.JPG"
-        },
-        {
-            "Name": "Caroline Fuchs",
-            "Bild": "Caroline Fuchs.JPG"
-        },
-        {
-            "Name": "Johanna-Sophie Groß",
-            "Bild": "Johanna Groß.JPG"
-        },
-        {
-            "Name": "Giulia Kettel",
-            "Bild": "Giulia Kettel.JPG"
-        },
-        {
-            "Name": "Kirstin Köhler",
-            "Bild": "Köhler-Kirstin.JPG"
+            "Name": "Johanna Herholz",
+            "Bild": "Abwehr_Johanna Herholz.jpg"
         },
         {
             "Name": "Kristin Nelißen",
-            "Bild": "Kristin Nelißen.JPG"
+            "Bild": "Abwehr_Kristin Nelißen.jpg"
         },
         {
-            "Name": "Paula Waldmüller",
-            "Bild": "Paula_Waldmüller.jpg"
+            "Name": "Lara Hopf",
+            "Bild": "Abwehr_Lara Hopf.jpg"
+        },
+        {
+            "Name": "Melissa Moos",
+            "Bild": "Abwehr_Melissa Moos.jpg"
+        },
+        {
+            "Name": "Paula Ficht",
+            "Bild": "Abwehr_Paula Ficht.jpg"
+        },
+        {
+            "Name": "Tamara Schirbel",
+            "Bild": "Abwehr_Tamara Schirbel.jpg"
         }
     ],
     "Mittelfeld": [
         {
-            "Name": "Laila Auerochs",
-            "Bild": "Laila Auerochs.JPG"
+            "Name": "Ann-Marie Heisinger",
+            "Bild": "Mittelfeld_Ann-Marie Heisinger.jpg"
         },
         {
-            "Name": "Ann-Marie Heisinger",
-            "Bild": "Ann-Marie Heisinger.JPG"
+            "Name": "Juliane Bachmann",
+            "Bild": "Mittelfeld_Juliane Bachmann.jpg"
+        },
+        {
+            "Name": "Laila Auerochs",
+            "Bild": "Mittelfeld_Laila Auerochs.jpg"
         },
         {
             "Name": "Melinda Herfet",
-            "Bild": "Melinda_Herfet.jpg"
+            "Bild": "Mittelfeld_Melinda Herfet.jpg"
         },
         {
-            "Name": "Lea-Sophie Kohl",
-            "Bild": "Lea-Sophie Kohl.JPG"
-        },
-        {
-            "Name": "Sophie Kossmann"
-        },
-        {
-            "Name": "Hannah Mohr",
-            "Bild": "Hannah Mohr.JPG"
-        },
-        {
-            "Name": "Melissa Moos",
-            "Bild": "Melissa_Moos.jpg"
-        },
-        {
-            "Name": "Veronika Riedl",
-            "Bild": "Veronika Riedl.JPG"
-        },
-        {
-            "Name": "Elena Rütters",
-            "Bild": "Elena Rütters.JPG"
-        },
-        {
-            "Name": "Tamara Schirbel"
-        },
-        {
-            "Name": "Leonie Schmale",
-            "Bild": "Leonie Schmale.JPG"
-        },
-        {
-            "Name": "Lilli Skapczyk"
+            "Name": "Sara Lindenmann",
+            "Bild": "Mittelfeld_Sara Lindenmann.jpg"
         }
     ],
     "Angriff": [
         {
-            "Name": "Juliane Bachmann",
-            "Bild": "Juliane Bachmann.jpg"
+            "Name": "Anna Kirst",
+            "Bild": "Angriff_Anna Kirst.jpg"
         },
         {
-            "Name": "Antonia Haberkorn"
+            "Name": "Emilia Fuchs",
+            "Bild": "Angriff_Emilia Fuchs.jpg"
         },
         {
-            "Name": "Hanna Laik",
-            "Bild": "Hanna Laik.JPG"
+            "Name": "Emily Polke",
+            "Bild": "Angriff_Emily Polke.jpg"
         },
         {
-            "Name": "Amelie Meier"
+            "Name": "Giulia Kettel",
+            "Bild": "Angriff_Giulia Kettel.jpg"
         },
         {
-            "Name": "Veronika Riedl"
+            "Name": "Jella Metzger",
+            "Bild": "Angriff_Jella Metzger.jpg"
         },
         {
-            "Name": "Elena Strauß"
+            "Name": "Lucy Eisenkolb",
+            "Bild": "Angriff_Lucy Eisenkolb.jpg"
         },
         {
-            "Name": "Lilly Wunderlich",
-            "Bild": "Lilly Wunderlich.JPG"
+            "Name": "Marlene Veh",
+            "Bild": "Angriff_Marlene Veh.jpg"
+        },
+        {
+            "Name": "Melanie Fuchs",
+            "Bild": "Angriff_Melanie Fuchs.jpg"
+        },
+        {
+            "Name": "Sina Dziumbla",
+            "Bild": "Angriff_Sina Dziumbla.jpg"
+        },
+        {
+            "Name": "Sina Wappenschmidt",
+            "Bild": "Angriff_Sina Wappenschmidt.jpg"
+        },
+        {
+            "Name": "Veronika Riedl",
+            "Bild": "Angriff_Veronika Riedl.jpg"
         }
     ]
 }

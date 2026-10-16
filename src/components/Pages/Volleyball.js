@@ -46,10 +46,10 @@ class Volleyball extends Component{
                 <p>Bei weiteren Fragen wende dich jederzeit an unseren Abteilungsleiterin Alexandra (<a className='link' href='mailto:volleyball@usc-bayreuth.de'>volleyball@usc-bayreuth.de</a>).</p>
                 <h2>Trainingszeiten</h2>
                 
-                <p>Dienstag: 19:30 - 21:30 (<a className='link' href='https://www.google.de/maps/place/Sportzentrum+Bayreuth/@49.9442168,11.5808318,1196m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47a1a2d0aaab5535:0x803da7e9614eef08!8m2!3d49.9442134!4d11.5856973!16s%2Fg%2F11bywl40bc?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank' rel='noreferrer'>Sportzentrum</a>)</p>
-                <p style={{marginTop: 15}}>Freitag: 20:00 - 21:45 (Spielehalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
-                <p style={{marginTop: 15}}>Samstag: 10:00 - 14:00 (Turnhalle, <a className='link' href='https://maps.app.goo.gl/DM2CvnAiZUbCKW2n8' target='_blank' rel='noreferrer'>Sportinstitut</a>)</p>
-                <p style={{marginTop: 15}}>.</p>
+                <p style={{marginTop: 15}}>Montag: 20:00 - 21:45 (<a className='link' href='https://maps.app.goo.gl/x4aotmaKJ6FQVsiZ9' target='_blank' rel='noreferrer'>Markgräfin-Wilhelmine-Gymnasium</a>)</p>
+                <p style={{marginTop: 15}}>Dienstag: 19:30 - 21:30 (<a className='link' href='https://www.google.de/maps/place/Sportzentrum+Bayreuth/@49.9442168,11.5808318,1196m/data=!3m2!1e3!4b1!4m6!3m5!1s0x47a1a2d0aaab5535:0x803da7e9614eef08!8m2!3d49.9442134!4d11.5856973!16s%2Fg%2F11bywl40bc?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D' target='_blank' rel='noreferrer'>Sportzentrum</a>)</p>
+                <p style={{marginTop: 15}}>Mittwoch: 20:00 - 21:45 (<a className='link' href='https://maps.app.goo.gl/x4aotmaKJ6FQVsiZ9' target='_blank' rel='noreferrer'>Markgräfin-Wilhelmine-Gymnasium</a>)</p>
+                <p style={{marginTop: 15}}> </p>
 
                 <img alt='volleyballer' src='/img/Volleyball/Mannschaftsbild.jpeg' className='mannschaftsfoto'/>
 

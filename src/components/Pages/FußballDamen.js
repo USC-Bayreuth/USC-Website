@@ -4,10 +4,32 @@ import './Team.css'
 import Slider from '../Slider/Slider'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-const fupaLinkTabelle1 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1160639&div_id=widget_64e31b3a087a0&start=tabelle&header=0&navi=0'
-const fupaLinkSpielplan1 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1160639&div_id=widget_64e31b6527207&start=spielplan&header=0&navi=0'
-const fupaLinkTabelle2 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1182327&div_id=widget_64e31bc8288e5&start=tabelle&header=0&navi=0'
-const fupaLinkSpielplan2 = 'https://www.fupa.net/fupa/widget.php?p=iframe_widget&typ=team&value_id=1182327&div_id=widget_64e31d1786aa9&start=spielplan&header=0&navi=0'
+
+const fupaLinkSpielplan2 = 'fp-widget_root-3Kmm0EvYlzDZxc4ieyduK9wRsOM';
+const fupaLinkTabelle2 = 'fp-widget_root-3KmlrMiBDpIumxfT1N7zYLmp606';
+const fupaLinkSpielplan1  = 'fp-widget_root-3KmlDwhfo0YP0jInkJkhGZlaOku';
+const fupaLinkTabelle1 = 'fp-widget_root-3KmjIfgLUnkLHtzNpiSZnHTQHTU';
+
+class FupaWidget extends Component {
+    componentDidMount() {
+        const script = document.createElement('script');
+        script.src = 'https://widget-api.fupa.net/vendor/widget.js?v1';
+        script.async = true;
+        document.body.appendChild(script);
+    }
+
+    render() {
+        return (
+            <div id={this.props.widgetId}>
+                <a href="https://www.fupa.net/club/usc-bayreuth"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    USC Bayreuth auf FuPa
+                </a>
+            </div>
+        );
+    }
+}
 
 class FußballDamen extends Component{
     state={mobileMode: window.innerWidth<960}
@@ -34,7 +56,7 @@ class FußballDamen extends Component{
                 <h1>Fußball Damen</h1>
                 <Slider tag='Fußball Damen'/>
                 <h1>Unsere Abteilung</h1>
-                <p>Die Frauenfußballabteilung des USC Bayreuth bietet Studentinnen die Möglichkeit, ihre sportlichen Ziele zu erreichen, ihre Soft-Skills zu stärken und ihr Netzwerk zu erweitern. Zwei Trainingseinheiten während der Saison, ein Spiel am Wochenende, jede Menge Team-Events und sowohl die Winter- als auch die Sommervorbereitung stellen einen perfekten Ausgleich für den oft trägen Unialltag. Nach der Gründung in der Saison 17/18 erfolgten viele Aufstiege und die Gründung einer zweiten Mannschaft. Seit der Saison 23/24 geht die erste Frauen-Mannschaft in der Bezirksoberliga und die zweite Frauen-Mannschaft gemeinsam mit dem ASV Oberpreuschwitz in der Kreisklasse an den Start. Du möchtest dich darüber hinaus aktiv mit einbringen? 4 Ressorts, darunter Organisation, Media, Sponsoring oder Events bieten dir die Möglichkeit dazu. Kommilitonen. Freunde. Teamkollegen. Bei mittlerweile über 50 Spielerinnen in zwei Mannschaften fällt der Kontakt nicht schwer. Haben wir dein Interesse geweckt? Dann komm vorbei – Wir freuen uns auf neue Gesichter! Melde dich einfach bei unserem Trainer Mark Michel oder schicke uns eine Nachricht bei <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder per Mail an <a className='link' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a>.</p>
+                <p>Die Frauenfußballabteilung des USC Bayreuth bietet Studentinnen die Möglichkeit, ihre sportlichen Ziele zu erreichen, ihre Soft-Skills zu stärken und ihr Netzwerk zu erweitern. Zwei Trainingseinheiten während der Saison, ein Spiel am Wochenende, jede Menge Team-Events und sowohl die Winter- als auch die Sommervorbereitung stellen einen perfekten Ausgleich für den oft trägen Unialltag. Nach der Gründung in der Saison 17/18 erfolgten viele Aufstiege und die Gründung einer zweiten Mannschaft. Seit der Saison 23/24 geht die erste Frauen-Mannschaft in der Bezirksoberliga und die zweite Frauen-Mannschaft gemeinsam mit dem ASV Oberpreuschwitz in der Bezirksliga an den Start. Du möchtest dich darüber hinaus aktiv mit einbringen? 4 Ressorts, darunter Organisation, Media, Sponsoring oder Events bieten dir die Möglichkeit dazu. Kommilitonen. Freunde. Teamkollegen. Bei mittlerweile über 50 Spielerinnen in zwei Mannschaften fällt der Kontakt nicht schwer. Haben wir dein Interesse geweckt? Dann komm vorbei – Wir freuen uns auf neue Gesichter! Melde dich einfach bei <a className='link' href='https://www.facebook.com/uscbayreuth/' target="_blank" rel="noreferrer">Facebook</a>, <a className='link' href='https://www.instagram.com/usc_bayreuth/' target="_blank" rel="noreferrer">Instagram</a> oder per Mail an <a className='link' href='mailto:damenfussball@usc-bayreuth.de'>damenfussball@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten (Winter)</h2>
                 <p>Montag 20:00 - 21:30 (<a className='link' href='https://maps.app.goo.gl/abPipgrPEHFC8wds7' target='_blank' rel='noreferrer'>Kunstrasenplatz</a>)</p>
                 <p style={{marginTop: 15}}>Mittwoch 20:00 - 21:30 (<a className='link' href='https://maps.app.goo.gl/abPipgrPEHFC8wds7' target='_blank' rel='noreferrer'>Kunstrasenplatz</a>)</p>
@@ -49,12 +71,12 @@ class FußballDamen extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src={fupaLinkTabelle1} frameBorder='0' className='widget'/>
+                                    <FupaWidget widgetId={fupaLinkTabelle1} />
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe title='spielplan' src={fupaLinkSpielplan1} frameBorder='0' className='widget'/>
+                                    <FupaWidget widgetId={fupaLinkSpielplan2} />
                                 </Col>
                             </Row>
                         </>
@@ -63,10 +85,10 @@ class FußballDamen extends Component{
                         <>
                         <Row>
                             <Col>
-                                <iframe title='tabelle' src={fupaLinkTabelle1} frameBorder='0' className='widget widget-fußball-damen'/>
-                            </Col>
+                                <FupaWidget widgetId={fupaLinkTabelle1} />
+                                </Col>
                             <Col>
-                                <iframe title='spielplan' src={fupaLinkSpielplan1} frameBorder='0' className='widget widget-fußball-damen'/>
+                                <FupaWidget widgetId={fupaLinkSpielplan1} />
                             </Col>
                         </Row>
                         </>
@@ -78,12 +100,12 @@ class FußballDamen extends Component{
                         <>
                             <Row>
                                 <Col>
-                                    <iframe title='tabelle' src={fupaLinkTabelle2} frameBorder='0' className='widget'/>
+                                    <FupaWidget widgetId={fupaLinkTabelle2} />
                                 </Col>
                             </Row>
                             <Row>
                                 <Col>
-                                    <iframe title='spielplan' src={fupaLinkSpielplan2} frameBorder='0' className='widget'/>
+                                    <FupaWidget widgetId={fupaLinkSpielplan2} />
                                 </Col>
                             </Row>
                         </>
@@ -92,10 +114,10 @@ class FußballDamen extends Component{
                         <>
                         <Row>
                             <Col>
-                                <iframe title='tabelle' src={fupaLinkTabelle2} frameBorder='0' className='widget widget-fußball-damen'/>
+                                <FupaWidget widgetId={fupaLinkTabelle2} />
                             </Col>
                             <Col>
-                                <iframe title='spielplan' src={fupaLinkSpielplan2} frameBorder='0' className='widget widget-fußball-damen'/>
+                                <FupaWidget widgetId={fupaLinkSpielplan2} />
                             </Col>
                         </Row>
                         </>
@@ -119,7 +141,7 @@ class FußballDamen extends Component{
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
+                                            <img alt={'player'+index} src={'/img/Fußball Damen neu/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         {item.Rolle!==undefined &&
                                             <p className='contact-subtitle-title'>{item.Rolle}</p>
@@ -148,7 +170,7 @@ class FußballDamen extends Component{
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
+                                            <img alt={'player'+index} src={'/img/Fußball Damen neu/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
                                     </AnimationOnScroll>
@@ -169,7 +191,7 @@ class FußballDamen extends Component{
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
+                                            <img alt={'player'+index} src={'/img/Fußball Damen neu/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
                                     </AnimationOnScroll>
@@ -189,7 +211,7 @@ class FußballDamen extends Component{
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
+                                            <img alt={'player'+index} src={'/img/Fußball Damen neu/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
                                     </AnimationOnScroll>
@@ -209,7 +231,7 @@ class FußballDamen extends Component{
                                             <img alt={'player'+index} src='/img/no-picture-woman.jpg' className='player-picture'/>
                                         }
                                         {item.Bild!==undefined &&
-                                            <img alt={'player'+index} src={'/img/Fußball Damen/'+item.Bild} className='player-picture'/>                                    
+                                            <img alt={'player'+index} src={'/img/Fußball Damen neu/'+item.Bild} className='player-picture'/>                                    
                                         }
                                         <p className='player-name'>{item.Name}</p>
                                     </AnimationOnScroll>

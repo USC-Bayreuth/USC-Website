@@ -28,12 +28,28 @@ class Home extends Component{
                 <h1>Homepage des USC Bayreuth</h1>
                 <Slider tag='Allgemein'/>
                 <h1>Der Verein</h1>
-                <p>Herzlich Willkommen auf der Homepage des USC Bayreuth! Der USC Bayreuth wurde 2015 als Verein von Studierenden für Studierende gegründet. Zunächst als Fußballverein gedacht, wuchs der Verein seit seiner Gründung stark an und umfasst mit seinen knapp 200 Mitgliedern mittlerweile vier Abteilungen: Fußball, Tennis, Volleyball und Roundnet. </p>
+                <p>Herzlich Willkommen auf der Homepage des USC Bayreuth! Der USC Bayreuth wurde 2015 als Verein von Studierenden für Studierende gegründet. Zunächst als Fußballverein gedacht, wuchs der Verein seit seiner Gründung stark an und umfasst mit seinen knapp 250 Mitgliedern mittlerweile fünf Abteilungen: Fußball, Tennis, Volleyball, Roundnet und Tischtennis. </p>
                 <p>Als Studentenverein gewährt der USC ein familiäres, freundliches und respektvolles Umfeld. Es bietet sich besonders für Neulinge an der Universität und in Bayreuth die Möglichkeit an, durch den Sport Kontakte zu knüpfen und Freunde zu finden. Im Einklang dazu stehen auch die Werte und die Philosophie des USC: Wir sind ein Verein für alle Menschen, ungeachtet der sozialen oder kulturellen Herkunft oder des Geschlechts.</p>
                 <h1>Unser Premiumpartner</h1>
-                <a href='https://www.rehau.com/de-de' rel="noreferrer" target="_blank">
-                    <img src='/img/Sponsoren/Rehau-logo.png' alt='rehau' className='partner'/>
-                </a>
+                <div className="partner-container">
+                    <a href="https://formaxx.de/berater/joshua-behr/"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/formaxx_ag.png"
+                            alt="Formaxx"
+                            className="partner"
+                        />
+                    </a>
+
+                    <a href="https://gebrueder-lockl.de"
+                    rel="noreferrer" target="_blank">
+                        <img
+                            src="/img/Sponsoren/Gebr_Lockl_GmbH.png"
+                            alt="Gebrüder Lockl"
+                            className="partner"
+                        />
+                    </a>
+                </div>
                 <h1>Social Media</h1>
                 <Container className='my-container' fluid>
                     <Row>
