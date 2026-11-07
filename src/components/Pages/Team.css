@@ -62,3 +62,28 @@
         height: 400px;
     }
 }
+
+.tischtennis-contact {
+    text-align: left !important;
+}
+
+.tischtennis-contact p {
+    text-align: left !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.tischtennis-contact a {
+    display: inline !important;
+    text-align: left !important;
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+.tischtennis-contact .player-picture {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+}
