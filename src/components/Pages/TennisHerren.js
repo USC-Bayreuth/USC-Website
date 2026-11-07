@@ -34,7 +34,8 @@ class TennisHerren extends Component{
                 <p>Aufgrund der begrenzten Platzkapazitäten können wir nur leider keine Tennis-Neulinge mehr aufnehmen. Im Idealfall hast du schon mehrere Jahre Tennistraining gehabt, hattest aber noch nicht die Chance, dein Können in Ligaspielen zu zeigen oder bist seit längerem nicht mehr in einer Mannschaft aktiv. Egal wie – Hauptsache du hast Bock, ein bisschen in einer jungen, motivierten und offenen Mannschaft mitzumischen!</p>
                 <p>Melde dich bei Interesse gerne bei uns per Mail an <a className='link' href='mailto:tennis@usc-bayreuth.de'>tennis@usc-bayreuth.de</a>.</p>
                 <h2>Trainingszeiten (Winter)</h2>
-                <p>Dienstag 18:00 - 20:00 (<a className='link' href='https://maps.app.goo.gl/CAH1DWJeXEBZHmSQ9' target='_blank' rel='noreferrer'>TC Grün-Weiß Bayreuth</a>)</p>
+                <p>Montag 20:00 - 21:30 (<a className='link' href='https://maps.app.goo.gl/CAH1DWJeXEBZHmSQ9' target='_blank' rel='noreferrer'>TC Grün-Weiß Bayreuth</a>)</p>
+                <p>Mittwoch 19:00 - 20:30 (<a className='link' href='https://maps.app.goo.gl/ipfCGnPzaX4nTqc37' target='_blank' rel='noreferrer'>Tennisclub am Lerchenbühl (TCAL)</a>)</p>
                 <h1>Unser Partner</h1>
                                 <div className="partner-container">
                     <a href="https://formaxx.de/berater/joshua-behr/"
@@ -68,10 +69,10 @@ class TennisHerren extends Component{
                     <h1>Team</h1>
                     <img alt='tennis-herren' src='/img/Tennis Herren/Mannschaftsfoto_Herren.JPG' className='mannschaftsfoto'/>
                 </AnimationOnScroll>
-                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Sportwart</h2></AnimationOnScroll>
+                <AnimationOnScroll animateIn={this.props.animation} animateOnce><h2>Verantwortliche</h2></AnimationOnScroll>
                 <Container fluid className='my-container'>
                     <Row>
-                        {kader.Sportwart.map((item, index) =>{
+                        {kader.Verantwortliche.map((item, index) =>{
                             return(
                                 <Col key={index} className={this.state.mobileMode? 'col-4' : 'col-3'}>
                                     <AnimationOnScroll animateIn={this.props.animation} animateOnce>
@@ -84,7 +85,11 @@ class TennisHerren extends Component{
                                         {item.Bild!==undefined &&
                                             <img alt={'player'+index} src={'/img/Tennis Herren/'+item.Bild} className='player-picture'/>                                    
                                         }
-                                        <p className='player-name'>{item.Name}</p>
+                                        <p className="contact-subtitle-title">{item.Rolle}</p>
+                                        <p className='player-name'>{item.Name}</p>                                        
+                                        {item.Mail !== undefined &&
+                                            <p className="contact-subtitle"><a className="mail-to contact-subtitle" href={`mailto:${item.Mail}`}>{item.Mail}</a></p>
+                                        }
                                     </AnimationOnScroll>
                                 </Col>
                             )

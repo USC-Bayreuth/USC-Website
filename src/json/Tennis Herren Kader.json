@@ -1,8 +1,19 @@
 {
-    "Sportwart":[
+    "Verantwortliche":[
         {
             "Name":"Max Gößmann",
-            "EMail":"tennis@usc-bayreuth.de"
+            "Mail":"tennis@usc-bayreuth.de",
+            "Rolle":"Sportwart"
+        },
+        {
+            "Name":"Tizian Huber",
+            "Mail":"tiz.huber@gmail.com",
+            "Rolle":"Abteilungsleiter"
+        },
+        {
+            "Name":"Luisa Bliesze",
+            "Mail":"luisa@bliesze.de",
+            "Rolle":"Stellvertretende Abteilungsleiterin"
         }
     ],
     "Spieler":[
